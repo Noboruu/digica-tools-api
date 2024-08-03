@@ -10,11 +10,13 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
 public class DigicaWikiConnector {
     private final String DIGICA_WIKI_BASE_URL = "https://digimoncardgame.fandom.com";
+    private final List<DigicaSetsEnum> protectionIgnoreList = Arrays.asList(DigicaSetsEnum.RSB1, DigicaSetsEnum.RSB15, DigicaSetsEnum.RSB2, DigicaSetsEnum.RSB25);
 
     public List<CardSet> getAllCardsFromDigicaWiki() throws IOException {
         List<CardSet> cardSets = new ArrayList<>();
@@ -25,10 +27,10 @@ public class DigicaWikiConnector {
 
             List<Card> cards = new ArrayList<>();
             for(String cardPath : cardPaths) {
-                Card card = getCardForUrl(cardPath);
-                if(!Objects.isNull(card)) {
-                    cards.add(card);
+                if(!protectionIgnoreList.contains(set) && !cardPath.contains(set.getCode())) {
+                    continue;
                 }
+                cards.add(getCardForUrl(cardPath));
             }
             CardSet cardSet = new CardSet();
             cardSet.setCode(set.getCode());
