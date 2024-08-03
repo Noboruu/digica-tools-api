@@ -4,10 +4,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Setter
 @Getter
 @NoArgsConstructor
-public class Card {
-    private String name;
-    private String artUrl;
+public class CardSet {
+    private String code;
+    private List<Card> cards;
 }
