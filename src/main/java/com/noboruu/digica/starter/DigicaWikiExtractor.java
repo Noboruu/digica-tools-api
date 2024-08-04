@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.noboruu.digica.extractor.external.DigicaWikiConnector;
 import com.noboruu.digica.extractor.internal.CardSet;
+import com.noboruu.digica.extractor.internal.DigicaWikiExtraction;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -18,14 +19,13 @@ public class DigicaWikiExtractor {
 
     public static void main(String[] args) {
         DigicaWikiConnector connector = new DigicaWikiConnector();
-        ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+        ObjectWriter ow = new ObjectMapper().findAndRegisterModules().writer().withDefaultPrettyPrinter();
         String path = "C:\\output\\";
         String fileName = "digicaCards.json";
 
-        List<CardSet> cardSets = new ArrayList<>();
         try {
-            cardSets = connector.getAllCardsFromDigicaWiki();
-            String cardSetsJson = ow.writeValueAsString(cardSets);
+            DigicaWikiExtraction wikiExtraction = connector.getAllCardsFromDigicaWiki();
+            String cardSetsJson = ow.writeValueAsString(wikiExtraction);
             Files.createDirectories(Paths.get(path));
             BufferedWriter writer = new BufferedWriter(new FileWriter(path + fileName));
             writer.write(cardSetsJson);

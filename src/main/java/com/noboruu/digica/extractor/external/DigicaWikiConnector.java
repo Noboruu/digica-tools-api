@@ -2,6 +2,8 @@ package com.noboruu.digica.extractor.external;
 
 import com.noboruu.digica.extractor.internal.Card;
 import com.noboruu.digica.extractor.internal.CardSet;
+import com.noboruu.digica.extractor.internal.CardTypeEnum;
+import com.noboruu.digica.extractor.internal.DigicaWikiExtraction;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
@@ -10,6 +12,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -20,7 +23,7 @@ public class DigicaWikiConnector {
     private final String DIGICA_WIKI_PROMOS_PATH = "/wiki/P-";
     private final List<DigicaSetsEnum> protectionIgnoreList = Arrays.asList(DigicaSetsEnum.RSB1, DigicaSetsEnum.RSB15, DigicaSetsEnum.RSB2, DigicaSetsEnum.RSB25);
 
-    public List<CardSet> getAllCardsFromDigicaWiki() throws IOException {
+    public DigicaWikiExtraction getAllCardsFromDigicaWiki() throws IOException {
         List<CardSet> cardSets = new ArrayList<>();
 
         for (DigicaSetsEnum set : DigicaSetsEnum.values()) {
@@ -41,8 +44,7 @@ public class DigicaWikiConnector {
             cardSets.add(cardSet);
         }
         cardSets.add(getPromoCardsFromDigicaWiki());
-
-        return cardSets;
+        return new DigicaWikiExtraction(LocalDateTime.now(), cardSets);
     }
 
     private Card getCardForPath(String path) throws IOException {
@@ -52,13 +54,19 @@ public class DigicaWikiConnector {
         return getCardForPath(doc);
     }
 
-    private Card getCardForPath(Document doc) throws IOException {
+    private Card getCardForPath(Document doc)  {
         Card card = new Card();
 
         Element cardNameElement = doc.getElementsByClass("mw-headline").first();
         if (!Objects.isNull(cardNameElement)) {
             String cardName = cardNameElement.text();
             card.setName(cardName);
+        }
+
+        Element cardTypeElement = doc.select("[title='Card Types']").first();
+        if (!Objects.isNull(cardTypeElement)) {
+            CardTypeEnum cardType = CardTypeEnum.findByWikiCardType(cardTypeElement.text());
+            card.setCardType(cardType);
         }
 
         Element cardArtElement = doc.select("a.image").first();
