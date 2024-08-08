@@ -1,5 +1,5 @@
 {
-  "extractionDate" : "06-08-2024 05:07:06",
+  "extractionDate" : "08-08-2024 10:50:49",
   "cardSets" : [ {
     "code" : "RSB1.0",
     "cards" : [ {
@@ -2987,7 +2987,7 @@
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/BT6-104.png/revision/latest?cb=20210921061255",
       "cardType" : "OPTION"
     }, {
-      "name" : "Gewalt Schwärmer (BT6-105)",
+      "name" : "Gewalt Schwarmer (BT6-105)",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT6-105.png/revision/latest?cb=20210921061256",
       "cardType" : "OPTION"
     }, {
@@ -4025,7 +4025,7 @@
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/16/BT8-101.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION"
     }, {
-      "name" : "Samādhi Śānti (BT8-102)",
+      "name" : "Samadhi Santi (BT8-102)",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f5/BT8-102.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION"
     }, {
@@ -4033,7 +4033,7 @@
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f3/BT8-103.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION"
     }, {
-      "name" : "Eiseiryūoujin (BT8-104)",
+      "name" : "Eiseiryuoujin (BT8-104)",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/79/BT8-104.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION"
     }, {
@@ -4041,7 +4041,7 @@
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/BT8-105.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION"
     }, {
-      "name" : "Senbon Dokkān (BT8-106)",
+      "name" : "Senbon Dokkan (BT8-106)",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/BT8-106.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION"
     }, {
@@ -5067,7 +5067,7 @@
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/BT10-100.png/revision/latest?cb=20221014120412",
       "cardType" : "OPTION"
     }, {
-      "name" : "Lónkhē Adistakto (BT10-101)",
+      "name" : "Lonkhe Adistakto (BT10-101)",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/BT10-101-Errata.png/revision/latest?cb=20221007121827",
       "cardType" : "OPTION"
     }, {
@@ -12191,11 +12191,11 @@
       "cardType" : "DIGIMON"
     }, {
       "name" : "Hexeblaumon (EX7-023)",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/EX7-023-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/EX7-023.png/revision/latest?cb=20240808052625",
       "cardType" : "DIGIMON"
     }, {
       "name" : "Hexeblaumon (EX7-023)",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/EX7-023-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/EX7-023.png/revision/latest?cb=20240808052625",
       "cardType" : "DIGIMON"
     }, {
       "name" : "Shoemon (EX7-024)",

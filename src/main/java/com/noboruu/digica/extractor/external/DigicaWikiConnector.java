@@ -12,6 +12,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.text.Normalizer;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -59,7 +60,7 @@ public class DigicaWikiConnector {
 
         Element cardNameElement = doc.getElementsByClass("mw-headline").first();
         if (!Objects.isNull(cardNameElement)) {
-            String cardName = cardNameElement.text();
+            String cardName = Normalizer.normalize(cardNameElement.text(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
             card.setName(cardName);
         }
 
