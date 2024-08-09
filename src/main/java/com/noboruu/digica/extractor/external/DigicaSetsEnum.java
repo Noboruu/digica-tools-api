@@ -11,8 +11,9 @@ public enum DigicaSetsEnum {
     // Add more as they get added
 
     // -- Booster sets --
-    RSB1("RSB1.0", "/wiki/BT01-03:_Release_Special_Booster_Ver.1.0"),
-    RSB15("RSB1.5", "/wiki/BT01-03:_Release_Special_Booster_Ver.1.5"),
+    BT1("BT1", "/wiki/BT-01:_Booster_New_Evolution"),
+    BT2("BT2", "/wiki/BT-02:_Booster_Ultimate_Power"),
+    BT3("BT3", "/wiki/BT-03:_Booster_Union_Impact"),
     BT4("BT4", "/wiki/BT-04:_Booster_Great_Legend"),
     BT5("BT5", "/wiki/BT-05:_Booster_Battle_Of_Omni"),
     BT6("BT6", "/wiki/BT-06:_Booster_Double_Diamond"),
@@ -28,8 +29,8 @@ public enum DigicaSetsEnum {
     BT16("BT16", "/wiki/BT-16:_Booster_Beginning_Observer"),
     BT17("BT17", "/wiki/BT-17:_Booster_Secret_Crisis"),
     BT18("BT18", "/wiki/BT-18:_Booster_Elemental_Successor"),
-    RSB2("RSB2.0", "/wiki/BT18-19:_Release_Special_Booster_Ver.2.0"),
-    RSB25("RSB2.5", "/wiki/BT19-20:_Release_Special_Booster_Ver.2.5"),
+    BT19("BT19", "/wiki/BT-19:_Booster_Xros_Evolution"),
+    BT20("BT20", "/wiki/BT-20"),
     // -- Theme Boosters --
     EX1("EX1", "/wiki/EX-01:_Theme_Booster_Classic_Collection"),
     EX2("EX2", "/wiki/EX-02:_Theme_Booster_Digital_Hazard"),

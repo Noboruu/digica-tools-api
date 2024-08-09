@@ -15,14 +15,15 @@ import java.io.IOException;
 import java.text.Normalizer;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class DigicaWikiConnector {
     private final String DIGICA_WIKI_BASE_URL = "https://digimoncardgame.fandom.com";
     private final String DIGICA_WIKI_PROMOS_PATH = "/wiki/P-";
-    private final List<DigicaSetsEnum> protectionIgnoreList = Arrays.asList(DigicaSetsEnum.RSB1, DigicaSetsEnum.RSB15, DigicaSetsEnum.RSB2, DigicaSetsEnum.RSB25);
+    private final Pattern REGEX_CARD_NAME_MATCHER = Pattern.compile("(.+)\\s\\((.+)\\)");
 
     public DigicaWikiExtraction getAllCardsFromDigicaWiki() throws IOException {
         List<CardSet> cardSets = new ArrayList<>();
@@ -34,7 +35,7 @@ public class DigicaWikiConnector {
 
             List<Card> cards = new ArrayList<>();
             for (String cardPath : cardPaths) {
-                if (!protectionIgnoreList.contains(set) && !cardPath.contains(set.getCode())) {
+                if (!cardPath.contains(set.getCode())) {
                     continue;
                 }
                 cards.add(getCardForPath(cardPath));
@@ -60,8 +61,13 @@ public class DigicaWikiConnector {
 
         Element cardNameElement = doc.getElementsByClass("mw-headline").first();
         if (!Objects.isNull(cardNameElement)) {
-            String cardName = Normalizer.normalize(cardNameElement.text(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
-            card.setName(cardName);
+            String normalized = Normalizer.normalize(cardNameElement.text(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
+            Matcher m = REGEX_CARD_NAME_MATCHER.matcher(normalized);
+            if (!m.find()) {
+                throw new RuntimeException("Invalid card name: " + normalized);
+            }
+            card.setName(m.group(1));
+            card.setCode(m.group(2));
         }
 
         Element cardTypeElement = doc.select("[title='Card Types']").first();

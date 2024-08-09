@@ -8,6 +8,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 public class Card {
+    private String code;
     private String name;
     private String artUrl;
     private CardTypeEnum cardType;
