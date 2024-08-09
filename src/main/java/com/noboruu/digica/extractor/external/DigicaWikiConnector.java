@@ -94,7 +94,8 @@ public class DigicaWikiConnector {
 
         for (Element aElement : cardTableLinks) {
             String path = aElement.attr("href");
-            if (!StringUtils.isBlank(path) && !path.contains("Card_Types")) {
+            if (!StringUtils.isBlank(path) && !path.contains("Card_Types") && !cardPaths.contains(path)) {
+                System.out.println("Adding path: " + path);
                 cardPaths.add(path);
             }
         }
