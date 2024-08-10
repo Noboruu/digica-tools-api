@@ -38,7 +38,7 @@ public class DigicaMeta {
     }
 
     public String getArtUrlFromDigimonMeta(String cardCode) {
-        return (DIGICA_META_BASE_URL + getDigicaMetaCardSetFromCardCode(cardCode) + "/" + cardCode + CART_ART_FILE_EXTENSION).toLowerCase();
+        return (DIGICA_META_BASE_URL + getDigicaMetaCardSetFromCardCode(cardCode).toLowerCase() + "/" + cardCode + CART_ART_FILE_EXTENSION);
     }
 
     private String getSetFromCardCode(String cardCode) {
@@ -69,7 +69,7 @@ public class DigicaMeta {
         }
 
         if(LM_SET.equalsIgnoreCase(cardSet)) {
-            return LM_SET.toLowerCase();
+            return LM_SET;
         }
 
         Pattern p = Pattern.compile("(\\D+)(\\d+)");
