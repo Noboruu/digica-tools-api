@@ -42,9 +42,9 @@ public enum DigicaSetsEnum {
     // -- Resurgence Boost --
     RB1("RB1", "/wiki/RB-01:_Resurgence_Booster"),
     // -- Limited Packs --
-    LM1("LM1", "/wiki/LM-01:_Limited_Pack_Digimon_Ghost_Game"),
-    LM2("LM2", "/wiki/LM-02:_Limited_Pack_DeathXmon"),
-    LM3("LM3", "/wiki/LM-03:_Limited_Card_Set_2024"),
+    LM1("LM", "/wiki/LM-01:_Limited_Pack_Digimon_Ghost_Game"),
+    LM2("LM", "/wiki/LM-02:_Limited_Pack_DeathXmon"),
+    LM3("LM", "/wiki/LM-03:_Limited_Card_Set_2024"),
     // -- Starters Deck --
     ST1("ST1", "/wiki/ST-1:_Starter_Deck_Gaia_Red"),
     ST2("ST2", "/wiki/ST-2:_Starter_Deck_Cocytus_Blue"),
