@@ -29,8 +29,8 @@ public enum DigicaSetsEnum {
     BT16("BT16", "/wiki/BT-16:_Booster_Beginning_Observer"),
     BT17("BT17", "/wiki/BT-17:_Booster_Secret_Crisis"),
     BT18("BT18", "/wiki/BT-18:_Booster_Elemental_Successor"),
-    BT19("BT19", "/wiki/BT-19:_Booster_Xros_Evolution"),
-    BT20("BT20", "/wiki/BT-20"),
+    //BT19("BT19", "/wiki/BT-19:_Booster_Xros_Evolution"),
+    //BT20("BT20", "/wiki/BT-20"),
     // -- Theme Boosters --
     EX1("EX1", "/wiki/EX-01:_Theme_Booster_Classic_Collection"),
     EX2("EX2", "/wiki/EX-02:_Theme_Booster_Digital_Hazard"),
@@ -39,11 +39,12 @@ public enum DigicaSetsEnum {
     EX5("EX5", "/wiki/EX-05:_Theme_Booster_Animal_Colosseum"),
     EX6("EX6", "/wiki/EX-06:_Theme_Booster_Infernal_Ascension"),
     EX7("EX7", "/wiki/EX-07:_Extra_Booster_Digimon_Liberator"),
+    //EX8("EX8", "/wiki/EX-08:_Extra_Booster_Chains_of_Liberation"),
     // -- Resurgence Boost --
     RB1("RB1", "/wiki/RB-01:_Resurgence_Booster"),
     // -- Limited Packs --
     LM1("LM", "/wiki/LM-01:_Limited_Pack_Digimon_Ghost_Game"),
-    LM2("LM", "/wiki/LM-02:_Limited_Pack_DeathXmon"),
+    // LM2 omitted because it only has reprints
     LM3("LM", "/wiki/LM-03:_Limited_Card_Set_2024"),
     // -- Starters Deck --
     ST1("ST1", "/wiki/ST-1:_Starter_Deck_Gaia_Red"),

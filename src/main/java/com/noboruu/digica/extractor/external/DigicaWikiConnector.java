@@ -25,6 +25,8 @@ public class DigicaWikiConnector {
     private final String DIGICA_WIKI_PROMOS_PATH = "/wiki/P-";
     private final Pattern REGEX_CARD_NAME_MATCHER = Pattern.compile("(.+)\\s\\((.+)\\)");
 
+    private final DigicaMeta digicaMeta = new DigicaMeta();
+
     public DigicaWikiExtraction getAllCardsFromDigicaWiki() throws IOException {
         List<CardSet> cardSets = new ArrayList<>();
 
@@ -64,7 +66,7 @@ public class DigicaWikiConnector {
             String normalized = Normalizer.normalize(cardNameElement.text(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
             Matcher m = REGEX_CARD_NAME_MATCHER.matcher(normalized);
             if (!m.find()) {
-                throw new RuntimeException("Invalid card name: " + normalized);
+                throw new IllegalArgumentException("Invalid card name: " + normalized);
             }
             card.setName(m.group(1));
             card.setCode(m.group(2));
@@ -76,9 +78,13 @@ public class DigicaWikiConnector {
             card.setCardType(cardType);
         }
 
-        Element cardArtElement = doc.select("a.image").first();
-        if (!Objects.isNull(cardArtElement)) {
-            card.setArtUrl(cardArtElement.attr("href"));
+        if(digicaMeta.isToGetArtFromDigicaMeta(card.getCode())) {
+            card.setArtUrl(digicaMeta.getArtUrlFromDigimonMeta(card.getCode()));
+        } else {
+            Element cardArtElement = doc.select("a.image").first();
+            if (!Objects.isNull(cardArtElement)) {
+                card.setArtUrl(cardArtElement.attr("href"));
+            }
         }
 
         return card;
@@ -95,7 +101,6 @@ public class DigicaWikiConnector {
         for (Element aElement : cardTableLinks) {
             String path = aElement.attr("href");
             if (!StringUtils.isBlank(path) && !path.contains("Card_Types") && !cardPaths.contains(path)) {
-                System.out.println("Adding path: " + path);
                 cardPaths.add(path);
             }
         }
@@ -132,4 +137,6 @@ public class DigicaWikiConnector {
 
         return basePromoUrl + promoNumber;
     }
+
+
 }

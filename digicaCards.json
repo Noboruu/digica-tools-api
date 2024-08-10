@@ -1,5 +1,5 @@
 {
-  "extractionDate" : "09-08-2024 10:58:54",
+  "extractionDate" : "10-08-2024 12:41:52",
   "cardSets" : [ {
     "code" : "BT1",
     "cards" : [ {
@@ -9406,550 +9406,514 @@
     "cards" : [ {
       "code" : "BT18-001",
       "name" : "DemiMeramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT18-001-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-001.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "BT18-002",
       "name" : "Chapmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/BT18-002-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-002.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "BT18-003",
       "name" : "Wanyamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4f/BT18-003-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-003.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "BT18-004",
       "name" : "Puroromon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT18-004-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-004.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "BT18-005",
       "name" : "Kozenimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/BT18-005-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-005.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "BT18-006",
       "name" : "Frimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/fc/BT18-006-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-006.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "BT18-007",
       "name" : "Gazimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/77/BT18-007-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-007.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-008",
       "name" : "Goblimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4f/BT18-008-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-008.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-009",
       "name" : "Shamanmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c2/BT18-009-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-009.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-010",
       "name" : "Bokomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/BT18-010-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-010.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-011",
       "name" : "Agunimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/BT18-011-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-011.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-012",
       "name" : "Grumblemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/0f/BT18-012-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-012.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-013",
       "name" : "Deltamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/BT18-013-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-013.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-014",
       "name" : "Gigasmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/0d/BT18-014-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-014.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-015",
       "name" : "Kimeramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c6/BT18-015-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-015.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-016",
       "name" : "Volcanomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/58/BT18-016-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-016.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-017",
       "name" : "AncientVolcanomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/61/BT18-017-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-017.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-018",
       "name" : "EmperorGreymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/BT18-018-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-018.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-019",
       "name" : "Millenniummon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/07/BT18-019-J.png/revision/latest?cb=20240621114658",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-019.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-020",
       "name" : "Syakomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/BT18-020-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-020.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-021",
       "name" : "Penguinmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/BT18-021-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-021.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-022",
       "name" : "Kumamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/BT18-022-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-022.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-023",
       "name" : "Lanamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f4/BT18-023-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-023.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-024",
       "name" : "Calmaramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/BT18-024-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-024.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-025",
       "name" : "Korikakumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/06/BT18-025-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-025.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-026",
       "name" : "DaiPenmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f6/BT18-026-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-026.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-027",
       "name" : "Mermaimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/BT18-027-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-027.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-028",
       "name" : "AncientMegatheriummon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4f/BT18-028-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-028.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-029",
       "name" : "AncientMermaimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e6/BT18-029-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-029.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-030",
       "name" : "Candlemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/69/BT18-030-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-030.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-031",
       "name" : "Neemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/BT18-031-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-031.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-032",
       "name" : "Luxmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/96/BT18-032-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-032.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-033",
       "name" : "Patamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/52/BT18-033-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-033.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-034",
       "name" : "Lucemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/aa/BT18-034-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-034.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-035",
       "name" : "Piddomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/BT18-035-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-035.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-036",
       "name" : "Wizardmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/BT18-036-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-036.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-037",
       "name" : "Lobomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f7/BT18-037-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-037.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-038",
       "name" : "ArkhaiAngemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/54/BT18-038-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-038.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-039",
       "name" : "Mistymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/59/BT18-039-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-039.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-040",
       "name" : "Dynasmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/BT18-040-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-040.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-041",
       "name" : "MetalEtemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8f/BT18-041-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-041.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-042",
       "name" : "MagnaGarurumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/49/BT18-042-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-042.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-043",
       "name" : "Tinkermon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/BT18-043-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-043.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-044",
       "name" : "FunBeemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/BT18-044-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-044.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-045",
       "name" : "Pomumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/BT18-045-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-045.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-046",
       "name" : "Waspmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/BT18-046.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-046.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-047",
       "name" : "Arbormon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT18-047-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-047.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-048",
       "name" : "Kazemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/BT18-048-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-048.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-049",
       "name" : "Zephyrmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e6/BT18-049-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-049.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-050",
       "name" : "Petaldramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/22/BT18-050-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-050.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-051",
       "name" : "Entmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d0/BT18-051-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-051.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-052",
       "name" : "CannonBeemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a7/BT18-052.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-052.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-053",
       "name" : "JetSilphymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/BT18-053-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-053.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-054",
       "name" : "AncientKazemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/06/BT18-054-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-054.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-055",
       "name" : "AncientTroymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d7/BT18-055-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-055.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-056",
       "name" : "TigerVespamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/BT18-056.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-056.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-057",
       "name" : "KoKabuterimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT18-057-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-057.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-058",
       "name" : "Kotemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/BT18-058-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-058.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-059",
       "name" : "Zenimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c2/BT18-059-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-059.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-060",
       "name" : "Vemmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/15/BT18-060-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-060.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-061",
       "name" : "Trailmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/44/BT18-061-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-061.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-062",
       "name" : "Gladimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b3/BT18-062-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-062.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-063",
       "name" : "Beetlemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/BT18-063-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-063.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-064",
       "name" : "Mercurymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/BT18-064-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-064.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-065",
       "name" : "Snatchmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/1a/BT18-065-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-065.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-066",
       "name" : "Sephirothmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/ba/BT18-066-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-066.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-067",
       "name" : "MetalKabuterimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/56/BT18-067-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-067.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-068",
       "name" : "Wisemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/BT18-068-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-068.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-069",
       "name" : "Knightmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/0f/BT18-069-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-069.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-070",
       "name" : "RhinoKabuterimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e5/BT18-070-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-070.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-071",
       "name" : "ShadowSeraphimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/BT18-071-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-071.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-072",
       "name" : "AncientBeetlemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a7/BT18-072-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-072.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-073",
       "name" : "Machinedramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/BT18-073-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-073.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-074",
       "name" : "AncientWisemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/54/BT18-074-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-074.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-075",
       "name" : "Liollmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8f/BT18-075-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-075.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-076",
       "name" : "Loweemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/07/BT18-076-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-076.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-077",
       "name" : "KaiserLeomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/BT18-077-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-077.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-078",
       "name" : "Duskmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/78/BT18-078-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-078.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-079",
       "name" : "Velgrmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/BT18-079-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-079.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-080",
       "name" : "Oboromon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/be/BT18-080-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-080.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-081",
       "name" : "Rhihimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8f/BT18-081-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-081.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-082",
       "name" : "Lucemon: Chaos Mode",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/33/BT18-082-J.png/revision/latest?cb=20240621114656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-082.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-083",
       "name" : "LordKnightmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/BT18-083-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-083.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-084",
       "name" : "AncientSphinxmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c5/BT18-084-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-084.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-085",
       "name" : "Zanbamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/BT18-085-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-085.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-086",
       "name" : "Lucemon: Larva",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2c/BT18-086-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-086.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-087",
       "name" : "Owen Dreadnought",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/9b/BT18-087-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-087.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-088",
       "name" : "Takuya Kanbara & Koji Minamoto",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/BT18-088-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-088.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-089",
       "name" : "Tommy Himi",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/BT18-089-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-089.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-090",
       "name" : "Zoe Orimoto",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT18-090-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-090.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-091",
       "name" : "J.P. Shibayama",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/BT18-091-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-091.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-092",
       "name" : "Zenith",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/74/BT18-092-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-092.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-093",
       "name" : "Violet Inboots",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/5f/BT18-093-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-093.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-094",
       "name" : "Koichi Kimura",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/7e/BT18-094-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-094.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "BT18-095",
       "name" : "Wind to Flame, Ice to Sword",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/BT18-095-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-095.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "BT18-096",
       "name" : "Lord of Devastation and Rebirth",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2b/BT18-096-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-096.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "BT18-097",
       "name" : "Dark to Light, Thunder to Gunfire",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/BT18-097-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-097.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "BT18-098",
       "name" : "Dragon's Roar",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e2/BT18-098-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-098.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "BT18-099",
       "name" : "Fist of Athena",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f0/BT18-099-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-099.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "BT18-100",
       "name" : "Gospel of the Fallen Angel",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/61/BT18-100-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-100.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "BT18-101",
       "name" : "Lucemon: Satan Mode",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/BT18-101-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-101.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "BT18-102",
       "name" : "Susanoomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/BT18-102-J.png/revision/latest?cb=20240621114657",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt18/bt18-102.jpg",
       "cardType" : "DIGIMON"
     } ]
-  }, {
-    "code" : "BT19",
-    "cards" : [ {
-      "code" : "BT19-044",
-      "name" : "Terriermon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/BT19-044-Sample-J.png/revision/latest?cb=20240809153356",
-      "cardType" : "DIGIMON"
-    }, {
-      "code" : "BT19-048",
-      "name" : "ForgeBeemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT19-048.png/revision/latest?cb=20240523041656",
-      "cardType" : "DIGIMON"
-    }, {
-      "code" : "BT19-052",
-      "name" : "Vespamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/BT19-052.png/revision/latest?cb=20240523041655",
-      "cardType" : "DIGIMON"
-    }, {
-      "code" : "BT19-053",
-      "name" : "QueenBeemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/16/BT19-053.png/revision/latest?cb=20240523041655",
-      "cardType" : "DIGIMON"
-    }, {
-      "code" : "BT19-054",
-      "name" : "MegaGargomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c9/BT19-054-Sample-J.png/revision/latest?cb=20240809153928",
-      "cardType" : "DIGIMON"
-    }, {
-      "code" : "BT19-084",
-      "name" : "Winr",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/68/BT19-084.png/revision/latest?cb=20240523041655",
-      "cardType" : "TAMER"
-    } ]
-  }, {
-    "code" : "BT20",
-    "cards" : [ ]
   }, {
     "code" : "EX1",
     "cards" : [ {
@@ -12188,372 +12152,372 @@
     "cards" : [ {
       "code" : "EX7-001",
       "name" : "DemiMeramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b9/EX7-001-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-001.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "EX7-002",
       "name" : "Hiyarimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/83/EX7-002-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-002.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "EX7-003",
       "name" : "Kyaromon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/EX7-003-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-003.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "EX7-004",
       "name" : "Fluffymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/EX7-004-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-004.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "EX7-005",
       "name" : "Kapurimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8f/EX7-005-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-005.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "EX7-006",
       "name" : "Yaamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/EX7-006-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-006.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "EX7-007",
       "name" : "Vorvomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/EX7-007-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-007.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-008",
       "name" : "ToyAgumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/EX7-008-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-008.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-009",
       "name" : "Lavorvomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/90/EX7-009-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-009.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-010",
       "name" : "Deputymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/EX7-010-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-010.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-011",
       "name" : "Megadramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/cb/EX7-011-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-011.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-012",
       "name" : "Lavogaritamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/EX7-012-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-012.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-013",
       "name" : "MagnaKidmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d7/EX7-013-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-013.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-014",
       "name" : "Volcanicdramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a6/EX7-014.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-014.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-015",
       "name" : "Otamamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/EX7-015-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-015.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-016",
       "name" : "Bulucomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/EX7-016-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-016.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-017",
       "name" : "SnowAgumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/80/EX7-017-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-017.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-018",
       "name" : "Gekomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/88/EX7-018-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-018.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-019",
       "name" : "Sorcermon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/EX7-019-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-019.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-020",
       "name" : "Paledramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/EX7-020-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-020.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-021",
       "name" : "CrysPaledramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c1/EX7-021-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-021.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-022",
       "name" : "ShogunGekomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a3/EX7-022-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-022.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-023",
       "name" : "Hexeblaumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/EX7-023.png/revision/latest?cb=20240808052625",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-023.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-024",
       "name" : "Shoemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/EX7-024-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-024.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-025",
       "name" : "ShoeShoemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/EX7-025-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-025.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-026",
       "name" : "Starmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/bd/EX7-026-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-026.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-027",
       "name" : "Chaperomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/EX7-027-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-027.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-028",
       "name" : "Piximon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/fd/EX7-028-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-028.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-029",
       "name" : "SaberLeomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4f/EX7-029.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-029.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-030",
       "name" : "Cendrillmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/89/EX7-030-Sample.png/revision/latest?cb=20240425191654",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-030.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-031",
       "name" : "Pteromon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b9/EX7-031-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-031.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-032",
       "name" : "Galemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/1e/EX7-032-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-032.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-033",
       "name" : "Monochromon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c0/EX7-033-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-033.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-034",
       "name" : "GrandGalemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/61/EX7-034-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-034.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-035",
       "name" : "Triceramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2c/EX7-035-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-035.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-036",
       "name" : "Zephagamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/EX7-036-Sample.png/revision/latest?cb=20240425191242",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-036.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-037",
       "name" : "Tlalocmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/EX7-037.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-037.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-038",
       "name" : "Gotsumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/EX7-038-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-038.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-039",
       "name" : "Jazamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/EX7-039-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-039.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-040",
       "name" : "ToyAgumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a3/EX7-040-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-040.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-041",
       "name" : "Tortomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/54/EX7-041-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-041.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-042",
       "name" : "Jazardmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/9d/EX7-042-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-042.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-043",
       "name" : "Tankmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a8/EX7-043-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-043.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-044",
       "name" : "Gigadramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/EX7-044-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-044.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-045",
       "name" : "Jagamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/EX7-045-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-045.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-046",
       "name" : "Jazarichmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/EX7-046.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-046.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-047",
       "name" : "Eldradimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/bc/EX7-047-J.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-047.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-048",
       "name" : "Gundramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/EX7-048-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-048.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-049",
       "name" : "Metallicdramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/EX7-049.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-049.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-050",
       "name" : "Impmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/31/EX7-050-Sample.png/revision/latest?cb=20240425193755",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-050.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-051",
       "name" : "Sparrowmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c8/EX7-051-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-051.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-052",
       "name" : "Tsukaimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c2/EX7-052-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-052.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-053",
       "name" : "Eyesmon: Scatter Mode",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/EX7-053-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-053.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-054",
       "name" : "BlackGatomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/44/EX7-054-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-054.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-055",
       "name" : "Punkmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2b/EX7-055.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-055.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-056",
       "name" : "Orochimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/EX7-056.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-056.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-057",
       "name" : "Loudmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/EX7-057.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-057.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-058",
       "name" : "LadyDevimon (X Antibody)",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/EX7-058-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-058.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-059",
       "name" : "BeelStarmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/EX7-059-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-059.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-060",
       "name" : "Nidhoggmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/EX7-060.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-060.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-061",
       "name" : "Lilithmon (X Antibody)",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/54/EX7-061-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-061.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-062",
       "name" : "HeavyMetaldramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/EX7-062.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-062.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-063",
       "name" : "Arisa Kinosaki",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/58/EX7-063-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-063.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "EX7-064",
       "name" : "Shoto Kazama",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/EX7-064-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-064.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "EX7-065",
       "name" : "Yuuki",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/EX7-065.png/revision/latest?cb=20240523041656",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-065.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "EX7-066",
       "name" : "Chaos Triangular",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/45/EX7-066-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-066.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "EX7-067",
       "name" : "Summon Frost",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/ea/EX7-067-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-067.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "EX7-068",
       "name" : "Wonder Stomp",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/EX7-068-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-068.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "EX7-069",
       "name" : "Wind Slicer",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/6f/EX7-069-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-069.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "EX7-070",
       "name" : "Der Blitz",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/02/EX7-070-J.png/revision/latest?cb=20240524113208",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-070.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "EX7-071",
       "name" : "Hurricane Screw Shot",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/bf/EX7-071-J.png/revision/latest?cb=20240524113208",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-071.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "EX7-072",
       "name" : "Seventh Fascination",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/EX7-072-J.png/revision/latest?cb=20240524113208",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-072.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "EX7-073",
       "name" : "BeelStarmon (X Antibody)",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/EX7-073-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-073.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "EX7-074",
       "name" : "Vortex Resonance",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/EX7-074-J.png/revision/latest?cb=20240524113207",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/ex07/ex7-074.jpg",
       "cardType" : "OPTION"
     } ]
   }, {
@@ -12725,14 +12689,171 @@
       "cardType" : "DIGIMON"
     } ]
   }, {
-    "code" : "LM1",
-    "cards" : [ ]
+    "code" : "LM",
+    "cards" : [ {
+      "code" : "LM-001",
+      "name" : "Siriusmon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/LM-001.png/revision/latest?cb=20240209090315",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-002",
+      "name" : "Jellymon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/LM-002.png/revision/latest?cb=20240209090315",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-003",
+      "name" : "TeslaJellymon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/LM-003.png/revision/latest?cb=20240209090315",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-004",
+      "name" : "Thetismon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/LM-004.png/revision/latest?cb=20240209090315",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-005",
+      "name" : "Amphimon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e0/LM-005.png/revision/latest?cb=20240209090315",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-006",
+      "name" : "Cthyllamon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/49/LM-006.png/revision/latest?cb=20240209090314",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-007",
+      "name" : "Publimon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/LM-007.png/revision/latest?cb=20240209090314",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-008",
+      "name" : "Angoramon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/6c/LM-008.png/revision/latest?cb=20240209090314",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-009",
+      "name" : "Airdramon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/LM-009.png/revision/latest?cb=20240209090314",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-010",
+      "name" : "Chamblemon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/LM-010.png/revision/latest?cb=20240209090313",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-011",
+      "name" : "SymbareAngoramon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/d/dd/LM-011.png/revision/latest?cb=20240209090314",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-012",
+      "name" : "Lamortmon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f1/LM-012.png/revision/latest?cb=20240209090312",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-013",
+      "name" : "Diarbbitmon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/07/LM-013.png/revision/latest?cb=20240209090313",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-014",
+      "name" : "Espimon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/LM-014.png/revision/latest?cb=20240209090312",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-015",
+      "name" : "Ryudamon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/af/LM-015.png/revision/latest?cb=20240209090312",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-016",
+      "name" : "Gammamon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/LM-016.png/revision/latest?cb=20240209090311",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-017",
+      "name" : "Regulusmon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/LM-017.png/revision/latest?cb=20240209090310",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-018",
+      "name" : "Gyuukimon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/be/LM-018.png/revision/latest?cb=20240209090311",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-019",
+      "name" : "Bokomon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/00/LM-019.png/revision/latest?cb=20240209090310",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-020",
+      "name" : "Quantumon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/13/LM-020.png/revision/latest?cb=20240209090310",
+      "cardType" : "DIGIMON"
+    } ]
   }, {
-    "code" : "LM2",
-    "cards" : [ ]
-  }, {
-    "code" : "LM3",
-    "cards" : [ ]
+    "code" : "LM",
+    "cards" : [ {
+      "code" : "LM-021",
+      "name" : "Agumon - Bond of Bravery",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-021.jpg",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-022",
+      "name" : "Gabumon - Bond of Friendship",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-022.jpg",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-023",
+      "name" : "Sakuyamon: Maid Mode",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-023.jpg",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-024",
+      "name" : "Shivamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-024.jpg",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-025",
+      "name" : "Cyberdramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-025.jpg",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-026",
+      "name" : "Megidramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-026.jpg",
+      "cardType" : "DIGIMON"
+    }, {
+      "code" : "LM-027",
+      "name" : "Red Scramble",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-027.jpg",
+      "cardType" : "OPTION"
+    }, {
+      "code" : "LM-028",
+      "name" : "Blue Scramble",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-028.jpg",
+      "cardType" : "OPTION"
+    }, {
+      "code" : "LM-029",
+      "name" : "Yellow Scramble",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-029.jpg",
+      "cardType" : "OPTION"
+    }, {
+      "code" : "LM-030",
+      "name" : "Green Scramble",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-030.jpg",
+      "cardType" : "OPTION"
+    }, {
+      "code" : "LM-031",
+      "name" : "Black Scramble",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-031.jpg",
+      "cardType" : "OPTION"
+    }, {
+      "code" : "LM-032",
+      "name" : "Purple Scramble",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/lm/lm-032.jpg",
+      "cardType" : "OPTION"
+    } ]
   }, {
     "code" : "ST1",
     "cards" : [ {
@@ -13981,77 +14102,77 @@
     "cards" : [ {
       "code" : "ST18-01",
       "name" : "Fluffymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/3a/ST18-01-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-01.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "ST18-02",
       "name" : "Biyomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/ST18-02-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-02.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-03",
       "name" : "Falcomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/89/ST18-03-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-03.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-04",
       "name" : "Pteromon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c5/ST18-04-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-04.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-05",
       "name" : "Muchomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/ST18-05-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-05.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-06",
       "name" : "Kiwimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/bd/ST18-06-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-06.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-07",
       "name" : "Kokatorimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/96/ST18-07-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-07.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-08",
       "name" : "Galemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/84/ST18-08-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-08.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-09",
       "name" : "Deramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/ST18-09-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-09.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-10",
       "name" : "GrandGalemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4d/ST18-10-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-10.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-11",
       "name" : "Parrotmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/ST18-11-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-11.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-12",
       "name" : "Zephagamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/ST18-12-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-12.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-13",
       "name" : "Eaglemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f1/ST18-13-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-13.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST18-14",
       "name" : "Shoto Kazama",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a1/ST18-14-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-14.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "ST18-15",
       "name" : "Anemoi Embrace",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/22/ST18-15-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st18/st18-15.jpg",
       "cardType" : "OPTION"
     } ]
   }, {
@@ -14059,77 +14180,77 @@
     "cards" : [ {
       "code" : "ST19-01",
       "name" : "Kyaromon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/af/ST19-01-J.png/revision/latest?cb=20240419105045",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-01.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "ST19-02",
       "name" : "Junkmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/22/ST19-02-J.png/revision/latest?cb=20240419105047",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-02.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-03",
       "name" : "Shoemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/ST19-03-J.png/revision/latest?cb=20240419105048",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-03.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-04",
       "name" : "PawnChessmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/ST19-04-J.png/revision/latest?cb=20240419105047",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-04.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-05",
       "name" : "PawnChessmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b9/ST19-05-J.png/revision/latest?cb=20240419105048",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-05.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-06",
       "name" : "Doggymon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/84/ST19-06-J.png/revision/latest?cb=20240419105047",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-06.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-07",
       "name" : "Tobucatmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c6/ST19-07-J.png/revision/latest?cb=20240419105047",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-07.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-08",
       "name" : "ShoeShoemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/89/ST19-08-J.png/revision/latest?cb=20240419105048",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-08.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-09",
       "name" : "Pandamon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/42/ST19-09-J.png/revision/latest?cb=20240419105048",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-09.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-10",
       "name" : "ExTyrannomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f1/ST19-10-J.png/revision/latest?cb=20240419105048",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-10.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-11",
       "name" : "Chaperomon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/1/1d/ST19-11-J.png/revision/latest?cb=20240419105048",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-11.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-12",
       "name" : "Cendrillmon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/ST19-12-J.png/revision/latest?cb=20240419105050",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-12.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-13",
       "name" : "ShinMonzaemon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/c8/ST19-13-J.png/revision/latest?cb=20240419105048",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-13.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "ST19-14",
       "name" : "Arisa Kinosaki",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/ST19-14-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-14.jpg",
       "cardType" : "TAMER"
     }, {
       "code" : "ST19-15",
       "name" : "Noble Family Arts",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/ST19-15-J.png/revision/latest?cb=20240419105049",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/st19/st19-15.jpg",
       "cardType" : "OPTION"
     } ]
   }, {
@@ -14892,37 +15013,37 @@
     }, {
       "code" : "P-152",
       "name" : "Shoutmon + Dorulu Cannon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/c/cf/P-152-J.png/revision/latest?cb=20240531091331",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/p-152.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "P-153",
       "name" : "MagnaGarurumon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/P-153-J.png/revision/latest?cb=20240531091331",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/p-153.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "P-154",
       "name" : "Maildramon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/P-154-J.png/revision/latest?cb=20240531091331",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/p-154.jpg",
       "cardType" : "DIGIMON"
     }, {
       "code" : "P-155",
       "name" : "Pawn Device",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/P-155-J.png/revision/latest?cb=20240531091331",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/p-155.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "P-156",
       "name" : "Possibilities for the future!",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8f/P-156-J.png/revision/latest?cb=20240801110139",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/p-156.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "P-157",
       "name" : "Monimon",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/P-157-Sample-J.png/revision/latest?cb=20240801110457",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/p-157.jpg",
       "cardType" : "DIGI_EGG"
     }, {
       "code" : "P-158",
       "name" : "Fake Jeri",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/P-158-Sample-J.png/revision/latest?cb=20240801110455",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/p-158.jpg",
       "cardType" : "OPTION"
     }, {
       "code" : "P-159",
