@@ -2,6 +2,7 @@ package com.noboruu.digica.extractor.external;
 
 import com.noboruu.digica.extractor.internal.*;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.StringEscapeUtils;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -157,15 +158,15 @@ public class DigicaWikiConnector {
             Element th = effectTable.select("th").first();
             Element td = effectTable.select("td").first();
             if (!Objects.isNull(th) && !Objects.isNull(td)) {
-                String normalized = Normalizer.normalize(td.text(), Normalizer.Form.NFD).replaceAll("[^a-zA-Z0-9 -]", "");
+                String escapedString = StringEscapeUtils.escapeJava(td.text());
                 if (DIGICA_WIKI_SECURITY_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, normalized));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, escapedString));
                 } else if (DIGICA_WIKI_CARD_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, normalized));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, escapedString));
                 } else if (DIGICA_WIKI_INHERITED_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, normalized));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, escapedString));
                 } else if (DIGICA_WIKI_ACE_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, normalized));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, escapedString));
                 }
             }
         }
