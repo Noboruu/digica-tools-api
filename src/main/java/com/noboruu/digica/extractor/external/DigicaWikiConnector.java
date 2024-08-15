@@ -1,9 +1,6 @@
 package com.noboruu.digica.extractor.external;
 
-import com.noboruu.digica.extractor.internal.Card;
-import com.noboruu.digica.extractor.internal.CardSet;
-import com.noboruu.digica.extractor.internal.CardTypeEnum;
-import com.noboruu.digica.extractor.internal.DigicaWikiExtraction;
+import com.noboruu.digica.extractor.internal.*;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
@@ -24,6 +21,10 @@ public class DigicaWikiConnector {
     private final String DIGICA_WIKI_BASE_URL = "https://digimoncardgame.fandom.com";
     private final String DIGICA_WIKI_PROMOS_PATH = "/wiki/P-";
     private final Pattern REGEX_CARD_NAME_MATCHER = Pattern.compile("(.+)\\s\\((.+)\\)");
+    private final String DIGICA_WIKI_SECURITY_EFFECT_TEXT = "Security Effect";
+    private final String DIGICA_WIKI_CARD_EFFECT_TEXT = "Card Effect(s)";
+    private final String DIGICA_WIKI_INHERITED_EFFECT_TEXT = "Inherited Effect";
+    private final String DIGICA_WIKI_ACE_EFFECT_TEXT = "Ace";
 
     private final DigicaMeta digicaMeta = new DigicaMeta();
 
@@ -47,7 +48,9 @@ public class DigicaWikiConnector {
             cardSet.setCards(cards);
             cardSets.add(cardSet);
         }
+
         cardSets.add(getPromoCardsFromDigicaWiki());
+
         return new DigicaWikiExtraction(LocalDateTime.now(), cardSets);
     }
 
@@ -58,35 +61,12 @@ public class DigicaWikiConnector {
         return getCardForPath(doc);
     }
 
-    private Card getCardForPath(Document doc)  {
+    private Card getCardForPath(Document doc) {
         Card card = new Card();
-
-        Element cardNameElement = doc.getElementsByClass("mw-headline").first();
-        if (!Objects.isNull(cardNameElement)) {
-            String normalized = Normalizer.normalize(cardNameElement.text(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
-            Matcher m = REGEX_CARD_NAME_MATCHER.matcher(normalized);
-            if (!m.find()) {
-                throw new IllegalArgumentException("Invalid card name: " + normalized);
-            }
-            card.setName(m.group(1));
-            card.setCode(m.group(2));
-        }
-
-        Element cardTypeElement = doc.select("[title='Card Types']").first();
-        if (!Objects.isNull(cardTypeElement)) {
-            CardTypeEnum cardType = CardTypeEnum.findByWikiCardType(cardTypeElement.text());
-            card.setCardType(cardType);
-        }
-
-        if(digicaMeta.isToGetArtFromDigicaMeta(card.getCode())) {
-            card.setArtUrl(digicaMeta.getArtUrlFromDigimonMeta(card.getCode()));
-        } else {
-            Element cardArtElement = doc.select("a.image").first();
-            if (!Objects.isNull(cardArtElement)) {
-                card.setArtUrl(cardArtElement.attr("href"));
-            }
-        }
-
+        getCardNameAndCode(doc, card);
+        getCardType(doc, card);
+        getCardArtUrl(doc, card);
+        getCardEffects(doc, card);
         return card;
     }
 
@@ -138,5 +118,56 @@ public class DigicaWikiConnector {
         return basePromoUrl + promoNumber;
     }
 
+    private void getCardNameAndCode(Document doc, Card card) {
+        Element cardNameElement = doc.getElementsByClass("mw-headline").first();
+        if (!Objects.isNull(cardNameElement)) {
+            String normalized = Normalizer.normalize(cardNameElement.text(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
+            Matcher m = REGEX_CARD_NAME_MATCHER.matcher(normalized);
+            if (!m.find()) {
+                throw new IllegalArgumentException("Invalid card name: " + normalized);
+            }
+            card.setName(m.group(1));
+            card.setCode(m.group(2));
+        }
+    }
+
+    private void getCardType(Document doc, Card card) {
+        Element cardTypeElement = doc.select("[title='Card Types']").first();
+        if (!Objects.isNull(cardTypeElement)) {
+            CardTypeEnum cardType = CardTypeEnum.findByWikiCardType(cardTypeElement.text());
+            card.setCardType(cardType);
+        }
+    }
+
+    private void getCardArtUrl(Document doc, Card card) {
+        if (digicaMeta.isToGetArtFromDigicaMeta(card.getCode())) {
+            card.setArtUrl(digicaMeta.getArtUrlFromDigimonMeta(card.getCode()));
+        } else {
+            Element cardArtElement = doc.select("a.image").first();
+            if (!Objects.isNull(cardArtElement)) {
+                card.setArtUrl(cardArtElement.attr("href"));
+            }
+        }
+    }
+
+    private void getCardEffects(Document doc, Card card) {
+        Elements effectTables = doc.select("table.effect");
+
+        for (Element effectTable : effectTables) {
+            Element th = effectTable.select("th").first();
+            Element td = effectTable.select("td").first();
+            if (!Objects.isNull(th) && !Objects.isNull(td)) {
+                if (DIGICA_WIKI_SECURITY_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
+                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, td.text()));
+                } else if (DIGICA_WIKI_CARD_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
+                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, td.text()));
+                } else if (DIGICA_WIKI_INHERITED_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
+                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, td.text()));
+                } else if (DIGICA_WIKI_ACE_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
+                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, td.text()));
+                }
+            }
+        }
+    }
 
 }
