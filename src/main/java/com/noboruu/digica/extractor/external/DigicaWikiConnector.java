@@ -157,14 +157,15 @@ public class DigicaWikiConnector {
             Element th = effectTable.select("th").first();
             Element td = effectTable.select("td").first();
             if (!Objects.isNull(th) && !Objects.isNull(td)) {
+                String normalized = Normalizer.normalize(td.text(), Normalizer.Form.NFD).replaceAll("[^a-zA-Z0-9 -]", "");
                 if (DIGICA_WIKI_SECURITY_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, td.text()));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, normalized));
                 } else if (DIGICA_WIKI_CARD_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, td.text()));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, normalized));
                 } else if (DIGICA_WIKI_INHERITED_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, td.text()));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, normalized));
                 } else if (DIGICA_WIKI_ACE_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, td.text()));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, normalized));
                 }
             }
         }
