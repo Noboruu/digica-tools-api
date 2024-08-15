@@ -9,7 +9,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.text.Normalizer;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -121,10 +120,9 @@ public class DigicaWikiConnector {
     private void getCardNameAndCode(Document doc, Card card) {
         Element cardNameElement = doc.getElementsByClass("mw-headline").first();
         if (!Objects.isNull(cardNameElement)) {
-            String normalized = Normalizer.normalize(cardNameElement.text(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
-            Matcher m = REGEX_CARD_NAME_MATCHER.matcher(normalized);
+            Matcher m = REGEX_CARD_NAME_MATCHER.matcher(cardNameElement.text());
             if (!m.find()) {
-                throw new IllegalArgumentException("Invalid card name: " + normalized);
+                throw new IllegalArgumentException("Invalid card name: " + cardNameElement);
             }
             card.setName(m.group(1));
             card.setCode(m.group(2));
@@ -157,15 +155,14 @@ public class DigicaWikiConnector {
             Element th = effectTable.select("th").first();
             Element td = effectTable.select("td").first();
             if (!Objects.isNull(th) && !Objects.isNull(td) && !StringUtils.isBlank(td.text())) {
-                String effectText = td.text().replaceAll("\\p{Cc}", ""); // Removes UTF control characters from string
                 if (DIGICA_WIKI_SECURITY_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, effectText));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, td.text()));
                 } else if (DIGICA_WIKI_CARD_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, effectText));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, td.text()));
                 } else if (DIGICA_WIKI_INHERITED_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, effectText));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, td.text()));
                 } else if (DIGICA_WIKI_ACE_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, effectText));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, td.text()));
                 }
             }
         }

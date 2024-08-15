@@ -1,5 +1,5 @@
 {
-  "extractionDate" : "15-08-2024 05:50:49",
+  "extractionDate" : "15-08-2024 06:03:14",
   "cardSets" : [ {
     "code" : "BT1",
     "cards" : [ {
@@ -6271,7 +6271,7 @@
       } ]
     }, {
       "code" : "BT6-105",
-      "name" : "Gewalt Schwarmer",
+      "name" : "Gewalt Schwärmer",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT6-105.png/revision/latest?cb=20210921061256",
       "cardType" : "OPTION",
       "cardEffects" : [ {
@@ -8458,7 +8458,7 @@
       } ]
     }, {
       "code" : "BT8-102",
-      "name" : "Samadhi Santi",
+      "name" : "Samādhi Śānti",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/f/f5/BT8-102.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION",
       "cardEffects" : [ {
@@ -8482,7 +8482,7 @@
       } ]
     }, {
       "code" : "BT8-104",
-      "name" : "Eiseiryuoujin",
+      "name" : "Eiseiryūoujin",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/79/BT8-104.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION",
       "cardEffects" : [ {
@@ -8506,7 +8506,7 @@
       } ]
     }, {
       "code" : "BT8-106",
-      "name" : "Senbon Dokkan",
+      "name" : "Senbon Dokkān",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/BT8-106.png/revision/latest?cb=20220422124931",
       "cardType" : "OPTION",
       "cardEffects" : [ {
@@ -10633,7 +10633,7 @@
       } ]
     }, {
       "code" : "BT10-101",
-      "name" : "Lonkhe Adistakto",
+      "name" : "Lónkhē Adistakto",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/BT10-101-Errata.png/revision/latest?cb=20221007121827",
       "cardType" : "OPTION",
       "cardEffects" : [ {
