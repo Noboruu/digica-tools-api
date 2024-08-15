@@ -2,7 +2,6 @@ package com.noboruu.digica.extractor.external;
 
 import com.noboruu.digica.extractor.internal.*;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.StringEscapeUtils;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -157,16 +156,16 @@ public class DigicaWikiConnector {
         for (Element effectTable : effectTables) {
             Element th = effectTable.select("th").first();
             Element td = effectTable.select("td").first();
-            if (!Objects.isNull(th) && !Objects.isNull(td)) {
-                String escapedString = StringEscapeUtils.escapeJava(td.text());
+            if (!Objects.isNull(th) && !Objects.isNull(td) && !StringUtils.isBlank(td.text())) {
+                String effectText = td.text().replaceAll("\\p{Cc}", ""); // Removes UTF control characters from string
                 if (DIGICA_WIKI_SECURITY_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, escapedString));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, effectText));
                 } else if (DIGICA_WIKI_CARD_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, escapedString));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, effectText));
                 } else if (DIGICA_WIKI_INHERITED_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, escapedString));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, effectText));
                 } else if (DIGICA_WIKI_ACE_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, escapedString));
+                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, effectText));
                 }
             }
         }
