@@ -1,5 +1,5 @@
 {
-  "extractionDate" : "15-08-2024 06:03:14",
+  "extractionDate" : "14-09-2024 15:01:32",
   "cardSets" : [ {
     "code" : "BT1",
     "cards" : [ {
@@ -3231,7 +3231,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You may digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 red Digimon. [Your Turn] This Digimon gets +3000 DP."
+        "effectText" : "You may digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 red Digimon. [Your Turn] This Digimon gets +3000 DP. [Rule] Name: Not treated as having [Greymon]."
       } ]
     }, {
       "code" : "BT4-014",
@@ -3351,7 +3351,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon. [When Attacking] Return 1 of your opponent's level 3 Digimon to its owner's hand."
+        "effectText" : "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon. [When Attacking] Return 1 of your opponent's level 3 Digimon to its owner's hand. [Rule] Name: Not treated as having [Garurumon]."
       } ]
     }, {
       "code" : "BT4-028",
@@ -4479,7 +4479,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Digivolving] If this Digimon card with [Garurumon] in its name (other than [KendoGarurumon]) is in this Digimon's digivolution cards, return 1 of your opponent's Digimon with an , return 1 of your opponent's Digimon with an [On Deletion] effect to the bottom of its owner's deck."
+        "effectText" : "[When Digivolving] If this Digimon card with [Garurumon] in its name (other than [KendoGarurumon]) is in this Digimon's digivolution cards, return 1 of your opponent's Digimon with an [On Deletion] effect to the bottom of its owner's deck."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[When Attacking] [Once Per Turn] Gain 1 memory."
@@ -5478,7 +5478,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "INHERITED",
-        "effectText" : "[When Attacking] [Once Per Turn] If this Digimon has the [Hybrid]/[Ten Warriors or type] trait, gain 1 memory."
+        "effectText" : "[When Attacking] [Once Per Turn] If this Digimon has the [Hybrid]/[Ten Warriors] trait, gain 1 memory."
       } ]
     }, {
       "code" : "BT6-023",
@@ -5661,7 +5661,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[On Deletion] You may play 1 [Rosemon] or up to 2 yellow level of 3 Digimon Cards from your trash without paying their memory costs."
+        "effectText" : "[On Deletion] You may play 1 [Rosemon] or up to 2 yellow level 3 Digimon Cards from your trash without paying their memory costs."
       } ]
     }, {
       "code" : "BT6-043",
@@ -5949,7 +5949,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "＜Rush＞ (This Digimon can attack the turn it comes into play). [On Play] You may place 1 [Kinkakumon] and/or 1 [Ginkakumon] from your trash in this card's digivolution cards in any order. If you place 2 cards with this effect, ＜Draw 1＞ (Draw 1 card from your deck)."
+        "effectText" : "＜Rush＞ (This Digimon can attack the turn it comes into play). [On Play] You may place 1 [Kinkakumon] and/or 1 [Ginkakumon] from your trash in this card's digivolution cards in any order. If you place 2 cards with this effect, ＜Draw 1＞ (Draw 1 card from your deck) and gain 1 memory."
       } ]
     }, {
       "code" : "BT6-076",
@@ -6033,10 +6033,10 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[All Turns] All of your Digimon with [Huckmon] in their name or [Royal Knight] trait get +2000 DP. [On Play] Gain 1 memory."
+        "effectText" : "[All Turns] All of your Digimon with [Huckmon] in their name or [Royal Knight] trait get +2000 DP. [On Play] Gain 1 memory. [Rule] Name: Also treated as [Sistermon Noir]. [Rule] Trait: Has the [Virus] attribute."
       }, {
         "effectType" : "CARD",
-        "effectText" : "[All Turns] All of your Digimon with [Huckmon] in their name or [Royal Knight] trait get +2000 DP. [On Play] Gain 1 memory."
+        "effectText" : "[All Turns] All of your Digimon with [Huckmon] in their name or [Royal Knight] trait get +2000 DP. [On Play] Gain 1 memory. [Rule] Name: Also treated as [Sistermon Ciel]. [Rule] Trait: Has the [Data] attribute."
       } ]
     }, {
       "code" : "BT6-085",
@@ -6045,7 +6045,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You can include up to 50 copies of cards with this card's card number in your deck. [When Attacking] You may play 1 level 5 or lower [Eosmon] from your hand without paying its memory cost."
+        "effectText" : "[When Attacking] You may play 1 level 5 or lower [Eosmon] from your hand without paying its memory cost. [Rule] You can include up to 50 copies of cards with this card's card number in your deck."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] This Digimon gets +1000 DP."
@@ -6459,7 +6459,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You may digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 red Digimon for a memory cost of 2. [When Digivolving] If a card with the [Hybrid] trait or [Takuya Kanbara] is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 4000 DP or less."
+        "effectText" : "You may digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 red Digimon for a memory cost of 2. [When Digivolving] If a card with the [Hybrid] trait or [Takuya Kanbara] is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 4000 DP or less. [Rule] Name: Not treated as having [Greymon]."
       } ]
     }, {
       "code" : "BT7-012",
@@ -6561,7 +6561,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon for a memory cost of 2. [When Digivolving] If a card with the [Hybrid] trait or [Koji Minamoto] is in this Digimon's digivolution cards, this Digimon gains ＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon) for the turn."
+        "effectText" : "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon for a memory cost of 2. [When Digivolving] If a card with the [Hybrid] trait or [Koji Minamoto] is in this Digimon's digivolution cards, this Digimon gains ＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon) for the turn. [Rule] Name: Not treated as having [Garurumon]."
       } ]
     }, {
       "code" : "BT7-023",
@@ -6951,7 +6951,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Digivolving] You may place 1 black card with the [X Antibody] trait from your hand at the bottom of this Digimon's digivolution cards to prevent effects from deleting it or reducing its DP until the end of your opponent's next turn."
+        "effectText" : "[When Digivolving] You may place 1 black card with the [X Antibody] trait from your hand at the bottom of this Digimon's digivolution cards to prevent effects from deleting it or reducing its DP until the end of your opponent's next turn. [Rule] Name: Not treated as having [Greymon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] While this Digimon has the [X Antibody] trait, it gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card)."
@@ -7128,10 +7128,10 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[On Play] You may place 1 [Sistermon Ciel] from your hand or trash at the bottom of this Digimon's digivolution cards to delete 1 of your opponent's Digimon with a play cost of 5 or less. [On Deletion] Return 1 card with [Jesmon]/[Huckmon]/[Sistermon] in its name other than [Sistermon Ciel (Awakened)] from your trash to your hand."
+        "effectText" : "[On Play] You may place 1 [Sistermon Ciel] from your hand or trash at the bottom of this Digimon's digivolution cards to delete 1 of your opponent's Digimon with a play cost of 5 or less. [On Deletion] Return 1 card with [Jesmon]/[Huckmon]/[Sistermon] in its name other than [Sistermon Ciel (Awakened)] from your trash to your hand. [Rule] Name: Also treated as [Sistermon Noir (Awakened)]. [Rule] Trait: Has the [Virus] attribute."
       }, {
         "effectType" : "CARD",
-        "effectText" : "[On Play] You may place 1 [Sistermon Noir] from your hand or trash at the bottom of this Digimon's digivolution cards to delete 1 of your opponent's Digimon with a play cost of 5 or less. [On Deletion] Return 1 card with [Jesmon]/[Huckmon]/[Sistermon] in its name other than [Sistermon Noir (Awakened)] from your trash to your hand."
+        "effectText" : "[On Play] You may place 1 [Sistermon Noir] from your hand or trash at the bottom of this Digimon's digivolution cards to delete 1 of your opponent's Digimon with a play cost of 5 or less. [On Deletion] Return 1 card with [Jesmon]/[Huckmon]/[Sistermon] in its name other than [Sistermon Noir (Awakened)] from your trash to your hand. [Rule] Name: Also treated as [Sistermon Ciel (Awakened)]. [Rule] Trait: Has the [Data] attribute."
       } ]
     }, {
       "code" : "BT7-084",
@@ -8028,7 +8028,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [Mamemon]."
+        "effectText" : "[Rule] Name: Also treated as [Mamemon]."
       } ]
     }, {
       "code" : "BT8-062",
@@ -8037,7 +8037,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [SkullKnightmon]/[DeadlyAxemon]. [When Digivolving] This Digimon gains ＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon) and ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) until the end of your opponent's next turn."
+        "effectText" : "[When Digivolving] This Digimon gains ＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon) and ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) until the end of your opponent's next turn. [Rule] Name: Also treated as [SkullKnightmon]/[DeadlyAxemon]."
       } ]
     }, {
       "code" : "BT8-063",
@@ -9024,7 +9024,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as having [Leomon] in its name. [All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon's digivolution cards without paying its memory cost."
+        "effectText" : "[All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon's digivolution cards without paying its memory cost. [Rule] Name: Treated as having [Leomon]."
       } ]
     }, {
       "code" : "BT9-052",
@@ -9174,7 +9174,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as having [Greymon] in its name. ＜Security Attack +1＞ (This Digimon checks 1 additional security card). ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase). [When Digivolving] If this Digimon has a black digivolution card, ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). If this Digimon has a red digivolution card, ＜Blitz＞ (If your opponent has 1 or more memory, this Digimon may attack)."
+        "effectText" : "＜Security Attack +1＞ (This Digimon checks 1 additional security card). ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase). [When Digivolving] If this Digimon has a black digivolution card, ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). If this Digimon has a red digivolution card, ＜Blitz＞ (If your opponent has 1 or more memory, this Digimon may attack). [Rule] Name: Treated as having [Greymon]."
       } ]
     }, {
       "code" : "BT9-069",
@@ -9273,7 +9273,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Digivolving] You may trash 1 card with [Dex]/[DeathX] in its name or with the [X Antibody] trait in your hand to gain 1 memory. [When Digivolving] If this Digimon has [DoruGreymon] in its digivolution cards, or is digivolving from the trash, delete 1 of your opponent's level 4 of lower Digimon."
+        "effectText" : "[When Digivolving] You may trash 1 card with [Dex]/[DeathX] in its name or with the [X Antibody] trait in your hand to gain 1 memory. [When Digivolving] If this Digimon has [DoruGreymon] in its digivolution cards, or is digivolving from the trash, delete 1 of your opponent's level 4 of lower Digimon. [Rule] Name: Not treated as having [Greymon]."
       } ]
     }, {
       "code" : "BT9-079",
@@ -9399,7 +9399,7 @@
       "cardType" : "TAMER",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 [Tapirmon] and 1 2-colur black card among them to your hand. Place the rest at the bottom of your deck in any order. [Your Turn] When one of your Digimon would digivolve into a 2-colour black Digimon, you may suspend this Tamer to reduce the digivolution cost by 1."
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 [Tapirmon] and 1 2-color black card among them to your hand. Place the rest at the bottom of your deck in any order. [Your Turn] When one of your Digimon would digivolve into a 2-colour black Digimon, you may suspend this Tamer to reduce the digivolution cost by 1."
       }, {
         "effectType" : "SECURITY",
         "effectText" : "[Security] Play this card without paying the cost."
@@ -9732,7 +9732,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card and 1 Tamer card―both with the [Xros Heart] in their traits―among them to your hand. Place the rest at the bottom of your deck in any order. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card and 1 Tamer card―both with the [Xros Heart] trait―among them to your hand. Place the rest at the bottom of your deck in any order. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] While this Digimon has [Shoutmon] in its name, it gains ＜Rush＞ (This Digimon can attack the turn it comes into play)."
@@ -9978,7 +9978,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[On Play] If you have another Digimon or Tamer with the [Xros Heart] trait, 1 of your opponent's Digimon gets -3000 DP until of the end your opponent's next turn. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+        "effectText" : "[On Play] If you have another Digimon or Tamer with the [Xros Heart] trait, 1 of your opponent's Digimon gets -3000 DP until the end your opponent's next turn. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] While this Digimon has [Shoutmon] in its name, all of your opponent's Security Digimon get -2000 DP."
@@ -10233,7 +10233,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [SkullKnightmon]/[DeadlyAxemon]. [On Play] Reveal the top 3 cards of your deck. Add 1 card with [Knightmon] in its name or 1 [DeadlyAxemon]/[Nene Amano] among them to your hand. Trash the rest. Then, if DigiXrosing with 2 cards, delete 1 of your opponent's Digimon with a play cost of 4 or less."
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Knightmon] in its name or 1 [DeadlyAxemon]/[Nene Amano] among them to your hand. Trash the rest. Then, if DigiXrosing with 2 cards, delete 1 of your opponent's Digimon with a play cost of 4 or less. [Rule] Name: Also treated as [SkullKnightmon]/[DeadlyAxemon]."
       } ]
     }, {
       "code" : "BT10-062",
@@ -10758,7 +10758,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [Shoutmon]. [On Play] You may return 1 card with a DigiXros requirement from your trash to your hand. When you would DigiXros this turn, this Digimon may replace 1 of the DigiXros requirements. ＜Material Save 1＞ (When this Digimon would be deleted, you may place 1 card in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers)."
+        "effectText" : "[On Play] You may return 1 card with a DigiXros requirement from your trash to your hand. When you would DigiXros this turn, this Digimon may replace 1 of the DigiXros requirements. ＜Material Save 1＞ (When this Digimon would be deleted, you may place 1 card in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [Rule] Name: Also treated as [Shoutmon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] While this Digimon has [Shoutmon] in its name, it gets +2000 DP."
@@ -10857,7 +10857,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [Shoutmon]/[Starmons]. ＜Material Save 1＞ (When this Digimon would be deleted, you may place 1 card in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [On Play] 1 of your opponent's Digimon gets -3000 DP for the turn. Then, if DigiXrosing with 2 cards, delete 1 of your opponent's Digimon with 2000 DP or less."
+        "effectText" : "＜Material Save 1＞ (When this Digimon would be deleted, you may place 1 card in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [On Play] 1 of your opponent's Digimon gets -3000 DP for the turn. Then, if DigiXrosing with 2 cards, delete 1 of your opponent's Digimon with 2000 DP or less. [Rule] Name: Also treated as [Shoutmon]/[Starmons]."
       } ]
     }, {
       "code" : "BT11-010",
@@ -10953,7 +10953,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [OmniShoutmon]/[ZeigGreymon]. ＜Material Save 2＞ (When this Digimon would be deleted, you may place 2 cards in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [On Play] Delete 1 of your opponent's Digimon with 8000 DP or less. 1 of your opponent's Digimon can't attack until the end of their turn. [End of Attack] By deleting this Digimon, gain 1 memory."
+        "effectText" : "＜Material Save 2＞ (When this Digimon would be deleted, you may place 2 cards in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [On Play] Delete 1 of your opponent's Digimon with 8000 DP or less. 1 of your opponent's Digimon can't attack until the end of their turn. [End of Attack] By deleting this Digimon, gain 1 memory. [Rule] Name: Also treated as [OmniShoutmon]/[ZeigGreymon]."
       } ]
     }, {
       "code" : "BT11-019",
@@ -11076,7 +11076,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [MetalGreymon]/[Cyberdramon]. ＜Armor Purge＞ (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion). [On Play] [When Digivolving] You may place 1 Digimon card with the [Blue Flare] trait from your hand, or from under your Tamers, under this Digimon as its bottom digivolution card. Then, return 1 of your opponent's level 3 Digimon to the bottom of its owner's deck. If [Cyberdramon] is in this Digimon's digivolution cards, return 1 of your opponent's level 4 or lower Digimon to the bottom of its owner's deck."
+        "effectText" : "＜Armor Purge＞ (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion). [On Play] [When Digivolving] You may place 1 Digimon card with the [Blue Flare] trait from your hand, or from under your Tamers, under this Digimon as its bottom digivolution card. Then, return 1 of your opponent's level 3 Digimon to the bottom of its owner's deck. If [Cyberdramon] is in this Digimon's digivolution cards, return 1 of your opponent's level 4 or lower Digimon to the bottom of its owner's deck. [Rule] Name: Also treated as [MetalGreymon]/[Cyberdramon]."
       } ]
     }, {
       "code" : "BT11-031",
@@ -11304,10 +11304,10 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as having [Leomon] in its name. [When Digivolving] You may play 1 green or blue Tamer card with a play cost of 4 or less from your hand without paying the cost."
+        "effectText" : "[When Digivolving] You may play 1 green or blue Tamer card with a play cost of 4 or less from your hand without paying the cost."
       }, {
         "effectType" : "INHERITED",
-        "effectText" : "[Your Turn] [Once Per Turn] When you play another Digimon by an effect, 1 of your Digimon gains ＜Rush＞ (This Digimon can attack the turn it comes into play) for the turn."
+        "effectText" : "[Your Turn] [Once Per Turn] When you play another Digimon by an effect, 1 of your Digimon gains ＜Rush＞ (This Digimon can attack the turn it comes into play) for the turn. [Rule] Name: Treated as having [Leomon]."
       } ]
     }, {
       "code" : "BT11-055",
@@ -11373,7 +11373,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You can include up to 50 copies of cards with this card's card number in your deck. [Main] By suspending this Digimon, reveal the top 3 cards of your deck. Add up to 1 [Snatchmon]/[Destromon]/[Galacticmon]/[Fusionize] among them to your hand, and place 1 [Vemmon] among them under this Digimon as its bottom digivolution card. Place the rest at the bottom of your deck in any order."
+        "effectText" : "[Main] By suspending this Digimon, reveal the top 3 cards of your deck. Add up to 1 [Snatchmon]/[Destromon]/[Galacticmon]/[Fusionize] among them to your hand, and place 1 [Vemmon] among them under this Digimon as its bottom digivolution card. Place the rest at the bottom of your deck in any order. [Rule] You can include up to 50 copies of cards with this card's card number in your deck."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] [Once Per Turn] When this Digimon would digivolve into [Destromon]/[Galacticmon], reduce the digivolution cost by 1."
@@ -11487,7 +11487,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as if it's [DarkKnightmon]/[Tuwarmon]. [On Play] [When Digivolving] You may place 1 Digimon card with [Knightmon] in its name or [Bagra Army] trait from your hand or trash under this Digimon as its top digivolution card. Then, if [Tuwarmon] is in this Digimon's digivolution cards, ＜De-Digivolve 1＞ 3 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). [On Deletion] You may return up to 2 black and/or purple Digimon cards from your Trash to your hand."
+        "effectText" : "[On Play] [When Digivolving] You may place 1 Digimon card with [Knightmon] in its name or [Bagra Army] trait from your hand or trash under this Digimon as its top digivolution card. Then, if [Tuwarmon] is in this Digimon's digivolution cards, ＜De-Digivolve 1＞ 3 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). [On Deletion] You may return up to 2 black and/or purple Digimon cards from your Trash to your hand. [Rule] Name: Also treated as [DarkKnightmon]/[Tuwarmon]."
       } ]
     }, {
       "code" : "BT11-072",
@@ -12081,7 +12081,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You may digivolve this card from your hand onto one of your [Takuya Kanbara]s as if the Tamer is a level 3 red Digimon for a memory cost of 2. [When Digivolving] This Digimon gets +2000 DP for the turn."
+        "effectText" : "You may digivolve this card from your hand onto one of your [Takuya Kanbara]s as if the Tamer is a level 3 red Digimon for a memory cost of 2. [When Digivolving] This Digimon gets +2000 DP for the turn. [Rule] Name: Not treated as having [Greymon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] While this Digimon has the [Hybrid]/[Ten Warriors] trait, it gets +2000 DP."
@@ -13893,7 +13893,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Digivolving] Reveal the top 3 cards of your deck. Place 1 card with the [X Antibody] trait among them under this Digimon as its bottom digivolution card. Trash the rest. If a card is placed by this effect, this Digimon can't have its DP reduced until the end of your opponent's turn."
+        "effectText" : "[When Digivolving] Reveal the top 3 cards of your deck. Place 1 card with the [X Antibody] trait among them under this Digimon as its bottom digivolution card. Trash the rest. If a card is placed by this effect, this Digimon can't have its DP reduced until the end of your opponent's turn. [Rule] Name: Not treated as having [Greymon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[End of Your Turn] [Once Per Turn] You may place 1 Digimon card with the [X Antibody] trait from your hand under this Digimon as its bottom digivolution card."
@@ -14469,7 +14469,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Delete 1 of your opponent's Digimon with 6000 DP or less."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT14-015",
@@ -14586,7 +14586,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Trash any 2 digivolution cards from under your opponent's Digimon. Then, return 1 of your opponent's Digimon with no digivolution cards to the hand."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT14-027",
@@ -14700,7 +14700,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] If you have 5 or fewer Security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack). Then, for the turn, 1 of your opponent's Digimon gets -1000 DP for each card in your security stack."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT14-038",
@@ -14826,7 +14826,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Suspend 1 of your opponent's Digimon. Then, you may return 1 of your opponent's suspended Digimon with 5000 DP or less to the bottom of the deck."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT14-050",
@@ -15288,7 +15288,7 @@
       "cardType" : "OPTION",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[Main] Search your security stack. 1 of your Digimon may digivolve in to a level 6 or lower yellow Digimon with the [Vaccine] trait among them without paying its cost. Then, shuffle your security security. If digivolved by this effect and you have Tamer with [T.K. Takaishi] in its name, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+        "effectText" : "[Main] Search your security stack. 1 of your Digimon may digivolve in to 1 yellow level 6 or lower Digimon with the [Vaccine] trait among them without paying its cost. Then, shuffle your security security. If digivolved by this effect and you have Tamer with [T.K. Takaishi] in its name, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
       }, {
         "effectType" : "SECURITY",
         "effectText" : "[Security] You may play 1 [Patamon] from your hand or trash without paying the cost. Then, add this card to your hand."
@@ -15534,7 +15534,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] You may play 1 play cost 4 or lower red Tamer card from your hand without paying the cost. [All Turns] [Once Per Turn] When one of your Tamers is played, delete 1 of your opponent’s Digimon with ＜Blocker＞."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT15-015",
@@ -15663,7 +15663,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] ＜Draw 1＞ (Draw 1 card from your deck). Then, if you have 5 or more cards in your hand, trash 1 card in your hand. [All Turns] [Once Per Turn] When one of your Digimon's effects adds cards to your hand, 1 of your opponent's Digimon or Tamers can't suspend until the end of their turn."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT15-027",
@@ -15792,7 +15792,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] By trashing the top or bottom card of your security stack, 1 of your opponent's Digimon gets -6000 DP until the end of their turn. [All Turns] [Once Per Turn] When a card is removed from your security stack, if you have 3 or fewer security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT15-039",
@@ -15909,7 +15909,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] 1 of your Digimon gets +3000 DP until the end of your opponent's turn. Then, if one of their Digimon is attacking, you may switch the target of attack to this Digimon. [All Turns] While this Digimon is suspended, it isn't affected by the effects of your opponent's Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT15-050",
@@ -16218,7 +16218,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] You may play 1 purple level 3 Digimon card or 1 purple Tamer card from your trash without paying the cost."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "BT15-077",
@@ -16653,7 +16653,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost) [On Play] [When Digivolving] All of your opponent's Digimon get -5000 DP for the turn. [All Turns] [Once Per Turn] When a card is removed from a security stack, delete 1 of your opponent's 8000 DP or lower Digimon. If this effect didn't delete, this Digimon gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card) until the end of your turn."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "BT16-014",
@@ -16797,7 +16797,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost) [On Play] [When Digivolving] ＜De-Digivolve 2＞ 1 of your opponent's Digimon (Trash up to 2 cards from the top. You can't trash past level 3 cards). Then, none of their Digimon with 1 or fewer digivolution cards can suspend until the end of their turn. [When Attacking] Delete 1 of your opponent's Digimon with 1 or fewer digivolution cards."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "BT16-027",
@@ -16809,7 +16809,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost) [On Play] [When Digivolving] Return 1 of your opponent's Digimon with as many or fewer digivolution cards as this Digimon to the bottom of the deck. [End of Attack] [Once Per Turn] Unsuspend this Digimon. Then, if [Imperialdramon: Dragon Mode] is in this Digimon's digivolution cards, return 1 of your opponent's suspended Digimon to the bottom of the deck."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "BT16-028",
@@ -17022,7 +17022,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost) [On Play] [When Digivolving] Suspend 2 of your opponent's Digimon or Tamers. Cards this effect suspended can't unsuspend during your opponent's next unsuspend phase. Then, delete 1 of their suspended Tamers. [Your Turn] [Once Per Turn] When this Digimon becomes suspended, 1 of your Digimon gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card) for the turn."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "BT16-047",
@@ -17187,7 +17187,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible). [All Turns] When an attack target is switched, this Digimon with an [SoC] trait Tamer card in its digivolution cards may digivolve into a Digimon card with the [Beast Dragon]/[Undead]/[SoC] trait in the hand without paying the cost."
+        "effectText" : "＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible). [All Turns] When an attack target is switched, this Digimon with an [SoC] trait Tamer card in its digivolution cards may digivolve into a Digimon card with the [Beast Dragon]/[Undead]/[SoC] trait in the hand without paying the cost. [Rule] Name: Not treated as having [Greymon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[All Turns] [Once Per Turn] When this Digimon deletes another Digimon, you may play 1 card with the [X Antibody]/[SoC] trait and a play cost of 5 or less from your trash without paying the cost."
@@ -17769,7 +17769,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You may digivolve this card from your hand onto one of your red Tamers as if that card is a level 3 red Digimon. ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). [When Attacking] This Digimon may digivolve into a Digimon card with the [Hybrid] trait in the hand with the digivolution cost reduced by 1."
+        "effectText" : "You may digivolve this card from your hand onto one of your red Tamers as if that card is a level 3 red Digimon. ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). [When Attacking] This Digimon may digivolve into a Digimon card with the [Hybrid] trait in the hand with the digivolution cost reduced by 1. [Rule] Name: Not treated as having [Greymon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] This Digimon gets +2000 DP."
@@ -17838,7 +17838,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Choose any number of your opponent's Digimon whose total DP adds up to 15000 or less and delete them. [When Attacking] [Once Per Turn] For every 10 cards in both player's trash, trash 1 card from the top of your opponent's security stack."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
       } ]
     }, {
       "code" : "BT17-019",
@@ -17895,7 +17895,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You may digivolve this card from your hand onto one of your yellow Tamers as if that card is a level 3 yellow Digimon. [When Attacking] ＜Draw 1＞ (Draw 1 card from your deck). [When Attacking] This Digimon may digivolve into a Digimon card with the [Hybrid] trait in the hand with the digivolution cost reduced by 1."
+        "effectText" : "You may digivolve this card from your hand onto one of your yellow Tamers as if that card is a level 3 yellow Digimon. [When Attacking] ＜Draw 1＞ (Draw 1 card from your deck). [When Attacking] This Digimon may digivolve into a Digimon card with the [Hybrid] trait in the hand with the digivolution cost reduced by 1. [Rule] Name: Not treated as having [Garurumon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[When Attacking] If you have 7 or fewer cards in your hand, ＜Draw 1＞ (Draw 1 card from your deck)."
@@ -18105,7 +18105,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] You may play 1 Tamer card from your hand without paying the cost. Then, for the turn, 1 of your opponent's Digimon gets -5000 DP for each of your Tamers. [When Attacking] By suspending up to 2 of your yellow Tamers, for every Tamer this effect suspended, this Digimon gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card) for the turn."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
       } ]
     }, {
       "code" : "BT17-042",
@@ -18396,7 +18396,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[Trash] [All Turns] When one of your [DoruGreymon] would be deleted, by digivolving it into this card without paying the cost, prevent that deletion. [When Digivolving] Trash 1 card in your hand. Then, ＜Draw 1＞ (Draw 1 card from your deck). If [DoruGreymon] is in this Digimon's digivolution cards or this digivolved from the trash, delete 1 of your opponent's Digimon with a play cost of 6 or less instead."
+        "effectText" : "[Trash] [All Turns] When one of your [DoruGreymon] would be deleted, by digivolving it into this card without paying the cost, prevent that deletion. [When Digivolving] Trash 1 card in your hand. Then, ＜Draw 1＞ (Draw 1 card from your deck). If [DoruGreymon] is in this Digimon's digivolution cards or this digivolved from the trash, delete 1 of your opponent's Digimon with a play cost of 6 or less instead. [Rule] Name: Not treated as having [Greymon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[End of Attack] [Once Per Turn] You may choose 1 of your Digimon. Delete 1 of your chosen Digimon and 1 of your opponent's Digimon with a level equal to or lower than that Digimon."
@@ -18504,7 +18504,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Trash all digivolution cards of all of your opponent's Digimon. Then, return all cards from your or your opponent's trash to the bottom of the deck. If this effect returned a white level 7 card, gain 3 memory. [When Attacking] By returning 1 of your opponent's Digimon with no digivolution cards to the bottom of the deck, unsuspend this Digimon. [Rule] Trait: Has the [Free] attribute."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
       } ]
     }, {
       "code" : "BT17-078",
@@ -18516,7 +18516,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast DNA Digivolve ([WarGreymon] + [MetalGarurumon])＞ (1 of your specified Digimon and 1 specified card in hand may DNA digivolve into this card.) ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] If DNA Digivolving, choose 1 opponent's Digimon and return the chosen Digimon and all of your opponent's Digimon with the same level to the bottom of the deck. Then, delete 1 of your opponent's Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
       } ]
     }, {
       "code" : "BT17-079",
@@ -18954,7 +18954,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Digivolving] [When Attacking] By deleting 1 of your Digimon, delete 1 of your opponent's Digimon with the lowest DP. [On Deletion] You may DNA digivolve 1 of your [Machinedramon] and 1 [Kimeramon] in the trash into [Millenniummon] in the hand."
+        "effectText" : "[When Digivolving] [When Attacking] By deleting 1 of your Digimon, delete 1 of your opponent's Digimon with the lowest DP. [On Deletion] You may DNA digivolve 1 of your [Machinedramon] in play and 1 [Kimeramon] in the trash into [Millenniummon] in the hand."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "＜Security Attack +1＞ (This Digimon checks 1 additional security card)."
@@ -19224,7 +19224,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). [On Play] [When Digivolving] [When Attacking] By trashing the top card of your security stack, 1 of your opponent's Digimon gets -6000 DP until the end of their turn. [All Turns] While you have 3 or fewer security cards, this Digimon gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) and gets +4000 DP."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "BT18-041",
@@ -19569,7 +19569,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] ＜De-Digivolve 3＞ 1 of your opponent's Digimon (Trash up to 3 cards from the top. You can't trash past level 3 cards). [All Turns] [Once Per Turn] When an attack target is changed, 1 of your opponent's Digimon gets -5000 DP for the turn. [Rule] Trait: Has [Three Great Angels]."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "BT18-072",
@@ -19704,7 +19704,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [When Digivolving] You may play 1 level 5 or lower Digimon card with [Knightmon] in its text from your hand or trash without paying the cost. [All Turns] All Digimon with as much or less DP as this Digimon gain ＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible)."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "BT18-084",
@@ -19920,7 +19920,1156 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [When Digivolving] [When Attacking] Delete 1 of your opponent's Digimon with 10000 DP or less. For each color in this Digimon's digivolution cards, add 2000 to this DP deletion effect's maximum. [When Attacking] By placing up to 5 Tamer cards from this Digimon's digivolution cards as your bottom security cards, trash opponent's top security cards for each card placed by this effect. [Rule] Trait: Has the [Hybrid] form."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
+      } ]
+    } ]
+  }, {
+    "code" : "BT19",
+    "cards" : [ {
+      "code" : "BT19-001",
+      "name" : "Pickmons",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-001.jpg",
+      "cardType" : "DIGI_EGG",
+      "cardEffects" : [ {
+        "effectType" : "INHERITED",
+        "effectText" : "[When Attacking] [Once Per Turn] By placing 1 Digimon card with the [Xros Heart]/[Blue Flare] trait rom your hand under any of your Tamers, ＜Draw 1＞ (Draw 1 card from your deck)."
+      } ]
+    }, {
+      "code" : "BT19-002",
+      "name" : "Puyoyomon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-002.jpg",
+      "cardType" : "DIGI_EGG",
+      "cardEffects" : [ {
+        "effectType" : "INHERITED",
+        "effectText" : "[Opponent's Turn] When an opponent's Digimon attacks, by returning this Digimon with [Aqua]/[Sea Animal] in one of its traits to the bottom of the deck, return 1 of your opponent's Digimon with as high or lower a level as the returned Digimon to the hand."
+      } ]
+    }, {
+      "code" : "BT19-003",
+      "name" : "Viximon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-003.jpg",
+      "cardType" : "DIGI_EGG",
+      "cardEffects" : [ {
+        "effectType" : "INHERITED",
+        "effectText" : "[End of Your Turn] [Once Per Turn] Return 1 Option card with [Plug-In] in its name from your trash to the hand."
+      } ]
+    }, {
+      "code" : "BT19-004",
+      "name" : "Tokomon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-004.jpg",
+      "cardType" : "DIGI_EGG",
+      "cardEffects" : [ {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] While you have another green Digimon, this Digimon gets +2000 DP."
+      } ]
+    }, {
+      "code" : "BT19-005",
+      "name" : "Hopmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-005.jpg",
+      "cardType" : "DIGI_EGG",
+      "cardEffects" : [ {
+        "effectType" : "INHERITED",
+        "effectText" : "[Opponent's Turn] While your opponent has a Digimon, this Digimon gains ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
+      } ]
+    }, {
+      "code" : "BT19-006",
+      "name" : "Pagumon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-006.jpg",
+      "cardType" : "DIGI_EGG",
+      "cardEffects" : [ {
+        "effectType" : "INHERITED",
+        "effectText" : "[On Deletion] If deleted other than by battle, return 1 level 3 purple Digimon card from your trash to the hand."
+      } ]
+    }, {
+      "code" : "BT19-007",
+      "name" : "Guilmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-007.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] If you have [Takato Matsuki]/[Calumon], gain 1 memory."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] While you have 0 or less memory, add 2000 to this Digimon's DP deletion effects' maximums."
+      } ]
+    }, {
+      "code" : "BT19-008",
+      "name" : "Shoutmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-008.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] This Digimon may digivolve into [OmniShoutmon] under your Tamers without paying the cost. [On Deletion] Reveal the top 3 cards of your deck. Play 1 Tamer card with the [Xros Heart] trait among them without paying the cost. Return the rest to the bottom of the deck. Then, ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon with the [Xros Heart] trait gains ＜Rush＞ (This Digimon can attack the turn it comes into play)."
+      } ]
+    }, {
+      "code" : "BT19-009",
+      "name" : "Growlmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-009.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 [Takato Matsuki] from your hand without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] While you have 0 or less memory, add 2000 to this Digimon's DP deletion effects' maximums."
+      } ]
+    }, {
+      "code" : "BT19-010",
+      "name" : "Shoutmon X4",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-010.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[All Turns] When this Digimon would leave the battle area, you may place up to 3 Digimon cards with the [Xros Heart] trait from this Digimon's digivolution cards under 1 of your Tamers."
+      } ]
+    }, {
+      "code" : "BT19-011",
+      "name" : "WarGrowlmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-011.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Delete any of your opponent's Digimon with DP adding up to 3000. For each of your opponent's Digimon, add 2000 to this DP-Based deletion effect's maximum. Then, for each Digimon deleted by this effect, gain 1 memory."
+      }, {
+        "effectType" : "ACE",
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)"
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] Add 3000 to this Digimon's DP deletion effects' maximums."
+      } ]
+    }, {
+      "code" : "BT19-012",
+      "name" : "OmniShoutmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-012.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "This card is also treated as [Shoutmon] for a DigiXros. [On Play] [When Digivolving] 1 of your opponent's Digimon gets -3000 DP for the turn. Then, delete 1 of your opponent's Digimon with 3000 DP or less. [On Deletion] Place 1 Digimon card with the [Xros Heart]/[Blue Flare] trait from your hand or trash under your Tamers."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon with the [Xros Heart] trait gains ＜Rush＞ (This Digimon can attack the turn it comes into play)."
+      } ]
+    }, {
+      "code" : "BT19-013",
+      "name" : "Shoutmon X5",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-013.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[All Turns] When this Digimon would leave the battle area, you may place up to 3 Digimon cards with the [Xros Heart] trait from this Digimon's digivolution cards under 1 of your Tamers. [On Deletion] You may play 1 play cost 4 or lower Digimon card with the [Xros Heart] trait from under your Tamers without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-014",
+      "name" : "Shoutmon EX6",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-014.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security Attack +1＞ for the attack). ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase). ＜Material Save 4＞ (When this Digimon would be deleted, you may place 4 cards in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [On Play] For each color in this Digimon's digivolution cards, all of your opponent's Digimon get -1000 DP for the turn. Then, you may play 1 [ShootingStarmon] from under your Tamers without paying the cost. [When Attacking] Delete 1 of your opponent's Digimon with as much or less DP as this Digimon."
+      } ]
+    }, {
+      "code" : "BT19-015",
+      "name" : "Gallantmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-015.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Digivolving] Delete 1 of your opponent's Digimon with 8000 DP or less. If this effect didn't delete, this Digimon gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) and gets +3000 DP until the end of your opponent's turn. [Your Turn] [Once Per Turn] When an opponent's Digimon is deleted, gain 2 memory."
+      } ]
+    }, {
+      "code" : "BT19-016",
+      "name" : "Gaossmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-016.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [On Deletion] By placing 1 [Blue Flare] trait Digimon card from your hand under any of your Tamers, ＜Draw 1＞ (Draw 1 card from your deck)."
+      } ]
+    }, {
+      "code" : "BT19-017",
+      "name" : "Sangomon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-017.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Aqua]/[Sea Animal] in one of its traits and 1 card with the [LIBERATOR] trait among them to the hand. Return the rest to the bottom of the deck. [Rule] Trait: Has the [Aquatic] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[End of Attack] [Once Per Turn] Gain 1 memory."
+      } ]
+    }, {
+      "code" : "BT19-018",
+      "name" : "Swimmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-018.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Evade＞ (When this Digimon would be deleted, you may suspend it to prevent that deletion). [Rule] Trait: Has the [Aquatic] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon)."
+      } ]
+    }, {
+      "code" : "BT19-019",
+      "name" : "Shellmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-019.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 [Yao Qinglan] from your hand without paying the cost. [Rule] Trait: Has the [Aquatic] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[End of Attack] [Once Per Turn] Gain 1 memory."
+      } ]
+    }, {
+      "code" : "BT19-020",
+      "name" : "Greymon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-020.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Rush＞ (This Digimon can attack the turn it comes into play). [On Deletion] If you have 1 or fewer Tamers, you may play 1 [Kiriha Aonuma] from your hand without paying the cost. Then, ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
+      } ]
+    }, {
+      "code" : "BT19-021",
+      "name" : "Xiquemon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-021.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] Return 1 of your opponent's level 3 Digimon to the hand. [Rule] Trait: Has the [Aquatic] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon)."
+      } ]
+    }, {
+      "code" : "BT19-022",
+      "name" : "MailBirdramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-022.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Deletion] You may place 1 Digimon card with the [Blue Flare] from your trash under any of your Tamers. Then, ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+      } ]
+    }, {
+      "code" : "BT19-023",
+      "name" : "Huankunmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-023.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] 1 of your Digimon can't be deleted by battle until the end of your opponent's turn."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon's attack target can't be switched."
+      } ]
+    }, {
+      "code" : "BT19-024",
+      "name" : "MarineBullmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-024.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Decode (Blue Lv.4)＞ (When this Digimon would leave the battle area other than in battle, you may play 1 Blue Level 4 Digimon card from its digivolution cards without paying the cost). [On Play] [When Digivolving] You may place 1 Digimon card with [Aqua]/[Sea Animal] in one of its traits from your hand as 1 of your Digimon's bottom digivolution card. [Rule] Trait: Has the [Aquatic] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[End of Attack] [Once Per Turn] You may play 1 level 4 or lower Digimon card with [Aqua]/[Sea Animal] in one of its traits from this Digimon's digivolution cards without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-025",
+      "name" : "MetalGreymon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-025.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Material Save 2＞ (When this Digimon would be deleted, you may place 2 cards in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [On Play] This Digimon gains ＜Rush＞ (This Digimon can attack the turn it comes into play) for the turn. [When Attacking] ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). Then, this Digimon may digivolve into a Digimon card with the [Blue Flare] trait from under your Tamers without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[End of Attack] [Once Per Turn] You may play 1 level 4 or lower Digimon card with the [Blue Flare] trait from under any of your Tamers without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-026",
+      "name" : "ZeigGreymon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-026.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] ＜De-Digivolve 2＞ 1 of your opponent's Digimon (Trash up to 2 cards from the top. You can't trash past level 3 cards). Then, if your opponent has 2 or more Digimon, return 1 of your opponent's level 4 or lower Digimon to the hand. [On Deletion] You may play 1 [Blue Flare]/[Xros Heart] trait trait Digimon card with a play cost of 5 or less from under your Tamers without paying the cost. Then, ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] This Digimon gets +2000 DP."
+      } ]
+    }, {
+      "code" : "BT19-027",
+      "name" : "Ryugumon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-027.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Decode (Blue Lv.5)＞ (When this Digimon would leave the battle area other than in battle, you may play 1 Blue level 5 Digimon card from its digivolution cards without paying the cost). [When Digivolving] You may play 1 level 4 or lower blue Digimon card from this Digimon's digivolution cards without paying the cost. [End of Your Turn] [Once Per Turn] By returning 1 of your Digimon to the bottom of the deck, return 1 of your opponent's Digimon with level equal to or lower to your Digimon to the bottom of the deck. [Rule] Trait: Has the [Aquatic] type."
+      } ]
+    }, {
+      "code" : "BT19-028",
+      "name" : "Xiangpengmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-028.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Security Attack +1＞ (This Digimon checks 1 additional security card). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] Unsuspend 1 of your Digimon. Then, by placing 1 of your other Digimon with [Aqua]/[Sea Animal] in one of its traits as this Digimon's bottom digivolution card, gain 3 memory. [Rule] Trait: Has the [Aquatic] type."
+      } ]
+    }, {
+      "code" : "BT19-029",
+      "name" : "Tapirmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-029.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] By trashing your top security card, gain 1 memory."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] [Once Per Turn] When this yellow Digimon with the [Data]/[Witchelny] trait would leave the battle area by your opponent's effects, by trashing your top security card, it doesn't leave."
+      } ]
+    }, {
+      "code" : "BT19-030",
+      "name" : "Renamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-030.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] If you have [Rika Nonaka]/[Calumon], gain 1 memory."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] [Once Per Turn]When you use an Option card with a cost of 2 or more, 1 of your opponent's Digimon gets -2000 DP for the turn."
+      } ]
+    }, {
+      "code" : "BT19-031",
+      "name" : "Starmons",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-031.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Decoy ([Xros Heart] trait)＞ (When your other [Xros Heart] trait Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent 1 of those Digimon's deletion). [On Deletion] You may play 1 [ShootingStarmon] from under your Tamers without paying the cost. Then, place 1 [Starmons] and 1 [Pickmons] from your trash as that Digimon's bottom digivolution cards."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[When Attacking] [Once Per Turn] If this Digimon has the [Xros Heart] trait, 1 of your opponent's Digimon gets -2000 DP for the turn."
+      } ]
+    }, {
+      "code" : "BT19-032",
+      "name" : "Airdramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-032.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Deletion] 1 of your opponent's Digimon gains ＜Security Attack -1＞ (This Digimon checks 1 fewer security card) until the end of their turn. Then, if you have 2 or fewer security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion)."
+      } ]
+    }, {
+      "code" : "BT19-033",
+      "name" : "Dorulumon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-033.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] This Digimon may digivolve into [JaegerDorulumon] under your Tamers without paying the cost. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon with the [Xros Heart] trait gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
+      } ]
+    }, {
+      "code" : "BT19-034",
+      "name" : "Kyubimon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-034.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 [Rika Nonaka] from your hand without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] [Once Per Turn] When you use Option cards with a cost of 2 or more, 1 of your opponent's Digimon gets -2000 DP for the turn."
+      } ]
+    }, {
+      "code" : "BT19-035",
+      "name" : "ShootingStarmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-035.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "This card is also treated as [Starmons] for a DigiXros. [All Turns] [Once Per Turn] When any of your [Xros Heart] trait Digimon are played, give 1 of your opponent's Digimon ＜Security Attack -1＞ (This Digimon checks 1 fewer security card) and it gets -3000 DP until the end of your opponent's turn. [On Deletion] You may place 1 Digimon card with the [Xros Heart]/[Blue Flare] trait from your hand or trash under any of your Tamers."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[When Attacking] [Once Per Turn] If this Digimon has the [Xros Heart] trait, 1 of your opponent's Digimon gets -2000 DP for the turn."
+      } ]
+    }, {
+      "code" : "BT19-036",
+      "name" : "Wizardmon (X Antibody)",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-036.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] Add your top security card to the hand. Then, if [Wizardmon]/[X Antibody] is in this Digimon's digivolution cards, you may place 1 yellow or purple Option card with cost of 5 or less from your hand as your bottom security card."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] [Once Per Turn] When this yellow Digimon with the [Data]/[Witchelny] trait would leave the battle area by your opponent's effects, by trashing your top security card, it doesn't leave."
+      } ]
+    }, {
+      "code" : "BT19-037",
+      "name" : "Taomon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-037.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] If it's your turn, you may use 1 1-color Option card with a cost of 5 or less from your hand without paying the cost. If it's your opponent's turn, 1 of their Digimon gains ＜Security Attack -1＞ (This Digimon checks 1 fewer security card) and can't activate [When Digivolving] effects for the turn."
+      }, {
+        "effectType" : "ACE",
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)"
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[When Attacking] 1 of your opponent's Digimon gets -4000 DP for the turn."
+      } ]
+    }, {
+      "code" : "BT19-038",
+      "name" : "JaegerDorulumon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-038.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "This card is also treated as [Dorulumon] for a DigiXros. [On Play] [When Digivolving] Suspend 1 of your opponent's Digimon. Then, 1 of their Digimon can't activate [When Digivolving] effects or unsuspend until the end of their turn. [On Deletion] You may place 1 Digimon card with the [Xros Heart]/[Blue Flare] trait from your hand or trash under any of your Tamers."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon with the [Xros Heart] trait gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
+      } ]
+    }, {
+      "code" : "BT19-039",
+      "name" : "SkullBaluchimon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-039.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] By trashing your top security card, delete 1 of your opponent's level 4 or lower Digimon and gain 1 memory. [On Deletion] ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] [Once Per Turn] When your security is reduced, you may unsuspend this Digimon."
+      } ]
+    }, {
+      "code" : "BT19-040",
+      "name" : "Sakuyamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-040.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Digivolving] ＜Draw 2＞ (Draw 2 cards from your deck). Then, you may use 1 1-color Option card with a cost of 5 or less from your hand without paying the cost. [Your Turn] [Once Per Turn] When you use an Option card with a cost of 2 or more, play 1 [Pipe Fox] Token Digimon/Yellow/6000 DP/＜Blocker＞)."
+      } ]
+    }, {
+      "code" : "BT19-041",
+      "name" : "Dynasmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-041.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] By trashing the top card of your security stack, 1 of your Digimon gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) and gets +6000 DP until the end of your opponent's turn. [All Turns] [Once Per Turn] When this Digimon would leave the battle area, if you have 2 or fewer security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+      } ]
+    }, {
+      "code" : "BT19-042",
+      "name" : "Dynasmon (X Antibody)",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-042.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] [When Attacking] [Once Per Turn] If [Dynasmon]/[X Antibody] is in this Digimon's digivolution cards, by trashing the top card of your security stack, trash the top card of your opponent's security stack, and this Digimon gets +6000 DP until the end of your opponent's turn. [End of Your Turn] If you have 2 or fewer security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+      } ]
+    }, {
+      "code" : "BT19-043",
+      "name" : "Lucemon (X Antibody)",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-043.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[All Turns] [Once Per Turn] When this Digimon would leave the battle area, if a card with [Lucemon] in its name is in this Digimon's digivolution cards, by trashing both players' top security cards, it doesn't leave. [End of Your Turn] [Once Per Turn] Your opponent may trash their top security card. If this effect didn't trash, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack), and delete 1 of your opponent's Digimon or Tamers."
+      } ]
+    }, {
+      "code" : "BT19-044",
+      "name" : "Terriermon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-044.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] If you have [Henry Wong]/[Calumon], gain 1 memory."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[When Attacking] [Once Per Turn] Suspend 1 of your opponent's Digimon."
+      } ]
+    }, {
+      "code" : "BT19-045",
+      "name" : "FunBeemon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-045.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Security] [Opponent's Turn] All of your [Royal Base] trait Digimon get +1000 DP. [Your Turn] When this Digimon would digivolve into a [Royal Base] trait Digimon, reduce the digivolution cost by 1."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] This Digimon gets +1000 DP."
+      } ]
+    }, {
+      "code" : "BT19-046",
+      "name" : "Chamblemon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-046.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] Suspend 1 of your opponent's Digimon. Then, 1 of your opponent's [Data] trait Digimon can't be unsuspended until the end of their turn."
+      } ]
+    }, {
+      "code" : "BT19-047",
+      "name" : "Ballistamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-047.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] This Digimon may digivolve into [AtlurBallistamon] under your Tamers without paying the cost. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Opponent's Turn] This Digimon with the [Xros Heart] trait gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+      } ]
+    }, {
+      "code" : "BT19-048",
+      "name" : "ForgeBeemon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-048.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Security] [All Turns] All of your [Royal Base] trait Digimon get +1000 DP. [All Turns] [Once Per Turn] When any of your other Digimon with the [Royal Base] trait would leave the battle area by effects, by placing this Digimon as the face-up bottom security card, they don't leave. [Rule] Trait: Has the [Insectoid] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] This Digimon gets +1000 DP."
+      } ]
+    }, {
+      "code" : "BT19-049",
+      "name" : "Gargomon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-049.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 [Henry Wong] from your hand without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[When Attacking] [Once Per Turn] Suspend 1 of your opponent's Digimon."
+      } ]
+    }, {
+      "code" : "BT19-050",
+      "name" : "Rapidmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-050.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Suspend 1 of your opponent's Digimon or Tamers. Then, 1 of their Digimon or Tamers can't unsuspend until the end of their turn."
+      }, {
+        "effectType" : "ACE",
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)"
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon gets +4000 DP."
+      } ]
+    }, {
+      "code" : "BT19-051",
+      "name" : "AtlurBallistamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-051.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "This card is also treated as [Ballistamon] for a DigiXros. [On Play] [When Digivolving] 1 of your Digimon can't be returned to the hand or deck and gets +3000 DP until the end of your opponent's turn. [On Deletion] You may place 1 Digimon card with the [Xros Heart]/[Blue Flare] trait from your hand or trash under any of your Tamers."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Opponent's Turn] This Digimon with the [Xros Heart] trait gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+      } ]
+    }, {
+      "code" : "BT19-052",
+      "name" : "Vespamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-052.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Security] [Opponent's Turn] All of your [Royal Base] trait Digimon gain ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] Delete 1 of your opponent's Digimon with a play cost of 2 or less. For each face-up of your face-up security cards, add 2 to this effect's maximum play cost. [Rule] Trait: Has the [Insectoid] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] [Once Per Turn] When this Digimon deletes your opponent's Digimon in battle, trash their top security card."
+      } ]
+    }, {
+      "code" : "BT19-053",
+      "name" : "QueenBeemon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-053.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security Attack +1＞ for the attack). [When Attacking] [Once Per Turn] You may play 1 [Royal Base] trait Digimon card from your face-up security cards with the play cost reduced by 8. [All Turns] When any of your [Royal Base] trait Digimon would leave the battle area other than in battle, you may place those Digimon face-up at the bottom of your security stack. [Rule] Trait: Has the [Insectoid] type."
+      } ]
+    }, {
+      "code" : "BT19-054",
+      "name" : "MegaGargomon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-054.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Security Attack +1＞ (This Digimon checks 1 additional security card). [When Digivolving] [When Attacking] You may return 1 of your opponent's suspended Digimon to the bottom of the deck."
+      } ]
+    }, {
+      "code" : "BT19-055",
+      "name" : "Monitamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-055.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Deletion] Reveal the top 3 cards of your deck. Among them, add 1 card with [Knightmon] in its text or the [Twilight] trait to the hand and place 1 such card under your Tamers. Return the rest to the bottom of the deck."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
+      } ]
+    }, {
+      "code" : "BT19-056",
+      "name" : "Monodramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-056.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with the [Dragonkin]/[Cyborg] trait and 1 [Ryo Akiyama] or 1 [Device] trait Option card among them to the hand. Return the rest to the bottom of the deck."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] This Digimon gets +1000 DP."
+      } ]
+    }, {
+      "code" : "BT19-057",
+      "name" : "Sparrowmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-057.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Attacking] This Digimon may digivolve into [RaptorSparrowmon] under your Tamers without paying the cost. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon with the [Xros Heart] trait gains ＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible)."
+      } ]
+    }, {
+      "code" : "BT19-058",
+      "name" : "SkullKnightmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-058.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+      } ]
+    }, {
+      "code" : "BT19-059",
+      "name" : "DeadlyAxemon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-059.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling). [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
+      } ]
+    }, {
+      "code" : "BT19-060",
+      "name" : "Strikedramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-060.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 [Ryo Akiyama] from your hand without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[All Turns] This Digimon gets +1000 DP."
+      } ]
+    }, {
+      "code" : "BT19-061",
+      "name" : "RaptorSparrowmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-061.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "This card is also treated as [Sparrowmon] for a DigiXros. [On Play] [When Digivolving] Reveal the top 3 cards of your deck. Add 1 card with the [Xros Heart]/[Blue Flare] trait among them to the hand. Trash the rest. [On Deletion] Place 1 Digimon card with the [Xros Heart]/[Blue Flare] trait from your hand or trash under your Tamers."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] This Digimon with the [Xros Heart] trait gains ＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible)."
+      } ]
+    }, {
+      "code" : "BT19-062",
+      "name" : "Cyberdramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-062.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Rush＞ (This Digimon can attack the turn it comes into play). ＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible). [When Attacking] Trash 1 of your Option cards in the battle area. [End of Your Turn] If your opponent has an unsuspended Digimon, this Digimon attacks a player."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible)."
+      } ]
+    }, {
+      "code" : "BT19-063",
+      "name" : "DarkKnightmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-063.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Material Save 1＞ (When this Digimon would be deleted, you may place 1 card in this Digimon's DigiXros requirements from this Digimon's digivolution cards under 1 of your Tamers). [On Play] [When Digivolving] ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). Then, if DigiXrosing with 2 cards, you may delete 1 play cost 3 or lower Digimon or Tamer. [On Deletion] You may play 1 level 4 or lower Digimon card with [Knightmon] in its text from under your Tamers without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[On Deletion] You may play 1 level 4 or lower Digimon card with [Knightmon] in its text from your trash without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-064",
+      "name" : "Justimon: Blitz Arm",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-064.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost) [On Play] [When Digivolving] This Digimon gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) and isn't affected by your opponent's Digimon's effects until the end of your opponent's turn. [When Digivolving] [When Attacking] [Once Per Turn] By trashing 1 Option card in the battle area, unsuspend this Digimon."
+      }, {
+        "effectType" : "ACE",
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)"
+      } ]
+    }, {
+      "code" : "BT19-065",
+      "name" : "Machinedramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-065.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] Delete 1 level 5 or lower Digimon. [On Deletion] You may play 1 level 5 or lower Digimon card with the [Cyborg]/[Composite] trait from your trash without paying the cost. [Rule] Trait: Has the [Composite] type."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Opponent's Turn] [Once Per Turn] When any of your opponent's Digimon attack, you may change the attack target to 1 of your Digimon with the [Composite]/[Wicked God] trait."
+      } ]
+    }, {
+      "code" : "BT19-066",
+      "name" : "Gizamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-066.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] By trashing 1 card with the [Composite]/[Wicked God] trait in your hand, ＜Draw 2＞ (Draw 2 cards from your deck)."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+      } ]
+    }, {
+      "code" : "BT19-067",
+      "name" : "Impmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-067.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] If you have 1 or fewer Tamers, you may play 1 purple Tamer with a play cost of 4 or less from your trash without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
+      } ]
+    }, {
+      "code" : "BT19-068",
+      "name" : "Shademon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-068.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with the [Twilight]/[Composite] trait among them to the hand. Trash the rest. [On Deletion] You may play 1 [Nene Amano] from your trash without paying the cost. Then, ＜Save＞ (You may place this card under one of your Tamers). [Rule] Trait: Has the [Composite] type."
+      } ]
+    }, {
+      "code" : "BT19-069",
+      "name" : "Deltamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-069.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] [On Deletion] By trashing 1 card in your hand, delete 1 of your opponent's level 4 or lower Digimon."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+      } ]
+    }, {
+      "code" : "BT19-070",
+      "name" : "Kimeramon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-070.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] By deleting 1 of your Digimon, delete 1 of your opponent's level 3 Digimon, 1 of their level 4 Digimon, and 1 of their level 5 Digimon. [On Deletion] By deleting 1 of your level 4 or lower purple or red Digimon, you may play 1 [Machinedramon] from your trash without paying the cost."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "＜Security Attack +1＞ (This Digimon checks 1 additional security card)."
+      } ]
+    }, {
+      "code" : "BT19-071",
+      "name" : "Beelzemon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-071.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] Trash the top 2 cards of your deck. Then, this Digimon gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) until the end of your opponent's turn. [All Turns] [Once Per Turn] When an effects trashes cards from your deck, delete 1 of your opponent's level 5 or lower Digimon."
+      } ]
+    }, {
+      "code" : "BT19-072",
+      "name" : "LordKnightmon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-072.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] You may play 1 level 4 or lower Digimon card from your trash without paying the cost. [Opponent's Turn] [Once Per Turn] When an opponent's Digimon attacks, you may switch the attack target to 1 of your Digimon with the [Royal Knight] trait."
+      } ]
+    }, {
+      "code" : "BT19-073",
+      "name" : "LordKnightmon (X Antibody)",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-073.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible). ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would). [When Digivolving] For each of your Digimon, ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). Then, until the end of their turn, 1 of their Digimon can't digivolve. [All Turns] While [LordKnightmon]/[X Antibody] is in this Digimon's digivolution cards, all of your Digimon with [Knightmon] in its text gain ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security Attack +1＞ for the attack) and get +3000 DP."
+      } ]
+    }, {
+      "code" : "BT19-074",
+      "name" : "Beelzemon: Blast Mode",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-074.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Delete 1 of your opponent's level 6 or lower Digimon. If you have 10 or more cards in your trash, delete 1 of their Digimon instead. [When Attacking] [Once Per Turn] By returning 10 non-Digi-Egg cards from your trash to the top of the deck, trash your opponent's top security card."
+      }, {
+        "effectType" : "ACE",
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
+      } ]
+    }, {
+      "code" : "BT19-075",
+      "name" : "MoonMillenniummon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-075.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] Your opponent trashes cards in their hand until they have 5 left. For every 2 cards trashed by this effect, delete 1 of your opponent's Tamers. [All Turns] When this Digimon would leave the battle area, by deleting 1 of your Digimon with the [Composite] trait Digimon, it doesn't leave. [All Turns] [Once Per Turn] When other Digimon or Tamers are deleted, trash your opponent's top security card."
+      } ]
+    }, {
+      "code" : "BT19-076",
+      "name" : "Luminamon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-076.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] Reveal top 3 cards of your deck. Add 1 card with the [Xros Heart]/[Blue Flare]/[Twilight] trait from among to your hand. Return the remaining to the bottom of deck. Then, you may play 1 Tamer card with a play cost of 4 or less from your hand without paying the cost. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers)."
+      } ]
+    }, {
+      "code" : "BT19-077",
+      "name" : "Calumon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-077.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Security] You may play 1 Digimon card with 2000 DP or less from your hand without paying the cost. [Main] By suspending this Digimon, 1 of your Digimon may digivolve into a Digimon card in the hand with the digivolution cost reduced by 2. [All Turns] This Digimon can't attack or block. [On Deletion] Place this card on top of your security stack."
+      } ]
+    }, {
+      "code" : "BT19-078",
+      "name" : "ADR-01 Jeri",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-078.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] For each digivolution card of 1 of your [Mother D-Reaper]s, 1 of your opponent's Digimon gets -1000 for the turn. [Main] Place this Digimon as the bottom digivolution card of 1 of your [Mother D-Reaper] without [ADR-01 Jeri] in its digivolution cards."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Opponent's Turn] When any of your opponent's Digimon attack, you may play 1 [ADR-01 Jeri] from this Digimon's digivolution cards without paying the cost. If you played, you may change the attack target to the Digimon played by this effect."
+      } ]
+    }, {
+      "code" : "BT19-079",
+      "name" : "Taiki Kudo",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-079.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. [All Turns] When any of your [Xros Heart] trait Digimon cards with DigiXros requirements would be played, by suspending this Tamer, you may place cards from under your Tamers as digivolution cards for a DigiXros."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-080",
+      "name" : "Takato Matsuki",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-080.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. [Your Turn] When any of your Digimon digivolve into a Digimon with [Growlmon]/[Gallantmon] in its name, by suspending this Tamer, that Digimon gains ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP) for the turn. Then, that Digimon attacks a player.\""
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-081",
+      "name" : "Kiriha Aonuma",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-081.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] By placing 1 Digimon card with the [Blue Flare]/[Xros Heart] trait from your hand under any of your Tamers, gain 1 memory. [All Turns] When any of your [Blue Flare] Digimon cards with DigiXros requirements would be played, by suspending this Tamer, you may place cards from under your Tamers as digivolution cards for a DigiXros."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-082",
+      "name" : "Yao Qinglan",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-082.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. [Your Turn] When any of your Digimon with [Aqua]/[Sea Animal] in one of its traits attack, by suspending this Tamer, you may place 1 level 5 or lower Digimon card with [Aqua]/[Sea Animal] in one of its traits from your hand as that Digimon's bottom digivolution card."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-083",
+      "name" : "Rika Nonaka",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-083.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Renamon]/[Kyubimon]/[Taomon]/[Sakuyamon] in its name and 1 Option card with [Plug-In] in its name among them to the hand. Return the rest to the bottom of the deck. [Your Turn] When you use an Option card with a cost of 2 or more, by suspending this Tamer, gain 1 memory."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-084",
+      "name" : "Winr",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-084.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] If you have a face-up security card, gain 1 memory. [Main] By suspending this Tamer, 1 of your Digimon may digivolve into a Digimon card in your face-up security cards. If this effect digivolved, you may place 1 Digimon card with the [Royal Base] trait from your hand face-up as your the bottom security card."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-085",
+      "name" : "Henry Wong",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-085.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] If you have a Digimon with [Terriermon]/[Gargomon]/[Rapidmon] in its name, gain 1 memory. [All Turns] When any of your Digimon digivolve into a green Digimon, by suspending this Tamer, suspend 1 of your opponent's Digimon."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-086",
+      "name" : "Ryo Akiyama",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-086.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] By placing 1 Option card with the [Device] trait trait from your hand in the battle area, ＜Draw 1＞ (Draw 1 card from your deck). [Main] By suspending this Tamer and trashing 4 of your Option cards with the [Device] trait trait in the battle area, you may play 1 [Cyberdramon] from your hand or trash without paying the cost."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-087",
+      "name" : "Nene Amano",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-087.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. [All Turns] When any of your [Composite]/[Twilight] trait Digimon cards with DigiXros requirements would be played, by suspending this Tamer, 1 card under your Tamers and 1 card in your trash can also be placed for their DigiXros."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-088",
+      "name" : "Ai & Mako",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-088.jpg",
+      "cardType" : "TAMER",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [Main] If you have 20 or more cards in your trash, by suspending this Tamer, 1 of your [Impmon] may digivolve into [Beelzemon] in the hand or trash for a digivolution cost of 4, ignoring its digivolution requirements."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Play this card without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-089",
+      "name" : "Red Card",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-089.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "While your opponent has a white Digimon or Tamer, you may ignore this card's color requirements. [Main] Until the end of your opponent's turn, 1 of your Digimon isn't affected by the effects of your opponent's Option cards and it can't have its DP reduced."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Add this card to the hand."
+      } ]
+    }, {
+      "code" : "BT19-090",
+      "name" : "Meteor Rock Soul",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-090.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Main] Activate 1 of the following effects: ・You may play 1 Digimon card with the [Xros Heart] trait and 4000 DP or less from under your Tamer without paying the cost. ・By unsuspending 1 of your [Shoutmon EX6] and 1 of your [ShootingStarmon], attack a player with 1 of your Digimon."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] You may play 1 Digimon card with the [Xros Heart] trait and 4000 DP or less from under your Tamer without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-091",
+      "name" : "Trinity Burst!",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-091.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "While you have a level 5 [WarGrowlmon]/[Taomon]/[Rapidmon], you may ignore this card's color requirements. [Main] Play 1 [WarGrowlmon] Token Digimon/Red/6000 DP), [Taomon] Token Digimon/Yellow/6000 DP), and 1 [Rapidmon] Token Digimon/Green/6000 DP). This effect can't play tokens with the same names as your Digimon. Then, 1 of your level 5 Digimon gains ＜Alliance＞ twice for the turn and attacks."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] You may play 1 level 5 [WarGrowlmon]/[Taomon]/[Rapidmon] from your hand without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-092",
+      "name" : "Wadatsumi no Harae",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-092.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Main] Return 1 of your opponent's level 4 or lower Digimon to the bottom of the deck. By returning 1 of your blue Digimon to the bottom of the deck, return 1 of their level 6 or lower Digimon to the bottom of the deck instead."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Activate this card's [Main] effect."
+      } ]
+    }, {
+      "code" : "BT19-093",
+      "name" : "Queen Device",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-093.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "While you don't have [Queen Device], you may ignore this card's color requirements. When an effect trashes this card in your battle area, 1 of your opponent's Digimon gets -3000 DP and that Digimon's [When Digivolving] effects don't activate. [Main] 1 of your opponent's Digimon gets -3000 DP and that Digimon's [When Digivolving] effects don't activate until the end of your opponent's turn. Then, place this card in the battle area."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] 2 of your opponent's Digimon gain ＜Security Attack -2＞ (This Digimon checks 2 fewer security cards) for the turn. Then, add this card to the hand."
+      } ]
+    }, {
+      "code" : "BT19-094",
+      "name" : "Seventh Divine Cruz",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-094.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Trash] [Your Turn] When any of your Digimon digivolve into [Lucemon (X Antibody)], by returning this card to the bottom of the deck, your opponent may trash their top security card. If this effect didn't trash, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack). [Main] Delete your opponent's Digimon until they have as many as the number of your security cards. If this effect deleted, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] You may play 1 [Lucemon] from your trash without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-095",
+      "name" : "Knight Device",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-095.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "While you don't have [Knight Device], you may ignore this card's color requirements. When an effect trashes this card in your battle area, 1 of your Digimon gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) and gets +4000 DP for the turn. [Main] 1 of your Digimon gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) and gets +4000 DP until the end of your opponent's turn. Then, place this card in the battle area."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Suspend 2 of your opponent's Digimon or Tamers. Then, add this card to the hand."
+      } ]
+    }, {
+      "code" : "BT19-096",
+      "name" : "Hornet Eraser",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-096.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Main] You may place 1 [Royal Base] trait Digimon card from your trash face up as your bottom security card. Then, delete up to 8 play cost total worth of your opponent's Digimon. For each of your face up security cards, add 2 to the maximum play cost you may choose with this effect."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Activate this card's [Main] effect."
+      } ]
+    }, {
+      "code" : "BT19-097",
+      "name" : "Bonds of True Love",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-097.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "When this card is trashed from the deck, you may place this card in the battle area. [Main] Trash the top 2 cards of your deck. Then, place this card in the battle area. [Start of Your Turn] If you don't have a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below.). ・ You may play 1 [Impmon] from your trash without paying the cost."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Place this card in the battle area."
+      } ]
+    }, {
+      "code" : "BT19-098",
+      "name" : "King Device",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-098.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "While you don't have [King Device], you may ignore this card's color requirements. When an effect trashes this card in your battle area, place 1 Option card with the [Device] trait with a use cost of 3 or less from your trash into the battle area. [Main] Place 1 Option card with the [Device] trait with a use cost of 3 or less from your trash into the battle area. Then, place this card in the battle area."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] You may place 1 Option card with the [Device] trait from your hand in the battle area. Then, add this card to the hand."
+      } ]
+    }, {
+      "code" : "BT19-099",
+      "name" : "The Wicked God Descends!",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-099.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Main] You may play 1 Digimon with the [Composite] trait card from your trash with the play cost reduced by 4. Then, place this card in the battle area. [All Turns] When any of your Digimon with [Millenniummon] in its name would leave the battle area, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below.) ・ You may play 1 [Wicked God] trait Digimon card with a play cost 1 higher than that Digimon from your hand or trash without paying the cost."
+      }, {
+        "effectType" : "SECURITY",
+        "effectText" : "[Security] Place this card in the battle area."
+      } ]
+    }, {
+      "code" : "BT19-100",
+      "name" : "D-Reaper Zone",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-100.jpg",
+      "cardType" : "OPTION",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Security] [Opponent's Turn] When an opponent's Digimon attacks, if all of your Digimon and Tamers have the [D-Reaper] trait, for each of 1 of your [Mother D-Reaper]'s digivolution cards, the attacking Digimon get -1000 DP for the turn. [Main] If you have no face-up security cards, by trashing your top security card, place this card face up as your top security card."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Security] You may play 1 [D-Reaper] trait card with a play cost equal to or lower than the number of digivolution cards of 1 of your [Mother D-Reaper]'s from your hand without paying the cost."
+      } ]
+    }, {
+      "code" : "BT19-101",
+      "name" : "ZeedMillenniummon",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-101.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "＜Overclock ([Composite] trait)＞ (At the end of your turn, by deleting 1 of your Tokens or other [Composite] trait Digimon, this Digimon attacks a player without suspending). [On Play] [When Digivolving] [When Attacking] By returning 1 Digimon card from your opponent's trash to the top of the deck, return 1 of their Digimon to the bottom of the deck. [All Turns] This Digimon with no digivolution cards can't be suspended, and isn't affected by your opponent's effects."
+      } ]
+    }, {
+      "code" : "BT19-102",
+      "name" : "Luminamon (Nene Version)",
+      "artUrl" : "https://digimonmeta.com/wp-content/gallery/bt19/BT19-102.jpg",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[On Play] [When Digivolving] Choose 1 other Digimon. By playing level 4 or lower Digimon card from it's digivolution cards, delete the chosen Digimon. [On Deletion] You may play 1 card with a play cost of 5 or less from under any of your Tamers without paying the cost."
       } ]
     } ]
   }, {
@@ -20313,7 +21462,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Attacking] This Digimon can digivolve into a Digimon card with the [Insectoid]/[Ancient Insectoid] trait in its traits in your hand for its digivolution cost."
+        "effectText" : "[When Attacking] This Digimon can digivolve into a Digimon card with the [Insectoid]/[Ancient Insectoid] trait in your hand for its digivolution cost."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] When this Digimon deletes an opponent's Digimon in battle and survives, gain 1 memory."
@@ -20787,7 +21936,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [ChaosGallantmon]. [When Digivolving] Delete 1 of your opponent's Digimon with 10000 DP or less. If no Digimon was deleted by this effect, trash the top 5 cards of both players' decks. [On Deletion] You may play 1 [Guilmon] and 1 [Takato Matsuki] from your hand and/or trash without paying their memory costs."
+        "effectText" : "[When Digivolving] Delete 1 of your opponent's Digimon with 10000 DP or less. If no Digimon was deleted by this effect, trash the top 5 cards of both players' decks. [On Deletion] You may play 1 [Guilmon] and 1 [Takato Matsuki] from your hand and/or trash without paying their memory costs. [Rule] Name: Also treated as [ChaosGallantmon]."
       } ]
     }, {
       "code" : "EX2-013",
@@ -21129,7 +22278,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "You can include up to 50 copies of cards with this card's card number in your deck. When you would play this card from your hand, reduce its play cost by 2 if you don't have another [ADR-02 Searcher] in play. [Your Turn] This Digimon can't attack players. [On Play] ＜Draw 1＞ (Draw 1 card from your deck)."
+        "effectText" : "When you would play this card from your hand, reduce its play cost by 2 if you don't have another [ADR-02 Searcher] in play. [Your Turn] This Digimon can't attack players. [On Play] ＜Draw 1＞ (Draw 1 card from your deck). [Rule] You can include up to 50 copies of cards with this card's card number in your deck."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] All of your Digimon with the [D-Reaper] trait get +1000 DP."
@@ -21780,7 +22929,7 @@
         "effectText" : "[When Digivolving] If you don't have a [Trial of the Four Great Dragons] in play, you may place 1 [Trial of the Four Great Dragons] from your hand in your battle area. [Opponent's Turn] While you have a Digimon with the [Four Great Dragons] trait in play, or [Trial of the Four Great Dragons] is in your battle area, this Digimon gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
       }, {
         "effectType" : "INHERITED",
-        "effectText" : "[Opponent's Turn] All of your Digimon with the [Four Great Dragons] in their traits gain ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+        "effectText" : "[Opponent's Turn] All of your Digimon with the [Four Great Dragons] trait gain ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
       } ]
     }, {
       "code" : "EX3-034",
@@ -22005,7 +23154,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "When you would digivolve into this card, by returning up to 5 cards with the [D-Brigade] in their traits from your trash to the top of your deck, reduce the digivolution cost by 1 for each returned card. [Your Turn] [Once Per Turn] When you play another Digimon with the [D-Brigade] trait, delete 1 of your opponent's Digimon with a play cost less than or equal to the Digimon you played, and unsuspend this Digimon."
+        "effectText" : "When you would digivolve into this card, by returning up to 5 cards with the [D-Brigade] trait from your trash to the top of your deck, reduce the digivolution cost by 1 for each returned card. [Your Turn] [Once Per Turn] When you play another Digimon with the [D-Brigade] trait, delete 1 of your opponent's Digimon with a play cost less than or equal to the Digimon you played, and unsuspend this Digimon."
       } ]
     }, {
       "code" : "EX3-055",
@@ -22047,7 +23196,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Digivolving] Activate 1 of the effects below. ・1 of your other Digimon may digivolve into a level 4 red Digimon card with the [Free] trait from your trash for the cost. ・This Digimon and another of your Digimon may DNA digivolve into a Digimon card in the hand."
+        "effectText" : "[When Digivolving] Activate 1 of the effects below. ・1 of your other Digimon may digivolve into a red level 4 Digimon card with the [Free] trait from your trash for the cost. ・This Digimon and another of your Digimon may DNA digivolve into a Digimon card in the hand."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[End of Your Turn] This Digimon and another of your Digimon may DNA digivolve into a Digimon card in the hand."
@@ -22107,7 +23256,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as if its's [ChaosGallantmon]. [On Play] Delete 1 of your opponent's level 5 or lower Digimon. If this card was played by [Trial of the Four Great Dragons]'s effect, add 1 to the maximum level of the Digimon you can delete with this effect. [On Deletion] If you don't have [Trial of the Four Great Dragons] in play, you may place 1 [Trial of the Four Great Dragons] from your hand in your battle area."
+        "effectText" : "[On Play] Delete 1 of your opponent's level 5 or lower Digimon. If this card was played by [Trial of the Four Great Dragons]'s effect, add 1 to the maximum level of the Digimon you can delete with this effect. [On Deletion] If you don't have [Trial of the Four Great Dragons] in play, you may place 1 [Trial of the Four Great Dragons] from your hand in your battle area. [Rule] Name: Also treated as [ChaosGallantmon]."
       } ]
     }, {
       "code" : "EX3-065",
@@ -22494,7 +23643,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [Kyubimon]. [On Play] [When Digivolving] Until the end of your opponent's next turn, 1 of your Digimon gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+        "effectText" : "[On Play] [When Digivolving] Until the end of your opponent's next turn, 1 of your Digimon gains ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [Rule] Name: Also treated as [Kyubimon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] [Once Per Turn] When you use an Option card with a cost of 2 or more, 1 of your opponent's Digimon gets -2000 DP for the turn."
@@ -22515,7 +23664,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [Taomon]. [On Play] [When Digivolving] Return 1 of your opponent's Digimon with 6000 DP or less to their hand."
+        "effectText" : "[On Play] [When Digivolving] Return 1 of your opponent's Digimon with 6000 DP or less to their hand. [Rule] Name: Also treated as [Taomon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] [Once Per Turn] When you use an Option card with a cost of 2 or more, 1 of your opponent's Digimon gets -2000 DP for the turn."
@@ -22539,7 +23688,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as having [Sakuyamon] in its name. [When Digivolving] You may use an Option card with a cost of 5 or less in your hand without paying the cost. [Your Turn] [Once Per Turn] When you use an Option card with a cost of 2 or more, you may play 1 [Taomon] or 1 level 4 or lower yellow or blue Digimon card from this Digimon's digivolution cards without paying the cost."
+        "effectText" : "[When Digivolving] You may use an Option card with a cost of 5 or less in your hand without paying the cost. [Your Turn] [Once Per Turn] When you use an Option card with a cost of 2 or more, you may play 1 [Taomon] or 1 level 4 or lower yellow or blue Digimon card from this Digimon's digivolution cards without paying the cost. [Rule] Name: Treated as having [Sakuyamon]."
       } ]
     }, {
       "code" : "EX4-031",
@@ -22743,7 +23892,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as having [Greymon] in its name. [When Digivolving] Delete 1 of your opponent's Digimon with a play cost of 13 or more. If no Digimon was deleted by this effect, trash the top card of your opponent's security stack. [End of Your Turn] If you have a Tamer in play, this Digimon may digivolve into 1 card with [Gaiomon] in its name and a play cost of 13 or more in your hand, ignoring its digivolution requirements and without paying the cost."
+        "effectText" : "[When Digivolving] Delete 1 of your opponent's Digimon with a play cost of 13 or more. If no Digimon was deleted by this effect, trash the top card of your opponent's security stack. [End of Your Turn] If you have a Tamer in play, this Digimon may digivolve into 1 card with [Gaiomon] in its name and a play cost of 13 or more in your hand, ignoring its digivolution requirements and without paying the cost. [Rule] Name: Treated as having [Greymon]."
       } ]
     }, {
       "code" : "EX4-049",
@@ -22893,7 +24042,7 @@
       "cardType" : "TAMER",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Tamer is also treated as [Kiriha Aonuma]/[Nene Amano]. [Start of Your Main Phase] If you there are 2 or more Digimon in play, gain 1 memory. [All Turns] When you would play 1 Digimon card with the [Blue Flare] trait or [Twilight] trait with DigiXros requirements, by suspending this Tamer, you may place 1 card from under your Tamers and 1 card from your trash as digivolution cards for a DigiXros."
+        "effectText" : "[Start of Your Main Phase] If you there are 2 or more Digimon in play, gain 1 memory. [All Turns] When you would play 1 Digimon card with the [Blue Flare] trait or [Twilight] trait with DigiXros requirements, by suspending this Tamer, you may place 1 card from under your Tamers and 1 card from your trash as digivolution cards for a DigiXros. [Rule] Name: Also treated as [Kiriha Aonuma]/[Nene Amano]."
       }, {
         "effectType" : "SECURITY",
         "effectText" : "[Security] Play this card without paying the cost."
@@ -23013,7 +24162,7 @@
       "cardType" : "OPTION",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card is also treated as having [Plug-In] in its name. While you have a Tamer in play, you may use this card without meeting its color requirements. [Main] Choose 1 of your level 6 Digimon. It may digivolve into a level 6 Digimon card in your hand with a different name that includes the name of the chosen Digimon, ignoring digivolution requirements and without paying the cost."
+        "effectText" : "While you have a Tamer in play, you may use this card without meeting its color requirements. [Main] Choose 1 of your level 6 Digimon. It may digivolve into a level 6 Digimon card in your hand with a different name that includes the name of the chosen Digimon, ignoring digivolution requirements and without paying the cost. [Rule] Name: Treated as having [Plug-In]."
       }, {
         "effectType" : "SECURITY",
         "effectText" : "[Security] Return 1 Digimon card from your trash to your hand, and add this card to your hand."
@@ -23175,7 +24324,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [When Digivolving] [When Attacking] [Once Per Turn] By deleting 1 Digimon with the [Deva] trait or 6000 DP or less, this Digimon gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card) for the turn. [On Deletion] Delete 1 of your opponent's highest DP Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "EX5-014",
@@ -23304,7 +24453,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Return 1 of your opponent's level 5 or lower Digimon to the hand. Then, unsuspend 1 of your Digimon with the [Deva]/[Four Great Dragons]/[Four Sovereigns] trait. [On Deletion] Delete 1 of your opponent's highest level Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "EX5-025",
@@ -23496,7 +24645,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] For each of your Digimon with the [Deva]/[Four Sovereigns] trait, suspend 1 of your opponent's Digimon. Then, during your opponent's next unsuspend phase, all of their Digimon can't unsuspend. [On Deletion] Delete 1 of your opponent's suspended Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "EX5-042",
@@ -23634,7 +24783,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [Opponent's Turn] [Once Per Turn] When your security is checked, if that card is a Digimon card with the [Deva] trait, play it without battling and without paying the cost. [On Deletion] Delete 1 of your opponent's highest play cost Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "EX5-054",
@@ -23988,7 +25137,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast DNA Digivolve ([Durandamon] + [BryweLudramon])＞ (1 of your specified Digimon and 1 specified card in hand may DNA digivolve into this card.) ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase). [On Play] [When Digivolving] Trash the top card of your opponent's security stack and Digimon isn't affected by your opponent's effects until the end of their turn. Then, if DNA digivolving, ＜De-Digivolve 1＞ all of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards) and delete 1 of their Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
       } ]
     }, {
       "code" : "EX6-012",
@@ -24174,7 +25323,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] By trashing the top or bottom card of your security stack, 1 of your opponent's Digimon gets -8000 DP until the end of your opponents turn. [All Turns] [Once Per Turn] When a card is removed from your security stack, if it's your turn, this Digimon may gain ＜Security Attack +1＞ (This Digimon checks 1 additional security card) for the turn and attack. If it's your opponent's turn, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "EX6-028",
@@ -24186,7 +25335,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack). [All Turns] [Once Per Turn] When a card is added to your security stack, return 1 of your opponent's Digimon with a level as high or lower than the number of cards in your security stack to the hand."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "EX6-029",
@@ -24198,7 +25347,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast DNA Digivolve ([Angewomon] + [LadyDevimon])＞ (1 of your specified Digimon and 1 specified card in hand may DNA digivolve into this card.) [On Play] [When Digivolving] You may play 1 level 5 or lower Digimon card with the [Angel]/[Archangel]/[Fallen Angel] trait from your hand or trash without paying the cost. Then, if DNA digivolving, place 1 other Digimon at the bottom of its owner's security stack, and trash cards from the top of your opponent's security stack until it has 4 left."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "EX6-030",
@@ -24264,7 +25413,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security Attack +1＞ for the attack). [On Play] [When Digivolving] You may play 1 level 4 or lower green or yellow Digimon card from your hand without paying the cost. Then, 1 of your opponent's Digimon gets -4000 DP for each of your other Digimon until the end of their turn."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "EX6-036",
@@ -24531,7 +25680,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "＜Scapegoat＞ (When this Digimon would be deleted other than by your effects, by deleting 1 of your other Digimon, prevent that deletion). [On Play] [When Digivolving] Trash 1 card in your opponent's hand without looking. [All Turns] [Once Per Turn] When a card is trashed from your opponent's hand, you may play 1 purple card with a play cost 10 or less from your trash without paying the cost. For each card in your opponent's hand, reduce this effect's play cost maximum by 1."
+        "effectText" : "＜Scapegoat＞ (When this Digimon would be deleted other than by your effects, by deleting 1 of your other Digimon, prevent that deletion). [On Play] [When Digivolving] Trash 1 card in your opponent's hand without looking. [All Turns] [Once Per Turn] When your opponent's hand is trashed from, you may play 1 play cost 10 or lower purple card from your trash without paying the cost. For each card in your opponent's hand, reduce this effect's play cost maximum by 1."
       } ]
     }, {
       "code" : "EX6-060",
@@ -24864,7 +26013,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Paledramon]/[Hexeblaumon] in its name and 1 card with the [Ice-Snow] trait among them to the hand. Return the rest to the bottom of the deck. [Rule] Trait: Has [Ice-Snow]."
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Paledramon]/[Hexeblaumon] in its name and 1 card with the [Ice-Snow] trait among them to the hand. Return the rest to the bottom of the deck. [Rule] Trait: Has the [Ice-Snow] type."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[When Attacking] [Once Per Turn] Trash the top digivolution card of 1 of your opponent's Digimon."
@@ -25017,7 +26166,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] 2 of your opponent's suspended Digimon get -8000 DP until the end of your turn. [When Digivolving] [When Attacking] [Once Per Turn] Suspend 1 of your opponent's Digimon. Then, if your opponent has no unsuspended Digimon, unsuspend this Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "EX7-030",
@@ -25356,7 +26505,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Return 1 Option card from your trash to the hand. Then, you may use 1 Option card with the [Three Musketeers] trait from your hand without paying the cost. [When Attacking] [Once Per Turn] By trashing 1 Option card from this Digimon's digivolution cards, you may use 1 Option card with the [Three Musketeers] trait from your hand without paying the cost."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "EX7-060",
@@ -25500,7 +26649,7 @@
       "cardType" : "OPTION",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[Trash] [Your Turn] When your Digimon digivolves into [Lilithmon (X Antibody)], by returning this card to the bottom of the deck, activate this card's [Main] effect. [Main] All your opponent's Digimon gain \"[End of Your Turn] Delete 1 of your Digimon.\" until end of their turn."
+        "effectText" : "[Trash] [Your Turn] When your Digimon digivolves into [Lilithmon (X Antibody)], by returning this card to the bottom of the deck, activate this card's [Main] effect. [Main] All your opponent's Digimon gain \"[End of Your Turn] Delete 1 of your Digimon.\" until the end of their turn."
       }, {
         "effectType" : "SECURITY",
         "effectText" : "[Security] Delete 1 of your opponent's unsuspended Digimon."
@@ -25557,6 +26706,18 @@
         "effectText" : "[Your Turn] While your opponent has no unsuspended Digimon, this Digimon gets +1000 DP."
       } ]
     }, {
+      "code" : "RB1-004",
+      "name" : "Agumon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/8e/RB1-004.png/revision/latest?cb=20230901095549",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Rule] Card Number: Also treated as [P-009]. A deck may not have more than 4 total copies of this and [P-009]."
+      }, {
+        "effectType" : "INHERITED",
+        "effectText" : "[Your Turn] While this Digimon has [Greymon] in its name, it gets +2000 DP."
+      } ]
+    }, {
       "code" : "RB1-005",
       "name" : "Gammamon",
       "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/RB1-005.png/revision/latest?cb=20230901095549",
@@ -25567,6 +26728,24 @@
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[Your Turn] While this Digimon has [Gammamon] in its text, it gets +2000 DP."
+      } ]
+    }, {
+      "code" : "RB1-006",
+      "name" : "Gammamon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/RB1-006.png/revision/latest?cb=20230901095550",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Your Turn] While you have a red Tamer in play, this Digimon may also attack your opponent's unsuspended Digimon. [Rule] Card Number: Also treated as [P-058]. A deck may not have more than 4 total copies of this and [P-058]."
+      } ]
+    }, {
+      "code" : "RB1-007",
+      "name" : "Greymon",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/e/e1/RB1-007.png/revision/latest?cb=20230901095550",
+      "cardType" : "DIGIMON",
+      "cardEffects" : [ {
+        "effectType" : "CARD",
+        "effectText" : "[Your Turn] While this Digimon has an [Agumon] digivolution card, it gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card). [Rule] Card Number: Also treated as [P-010]. A deck may not have more than 4 total copies of this and [P-010]."
       } ]
     }, {
       "code" : "RB1-008",
@@ -25893,7 +27072,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] You may place 1 card with [Gammamon] in its text from your hand as this Digimon's bottom digivolution card. Then, delete 1 of your opponent's Digimon with 8000 DP or less. For each color in this Digimon's digivolution cards, add 1000 to this DP deletion effect's maximum. [All Turns] [Once Per Turn] When another Digimon is deleted, gain 1 memory."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "LM-002",
@@ -25941,7 +27120,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] You may trash up to 4 blue cards in your hand. For each one, trash any 1 card under your opponent's Digimon or Tamers. Then, return 1 of their Digimon or Tamers without cards under it to the hand. [When Attacking] By returning 3 cards with [Jellymon] in their texts from your trash to the bottom of the deck, this Digimon gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card) for the turn."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "LM-006",
@@ -26025,7 +27204,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Suspend 1 of your opponent's Digimon. Then, if they have no unsuspended Digimon, gain 2 memory. [When Attacking] You may play 1 Digimon card with [Angoramon] in its text from your hand without paying the cost. At the end of your opponent's turn, return that Digimon to the hand."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "LM-014",
@@ -26073,7 +27252,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Trash 1 card in your hand. Then, you may place 1 card with [Gammamon] in its text from your trash as this Digimon's bottom digivolution card. [All Turns] [Once Per Turn] When an effect adds digivolution cards to this Digimon, by deleting 1 level 4 or lower Digimon, you may play 1 level 4 or lower Digimon card from your trash without paying the cost."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)."
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)."
       } ]
     }, {
       "code" : "LM-018",
@@ -26100,7 +27279,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[When Digivolving] By placing 1 Digimon on top of its owner's security stack, reveal all of your opponent's security cards, and place 1 card among them on top of your opponent's deck. Shuffle the rest and return them to the security stack. [Start of Opponent's Turn] Declare 1 card category. Then, reveal the top card of your opponent's deck. If that card is of the declared category, this Digimon isn't affected by the effects of that card category for the turn. Return the revealed card to the top or the bottom of your opponent's deck."
+        "effectText" : "[When Digivolving] By placing 1 Digimon on top of its owner's security stack, reveal all of your opponent's security cards, and place 1 card among them on top of your opponent's deck. Shuffle the rest and return them to the security stack. [Start of Opponent's Turn] Declare 1 card category. Then, reveal the top card of your opponent's deck. If it's of that category, this Digimon isn't affected by that category's effects, other than this Digimon's effects, for the turn. Return the revealed cards to the top or bottom of your opponent's deck."
       } ]
     } ]
   }, {
@@ -26115,7 +27294,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Delete any number of your opponent’s Digimon whose total DP adds up to equal or less than this Digimon’s DP. [When Attacking] [Once Per Turn] If you have a Tamer, trash the top card of your opponent’s security stack."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
       } ]
     }, {
       "code" : "LM-022",
@@ -26127,7 +27306,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Return 2 of your opponent’s Digimon with equal or fewer digivolution cards than this Digimon to the bottom of the deck. [When Attacking] [Once Per Turn] If you have a Tamer, unsuspend this Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-5＞ (As this card moves from the battle area or under a card to another area, lose 5 memory.)"
+        "effectText" : "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
       } ]
     }, {
       "code" : "LM-023",
@@ -26139,7 +27318,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] You may place 1 yellow Tamer card or 1-color Option card with a cost of 5 or less from your hand on top of your security stack. [All Turns] [Once Per Turn] When an Option card is used, or when a card is added to a security stack, 1 of your opponent’s Digimon gets -6000 DP for the turn."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "LM-024",
@@ -26151,7 +27330,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] If you have 3 or more security cards, suspend 1 Digimon, and 1 of your Digimon gets +3000 DP until the end of your opponent's turn. If you have 3 or fewer security cards, return 1 of your opponent’s suspended Digimon to the bottom of the deck. [All Turns] While this Digimon is suspended, it isn't affected by the effects of your opponent’s Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       } ]
     }, {
       "code" : "LM-025",
@@ -26163,7 +27342,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Reveal the top 5 cards of your deck. You may play 1 black Tamer card with a play cost of 4 or less among without paying the cost. Return the rest to the top or bottom of the deck. Then, if you have a Tamer, ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards)."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-3＞ (As this card moves from the battle area or under a card to another area, lose 3 memory.)"
+        "effectText" : "Overflow ＜-3＞ (As this card would move from the field or from under a card to another area, lose 3 memory.)"
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[When Attacking] [Once Per Turn] ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards)."
@@ -26178,7 +27357,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Delete 1 of your opponent's 11000 DP or lower Digimon. [All Turns] When this Digimon would leave the battle area, by playing 1 [Guilmon] from this Digimon's digivolution cards or from your trash, place this Digimon as that Digimon's bottom digivolution card. [Rule] Name: Also treated as [ChaosGallantmon]."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)"
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)"
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[All Turns] Add 5000 to the maximum DP you can choose with this Digimon's DP-based deletion effects."
@@ -27795,10 +28974,10 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon] in its name or [Royal Knight] trait among them to your hand. Trash the rest. [All Turns] All of your Digimon with [Huckmon] in their names or [Royal Knight] trait gain ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon] in its name or [Royal Knight] trait among them to your hand. Trash the rest. [All Turns] All of your Digimon with [Huckmon] in their names or [Royal Knight] trait gain ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase). [Rule] Name: Also treated as [Sistermon Noir]. [Rule] Trait: Has the [Virus] attribute."
       }, {
         "effectType" : "CARD",
-        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon] in its name or [Royal Knight] trait among them to your hand. Trash the rest. [All Turns] All of your Digimon with [Huckmon] in their names or [Royal Knight] trait gain ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
+        "effectText" : "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon] in its name or [Royal Knight] trait among them to your hand. Trash the rest. [All Turns] All of your Digimon with [Huckmon] in their names or [Royal Knight] trait gain ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase). [Rule] Name: Also treated as [Sistermon Ciel]. [Rule] Trait: Has the [Data] attribute."
       } ]
     }, {
       "code" : "ST12-14",
@@ -28254,7 +29433,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [All Turns] [Once Per Turn] When a card is removed from a security stack, you may unsuspend this Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "ST15-13",
@@ -28425,7 +29604,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [When Digivolving] By trashing up to 3 cards in your hand, gain 1 Memory for each card trashed. [When Attacking] [Once Per Turn] By trashing 1 card from your hand, delete 1 of your opponent's Digimon with the lowest level."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "ST16-13",
@@ -28566,7 +29745,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase) [When Digivolving] Suspend 2 of your opponent's Digimon or Tamers. Then, 2 of their Digimon or Tamers can't unsuspend or digivolve until the end of their turn. [When Digivolving] [End of Attack] [Once Per Turn] You may unsuspend this Digimon."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "ST17-09",
@@ -28671,7 +29850,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "[All Turns] [Once Per Turn] When this Digimon is suspended by an effect, 1 of your Digimon with [Bird] in one of its traits or with the [Vortex Warriors] trait gets +3000 DP until then end of your opponent's turn."
+        "effectText" : "[All Turns] [Once Per Turn] When this Digimon is suspended by an effect, 1 of your Digimon with [Bird] in one of its traits or with the [Vortex Warriors] trait gets +3000 DP until the end of your opponent's turn."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
@@ -28749,7 +29928,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "＜Vortex＞ (At the end of your turn, this Digimon may attack an opponent's Digimon. With this effect, it can attack the turn it was played). [When Digivolving] Suspend 1 Digimon. Then, unsuspend 1 Digimon. [All Turns] [Once Per Turn] When a Digimon is unsuspended, this Digimon is unaffected by your opponent's Digimon's effects, and gets +3000 DP for the turn. [Rule] Trait: Has the [Bird Dragon] type."
+        "effectText" : "＜Vortex＞ (At the end of your turn, this Digimon may attack an opponent's Digimon. With this effect, it can attack the turn it was played). [When Digivolving] Suspend 1 Digimon. Then, unsuspend 1 Digimon. [All Turns] [Once Per Turn] When any Digimon unsuspend, for the turn, this Digimon isn't affected by the effects of your opponent's Digimon and gets +3000 DP. [Rule] Trait: Has the [Bird Dragon] type."
       } ]
     }, {
       "code" : "ST18-13",
@@ -28905,7 +30084,7 @@
         "effectText" : "[On Play] [When Digivolving] 1 of your opponent's Digimon gets -3000 DP for the turn. If there are 3 or more Digimon, increase the DP reduction of this effect by -3000."
       }, {
         "effectType" : "INHERITED",
-        "effectText" : "[All Turns] [Once Per Turn] When this Digimon would leave the battle area other than by one of your effects, by deleting 1 of your Tokens or 1 of your other Digimon with the [Puppet] trait trait, prevent it from leaving."
+        "effectText" : "[All Turns] [Once Per Turn] When this Digimon would leave the battle area other than by your effects, by deleting 1 of your Tokens or [Puppet] trait Digimon, it doesn't leave."
       } ]
     }, {
       "code" : "ST19-12",
@@ -29667,7 +30846,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [MetalGreymon]. [When Digivolving] If you have a Tamer in play, delete 1 of your opponent's Digimon with 5000 DP or less."
+        "effectText" : "[When Digivolving] If you have a Tamer in play, delete 1 of your opponent's Digimon with 5000 DP or less. [Rule] Name: Also treated as [MetalGreymon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[All Turns] When this Digimon has [Greymon]/[Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent it from leaving play."
@@ -29679,7 +30858,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "The name of this card/Digimon is also treated as [WereGarurumon]. [When Digivolving] If you have a Tamer in play, return 2 of your opponent's level 3 Digimon to their owner's hand."
+        "effectText" : "[When Digivolving] If you have a Tamer in play, return 2 of your opponent's level 3 Digimon to their owner's hand. [Rule] Name: Also treated as [WereGarurumon]."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[All Turns] When this Digimon has [Garurumon]/[Omnimon] in its name and would be deleted in battle, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent that deletion."
@@ -29979,7 +31158,7 @@
       "cardType" : "DIGIMON",
       "cardEffects" : [ {
         "effectType" : "CARD",
-        "effectText" : "This card/Digimon is also treated as having the [Cyborg] trait. [On Play] [When Digivolving] By trashing 1 card from your hand, ＜Draw 2＞ (Draw 2 cards from your deck)."
+        "effectText" : "[On Play] [When Digivolving] By trashing 1 card from your hand, ＜Draw 2＞ (Draw 2 cards from your deck). [Rule] Trait: Has the [Cyborg] type."
       }, {
         "effectType" : "INHERITED",
         "effectText" : "[When Attacking] By trashing 1 card from your hand, delete 1 of your opponent's level 3 Digimon."
@@ -30078,7 +31257,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Suspend 1 Digimon, then unsuspend 1 Digimon. [All Turns] [Once Per Turn] When this Digimon becomes suspended, you may play a Tamer card or a Digimon card with 4000 DP or less from your hand without paying the cost."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "P-110",
@@ -30126,7 +31305,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [When Digivolving] Suspend all of your opponent's Digimon with DP less than or equal to this Digimon's DP. [All Turns] [Once Per Turn] When an opponent's Digimon is deleted in battle, trash the top card of your opponent's security stack."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "P-114",
@@ -30138,7 +31317,7 @@
         "effectText" : "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [When Digivolving] [When Attacking] You may play 1 [Diaboromon] Token without paying the cost (Digimon/Cost 14/Lv.6/White/Mega/Unknown/Unidentified/3000 DP). [All Turns] [Once Per Turn] When an effects plays another Digimon, you may delete 1 of your opponent's play cost of 3 or lower Digimon. For each of your [Diaboromon], add 2 to the maximum cost play cost for this effect."
       }, {
         "effectType" : "ACE",
-        "effectText" : "Overflow ＜-4＞ (As this card moves from the battle area or under a card to another area, lose 4 memory.)."
+        "effectText" : "Overflow ＜-4＞ (As this card would move from the field or from under a card to another area, lose 4 memory.)."
       } ]
     }, {
       "code" : "P-115",
@@ -30631,9 +31810,9 @@
       } ]
     }, {
       "code" : "P-158",
-      "name" : "Fake Jeri",
+      "name" : "Jeri (Fake)",
       "artUrl" : "https://digimonmeta.com/wp-content/gallery/promotion-01/P-158.jpg",
-      "cardType" : "OPTION",
+      "cardType" : "TAMER",
       "cardEffects" : [ {
         "effectType" : "CARD",
         "effectText" : "[On Play] Reveal the top 4 cards of your deck. Add 1 card with the [D-Reaper] trait among them to the hand. Return the rest to the bottom of the deck. [Main] By returning this Tamer to the bottom of the deck. You may play 1 Digimon card with the [D-Reaper] trait and play cost of 3 or less from your hand without paying the cost. For each digivolution card under 1 of your [Mother D-Reaper], add 1 to the maximum play cost you may play with this effect."
@@ -30644,14 +31823,14 @@
     }, {
       "code" : "P-159",
       "name" : "Rook Device",
-      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/b/ba/P-159-Sample-J.png/revision/latest?cb=20240801110456",
+      "artUrl" : "https://static.wikia.nocookie.net/digimoncardgame/images/5/58/P-159-J.png/revision/latest?cb=20240830171819",
       "cardType" : "OPTION",
       "cardEffects" : [ {
         "effectType" : "CARD",
         "effectText" : "While you don't have [Rook Device], you may ignore this card's color requirements. When an effect trashes this card in your battle area, 1 of your Digimon gains ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase), ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) and gets +2000 DP until the end of your opponent's turn. [Main] 1 of your Digimon gains ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase), ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target) and gets +2000 DP until the end of your opponent's turn. Then, place this card in the battle area."
       }, {
         "effectType" : "SECURITY",
-        "effectText" : "[Security] ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). Then, add this card to the hand."
+        "effectText" : "[Security] ＜De-Digivolve 2＞ 1 of your opponent's Digimon (Trash up to 2 cards from the top. You can't trash past level 3 cards). Then, add this card to the hand."
       } ]
     } ]
   } ]

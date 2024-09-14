@@ -29,7 +29,7 @@ public enum DigicaSetsEnum {
     BT16("BT16", "/wiki/BT-16:_Booster_Beginning_Observer"),
     BT17("BT17", "/wiki/BT-17:_Booster_Secret_Crisis"),
     BT18("BT18", "/wiki/BT-18:_Booster_Elemental_Successor"),
-    //BT19("BT19", "/wiki/BT-19:_Booster_Xros_Evolution"),
+    BT19("BT19", "/wiki/BT-19:_Booster_Xros_Evolution"),
     //BT20("BT20", "/wiki/BT-20"),
     // -- Theme Boosters --
     EX1("EX1", "/wiki/EX-01:_Theme_Booster_Classic_Collection"),
