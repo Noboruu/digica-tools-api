@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 public class DigicaMeta {
     private final String DIGICA_META_BASE_URL = "https://digimonmeta.com/wp-content/gallery/";
     private final String CART_ART_FILE_EXTENSION = ".jpg";
-    private final List<String> CARD_META_SETS = Arrays.asList("ST18", "ST19", "BT18", "BT19", "BT20", "EX7", "EX8"); // remove sets from here as they get released in global
+    private final List<String> CARD_META_SETS = Arrays.asList("ST18", "ST19", "BT18", "EX8"); // remove sets from here as they get released in global
     private final String PROMO_EXTRACTED_CARD_SET = "p";
     private final String DIGICA_META_PROMO_CARD_SET = "promotion-01";
     private final List<String> CARD_SET_TYPE_FOR_FIXING = Arrays.asList("BT", "EX");
