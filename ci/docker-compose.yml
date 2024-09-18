@@ -1,0 +1,6 @@
+services:
+  digica-tools-api:
+    image: ${DOCKER_REGISTRY:-localhost}/digica-tools/digica-tools-api:latest
+    build:
+      context: ../
+      dockerfile: ci/Dockerfile

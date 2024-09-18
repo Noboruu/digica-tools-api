@@ -1,17 +1,24 @@
-package com.noboruu.digica.starter;
+package com.noboruu.digica.extractor.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import com.noboruu.digica.extractor.ExtractorService;
 import com.noboruu.digica.extractor.external.DigicaWikiConnector;
 import com.noboruu.digica.extractor.internal.DigicaWikiExtraction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class DigicaWikiExtractor {
+@Service
+public class ExtractorServiceImpl implements ExtractorService {
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
-    public static void main(String[] args) {
+    @Override
+    public void extract() {
         DigicaWikiConnector connector = new DigicaWikiConnector();
         ObjectWriter ow = new ObjectMapper().findAndRegisterModules().writer().withDefaultPrettyPrinter();
         String fileName = "digicaCards.json";
@@ -23,7 +30,7 @@ public class DigicaWikiExtractor {
             writer.write(cardSetsJson);
             writer.close();
         } catch (IOException ex) {
-            System.out.println("An error occurred: \n" + ex.getMessage());
+            LOGGER.error("An error occurred: \n{}", ex.getMessage());
         }
     }
 }

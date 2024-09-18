@@ -7,6 +7,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -17,6 +19,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class DigicaWikiConnector {
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
+
     private final String DIGICA_WIKI_BASE_URL = "https://digimoncardgame.fandom.com";
     private final String DIGICA_WIKI_PROMOS_PATH = "/wiki/P-";
     private final Pattern REGEX_CARD_NAME_MATCHER = Pattern.compile("(.+)\\s\\((.+)\\)");
@@ -31,7 +35,7 @@ public class DigicaWikiConnector {
         List<CardSet> cardSets = new ArrayList<>();
 
         for (DigicaSetsEnum set : DigicaSetsEnum.values()) {
-            System.out.println("Getting cards for set: " + set.getCode());
+            LOGGER.info("Getting cards for set: " + set.getCode());
             String url = DIGICA_WIKI_BASE_URL + set.getPath();
             List<String> cardPaths = getAllCardsPathsForUrl(url);
 
@@ -87,7 +91,7 @@ public class DigicaWikiConnector {
     }
 
     private CardSet getPromoCardsFromDigicaWiki() throws IOException {
-        System.out.println("Getting promo cards from Digica Wiki");
+        LOGGER.info("Getting promo cards from Digica Wiki");
         List<Card> cards = new ArrayList<>();
 
         try {
@@ -97,7 +101,7 @@ public class DigicaWikiConnector {
                 cards.add(getCardForPath(doc));
             }
         } catch (HttpStatusException e) {
-            System.out.println("Found last promo card!");
+            LOGGER.info("Found last promo card!");
         }
 
         CardSet cardSet = new CardSet();
