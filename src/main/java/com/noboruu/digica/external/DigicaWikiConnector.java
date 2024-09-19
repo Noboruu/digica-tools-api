@@ -44,14 +44,14 @@ public class DigicaWikiConnector {
             List<String> cardPaths = getAllCardsPathsForUrl(url);
 
             List<CardDTO> cards = new ArrayList<>();
-            ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
-            for (String cardPath : cardPaths) {
-                if (!cardPath.contains(set.getCode())) {
-                    continue;
+            try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
+                for (String cardPath : cardPaths) {
+                    if (!cardPath.contains(set.getCode())) {
+                        continue;
+                    }
+                    executor.submit(() -> cards.add(getCardForPath(cardPath)));
                 }
-                executor.submit(() -> cards.add(getCardForPath(cardPath)));
             }
-            executor.shutdown();
 
             CardSetDTO cardSet = new CardSetDTO();
             cardSet.setCode(set.getCode());
@@ -100,14 +100,12 @@ public class DigicaWikiConnector {
         LOGGER.info("Getting promo cards from Digica Wiki");
         List<CardDTO> cards = new ArrayList<>();
 
-        try {
-            ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
+        try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
             for (int promoNumber = 1; promoNumber < 1000; promoNumber++) {
                 String url = buildPromoUrl(promoNumber);
                 Document doc = Jsoup.connect(url).get();
                 executor.submit(() -> cards.add(getCardForPath(doc)));
             }
-            executor.shutdown();
         } catch (HttpStatusException e) {
             LOGGER.info("Found last promo card!");
         }
