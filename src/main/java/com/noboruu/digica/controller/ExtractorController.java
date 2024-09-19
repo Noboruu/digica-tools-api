@@ -1,9 +1,10 @@
-package com.noboruu.digica.extractor;
+package com.noboruu.digica.controller;
 
+import com.noboruu.digica.model.dto.DigicaWikiExtraction;
+import com.noboruu.digica.service.ExtractorService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,10 +18,10 @@ public class ExtractorController {
     ExtractorService extractorService;
 
     @GetMapping("/extract")
-    public ResponseEntity<Void> extract() {
+    public DigicaWikiExtraction extract() {
         LOGGER.info("Request to extract digica cards received!");
-        extractorService.extract();
+        DigicaWikiExtraction extraction = extractorService.extract();
         LOGGER.info("Done extracting digica cards!");
-        return ResponseEntity.ok().build();
+        return extraction;
     }
 }

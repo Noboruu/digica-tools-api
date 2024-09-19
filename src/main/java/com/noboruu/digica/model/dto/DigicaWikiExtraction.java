@@ -1,4 +1,4 @@
-package com.noboruu.digica.extractor.internal;
+package com.noboruu.digica.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
@@ -15,6 +15,6 @@ import java.util.List;
 @AllArgsConstructor
 public class DigicaWikiExtraction {
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
-    LocalDateTime extractionDate;
-    List<CardSet> cardSets;
+    private LocalDateTime extractionDate;
+    private List<CardSetDTO> cardSets;
 }

@@ -1,5 +1,6 @@
-package com.noboruu.digica.extractor.internal;
+package com.noboruu.digica.model.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,10 +11,13 @@ import java.util.List;
 @Setter
 @Getter
 @NoArgsConstructor
-public class Card {
+public class CardDTO {
+
+    @JsonIgnore
+    private Long id;
     private String code;
     private String name;
     private String artUrl;
     private CardTypeEnum cardType;
-    private List<CardEffect> cardEffects = new ArrayList<>();
+    private List<CardEffectDTO> cardEffects = new ArrayList<>();
 }

@@ -1,7 +1,0 @@
-services:
-  digica-tools-api:
-    container_name: digica-tools-api
-    image: localhost/digica-tools/digica-tools-api
-    ports:
-      - "8080:8080"
-      - "8001:8000"

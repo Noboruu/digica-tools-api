@@ -1,0 +1,45 @@
+services:
+  digica-tools-db:
+    container_name: digica-tools-db
+    image: digica-tools-db:latest
+    build:
+      context: db/postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: docker_postgres_password;
+    networks:
+      digica-tools-network:
+        aliases:
+            - db.digicatools.local
+
+  digica-tools-db-flyway:
+    container_name: digica-tools-db-flyway
+    image: flyway/flyway
+    command: -configFiles=/flyway/conf/flyway.config -connectRetries=60 migrate
+    volumes:
+      - ./db/flyway/sql:/flyway/sql
+      - ./db/flyway/conf/flyway.config:/flyway/conf/flyway.config
+    depends_on:
+      - digica-tools-db
+    networks:
+      digica-tools-network:
+
+  digica-tools-api:
+    container_name: digica-tools-api
+    image: digica-tools/digica-tools-api:latest
+    build:
+      context: ../
+      dockerfile: docker/api/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8001:8000"
+    depends_on:
+      - digica-tools-db
+    networks:
+      digica-tools-network:
+        aliases:
+            - api.digicatools.local
+
+networks:
+  digica-tools-network:

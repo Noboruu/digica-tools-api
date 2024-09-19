@@ -1,6 +1,6 @@
-package com.noboruu.digica.extractor.external;
+package com.noboruu.digica.external;
 
-import com.noboruu.digica.extractor.internal.*;
+import com.noboruu.digica.model.dto.*;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
@@ -15,10 +15,14 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class DigicaWikiConnector {
+    // TODO: Refactor this whole class. It was done on the early stages of this project, before it was a RESTful spring API
+
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     private final String DIGICA_WIKI_BASE_URL = "https://digimoncardgame.fandom.com";
@@ -32,40 +36,42 @@ public class DigicaWikiConnector {
     private final DigicaMeta digicaMeta = new DigicaMeta();
 
     public DigicaWikiExtraction getAllCardsFromDigicaWiki() throws IOException {
-        List<CardSet> cardSets = new ArrayList<>();
+        List<CardSetDTO> cardSets = new ArrayList<>();
 
         for (DigicaSetsEnum set : DigicaSetsEnum.values()) {
             LOGGER.info("Getting cards for set: " + set.getCode());
             String url = DIGICA_WIKI_BASE_URL + set.getPath();
             List<String> cardPaths = getAllCardsPathsForUrl(url);
 
-            List<Card> cards = new ArrayList<>();
+            List<CardDTO> cards = new ArrayList<>();
+            ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
             for (String cardPath : cardPaths) {
                 if (!cardPath.contains(set.getCode())) {
                     continue;
                 }
-                cards.add(getCardForPath(cardPath));
+                executor.submit(() -> cards.add(getCardForPath(cardPath)));
             }
-            CardSet cardSet = new CardSet();
+            executor.shutdown();
+
+            CardSetDTO cardSet = new CardSetDTO();
             cardSet.setCode(set.getCode());
             cardSet.setCards(cards);
             cardSets.add(cardSet);
         }
 
         cardSets.add(getPromoCardsFromDigicaWiki());
-
         return new DigicaWikiExtraction(LocalDateTime.now(), cardSets);
     }
 
-    private Card getCardForPath(String path) throws IOException {
+    private CardDTO getCardForPath(String path) throws IOException {
         String url = DIGICA_WIKI_BASE_URL + path;
         Document doc = Jsoup.connect(url).get();
 
         return getCardForPath(doc);
     }
 
-    private Card getCardForPath(Document doc) {
-        Card card = new Card();
+    private CardDTO getCardForPath(Document doc) {
+        CardDTO card = new CardDTO();
         getCardNameAndCode(doc, card);
         getCardType(doc, card);
         getCardArtUrl(doc, card);
@@ -90,21 +96,23 @@ public class DigicaWikiConnector {
         return cardPaths;
     }
 
-    private CardSet getPromoCardsFromDigicaWiki() throws IOException {
+    private CardSetDTO getPromoCardsFromDigicaWiki() throws IOException {
         LOGGER.info("Getting promo cards from Digica Wiki");
-        List<Card> cards = new ArrayList<>();
+        List<CardDTO> cards = new ArrayList<>();
 
         try {
+            ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
             for (int promoNumber = 1; promoNumber < 1000; promoNumber++) {
                 String url = buildPromoUrl(promoNumber);
                 Document doc = Jsoup.connect(url).get();
-                cards.add(getCardForPath(doc));
+                executor.submit(() -> cards.add(getCardForPath(doc)));
             }
+            executor.shutdown();
         } catch (HttpStatusException e) {
             LOGGER.info("Found last promo card!");
         }
 
-        CardSet cardSet = new CardSet();
+        CardSetDTO cardSet = new CardSetDTO();
         cardSet.setCode("Promo");
         cardSet.setCards(cards);
         return cardSet;
@@ -121,7 +129,7 @@ public class DigicaWikiConnector {
         return basePromoUrl + promoNumber;
     }
 
-    private void getCardNameAndCode(Document doc, Card card) {
+    private void getCardNameAndCode(Document doc, CardDTO card) {
         Element cardNameElement = doc.getElementsByClass("mw-headline").first();
         if (!Objects.isNull(cardNameElement)) {
             Matcher m = REGEX_CARD_NAME_MATCHER.matcher(cardNameElement.text());
@@ -133,7 +141,7 @@ public class DigicaWikiConnector {
         }
     }
 
-    private void getCardType(Document doc, Card card) {
+    private void getCardType(Document doc, CardDTO card) {
         Element cardTypeElement = doc.select("[title='Card Types']").first();
         if (!Objects.isNull(cardTypeElement)) {
             CardTypeEnum cardType = CardTypeEnum.findByWikiCardType(cardTypeElement.text());
@@ -141,7 +149,7 @@ public class DigicaWikiConnector {
         }
     }
 
-    private void getCardArtUrl(Document doc, Card card) {
+    private void getCardArtUrl(Document doc, CardDTO card) {
         if (digicaMeta.isToGetArtFromDigicaMeta(card.getCode())) {
             card.setArtUrl(digicaMeta.getArtUrlFromDigimonMeta(card.getCode()));
         } else {
@@ -152,7 +160,7 @@ public class DigicaWikiConnector {
         }
     }
 
-    private void getCardEffects(Document doc, Card card) {
+    private void getCardEffects(Document doc, CardDTO card) {
         Elements effectTables = doc.select("table.effect");
 
         for (Element effectTable : effectTables) {
@@ -160,13 +168,13 @@ public class DigicaWikiConnector {
             Element td = effectTable.select("td").first();
             if (!Objects.isNull(th) && !Objects.isNull(td) && !StringUtils.isBlank(td.text())) {
                 if (DIGICA_WIKI_SECURITY_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.SECURITY, td.text()));
+                    card.getCardEffects().add(new CardEffectDTO(CardEffectType.SECURITY, td.text()));
                 } else if (DIGICA_WIKI_CARD_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.CARD, td.text()));
+                    card.getCardEffects().add(new CardEffectDTO(CardEffectType.CARD, td.text()));
                 } else if (DIGICA_WIKI_INHERITED_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.INHERITED, td.text()));
+                    card.getCardEffects().add(new CardEffectDTO(CardEffectType.INHERITED, td.text()));
                 } else if (DIGICA_WIKI_ACE_EFFECT_TEXT.equalsIgnoreCase(th.text())) {
-                    card.getCardEffects().add(new CardEffect(CardEffectType.ACE, td.text()));
+                    card.getCardEffects().add(new CardEffectDTO(CardEffectType.ACE, td.text()));
                 }
             }
         }

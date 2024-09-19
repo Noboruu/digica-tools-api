@@ -1,4 +1,4 @@
-package com.noboruu.digica.extractor.external;
+package com.noboruu.digica.external;
 
 
 import lombok.NoArgsConstructor;

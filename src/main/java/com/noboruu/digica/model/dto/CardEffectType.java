@@ -1,4 +1,4 @@
-package com.noboruu.digica.extractor.internal;
+package com.noboruu.digica.model.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
