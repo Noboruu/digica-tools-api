@@ -15,6 +15,8 @@ public class CardDTO {
 
     @JsonIgnore
     private Long id;
+    @JsonIgnore
+    private Long cardSetId;
     private String code;
     private String name;
     private String artUrl;

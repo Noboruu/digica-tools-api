@@ -26,7 +26,7 @@ public class DigicaWikiConnector {
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     private final String DIGICA_WIKI_BASE_URL = "https://digimoncardgame.fandom.com";
-    private final String DIGICA_WIKI_PROMOS_PATH = "/wiki/P-";
+    private final String DIGICA_WIKI_PROMOS_PATH = DIGICA_WIKI_BASE_URL + "/wiki/";
     private final Pattern REGEX_CARD_NAME_MATCHER = Pattern.compile("(.+)\\s\\((.+)\\)");
     private final String DIGICA_WIKI_SECURITY_EFFECT_TEXT = "Security Effect";
     private final String DIGICA_WIKI_CARD_EFFECT_TEXT = "Card Effect(s)";
@@ -35,10 +35,14 @@ public class DigicaWikiConnector {
 
     private final DigicaMeta digicaMeta = new DigicaMeta();
 
-    public DigicaWikiExtraction getAllCardsFromDigicaWiki() throws IOException {
+    public DigicaWikiExtraction extractFromWiki(List<String> setsToSkip, List<String> promosToSkip) throws IOException {
         List<CardSetDTO> cardSets = new ArrayList<>();
 
         for (DigicaSetsEnum set : DigicaSetsEnum.values()) {
+            if(setsToSkip.contains(set.getCode())) {
+                continue;
+            }
+
             LOGGER.info("Getting cards for set: " + set.getCode());
             String url = DIGICA_WIKI_BASE_URL + set.getPath();
             List<String> cardPaths = getAllCardsPathsForUrl(url);
@@ -53,14 +57,30 @@ public class DigicaWikiConnector {
                 }
             }
 
-            CardSetDTO cardSet = new CardSetDTO();
-            cardSet.setCode(set.getCode());
-            cardSet.setCards(cards);
-            cardSets.add(cardSet);
+
+            CardSetDTO cardSet = getCardSetFromList(cardSets, set.getCode());
+
+            if(!Objects.isNull(cardSet)) {
+                cardSet.getCards().addAll(cards);
+            } else {
+                cardSet = new CardSetDTO();
+                cardSet.setCode(set.getCode());
+                cardSet.setCards(cards);
+                cardSets.add(cardSet);
+            }
         }
 
-        cardSets.add(getPromoCardsFromDigicaWiki());
+        cardSets.add(getPromoCardsFromDigicaWiki(promosToSkip));
         return new DigicaWikiExtraction(LocalDateTime.now(), cardSets);
+    }
+
+    private CardSetDTO getCardSetFromList(List<CardSetDTO> cardSets, String setToGet) {
+        for(CardSetDTO cardSet : cardSets) {
+            if(cardSet.getCode().equals(setToGet)) {
+                return cardSet;
+            }
+        }
+        return null;
     }
 
     private CardDTO getCardForPath(String path) throws IOException {
@@ -96,14 +116,18 @@ public class DigicaWikiConnector {
         return cardPaths;
     }
 
-    private CardSetDTO getPromoCardsFromDigicaWiki() throws IOException {
+    private CardSetDTO getPromoCardsFromDigicaWiki(List<String> promosToSkip) throws IOException {
         LOGGER.info("Getting promo cards from Digica Wiki");
         List<CardDTO> cards = new ArrayList<>();
 
         try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
             for (int promoNumber = 1; promoNumber < 1000; promoNumber++) {
-                String url = buildPromoUrl(promoNumber);
-                Document doc = Jsoup.connect(url).get();
+                String promoCode = buildPromoCode(promoNumber);
+                if(promosToSkip.contains(promoCode)) {
+                    continue;
+                }
+
+                Document doc = Jsoup.connect(DIGICA_WIKI_PROMOS_PATH + promoCode).get();
                 executor.submit(() -> cards.add(getCardForPath(doc)));
             }
         } catch (HttpStatusException e) {
@@ -119,12 +143,21 @@ public class DigicaWikiConnector {
     private String buildPromoUrl(int promoNumber) {
         String basePromoUrl = DIGICA_WIKI_BASE_URL + DIGICA_WIKI_PROMOS_PATH;
         if (promoNumber < 10) {
-            return basePromoUrl + "00" + promoNumber;
+            return basePromoUrl + "P-00" + promoNumber;
         } else if (promoNumber < 100) {
-            return basePromoUrl + "0" + promoNumber;
+            return basePromoUrl + "P-0" + promoNumber;
         }
 
         return basePromoUrl + promoNumber;
+    }
+
+    private String buildPromoCode(int promoNumber) {
+        if (promoNumber < 10) {
+            return "P-00" + promoNumber;
+        } else if (promoNumber < 100) {
+            return  "P-0" + promoNumber;
+        }
+        return "P-" + promoNumber;
     }
 
     private void getCardNameAndCode(Document doc, CardDTO card) {

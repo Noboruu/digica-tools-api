@@ -4,10 +4,12 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.time.Instant;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -31,13 +33,15 @@ public class CardEffect implements Serializable {
     private String effectText;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "card_id")
+    @JoinColumn(name = "card_id", nullable = false)
     private Card card;
 
-    @Column(name = "created_ts")
-    private Instant createdTs;
+    @CreationTimestamp
+    @Column(name = "created_ts", nullable = false, updatable = false)
+    private Date createdTs;
 
-    @Column(name = "updated_ts")
-    private Instant updatedTs;
+    @UpdateTimestamp
+    @Column(name = "updated_ts", nullable = false)
+    private Date updatedTs;
 
 }

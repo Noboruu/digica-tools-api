@@ -5,11 +5,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Getter
@@ -31,11 +33,13 @@ public class CardSet implements Serializable {
     @Column(name = "code", nullable = false, length = Integer.MAX_VALUE)
     private String code;
 
-    @Column(name = "created_ts")
-    private Instant createdTs;
+    @CreationTimestamp
+    @Column(name = "created_ts", nullable = false, updatable = false)
+    private Date createdTs;
 
-    @Column(name = "updated_ts")
-    private Instant updatedTs;
+    @UpdateTimestamp
+    @Column(name = "updated_ts", nullable = false)
+    private Date updatedTs;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "cardSet")
     @OrderBy("id")

@@ -4,5 +4,7 @@ import com.noboruu.digica.model.dto.DigicaWikiExtraction;
 
 public interface ExtractorService {
 
-    DigicaWikiExtraction extract();
+    DigicaWikiExtraction extract(boolean skipExtracted);
+
+    DigicaWikiExtraction getExtraction();
 }

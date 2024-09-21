@@ -13,6 +13,8 @@ import lombok.Setter;
 public class CardEffectDTO {
     @JsonIgnore
     private Long id;
+    @JsonIgnore
+    private Long cardId;
     private CardEffectType effectType;
     private String effectText;
 
