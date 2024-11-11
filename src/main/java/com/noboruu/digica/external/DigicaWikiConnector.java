@@ -35,7 +35,7 @@ public class DigicaWikiConnector {
 
     private final DigicaMeta digicaMeta = new DigicaMeta();
 
-    public DigicaWikiExtraction extractFromWiki(List<String> setsToSkip, List<String> promosToSkip) throws IOException {
+    public DigicaWikiExtraction extractFromWiki(List<String> setsToSkip, List<String> promosToSkip, List<String> lmCardsToSkip) throws IOException {
         List<CardSetDTO> cardSets = new ArrayList<>();
 
         for (DigicaSetsEnum set : DigicaSetsEnum.values()) {
@@ -57,7 +57,6 @@ public class DigicaWikiConnector {
                 }
             }
 
-
             CardSetDTO cardSet = getCardSetFromList(cardSets, set.getCode());
 
             if(!Objects.isNull(cardSet)) {
@@ -68,10 +67,28 @@ public class DigicaWikiConnector {
                 cardSet.setCards(cards);
                 cardSets.add(cardSet);
             }
+
+            // remove duplicates from set
+            cardSet.setCards(getCardListWithoutDuplicates(cardSet.getCards()));
         }
+
 
         cardSets.add(getPromoCardsFromDigicaWiki(promosToSkip));
         return new DigicaWikiExtraction(LocalDateTime.now(), cardSets);
+    }
+
+    private List<CardDTO> getCardListWithoutDuplicates(List<CardDTO> cards) {
+        List<CardDTO> newCards = new ArrayList<>();
+        List<String> extractedCardCodes = new ArrayList<>(); //easier to manage the extraction this way
+
+        for (CardDTO card : cards) {
+            if(!extractedCardCodes.contains(card.getCode())) {
+                newCards.add(card);
+                extractedCardCodes.add(card.getCode());
+            }
+        }
+
+        return newCards;
     }
 
     private CardSetDTO getCardSetFromList(List<CardSetDTO> cardSets, String setToGet) {
@@ -103,16 +120,20 @@ public class DigicaWikiConnector {
         List<String> cardPaths = new ArrayList<>();
 
         Document doc = Jsoup.connect(url).get();
-        Element cardTables = doc.select("table.cardlist").first(); //todo null check
-        Element cardTableTbody = cardTables.select("tbody").first(); //todo null check
-        Elements cardTableLinks = cardTableTbody.select("a");
+        List<Element> cardTables = doc.select("table.cardlist");
 
-        for (Element aElement : cardTableLinks) {
-            String path = aElement.attr("href");
-            if (!StringUtils.isBlank(path) && !path.contains("Card_Types") && !cardPaths.contains(path)) {
-                cardPaths.add(path);
+        for(Element cardTable : cardTables) {
+            Element cardTableTbody = cardTable.select("tbody").first(); //todo null check
+            Elements cardTableLinks = cardTableTbody.select("a");
+
+            for (Element aElement : cardTableLinks) {
+                String path = aElement.attr("href");
+                if (!StringUtils.isBlank(path) && !path.contains("Card_Types") && !cardPaths.contains(path)) {
+                    cardPaths.add(path);
+                }
             }
         }
+
         return cardPaths;
     }
 

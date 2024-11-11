@@ -14,18 +14,19 @@ import java.util.regex.Pattern;
 @NoArgsConstructor
 public class DigicaMeta {
     private final String DIGICA_META_BASE_URL = "https://digimonmeta.com/wp-content/gallery/";
-    private final String CART_ART_FILE_EXTENSION = ".jpg";
-    private final List<String> CARD_META_SETS = Arrays.asList("ST18", "ST19", "BT18", "EX8"); // remove sets from here as they get released in global
+    private final String CART_ART_FILE_EXTENSION =  ".jpg";
+    private final List<String> CARD_META_SETS = Arrays.asList("BT19", "EX8"); // remove sets from here as they get released in global
     private final String PROMO_EXTRACTED_CARD_SET = "p";
     private final String DIGICA_META_PROMO_CARD_SET = "promotion-01";
     private final List<String> CARD_SET_TYPE_FOR_FIXING = Arrays.asList("BT", "EX");
-    private int LAST_WIKI_EN_PROMO = 151;
+    private int LAST_WIKI_EN_PROMO = 159;
     private String LM_SET = "LM";
     private int LAST_WIKI_LM = 20;
 
     public boolean isToGetArtFromDigicaMeta(String cardCode) {
         String cardSet = getSetFromCardCode(cardCode);
         int cardNumber = Integer.parseInt(getCardNumberFromCardCode(cardCode));
+
         if(PROMO_EXTRACTED_CARD_SET.equalsIgnoreCase(cardSet) && cardNumber > LAST_WIKI_EN_PROMO) {
             return !(cardNumber >= 159); //digimon meta doesnt have promo 159, and its better to have jp art than no art at all
         }

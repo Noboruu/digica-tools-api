@@ -32,11 +32,12 @@ public class ExtractorServiceImpl implements ExtractorService {
         List<CardSetDTO> extractedCardSets = cardSetService.findAll(true);
         List<String> setsToSkip = new ArrayList<>();
         List<String> promoCardsToSkip = new ArrayList<>();
+        List<String> lmCardsToSkip = new ArrayList<>();
 
-        setCardsToSkip(setsToSkip, promoCardsToSkip, extractedCardSets, skipExtracted);
+        setCardsToSkip(setsToSkip, promoCardsToSkip, lmCardsToSkip, extractedCardSets, skipExtracted);
 
         try {
-            extraction = connector.extractFromWiki(setsToSkip, promoCardsToSkip);
+            extraction = connector.extractFromWiki(setsToSkip, promoCardsToSkip, lmCardsToSkip);
             addIdsToCardSetsForUpdate(extraction, extractedCardSets, skipExtracted);
             sortExtraction(extraction); //sort before persisting to database
             cardSetService.persist(extraction.getCardSets());
@@ -96,16 +97,24 @@ public class ExtractorServiceImpl implements ExtractorService {
         }
     }
 
-    private void setCardsToSkip(List<String> setsToSkip, List<String> promoCardsToSkip, List<CardSetDTO> extractedCardSets, boolean skipExtracted) {
+    private void setCardsToSkip(List<String> setsToSkip, List<String> promoCardsToSkip, List<String> lmCardsToSkip, List<CardSetDTO> extractedCardSets, boolean skipExtracted) {
         if (skipExtracted) {
             for (CardSetDTO cardSetDTO : extractedCardSets) {
-                setsToSkip.add(cardSetDTO.getCode());
+                if(cardSetDTO.getCode().equals("LM")) {
+                    for(CardDTO cardDTO : cardSetDTO.getCards()) {
+                        lmCardsToSkip.add(cardDTO.getCode());
+                    }
+                    continue;
+                }
 
                 if(cardSetDTO.getCode().equals("Promo")) {
                     for(CardDTO cardDTO : cardSetDTO.getCards()) {
                         promoCardsToSkip.add(cardDTO.getCode());
                     }
+                    continue;
                 }
+
+                setsToSkip.add(cardSetDTO.getCode());
             }
         }
     }

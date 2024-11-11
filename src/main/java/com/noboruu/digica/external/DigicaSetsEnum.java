@@ -39,13 +39,14 @@ public enum DigicaSetsEnum {
     EX5("EX5", "/wiki/EX-05:_Theme_Booster_Animal_Colosseum"),
     EX6("EX6", "/wiki/EX-06:_Theme_Booster_Infernal_Ascension"),
     EX7("EX7", "/wiki/EX-07:_Extra_Booster_Digimon_Liberator"),
-    //EX8("EX8", "/wiki/EX-08:_Extra_Booster_Chains_of_Liberation"),
+    EX8("EX8", "/wiki/EX-08:_Extra_Booster_Chains_of_Liberation"),
     // -- Resurgence Boost --
     RB1("RB1", "/wiki/RB-01:_Resurgence_Booster"),
     // -- Limited Packs --
     LM1("LM", "/wiki/LM-01:_Limited_Pack_Digimon_Ghost_Game"),
     // LM2 omitted because it only has reprints
     LM3("LM", "/wiki/LM-03:_Limited_Card_Set_2024"),
+    LM4("LM", "/wiki/LM-04:_Limited_Card_Set_Torrid_Weiss"),
     // -- Starters Deck --
     ST1("ST1", "/wiki/ST-1:_Starter_Deck_Gaia_Red"),
     ST2("ST2", "/wiki/ST-2:_Starter_Deck_Cocytus_Blue"),
