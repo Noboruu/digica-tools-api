@@ -1,5 +1,5 @@
 {
-    "extractionDate": "18-11-2024 18:10:24",
+    "extractionDate": "20-12-2024 01:51:28",
     "cardSets": [
         {
             "code": "BT1",
@@ -15100,18 +15100,6 @@
                     ]
                 },
                 {
-                    "code": "BT11-066",
-                    "name": "Tekkamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/30/BT11-066.png/revision/latest?cb=20230210132500",
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
-                        }
-                    ]
-                },
-                {
                     "code": "BT11-067",
                     "name": "Gigadramon",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/da/BT11-067.png/revision/latest?cb=20230210132501",
@@ -17497,7 +17485,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] If played with an effect, by returning 1 of your [Kristy Damon] cards to hand, digivolve this Digimon into a [Garudamon] in your hand, ignoring its digivolution requirements and without paying its cost."
+                            "effectText": "[On Play] If played by an effect, by returning 1 of your [Kristy Damon]s to the hand, this Digimon may digivolve into [Garudamon] in the hand, ignoring its digivolution requirements and without paying the cost."
                         },
                         {
                             "effectType": "INHERITED",
@@ -17621,7 +17609,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] [When Digivolving] Until the end of your opponent's turn, treat 1 of your [Marcus Damon] cards as a 3000 DP Digimon, can't digivolve, and gains ＜Blocker＞. [All Turns] [Once Per Turn] When one of your red or yellow Tamers becomes suspended, 1 of your opponent's Digimon gets -6000 DP for the turn."
+                            "effectText": "[Start of Your Main Phase] [When Digivolving] Until the end of your opponent's turn, 1 of your [Marcus Damon]s is also treated as a 3000 DP Digimon, can't digivolve, and gains ＜Blocker＞. [All Turns] [Once Per Turn] When one of your red or yellow Tamers becomes suspended, 1 of your opponent's Digimon gets -6000 DP for the turn."
                         }
                     ]
                 },
@@ -18809,7 +18797,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] Your opponent may trash 1 Tamer card or Option card in their hand. If they don't, gain 1 memory and ＜Draw 1＞ (Draw 1 card from your deck). [Opponent's Turn] When a Digimon is played by an effect, by suspending this Tamer, gain 1 memory."
+                            "effectText": "[On Play] Your opponent may trash 1 Tamer card or Option card in their hand. If they don't, gain 1 memory and ＜Draw 1＞ (Draw 1 card from your deck). [Opponent's Turn] When an effect plays a Digimon, by suspending this Tamer, gain 1 memory."
                         },
                         {
                             "effectType": "SECURITY",
@@ -24889,7 +24877,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] You may play 1 card with [Marcus Damon]/[Rhythm] from your hand or trash without paying the cost. Then, place this card in the battle area."
+                            "effectText": "[Security] You may play 1 card with [Marcus Damon]/[Rhythm] in its name from your hand or trash without paying the cost. Then, place this card in the battle area."
                         }
                     ]
                 },
@@ -27707,7 +27695,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] By placing 1 Option card with the [Device] trait trait from your hand in the battle area, ＜Draw 1＞ (Draw 1 card from your deck). [Main] By suspending this Tamer and trashing 4 of your Option cards with the [Device] trait trait in the battle area, you may play 1 [Cyberdramon] from your hand or trash without paying the cost."
+                            "effectText": "[Start of Your Main Phase] By placing 1 Option card with the [Device] trait from your hand in the battle area, ＜Draw 1＞ (Draw 1 card from your deck). [Main] By suspending this Tamer and trashing 4 of your Option cards with the [Device] trait in the battle area, you may play 1 [Cyberdramon] from your hand or trash without paying the cost."
                         },
                         {
                             "effectType": "SECURITY",
@@ -27960,6 +27948,427 @@
                         {
                             "effectType": "CARD",
                             "effectText": "[On Play] [When Digivolving] Choose 1 other Digimon. By playing level 4 or lower Digimon card from it's digivolution cards, delete the chosen Digimon. [On Deletion] You may play 1 card with a play cost of 5 or less from under any of your Tamers without paying the cost."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "BT20",
+            "cards": [
+                {
+                    "code": "BT20-005",
+                    "name": "Kapurimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/BT20-005.png/revision/latest?cb=20241114054941",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] When this Digimon checks a face-up security card, this Digimon gains ＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon) for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-012",
+                    "name": "Ginryumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/BT20-012-Sample.png/revision/latest?cb=20241213040356",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Attacking] This Digimon may digivolve into [Hisyaryumon] or a Digimon card with [Chronicle] trait in the hand."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-019",
+                    "name": "Jesmon (X Antibody)",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/BT20-019-Sample.png/revision/latest?cb=20241217120126",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security Attack +1＞ for the attack). [When Digivolving] if [Jesmon]/[X Antibody] is in this Digimon's digivolution cards, for the turn, 1 of your Digimon isn't affected by your opponent's effects. Then, 1 of your Digimon may attack. [Your Turn] All of your Digimon with [Sistermon] in their names or the [Royal Knight] trait gain ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) and can also attack unsuspended Digimon."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] While this Digimon is [Jesmon GX], all of your Digimon gain ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) and can also attack unsuspended Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-021",
+                    "name": "Jesmon GX",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/24/BT20-021-Sample.png/revision/latest?cb=20241217120046",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] [When Attacking] [Once Per Turn] By placing 1 [Royal Knight] trait card from your hand or trash as this Digimon's bottom digivolution card, delete 1 of your opponent's Digimon with as much or less DP as this Digimon. [When Attacking] [Once Per Turn] This Digimon unsuspends. Then, for every 2 [Royal Knight] trait cards in this Digimon's digivolution cards, trash your opponent's top security card."
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-023",
+                    "name": "Coredramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3b/BT20-023-Sample.png/revision/latest?cb=20241216090123",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon). [Your Turn] When any of your green Digimon with [Dracomon]/[Examon] in their texts are played, this Digimon may digivolve into [Wingdramon] in the hand with the digivolution cost reduced by 2."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-030",
+                    "name": "Liollmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/BT20-030-Sample.png/revision/latest?cb=20241215034935",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Chaosmon] in its name or the [ACCEL] trait and 1 Option card with the [ACCEL] trait among them to the hand. Return the rest to the bottom of the deck"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion)."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-032",
+                    "name": "Bulkmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/30/BT20-032-Sample.png/revision/latest?cb=20241213124205",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] If you have 3 or more security cards, you may add your top security card to the hand. Then, if you have 2 or fewer security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When this Digimon deletes your opponent's Digimon in battle, gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-034",
+                    "name": "Boutmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c2/BT20-034-Sample.png/revision/latest?cb=20241219030342",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Fortitude＞ (When this Digimon with digivolution cards is deleted, play this card without paying the cost). [All Turns] When Tamer cards are placed in this Digimon's digivolution cards, 1 of your opponent's Digimon can't activate [When Digivolving] effects until the end of their turn."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When this Digimon deletes your opponent's Digimon in battle, trash their top security card."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-037",
+                    "name": "Chaosmon:Valdur Arm",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/13/BT20-037-Sample.png/revision/latest?cb=20241215034915",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Security Attack +1＞ (This Digimon checks 1 additional security card). ＜Partition (Yellow Lv.6 + Green/Black Lv.6)＞ (When this Digimon with each of the specified digivolution cards would leave the battle area other than by your own effects or by battle, you may play 1 each of the specified cards without paying the costs). [When Digivolving] For each of this Digimon's level 6 digivolution cards, suspend 1 of your opponent's Digimon or Tamers and gain 1 memory. Then none of their Digimon or Tamers can activate [On Play] effects or unsuspend until the end of their turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-038",
+                    "name": "Falcomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/02/BT20-038-Sample.png/revision/latest?cb=20241215034924",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When this Digimon would digivolve into a Digimon card with the [ACCEL] trait, reduce the digivolution cost by 1."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-040",
+                    "name": "Coredramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/59/BT20-040-Sample.png/revision/latest?cb=20241216032811",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). [Your Turn] When any of your blue Digimon with [Dracomon]/[Examon] in their texts are played, this Digimon may digivolve into [Groundramon] in the hand with the digivolution cost reduced by 2."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-046",
+                    "name": "Espimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/BT20-046-Sample.png/revision/latest?cb=20241214074549",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When this Digimon would digivolve into a Digimon card with the [Cyborg]/[Machine] trait, reduce the digivolution cost by 1."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-050",
+                    "name": "HoverEspimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d0/BT20-050.png/revision/latest?cb=20241114054942",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] Flip your opponent's top face-down security card face-up. [End of Attack] [Once Per Turn] ＜Draw 1＞ (Draw 1 card from your deck)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-051",
+                    "name": "Raptordramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d6/BT20-051-Sample.png/revision/latest?cb=20241213040344",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 [Kota Domoto] from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Opponent's Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-052",
+                    "name": "Oblivimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cf/BT20-052.png/revision/latest?cb=20241114054942",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] [End of Opponent's Turn] Play this card without paying the cost. [When Digivolving] Flip your opponent's top face-down security card face-up. [Your Turn] When your Digimon checks a face-up security card, you may place the top card of this Digimon face-up at the bottom of the security stack."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon's attack target can't be switched."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-055",
+                    "name": "Invisimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/BT20-055.png/revision/latest?cb=20241114054942",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] [End of Opponent's Turn] Play this card without paying the cost. [On Play] [When Digivolving] ＜De-Digivolve 2＞ 1 of your opponent's Digimon (Trash up to 2 cards from the top. You can't trash past level 3 cards) and flip your opponent's top face-down security card face up. Then, delete 1 of your opponent's Digimon with 1 or fewer digivolution cards. [Your Turn] When your Digimon checks a face-up security card, you may place the top card of this Digimon face-up at the bottom of your security stack."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-058",
+                    "name": "Raidenmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/BT20-058.png/revision/latest?cb=20241114054942",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Delete 1 of your opponent's Digimon with a play cost of 7 or less. [All Turns] When this Digimon would leave the battle area, you may play 1 Digimon card with a play cost 11 or lower and the [Cyborg]/[Machine] trait from this Digimon's digivolution cards without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-059",
+                    "name": "Gankoomon (X Antibody)",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/BT20-059-Sample.png/revision/latest?cb=20241217031129",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] ＜De-Digivolve 2＞ (Trash up to 2 cards from the top. You can't trash past level 3 cards)1 of your opponent's Digimon. Then, if [Gankoomon]/[X Antibody] is in this Digimon's digivolution cards, until the end of your opponent's turn, none of your Digimon are affected by your opponent's Digimon's effects. [Opponent's Turn] All of your Digimon with [Sistermon]/[Huckmon] in their names or the [Royal Knight] trait gain ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase) and ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Opponent's Turn] While this Digimon is [Jesmon GX] all of your Digimon gain ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase) and ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-070",
+                    "name": "Loogarmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/BT20-070-Sample.png/revision/latest?cb=20241213124203",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By trashing 1 card in your hand, you may return 1 card with the [SoC]/[SEEKERS] trait from your trash to the hand."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-071",
+                    "name": "Soloogarmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/BT20-071-Sample.png/revision/latest?cb=20241219092624",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By trashing 1 card in your hand, for the turn 1 of your Digimon gains ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP) and gets +3000 DP. [All Turns] When Tamer cards are placed in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 6000 DP or less."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon with the [SoC]/[SEEKERS] trait doesn't activate [Security] effects on Option cards it checks."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-081",
+                    "name": "Fenriloogamon: Takemikazuchi",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2a/BT20-081-Sample.png/revision/latest?cb=20241219113913",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast DNA Digivolve ([Fenriloogamon] + [Kazuchimon])＞ (1 of your specified Digimon and 1 specified card in hand may DNA digivolve into this card.). [On Play] [When Digivolving] 2 of your opponent's Digimon get -10000 DP for the turn. Then, if a Tamer card is in this Digimon's digivolution cards, delete 1 of your opponent's 10000 DP or lower Digimon. [When Attacking] By trashing your top security card, activate 1 of this Digimon's [When Digivolving] effects."
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-5＞ (As this card would move from the field or from under a card to another area, lose 5 memory.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-085",
+                    "name": "Shoto Kazama",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/55/BT20-085-Sample.png/revision/latest?cb=20241218061051",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By returning this Tamer to the bottom of the deck, you may play 1 [Shoto Kazama] from your hand without paying the cost. Then, if you don't have a Digimon, you may play 1 level 3 Digimon card with [Avian]/[Bird] in one of its traits from your trash without paying the cost. [End of Your Turn] By suspending this Tamer, suspend 1 of your opponent's Digimon and, until the end of their turn, 1 of your Digimon with the [Vortex Warriors] trait gets +2000 DP."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-086",
+                    "name": "Altea",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/BT20-086.png/revision/latest?cb=20241114054942",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. [Start of Your Main Phase] By placing 1 black Digimon card with the [Cyborg]/[Machine] trait with a play cost of 4 or less from your hand or trash at the bottom of your Digimon with such trait, flip your opponent's top face down security card face up."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-090",
+                    "name": "Yuuki",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/BT20-090-Sample.png/revision/latest?cb=20241218061132",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. [End of Your Turn] If you have 4 or fewer cards in your hand, by suspending this Tamer, 1 of your Digimon with the [Dark Dragon]/[Evil Dragon] trait attacks a player."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-091",
+                    "name": "Cool Boy",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/BT20-091-Sample.png/revision/latest?cb=20241212113210",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When any of your Digimon are played or digivolve, if any of them have the [Royal Knight] trait, by suspending this Tamer,＜Draw 1＞ (Draw 1 card from your deck) and gain 1 memory. [Opponent's Turn] [Once Per Turn] When any of your Digimon with the [Royal Knight] trait would leave the battle area, you may play 1 [Omekamon] from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-096",
+                    "name": "Black Sabbath",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6c/BT20-096-Sample.png/revision/latest?cb=20241218090115",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Trash] [Main] If you have 4 or fewer cards in your hand, by paying 6 cost, return this card to the bottom of the deck and delete 1 of your opponent's unsuspended Digimon. [Main] Trash 1 card in your hand. Then, delete 1 of your opponent's level 4 or lower Digimon."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Delete 1 of your opponent's level 6 or lower Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT20-099",
+                    "name": "Singularity of Chaos",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/BT20-099-Sample.png/revision/latest?cb=20241215090108",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon with the [ACCEL] trait, you may ignore this card's color requirements. [Security] Gain 1 memory and add this card to the hand. [Main] You may play 1 Digimon card with the [ACCEL] trait from your hand with the play cost reduced by 4. Then, place this card as any of your Digimon's bottom digivolution card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[End of Opponent's Turn] If this Digimon has [Chaosmon] in its name, trash your opponent's top security card and this Digimon gets -30000 DP for the turn."
                         }
                     ]
                 }
@@ -31899,7 +32308,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[When Digivolving] Delete 1 of your opponent's Digimon with 8000 DP or less, then return 1 of your opponent's level 6 or higher Digimon to the bottom of its owner's deck. [All Turns] When this Digimon would leave the battle area for a reason other than one of your effects, play 1 [BlitzGreymon] and 1 [CresGarurumon] from this Digimon's digivolution cards without paying their cost. Then, place this Digimon on bottom of your security stack face down."
+                            "effectText": "[When Digivolving] Delete 1 of your opponent's Digimon with 8000 DP or less, and return 1 of your opponent's level 6 or higher Digimon to the bottom of its owner's deck. [All Turns] When this Digimon would leave the battle area other than by one of your effects, play 1 [BlitzGreymon] and 1 [CresGarurumon] from this Digimon's digivolution cards without paying the costs. Then, place this Digimon at the bottom of your security stack face down."
                         }
                     ]
                 },
@@ -35450,7 +35859,7 @@
                 {
                     "code": "EX8-001",
                     "name": "Koromon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/EX8-001-Sample-J.png/revision/latest?cb=20241026092107",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-001.jpg",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -35462,7 +35871,7 @@
                 {
                     "code": "EX8-002",
                     "name": "Bukamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/da/EX8-002-Sample-J.png/revision/latest?cb=20241019053838",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-002.jpg",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -35474,7 +35883,7 @@
                 {
                     "code": "EX8-003",
                     "name": "Kokomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/03/EX8-003-Sample-J.png/revision/latest?cb=20241022031614",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-003.jpg",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -35486,7 +35895,7 @@
                 {
                     "code": "EX8-004",
                     "name": "Motimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/EX8-004-Sample-J.png/revision/latest?cb=20241021071310",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-004.jpg",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -35498,7 +35907,7 @@
                 {
                     "code": "EX8-005",
                     "name": "Tumblemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1c/EX8-005-Sample-J.png/revision/latest?cb=20241023032253",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-005.jpg",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -35510,7 +35919,7 @@
                 {
                     "code": "EX8-006",
                     "name": "DemiMeramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/18/EX8-006-Sample-J.png/revision/latest?cb=20241105090654",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-006.jpg",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -35522,7 +35931,7 @@
                 {
                     "code": "EX8-007",
                     "name": "Agumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/da/EX8-007-Sample-J.png/revision/latest?cb=20241101073502",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-007.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35538,7 +35947,7 @@
                 {
                     "code": "EX8-008",
                     "name": "Candlemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/EX8-008-Sample-J.png/revision/latest?cb=20241109010058",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-008.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35554,7 +35963,7 @@
                 {
                     "code": "EX8-009",
                     "name": "Guilmon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/EX8-009-Sample-J.png/revision/latest?cb=20241107063930",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-009.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35570,7 +35979,7 @@
                 {
                     "code": "EX8-010",
                     "name": "Meramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/EX8-010-Sample-J.png/revision/latest?cb=20241109053814",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-010.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35586,7 +35995,7 @@
                 {
                     "code": "EX8-011",
                     "name": "Tyrannomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/EX8-011.png/revision/latest?cb=20240808050406",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-011.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35602,7 +36011,7 @@
                 {
                     "code": "EX8-012",
                     "name": "Growlmon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/EX8-012-Sample-J.png/revision/latest?cb=20241107091554",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-012.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35618,7 +36027,7 @@
                 {
                     "code": "EX8-013",
                     "name": "SkullMeramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c9/EX8-013-Sample-J.png/revision/latest?cb=20241109194523",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-013.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35630,7 +36039,7 @@
                 {
                     "code": "EX8-014",
                     "name": "MasterTyrannomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1c/EX8-014.png/revision/latest?cb=20240808050303",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-014.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35646,7 +36055,7 @@
                 {
                     "code": "EX8-015",
                     "name": "WarGrowlmon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/ff/EX8-015-Sample-J.png/revision/latest?cb=20241112035002",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-015.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35662,7 +36071,7 @@
                 {
                     "code": "EX8-016",
                     "name": "Dinomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d0/EX8-016.png/revision/latest?cb=20240808050303",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-016.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35674,7 +36083,7 @@
                 {
                     "code": "EX8-017",
                     "name": "Crabmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/EX8-017-Sample-J.png/revision/latest?cb=20241019090222",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-017.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35690,7 +36099,7 @@
                 {
                     "code": "EX8-018",
                     "name": "Gomamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/EX8-018-Sample-J.png/revision/latest?cb=20241104061231",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-018.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35706,7 +36115,7 @@
                 {
                     "code": "EX8-019",
                     "name": "Penguinmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/EX8-019-Sample-J.png/revision/latest?cb=20241106064157",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-019.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35722,7 +36131,7 @@
                 {
                     "code": "EX8-020",
                     "name": "Dolphmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a7/EX8-020-Sample-J.png/revision/latest?cb=20241104090330",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-020.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35734,7 +36143,7 @@
                 {
                     "code": "EX8-021",
                     "name": "Seadramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/28/EX8-021-Sample-J.png/revision/latest?cb=20241024050042",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-021.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35750,7 +36159,7 @@
                 {
                     "code": "EX8-022",
                     "name": "Frigimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/EX8-022-Sample-J.png/revision/latest?cb=20241106092102",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-022.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35759,14 +36168,14 @@
                         },
                         {
                             "effectType": "INHERITED",
-                            "effectText": "[When Attacking] Give 1 of your opponent's Digimon ＜Security Attack -1＞ (This Digimon checks 1 fewer security card) until the end of their turn.."
+                            "effectText": "[When Attacking] Give 1 of your opponent's Digimon ＜Security Attack -1＞ (This Digimon checks 1 fewer security card) until the end of their turn."
                         }
                     ]
                 },
                 {
                     "code": "EX8-023",
                     "name": "PolarBearmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/EX8-023.png/revision/latest?cb=20240808050302",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-023.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35782,7 +36191,7 @@
                 {
                     "code": "EX8-024",
                     "name": "MegaSeadramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/EX8-024-Sample-J.png/revision/latest?cb=20241024090555",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-024.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35798,7 +36207,7 @@
                 {
                     "code": "EX8-025",
                     "name": "Whamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7e/EX8-025-Sample-J.png/revision/latest?cb=20241110032403",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-025.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35814,7 +36223,7 @@
                 {
                     "code": "EX8-026",
                     "name": "MetalSeadramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/46/EX8-026-Sample-J.png/revision/latest?cb=20241024113057",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-026.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35830,7 +36239,7 @@
                 {
                     "code": "EX8-027",
                     "name": "Plesiomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/EX8-027-Sample-J.png/revision/latest?cb=20241110032623",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-027.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35842,7 +36251,7 @@
                 {
                     "code": "EX8-028",
                     "name": "Skadimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ea/EX8-028.png/revision/latest?cb=20240808050302",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-028.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35854,7 +36263,7 @@
                 {
                     "code": "EX8-029",
                     "name": "Aegisdramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/EX8-029-Sample-J.png/revision/latest?cb=20241110141120",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-029.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35866,7 +36275,7 @@
                 {
                     "code": "EX8-030",
                     "name": "Tapirmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/EX8-030-Sample-J.png/revision/latest?cb=20241030073010",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-030.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35878,7 +36287,7 @@
                 {
                     "code": "EX8-031",
                     "name": "Renamon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1d/EX8-031-Sample-J.png/revision/latest?cb=20241029092339",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-031.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35894,7 +36303,7 @@
                 {
                     "code": "EX8-032",
                     "name": "Apemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/EX8-032-Sample-J.png/revision/latest?cb=20241030090723",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-032.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35906,7 +36315,7 @@
                 {
                     "code": "EX8-033",
                     "name": "Pumpkinmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/EX8-033-Sample-J.png/revision/latest?cb=20241103073832",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-033.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35922,7 +36331,7 @@
                 {
                     "code": "EX8-034",
                     "name": "Mammothmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/EX8-034-Sample-J.png/revision/latest?cb=20241113060648",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-034.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35931,14 +36340,14 @@
                         },
                         {
                             "effectType": "INHERITED",
-                            "effectText": "[When Attacking] [Once Per Turn] 1 of your opponent's Digimon gets -2000 DP for the turn."
+                            "effectText": "[When Attacking] [Once Per Turn] 1 of your opponent's Digimon gets -4000 DP for the turn."
                         }
                     ]
                 },
                 {
                     "code": "EX8-035",
                     "name": "MarineAngemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/EX8-035-Sample-J.png/revision/latest?cb=20241029063043",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-035.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35950,7 +36359,7 @@
                 {
                     "code": "EX8-036",
                     "name": "SkullMammothmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/EX8-036-Sample-J.png/revision/latest?cb=20241113090252",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-036.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35962,7 +36371,7 @@
                 {
                     "code": "EX8-037",
                     "name": "Sakuyamon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/EX8-037-Sample-J.png/revision/latest?cb=20241029124204",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-037.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35974,7 +36383,7 @@
                 {
                     "code": "EX8-038",
                     "name": "Agumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/EX8-038-Sample-J.png/revision/latest?cb=20241101092512",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-038.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -35990,7 +36399,7 @@
                 {
                     "code": "EX8-039",
                     "name": "Tentomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8d/EX8-039-Sample-J.png/revision/latest?cb=20241021090143",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-039.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36006,7 +36415,7 @@
                 {
                     "code": "EX8-040",
                     "name": "Kabuterimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/78/EX8-040-Sample-J.png/revision/latest?cb=20241031075721",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-040.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36022,7 +36431,7 @@
                 {
                     "code": "EX8-041",
                     "name": "DarkTyrannomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/EX8-041-Sample-J.png/revision/latest?cb=20241108055942",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-041.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36038,7 +36447,7 @@
                 {
                     "code": "EX8-042",
                     "name": "MegaKabuterimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/28/EX8-042-Sample-J.png/revision/latest?cb=20241031090439",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-042.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36054,7 +36463,7 @@
                 {
                     "code": "EX8-043",
                     "name": "MetalTyrannomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8e/EX8-043-Sample-J.png/revision/latest?cb=20241108090232",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-043.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36070,7 +36479,7 @@
                 {
                     "code": "EX8-044",
                     "name": "HerculesKabuterimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cc/EX8-044-Sample-J.png/revision/latest?cb=20241031115723",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-044.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36086,7 +36495,7 @@
                 {
                     "code": "EX8-045",
                     "name": "Callismon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/EX8-045-Sample-J.png/revision/latest?cb=20241105114359",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-045.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36098,7 +36507,7 @@
                 {
                     "code": "EX8-046",
                     "name": "Gotsumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/01/EX8-046-Sample-J.png/revision/latest?cb=20241028032535",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-046.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36114,7 +36523,7 @@
                 {
                     "code": "EX8-047",
                     "name": "Sunarizamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/EX8-047-Sample-J.png/revision/latest?cb=20241023090339",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-047.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36130,7 +36539,7 @@
                 {
                     "code": "EX8-048",
                     "name": "Landramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a3/EX8-048-Sample-J.png/revision/latest?cb=20241114055046",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-048.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36146,7 +36555,7 @@
                 {
                     "code": "EX8-049",
                     "name": "Golemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1e/EX8-049-Sample-J.png/revision/latest?cb=20241111034134",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-049.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36162,7 +36571,7 @@
                 {
                     "code": "EX8-050",
                     "name": "Gogmamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/EX8-050-Sample-J.png/revision/latest?cb=20241028092524",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-050.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36178,7 +36587,7 @@
                 {
                     "code": "EX8-051",
                     "name": "Proganomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cd/EX8-051-Sample-J.png/revision/latest?cb=20241114090129",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-051.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36194,7 +36603,7 @@
                 {
                     "code": "EX8-052",
                     "name": "Cyberdramon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/28/EX8-052-Sample-J.png/revision/latest?cb=20241022090349",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-052.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36210,7 +36619,7 @@
                 {
                     "code": "EX8-053",
                     "name": "BanchoGolemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/EX8-053-Sample-J.png/revision/latest?cb=20241111093830",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-053.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36222,7 +36631,7 @@
                 {
                     "code": "EX8-054",
                     "name": "Justimon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/EX8-054-Sample-J.png/revision/latest?cb=20241022113319",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-054.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36234,7 +36643,7 @@
                 {
                     "code": "EX8-055",
                     "name": "Pyramidimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/EX8-055-Sample-J.png/revision/latest?cb=20241114115338",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-055.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36246,7 +36655,7 @@
                 {
                     "code": "EX8-056",
                     "name": "Syakomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f6/EX8-056-Sample-J.png/revision/latest?cb=20241025040725",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-056.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36262,7 +36671,7 @@
                 {
                     "code": "EX8-057",
                     "name": "DemiDevimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/EX8-057.png/revision/latest?cb=20240808050302",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-057.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36278,7 +36687,7 @@
                 {
                     "code": "EX8-058",
                     "name": "Gesomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4f/EX8-058-Sample-J.png/revision/latest?cb=20241025094815",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-058.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36294,7 +36703,7 @@
                 {
                     "code": "EX8-059",
                     "name": "Devimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/EX8-059-Sample-J.png/revision/latest?cb=20241020080306",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-059.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36303,14 +36712,14 @@
                         },
                         {
                             "effectType": "INHERITED",
-                            "effectText": "[When Attacking] ＜Draw 1＞ (Draw 1 card from your deck)} and trash 1 card in your hand."
+                            "effectText": "[When Attacking] ＜Draw 1＞ (Draw 1 card from your deck) and trash 1 card in your hand."
                         }
                     ]
                 },
                 {
                     "code": "EX8-060",
                     "name": "Myotismon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c5/EX8-060.png/revision/latest?cb=20240808050302",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-060.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36326,7 +36735,7 @@
                 {
                     "code": "EX8-061",
                     "name": "MarineDevimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/65/EX8-061-Sample-J.png/revision/latest?cb=20241105074845",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-061.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36342,7 +36751,7 @@
                 {
                     "code": "EX8-062",
                     "name": "Piedmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/95/EX8-062.png/revision/latest?cb=20240808050302",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-062.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36358,7 +36767,7 @@
                 {
                     "code": "EX8-063",
                     "name": "Barbamon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/EX8-063-Sample-J.png/revision/latest?cb=20241112112213",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-063.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36370,7 +36779,7 @@
                 {
                     "code": "EX8-064",
                     "name": "Boltboutamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a8/EX8-064.png/revision/latest?cb=20240808050302",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-064.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36382,7 +36791,7 @@
                 {
                     "code": "EX8-065",
                     "name": "Ryutaro Williams",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/EX8-065.png/revision/latest?cb=20240808050303",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-065.jpg",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -36398,7 +36807,7 @@
                 {
                     "code": "EX8-066",
                     "name": "Suzune Kazuki",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/EX8-066.png/revision/latest?cb=20240808050302",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-066.jpg",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -36414,7 +36823,7 @@
                 {
                     "code": "EX8-067",
                     "name": "Close",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/EX8-067-Sample-J.png/revision/latest?cb=20241115054116",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-067.jpg",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -36430,7 +36839,7 @@
                 {
                     "code": "EX8-068",
                     "name": "Deep Savers",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/EX8-068-Sample-J.png/revision/latest?cb=20241102073551",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-068.jpg",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36446,7 +36855,7 @@
                 {
                     "code": "EX8-069",
                     "name": "Nature Spirits",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c4/EX8-069-Sample-J.png/revision/latest?cb=20241102073528",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-069.jpg",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36462,7 +36871,7 @@
                 {
                     "code": "EX8-070",
                     "name": "Zofr Kabus",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/EX8-070-Sample-J.png/revision/latest?cb=20241115100739",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-070.jpg",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36478,7 +36887,7 @@
                 {
                     "code": "EX8-071",
                     "name": "Nightmare Soldiers",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/18/EX8-071-Sample-J.png/revision/latest?cb=20241102090324",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-071.jpg",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36494,7 +36903,7 @@
                 {
                     "code": "EX8-072",
                     "name": "Seventh Jewelrize",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/EX8-072-Sample-J.png/revision/latest?cb=20241112113202",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-072.jpg",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36510,7 +36919,7 @@
                 {
                     "code": "EX8-073",
                     "name": "Gallantmon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/33/EX8-073-Sample-J.png/revision/latest?cb=20241107111751",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-073.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36522,7 +36931,7 @@
                 {
                     "code": "EX8-074",
                     "name": "MedievalGallantmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/EX8-074.png/revision/latest?cb=20241003200908",
+                    "artUrl": "https://digimonmeta.com/wp-content/gallery/ex08/EX8-074.jpg",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36831,7 +37240,7 @@
                 {
                     "code": "LM-021",
                     "name": "Agumon - Bond of Bravery",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-021.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a9/LM-021.png/revision/latest?cb=20241129082458",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36847,7 +37256,7 @@
                 {
                     "code": "LM-022",
                     "name": "Gabumon - Bond of Friendship",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-022.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/LM-022.png/revision/latest?cb=20241129082458",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36863,7 +37272,7 @@
                 {
                     "code": "LM-023",
                     "name": "Sakuyamon: Maid Mode",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-023.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b0/LM-023.png/revision/latest?cb=20241129082458",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36879,7 +37288,7 @@
                 {
                     "code": "LM-024",
                     "name": "Shivamon",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-024.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c4/LM-024.png/revision/latest?cb=20241129082458",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36895,7 +37304,7 @@
                 {
                     "code": "LM-025",
                     "name": "Cyberdramon",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-025.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/LM-025.png/revision/latest?cb=20241129082458",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36915,7 +37324,7 @@
                 {
                     "code": "LM-026",
                     "name": "Megidramon",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-026.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/ba/LM-026.png/revision/latest?cb=20241129082507",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -36935,7 +37344,7 @@
                 {
                     "code": "LM-027",
                     "name": "Red Scramble",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-027.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/LM-027.png/revision/latest?cb=20241129082629",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36951,7 +37360,7 @@
                 {
                     "code": "LM-028",
                     "name": "Blue Scramble",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-028.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3b/LM-028.png/revision/latest?cb=20241129082507",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36967,7 +37376,7 @@
                 {
                     "code": "LM-029",
                     "name": "Yellow Scramble",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-029.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/LM-029.png/revision/latest?cb=20241129082507",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36983,7 +37392,7 @@
                 {
                     "code": "LM-030",
                     "name": "Green Scramble",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-030.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/53/LM-030.png/revision/latest?cb=20241129082507",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -36999,7 +37408,7 @@
                 {
                     "code": "LM-031",
                     "name": "Black Scramble",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-031.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/LM-031.png/revision/latest?cb=20241129082507",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -37015,7 +37424,7 @@
                 {
                     "code": "LM-032",
                     "name": "Purple Scramble",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-032.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/53/LM-032.png/revision/latest?cb=20241129082507",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -37031,7 +37440,7 @@
                 {
                     "code": "LM-033",
                     "name": "Garnet Memory Boost!",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-033.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/LM-033.png/revision/latest?cb=20241129082507",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -37047,7 +37456,7 @@
                 {
                     "code": "LM-034",
                     "name": "Wisteria Memory Boost!",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-034.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ea/LM-034.png/revision/latest?cb=20241129082507",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -37063,7 +37472,7 @@
                 {
                     "code": "LM-035",
                     "name": "Amber Memory Boost!",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-035.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ce/LM-035.png/revision/latest?cb=20241129082630",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -37079,7 +37488,7 @@
                 {
                     "code": "LM-036",
                     "name": "Jade Memory Boost!",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-036.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/LM-036.png/revision/latest?cb=20241129082630",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -37095,7 +37504,7 @@
                 {
                     "code": "LM-037",
                     "name": "Sepia Memory Boost!",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-037.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/85/LM-037.png/revision/latest?cb=20241129082639",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -37111,7 +37520,7 @@
                 {
                     "code": "LM-038",
                     "name": "Grape Memory Boost!",
-                    "artUrl": "https://digimonmeta.com/wp-content/gallery/lm/LM-038.jpg",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/LM-038.png/revision/latest?cb=20241129082630",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -39400,7 +39809,7 @@
                 {
                     "code": "P-160",
                     "name": "Tyrannomon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/P-160-J.png/revision/latest?cb=20241101170332",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4d/P-160.png/revision/latest?cb=20241209075941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -39416,7 +39825,7 @@
                 {
                     "code": "P-161",
                     "name": "Bishop Device",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d7/P-161-J.png/revision/latest?cb=20241101170332",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/P-161.png/revision/latest?cb=20241209075941",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -39432,7 +39841,7 @@
                 {
                     "code": "P-162",
                     "name": "Coelamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/P-162-J.png/revision/latest?cb=20241101170332",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/P-162.png/revision/latest?cb=20241209075941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -39448,12 +39857,184 @@
                 {
                     "code": "P-163",
                     "name": "Dokugumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2b/P-163-J.png/revision/latest?cb=20241101170332",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2b/P-163.png/revision/latest?cb=20241209075941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
                             "effectType": "CARD",
                             "effectText": "[On Play] [When Digivolving] Suspend 1 of your opponent's Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-164",
+                    "name": "Shellmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/43/P-164-Sample.png/revision/latest?cb=20241209093619",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By placing 1 Level 5 or lower Digimon card with [Aqua]/[Sea Animal] in one of its traits from your hand as 1 of your Digimon's bottom digivolution card, ＜Draw 1＞ (Draw 1 card from your deck). [Rule] Trait: Has the [Aquatic] type."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[End of Attack] [Once Per Turn] ＜Draw 1＞ (Draw 1 card from your deck)."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-165",
+                    "name": "ShoeShoemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3f/P-165-Sample.png/revision/latest?cb=20241209093620",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. [On Play] [When Digivolving] Play 1 [Familiar] Token (Digimon/Yellow/3000 DP/[On Deletion] 1 of your opponent's Digimon gets -3000 DP for the turn). At the end of your opponent's turn, delete that token."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion)."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-166",
+                    "name": "Galemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/P-166-Sample.png/revision/latest?cb=20241209093620",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] You may suspend 1 Digimon. Then, if it's your turn, this Digimon may digivolve into a Digimon card with [Bird]/[Avian] in one of its traits in the hand. For every other suspended Digimon, reduce this effect's digivolution cost by 1."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-167",
+                    "name": "Landramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/P-167-Sample.png/revision/latest?cb=20241210091506",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] [When Digivolving] By trashing 1 [Mineral]/[Rock] trait from any of your Digimon’s digivolution cards, reveal the top 3 cards of your deck. Among them, add 1 [Mineral]/[Rock] trait card to the hand, or place 1 such card as this Digimon's bottom digivolution card. Return the rest to the top or bottom of the deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "When effects trash this card from digivolution cards of a [Mineral]/[Rock] trait Digimon,＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards)."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-168",
+                    "name": "Yao Qinglan",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/aa/P-168-Sample.png/revision/latest?cb=20241211092822",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [Your Turn] When effects add digivolution cards under any of your Digimon with [Aqua]/[Sea Animal] in one of its traits, by suspending this Tamer, one of those Digimon may digivolve into a Digimon card with the [Aqua]/[Sea Animal] in one of its traits in your hand with the digivolution cost reduced by 1."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-169",
+                    "name": "Close",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ce/P-169-Sample.png/revision/latest?cb=20241212090911",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [All Turns] When effects trash digivolution cards of any of your [Mineral]/[Rock] trait Digimon, by suspending this Tamer, place 1 card with the [Mineral]/[Rock] trait from your trash as any of your Digimon’s bottom digivolution card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-170",
+                    "name": "AvengeKidmon",
+                    "artUrl": null,
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, by returning 3 cards with [Three Musketeers] in their texts from your trash to the bottom of the deck, reduce this card's play cost by 6. ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). ＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling). [On Deletion] You may play 1 [Three Musketeers] trait Digimon card with a play cost of 12 or less from your hand or trash without paying the cost. [Rule] Trait: Has [Three Musketeers]."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-171",
+                    "name": "Pukumon",
+                    "artUrl": null,
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, if [Deep Savers] is face-up in your security stack, reduce the play cost by 4. ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] Trash the top 2 digivolution cards of all of your opponent's Digimon. Then, delete 1 of their Digimon with no digivolution cards."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-172",
+                    "name": "Magnadramon",
+                    "artUrl": null,
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, if [Nature Spirits] is face-up in your security stack, reduce the play cost by 4. ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [On Deletion] 1 of your opponent's Digimon gets -5000 DP for the turn. Then, delete 1 of their Digimon with 5000 DP or less."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-173",
+                    "name": "RustTyrannomon",
+                    "artUrl": null,
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible). ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] ＜De-Digivolve 4＞ 1 of your opponent's Digimon (Trash up to 4 cards from the top. You can't trash past level 3 cards). [All Turns] [Once Per Turn] When your opponent's Digimon are deleted in battle, this Digimon may unsuspend."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-174",
+                    "name": "Boltmon",
+                    "artUrl": null,
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, if [Deep Savers] is face-up in your security stack, reduce the play cost by 4. ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] [On Deletion] ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). Then, delete 1 of their level 4 or lower Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-175",
+                    "name": "Hina Kurihara",
+                    "artUrl": null,
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. [Your Turn] When any of your Digimon with the [Rock Dragon]/[Machine Dragon] trait are played, by suspending this Tamer, 1 of your level 4 or higher Digimon may digivolve into a Digimon card with the [Rock Dragon]/[Earth Dragon]/[Machine Dragon]/[Sky Dragon] trait in the hand with the digivolution cost reduced by 2."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
                         }
                     ]
                 }
@@ -40356,7 +40937,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Main] Return one of your opponent's Digimon to the hand."
+                            "effectText": "[Main] Return 1 of your opponent's Digimon to the hand."
                         },
                         {
                             "effectType": "SECURITY",

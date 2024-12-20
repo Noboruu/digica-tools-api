@@ -161,17 +161,6 @@ public class DigicaWikiConnector {
         return cardSet;
     }
 
-    private String buildPromoUrl(int promoNumber) {
-        String basePromoUrl = DIGICA_WIKI_BASE_URL + DIGICA_WIKI_PROMOS_PATH;
-        if (promoNumber < 10) {
-            return basePromoUrl + "P-00" + promoNumber;
-        } else if (promoNumber < 100) {
-            return basePromoUrl + "P-0" + promoNumber;
-        }
-
-        return basePromoUrl + promoNumber;
-    }
-
     private String buildPromoCode(int promoNumber) {
         if (promoNumber < 10) {
             return "P-00" + promoNumber;
