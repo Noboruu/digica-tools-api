@@ -31,6 +31,7 @@ public enum DigicaSetsEnum {
     BT18("BT18", "/wiki/BT-18:_Booster_Elemental_Successor"),
     BT19("BT19", "/wiki/BT-19:_Booster_Xros_Evolution"),
     BT20("BT20", "/wiki/BT-20:_Booster_Over_the_X"),
+    BT21("BT21", "/wiki/BT-21:_Booster_World_Convergence"),
     // -- Theme Boosters --
     EX1("EX1", "/wiki/EX-01:_Theme_Booster_Classic_Collection"),
     EX2("EX2", "/wiki/EX-02:_Theme_Booster_Digital_Hazard"),
@@ -40,6 +41,7 @@ public enum DigicaSetsEnum {
     EX6("EX6", "/wiki/EX-06:_Theme_Booster_Infernal_Ascension"),
     EX7("EX7", "/wiki/EX-07:_Extra_Booster_Digimon_Liberator"),
     EX8("EX8", "/wiki/EX-08:_Extra_Booster_Chains_of_Liberation"),
+    EX9("EX9", "/wiki/EX-09:_Extra_Booster_Versus_Monsters"),
     // -- Resurgence Boost --
     RB1("RB1", "/wiki/RB-01:_Resurgence_Booster"),
     // -- Limited Packs --
