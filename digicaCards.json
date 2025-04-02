@@ -1,5 +1,5 @@
 {
-    "extractionDate": "02-04-2025 01:27:17",
+    "extractionDate": "02-04-2025 01:43:51",
     "cardSets": [
         {
             "code": "BT1",
@@ -996,18 +996,6 @@
                         {
                             "effectType": "SECURITY",
                             "effectText": "[Security] Play this card without paying the cost."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT1-090",
-                    "name": "Gravity Crush",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/BT1-090.png/revision/latest?cb=20201212014801",
-                    "cardType": "OPTION",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Main] Gain 2 memory. At end of turn, lose 2 memory."
                         }
                     ]
                 },
@@ -3789,18 +3777,6 @@
                         {
                             "effectType": "CARD",
                             "effectText": "[When Digivolving] If you have 10 or more cards in your trash, you may return up to 2 purple Option cards from your trash to your hand. [Your Turn] [Once Per Turn] When you use an Option card, gain 2 memory."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT3-092",
-                    "name": "MaloMyotismon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT3-092-Errata.png/revision/latest?cb=20220805074821",
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would). [All Turns] When another Digimon is deleted, gain 1 memory for each Digimon deleted."
                         }
                     ]
                 },
@@ -43771,18 +43747,6 @@
                     ]
                 },
                 {
-                    "code": "ST2-09",
-                    "name": "Zudomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/ST2-09.png/revision/latest?cb=20201210184946",
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[When Digivolving] Trash 2 digivolution cards at the bottom of 1 of your opponent's Digimon."
-                        }
-                    ]
-                },
-                {
                     "code": "ST2-10",
                     "name": "Plesiomon",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/ST2-10.png/revision/latest?cb=20201210184947",
@@ -47060,6 +47024,480 @@
                         {
                             "effectType": "SECURITY",
                             "effectText": "[Security] Activate this card's [Main] effect."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "ST20",
+            "cards": [
+                {
+                    "code": "ST20-01",
+                    "name": "Koromon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/ST20-01-Sample.png/revision/latest?cb=20250313061206",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon with the [ADVENTURE] trait gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-02",
+                    "name": "Biyomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/ST20-02-Sample.png/revision/latest?cb=20250222031751",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with the [ADVENTURE] trait and 1 such Tamer card or Option card among them to the hand. Return the rest to the bottom of the deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-03",
+                    "name": "Birdramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/ST20-03-Sample.png/revision/latest?cb=20250222072048",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] If your Tamers with the [ADVENTURE] trait have 3 or more total colors, this Digimon may digivolve into a Digimon card with the [ADVENTURE] trait in the hand without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-04",
+                    "name": "Garudamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d6/ST20-04-Sample.png/revision/latest?cb=20250222121523",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] For the turn, 1 of your Digimon gains ＜Security A. +1＞ (This Digimon checks 1 additional security card), and for every 2 colors your Tamers have, gets +2000 DP. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-05",
+                    "name": "Gatomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d4/ST20-05-Sample.png/revision/latest?cb=20250213011657",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. [On Play] [When Digivolving] Give 2 of your opponent's Digimon ＜Security A. -1＞ (This Digimon checks 1 fewer security card) until their turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] 1 of your opponent's Digimon gets -2000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-06",
+                    "name": "Angewomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/ST20-06-Sample.png/revision/latest?cb=20250311142246",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] 1 of your other Digimon may digivolve into a Digimon card with the [ADVENTURE] trait in the hand without paying the cost. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-07",
+                    "name": "Tentomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/11/ST20-07-Sample.png/revision/latest?cb=20250309071049",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Opponent's Turn] Your opponent can't reduce digivolution costs."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-08",
+                    "name": "Kabuterimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/ST20-08-Sample.png/revision/latest?cb=20250309071102",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 Tamer card with the [ADVENTURE] trait from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-09",
+                    "name": "MegaKabuterimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/ST20-09-Sample.png/revision/latest?cb=20250309120958",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] 1 of your Digimon unsuspends. Then, for every 2 colors your Tamers with the [ADVENTURE] trait have, Suspend 1 of your opponent's Digimon. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-10",
+                    "name": "Agumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/ST20-10-Sample.png/revision/latest?cb=20250209064026",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] While your opponent has a Digimon with 10000 DP or more, or your Tamers have 3 or more total colors, this Digimon can digivolve into [WarGreymon] in the hand for a digivolution cost of 4, ignoring digivolution requirements."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-11",
+                    "name": "WarGreymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a2/ST20-11-Sample.png/revision/latest?cb=20250313120238",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Until your opponent's turn ends, for every 2 colors your Tamers have, their Digimon's effects don't affect 1 of your Digimon. [When Digivolving] [When Attacking] Delete 1 of your opponent's lowest DP Digimon."
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-4＞ (As this card moves from the field or under a card to an area other than those, lose 4 memory.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-12",
+                    "name": "Sora Takenouchi & Kari Kamiya",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/ST20-12-Sample.png/revision/latest?cb=20250216000552",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If you have a Digimon with the [ADVENTURE] trait, gain 1 memory. [Your Turn] When any Digimon cards with the [ADVENTURE] trait would be played from your hand, by suspending this Tamer, reduce the play cost by 1."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-13",
+                    "name": "Tai Kamiya & Izzy Izumi",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/ST20-13-Sample.png/revision/latest?cb=20250216000549",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When any Digimon cards with the [ADVENTURE] trait would be played from your hand, by suspending this Tamer, reduce the play cost by 1. [Opponent's Turn] All of your Digimon with the [ADVENTURE] trait gain ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-14",
+                    "name": "Our Courage United",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2d/ST20-14-Sample.png/revision/latest?cb=20250311060644",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon or Tamer with the [ADVENTURE] trait on the field, you can ignore this card's color requirements. [Main] ＜Draw 2＞ (Draw 2 cards from your deck). Then, place this card in the battle area. [All Turns] When any of your level 5 or higher Digimon would leave the battle area, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・You may play 1 level 5 or lower Digimon card with the [ADVENTURE] trait from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST20-15",
+                    "name": "Island of Adventure",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/ST20-15-Sample.png/revision/latest?cb=20250311044105",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have no face-up [Island of Adventure] security cards, you can ignore this card's color requirements. [Security] [All Turns] All of your level 3 or higher Digimon get +2000 DP. [Main] Add your top security card to the hand. Then, place this card face up as the top security card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] You may play 1 Tamer card from your hand without paying the cost."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "ST21",
+            "cards": [
+                {
+                    "code": "ST21-01",
+                    "name": "Tsunomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/ST21-01-Sample.png/revision/latest?cb=20250313045228",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[On Deletion] You may return 1 Digimon card with the [ADVENTURE] trait from your trash to the hand."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-02",
+                    "name": "Gomamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/ST21-02-Sample.png/revision/latest?cb=20250308061129",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[All Turns] Your opponent can't gain memory other than by Tamer effects."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-03",
+                    "name": "Ikkakumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b6/ST21-03-Sample.png/revision/latest?cb=20250308061159",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. [On Play] [When Digivolving] Trash the top 2 digivolution cards of 1 if your opponent's Digimon. Then, 1 of their Digimon with no digivolution cards can't attack or block until their turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] If you have 7 or fewer cards in your hand, ＜Draw 1＞ (Draw 1 card from your deck)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-04",
+                    "name": "Zudomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/ST21-04-Sample.png/revision/latest?cb=20250308121900",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] For 1 of your opponent's Digimon, trash any 1 digivolution card for every 2 colors your Tamers have. Then, return 1 of their Digimon with 1 or fewer digivolution cards to the hand. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-05",
+                    "name": "Angemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2b/ST21-05-Sample.png/revision/latest?cb=20250218005058",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] If you have 1 or fewer Tamers, you may play 1 Tamer card with the [ADVENTURE] trait from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] 1 of your opponent's Digimon gets -2000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-06",
+                    "name": "MagnaAngemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/ST21-06-Sample.png/revision/latest?cb=20250304120702",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Place 1 of your opponent's 6000 DP or lower Digimon as the top security card. For every 2 colors your Tamers have, add 2000 to this effect's DP maximum. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-07",
+                    "name": "Palmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/ST21-07-Sample.png/revision/latest?cb=20250223055101",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] By trashing 1 card with the [ADVENTURE] trait in your hand, ＜Draw 2＞ (Draw 2 cards from your deck)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-08",
+                    "name": "Togemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/16/ST21-08-Sample.png/revision/latest?cb=20250223060212",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] If your Tamers with the [ADVENTURE] trait have 3 or more total colors, this Digimon may digivolve into a Digimon card with the [ADVENTURE] trait in the hand without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-09",
+                    "name": "Lillymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/ST21-09-Sample.png/revision/latest?cb=20250223133040",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Suspend all of your opponent's 5000 DP or lower Digimon. Then, for every 2 colors your Tamers have, return 1 of their suspended Digimon to the bottom of the deck. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-10",
+                    "name": "Gabumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/13/ST21-10-Sample.png/revision/latest?cb=20250210000023",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] While your opponent has a Digimon with 10000 DP or more, or your Tamers have 3 or more total colors, this Digimon can digivolve into [MetalGarurumon] in the hand for a digivolution cost of 4, ignoring digivolution requirements."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] ＜Draw 1＞ (Draw 1 card from your deck). Then, trash 1 card in your hand."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-11",
+                    "name": "MetalGarurumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/ST21-11-Sample.png/revision/latest?cb=20250314010113",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] Return 1 of your opponent's level 4 or lower Digimon to the bottom of the deck. For every 2 colors your Tamers have, add 1 to this effect's level maximum. [When Attacking] [Once Per Turn] You may play 1 level 4 or lower Digimon card from your trash without paying the cost."
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-4＞ (As this card moves from the field or under a card to an area other than those, lose 4 memory.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-12",
+                    "name": "Joe Kido & Mimi Tachikawa",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/ST21-12-Sample.png/revision/latest?cb=20250216080152",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If you have a Digimon with the [ADVENTURE] trait, gain 1 memory. [Your Turn] When any Digimon cards with the [ADVENTURE] trait would be played from your hand, by suspending this Tamer, reduce the play cost by 1."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-13",
+                    "name": "Matt Ishida & T.K. Takaishi",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/ST21-13-Sample.png/revision/latest?cb=20250216080149",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When any Digimon cards with the [ADVENTURE] trait would be played from your hand, by suspending this Tamer, reduce the play cost by 1. [Your Turn] All of your level 5 or higher Digimon with the [ADVENTURE] trait gain ＜Rush＞ (This Digimon can attack the turn it comes into play)."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-14",
+                    "name": "Believe in Our Friendship",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/ST21-14-Sample.png/revision/latest?cb=20250304060211",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon or Tamer with the [ADVENTURE] trait on the field, you can ignore this card's color requirements. [Main] Reveal the top 3 cards of your deck. Add 1 card with the [ADVENTURE] trait among them to the hand. Return the rest to the bottom of the deck. Then, place this card in the battle area. [Main] ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below) ・Gain 2 memory."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST21-15",
+                    "name": "Gennai's House",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8f/ST21-15-Sample.png/revision/latest?cb=20250304050210",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have no face-up [Gennai's House] security cards, you can ignore this card's color requirements. [Security] [Your Turn] All of your level 3 or higher Digimon get +3000 DP. [Main] Add your bottom security card to the hand. Then, place this card face up as the bottom security card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] You may play 1 level 3 Digimon card from your trash without paying the cost."
                         }
                     ]
                 }

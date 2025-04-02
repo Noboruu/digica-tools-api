@@ -68,7 +68,9 @@ public enum DigicaSetsEnum {
     ST16("ST16", "/wiki/ST-16:_Starter_Deck_Wolf_of_Friendship"),
     ST17("ST17", "/wiki/ST-17:_Advanced_Deck_Set_Double_Typhoon"),
     ST18("ST18", "/wiki/ST-18:_Starter_Deck_Guardian_Vortex"),
-    ST19("ST19", "/wiki/ST-19:_Starter_Deck_Fable_Waltz");
+    ST19("ST19", "/wiki/ST-19:_Starter_Deck_Fable_Waltz"),
+    ST20("ST20", "/wiki/ST-20:_Starter_Deck_Protector_of_Light"),
+    ST21("ST21", "/wiki/ST-21:_Starter_Deck_Hero_of_Hope");
 
     private final String code;
     private final String path;
