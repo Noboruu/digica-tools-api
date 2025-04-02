@@ -49,6 +49,7 @@ public enum DigicaSetsEnum {
     // LM2 omitted because it only has reprints
     LM3("LM", "/wiki/LM-03:_Limited_Card_Set_2024"),
     LM4("LM", "/wiki/LM-04:_Limited_Card_Pack_Torrid_Weiss"),
+    LM5("LM", "/wiki/LM-05:_Limited_Card_Pack_Final_Elysion"),
     // -- Starters Deck --
     ST1("ST1", "/wiki/ST-1:_Starter_Deck_Gaia_Red"),
     ST2("ST2", "/wiki/ST-2:_Starter_Deck_Cocytus_Blue"),
