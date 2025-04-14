@@ -1,5 +1,5 @@
 {
-    "extractionDate": "02-04-2025 01:43:51",
+    "extractionDate": "14-04-2025 23:31:10",
     "cardSets": [
         {
             "code": "BT1",
@@ -142,13 +142,6 @@
                             "effectText": "[Your Turn] When this Digimon is blocked, it gets +2000 DP."
                         }
                     ]
-                },
-                {
-                    "code": "BT1-013",
-                    "name": "Muchomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/61/BT1-013.png/revision/latest?cb=20201212014630",
-                    "cardType": "DIGIMON",
-                    "cardEffects": []
                 },
                 {
                     "code": "BT1-014",
@@ -996,6 +989,18 @@
                         {
                             "effectType": "SECURITY",
                             "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT1-090",
+                    "name": "Gravity Crush",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/BT1-090.png/revision/latest?cb=20201212014801",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Main] Gain 2 memory. At end of turn, lose 2 memory."
                         }
                     ]
                 },
@@ -2559,18 +2564,6 @@
                     ]
                 },
                 {
-                    "code": "BT2-099",
-                    "name": "Glorious Burst",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT2-099.png/revision/latest?cb=20210122161555",
-                    "cardType": "OPTION",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "Reduce the memory cost of this card in your hand by 1 for each yellow Tamer you have in play. [Main] 1 of your opponent's Digimon gets -12000 DP for the turn."
-                        }
-                    ]
-                },
-                {
                     "code": "BT2-100",
                     "name": "Puppet Pummel",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/BT2-100.png/revision/latest?cb=20210122161556",
@@ -3777,6 +3770,18 @@
                         {
                             "effectType": "CARD",
                             "effectText": "[When Digivolving] If you have 10 or more cards in your trash, you may return up to 2 purple Option cards from your trash to your hand. [Your Turn] [Once Per Turn] When you use an Option card, gain 2 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT3-092",
+                    "name": "MaloMyotismon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT3-092-Errata.png/revision/latest?cb=20220805074821",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would). [All Turns] When another Digimon is deleted, gain 1 memory for each Digimon deleted."
                         }
                     ]
                 },
@@ -16621,7 +16626,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[When Digivolving] ＜De-Digivolve 1＞ 1 Level 5 or lower of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards) .For every 2 cards in this Digimon's digivolution cards, add 1 to the maximum level of the Digimon you can choose with this effect. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers). Then, place 1 Digimon card with ＜Save＞ in its text from your trash under 1 of your Tamers."
+                            "effectText": "[When Digivolving] ＜De-Digivolve 1＞ 1 Level 5 or lower of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards). For every 2 cards in this Digimon's digivolution cards, add 1 to the maximum level of the Digimon you can choose with this effect. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers). Then, place 1 Digimon card with ＜Save＞ in its text from your trash under 1 of your Tamers."
                         },
                         {
                             "effectType": "INHERITED",
@@ -29506,7 +29511,7 @@
                 {
                     "code": "BT21-001",
                     "name": "Gigimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bd/BT21-001-Sample.png/revision/latest?cb=20250326062453",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT21-001.png/revision/latest?cb=20250404055209",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -29518,7 +29523,7 @@
                 {
                     "code": "BT21-002",
                     "name": "Gurimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/BT21-002-Sample.png/revision/latest?cb=20250215010842",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/BT21-002.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -29530,7 +29535,7 @@
                 {
                     "code": "BT21-003",
                     "name": "Yokomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a8/BT21-003-Sample.png/revision/latest?cb=20250318073055",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3b/BT21-003.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -29542,7 +29547,7 @@
                 {
                     "code": "BT21-004",
                     "name": "Koromon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bf/BT21-004-Sample.png/revision/latest?cb=20250212023323",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/af/BT21-004.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -29554,7 +29559,7 @@
                 {
                     "code": "BT21-005",
                     "name": "Swipemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/ba/BT21-005-Sample.png/revision/latest?cb=20250217063236",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f1/BT21-005.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -29566,7 +29571,7 @@
                 {
                     "code": "BT21-006",
                     "name": "Tsumemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/BT21-006-Sample.png/revision/latest?cb=20250218060217",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/BT21-006.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -29578,7 +29583,7 @@
                 {
                     "code": "BT21-007",
                     "name": "Agumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/BT21-007-Sample.png/revision/latest?cb=20250321074431",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT21-007.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29594,7 +29599,7 @@
                 {
                     "code": "BT21-008",
                     "name": "Elizamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/BT21-008-Sample.png/revision/latest?cb=20250301070224",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b0/BT21-008.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29610,7 +29615,7 @@
                 {
                     "code": "BT21-009",
                     "name": "Gatchmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c1/BT21-009-Sample.png/revision/latest?cb=20250208061116",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/BT21-009.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29622,7 +29627,7 @@
                 {
                     "code": "BT21-010",
                     "name": "Gammamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/BT21-010-Sample.png/revision/latest?cb=20250302003445",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ed/BT21-010.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29638,7 +29643,7 @@
                 {
                     "code": "BT21-011",
                     "name": "Shoutmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/BT21-011-Sample.png/revision/latest?cb=20250225022220",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/31/BT21-011.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29654,7 +29659,7 @@
                 {
                     "code": "BT21-012",
                     "name": "Flamemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/90/BT21-012-Sample.png/revision/latest?cb=20250211050746",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/BT21-012.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29670,7 +29675,7 @@
                 {
                     "code": "BT21-013",
                     "name": "Agunimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/24/BT21-013-Sample.png/revision/latest?cb=20250305060104",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/55/BT21-013.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29686,7 +29691,7 @@
                 {
                     "code": "BT21-014",
                     "name": "BurningGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/BT21-014-Sample.png/revision/latest?cb=20250305060114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/BT21-014.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29702,7 +29707,7 @@
                 {
                     "code": "BT21-015",
                     "name": "Cyclonemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f3/BT21-015-Sample.png/revision/latest?cb=20250321151243",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/BT21-015.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29718,7 +29723,7 @@
                 {
                     "code": "BT21-016",
                     "name": "Shoutmon (King Version)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT21-016-Sample.png/revision/latest?cb=20250315060022",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/BT21-016.png/revision/latest?cb=20250404055210",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29734,7 +29739,7 @@
                 {
                     "code": "BT21-017",
                     "name": "Dimetromon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8b/BT21-017-Sample.png/revision/latest?cb=20250301122353",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/BT21-017.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29750,7 +29755,7 @@
                 {
                     "code": "BT21-018",
                     "name": "DoGatchmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/BT21-018-Sample.png/revision/latest?cb=20250227060134",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e5/BT21-018.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29762,7 +29767,7 @@
                 {
                     "code": "BT21-019",
                     "name": "BetelGammamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8b/BT21-019-Sample.png/revision/latest?cb=20250220055727",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/86/BT21-019.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29778,7 +29783,7 @@
                 {
                     "code": "BT21-020",
                     "name": "Aldamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/84/BT21-020-Sample.png/revision/latest?cb=20250211061148",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT21-020.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29794,7 +29799,7 @@
                 {
                     "code": "BT21-021",
                     "name": "OmniShoutmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/BT21-021-Sample.png/revision/latest?cb=20250213060045",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c1/BT21-021.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29810,7 +29815,7 @@
                 {
                     "code": "BT21-022",
                     "name": "Canoweissmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/07/BT21-022-Sample.png/revision/latest?cb=20250215060146",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f5/BT21-022.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29826,7 +29831,7 @@
                 {
                     "code": "BT21-023",
                     "name": "Globemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/BT21-023-Sample.png/revision/latest?cb=20250227120426",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/BT21-023.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29838,7 +29843,7 @@
                 {
                     "code": "BT21-024",
                     "name": "Cyberdramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e6/BT21-024-Sample.png/revision/latest?cb=20250328060502",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/BT21-024.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29854,7 +29859,7 @@
                 {
                     "code": "BT21-025",
                     "name": "Lamiamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/BT21-025-Sample.png/revision/latest?cb=20250327060600",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/BT21-025.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29870,7 +29875,7 @@
                 {
                     "code": "BT21-026",
                     "name": "WarGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a1/BT21-026-Sample.png/revision/latest?cb=20250328060455",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/15/BT21-026.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29882,7 +29887,7 @@
                 {
                     "code": "BT21-027",
                     "name": "Shoutmon DX",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/af/BT21-027-Sample.png/revision/latest?cb=20250225070128",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/91/BT21-027.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29894,7 +29899,7 @@
                 {
                     "code": "BT21-028",
                     "name": "Siriusmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/84/BT21-028-Sample.png/revision/latest?cb=20250302120513",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/50/BT21-028.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29906,7 +29911,7 @@
                 {
                     "code": "BT21-029",
                     "name": "Medusamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/98/BT21-029-Sample.png/revision/latest?cb=20250327120341",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT21-029.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29918,7 +29923,7 @@
                 {
                     "code": "BT21-030",
                     "name": "Shoutmon X7: Superior Mode",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d0/BT21-030-Sample.png/revision/latest?cb=20250315122102",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/51/BT21-030.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29930,7 +29935,7 @@
                 {
                     "code": "BT21-031",
                     "name": "Sangomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/BT21-031-Sample.png/revision/latest?cb=20250221120211",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7e/BT21-031.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29946,7 +29951,7 @@
                 {
                     "code": "BT21-032",
                     "name": "Veemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/BT21-032-Sample.png/revision/latest?cb=20250209064031",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/BT21-032.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29962,7 +29967,7 @@
                 {
                     "code": "BT21-033",
                     "name": "Floramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/BT21-033-Sample.png/revision/latest?cb=20250318123517",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/56/BT21-033.png/revision/latest?cb=20250404060608",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29978,7 +29983,7 @@
                 {
                     "code": "BT21-034",
                     "name": "Kiwimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT21-034-Sample.png/revision/latest?cb=20250226060212",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/BT21-034.png/revision/latest?cb=20250404060609",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -29994,7 +29999,7 @@
                 {
                     "code": "BT21-035",
                     "name": "Flamedramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/52/BT21-035-Sample.png/revision/latest?cb=20250219060101",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/BT21-035.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30006,7 +30011,7 @@
                 {
                     "code": "BT21-036",
                     "name": "Magnamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/af/BT21-036-Sample.png/revision/latest?cb=20250310120023",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c9/BT21-036.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30018,7 +30023,7 @@
                 {
                     "code": "BT21-037",
                     "name": "Lighdramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/BT21-037-Sample.png/revision/latest?cb=20250219120254",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/BT21-037.png/revision/latest?cb=20250404060609",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30030,7 +30035,7 @@
                 {
                     "code": "BT21-038",
                     "name": "Deramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/BT21-038-Sample.png/revision/latest?cb=20250226120112",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/72/BT21-038.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30046,7 +30051,7 @@
                 {
                     "code": "BT21-039",
                     "name": "Gryphonmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT21-039-Sample.png/revision/latest?cb=20250322122249",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e1/BT21-039.png/revision/latest?cb=20250404055211",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30058,7 +30063,7 @@
                 {
                     "code": "BT21-040",
                     "name": "Agumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/BT21-040-Sample.png/revision/latest?cb=20250224060429",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e6/BT21-040.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30074,7 +30079,7 @@
                 {
                     "code": "BT21-041",
                     "name": "Calendamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0a/BT21-041-Sample.png/revision/latest?cb=20250217120305",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/55/BT21-041.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30086,7 +30091,7 @@
                 {
                     "code": "BT21-042",
                     "name": "GeoGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/BT21-042-Sample.png/revision/latest?cb=20250323170155",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/BT21-042.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30102,7 +30107,7 @@
                 {
                     "code": "BT21-043",
                     "name": "Sociamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9b/BT21-043-Sample.png/revision/latest?cb=20250316004031",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f1/BT21-043.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30114,7 +30119,7 @@
                 {
                     "code": "BT21-044",
                     "name": "RizeGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/33/BT21-044-Sample.png/revision/latest?cb=20250212062352",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/98/BT21-044.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30130,7 +30135,7 @@
                 {
                     "code": "BT21-045",
                     "name": "ShineGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/BT21-045-Sample.png/revision/latest?cb=20250224120900",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/BT21-045.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30142,7 +30147,7 @@
                 {
                     "code": "BT21-046",
                     "name": "Dracomon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/BT21-046-Sample.png/revision/latest?cb=20250320014713",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/BT21-046.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30158,7 +30163,7 @@
                 {
                     "code": "BT21-047",
                     "name": "Navimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/BT21-047-Sample.png/revision/latest?cb=20250227001258",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/BT21-047.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30170,7 +30175,7 @@
                 {
                     "code": "BT21-048",
                     "name": "Mushroomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/BT21-048-Sample.png/revision/latest?cb=20250318123518",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/BT21-048.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30186,7 +30191,7 @@
                 {
                     "code": "BT21-049",
                     "name": "Woodmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/53/BT21-049-Sample.png/revision/latest?cb=20250221063210",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/BT21-049.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30202,7 +30207,7 @@
                 {
                     "code": "BT21-050",
                     "name": "Cherrymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/81/BT21-050-Sample.png/revision/latest?cb=20250221063158",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b3/BT21-050.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30218,7 +30223,7 @@
                 {
                     "code": "BT21-051",
                     "name": "Puppetmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bc/BT21-051-Sample.png/revision/latest?cb=20250220120149",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c2/BT21-051.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30234,7 +30239,7 @@
                 {
                     "code": "BT21-052",
                     "name": "Examon (X Antibody)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/02/BT21-052-Sample.png/revision/latest?cb=20250320121009",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/BT21-052.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30246,7 +30251,7 @@
                 {
                     "code": "BT21-053",
                     "name": "Watchmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/73/BT21-053-Sample.png/revision/latest?cb=20250228063712",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/BT21-053.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30258,7 +30263,7 @@
                 {
                     "code": "BT21-054",
                     "name": "Shotmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/35/BT21-054-Sample.png/revision/latest?cb=20250325000029",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1c/BT21-054.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30270,7 +30275,7 @@
                 {
                     "code": "BT21-055",
                     "name": "Sunarizamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/35/BT21-055-Sample.png/revision/latest?cb=20250315000105",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/88/BT21-055.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30286,7 +30291,7 @@
                 {
                     "code": "BT21-056",
                     "name": "Vemmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/92/BT21-056-Sample.png/revision/latest?cb=20250218120123",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/BT21-056.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30302,7 +30307,7 @@
                 {
                     "code": "BT21-057",
                     "name": "Greymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/BT21-057-Sample.png/revision/latest?cb=20250314060335",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/BT21-057.png/revision/latest?cb=20250404060850",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30318,7 +30323,7 @@
                 {
                     "code": "BT21-058",
                     "name": "Snatchmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/00/BT21-058-Sample.png/revision/latest?cb=20250306011253",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f8/BT21-058.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30334,7 +30339,7 @@
                 {
                     "code": "BT21-059",
                     "name": "Timemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT21-059-Sample.png/revision/latest?cb=20250228145115",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/75/BT21-059.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30346,7 +30351,7 @@
                 {
                     "code": "BT21-060",
                     "name": "Destromon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b6/BT21-060-Sample.png/revision/latest?cb=20250319071551",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/BT21-060.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30362,7 +30367,7 @@
                 {
                     "code": "BT21-061",
                     "name": "MetalGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/44/BT21-061-Sample.png/revision/latest?cb=20250208120659",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT21-061.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30378,7 +30383,7 @@
                 {
                     "code": "BT21-062",
                     "name": "Galacticmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/BT21-062-Sample.png/revision/latest?cb=20250306120156",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/BT21-062.png/revision/latest?cb=20250404060528",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30390,7 +30395,7 @@
                 {
                     "code": "BT21-063",
                     "name": "Gumdramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/BT21-063-Sample.png/revision/latest?cb=20250312005459",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/99/BT21-063.png/revision/latest?cb=20250404060610",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30406,7 +30411,7 @@
                 {
                     "code": "BT21-064",
                     "name": "Guilmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/BT21-064-Sample.png/revision/latest?cb=20250303075922",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/68/BT21-064.png/revision/latest?cb=20250404060659",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30422,7 +30427,7 @@
                 {
                     "code": "BT21-065",
                     "name": "Ghostmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d1/BT21-065-Sample.png/revision/latest?cb=20250324120249",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/42/BT21-065.png/revision/latest?cb=20250404060818",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30438,7 +30443,7 @@
                 {
                     "code": "BT21-066",
                     "name": "Arresterdramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/BT21-066-Sample.png/revision/latest?cb=20250312063918",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/06/BT21-066.png/revision/latest?cb=20250404060659",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30454,7 +30459,7 @@
                 {
                     "code": "BT21-067",
                     "name": "Garurumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7e/BT21-067-Sample.png/revision/latest?cb=20250314120211",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/35/BT21-067.png/revision/latest?cb=20250404060818",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30470,12 +30475,12 @@
                 {
                     "code": "BT21-068",
                     "name": "Growlmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/78/BT21-068-Sample.png/revision/latest?cb=20250210064505",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9d/BT21-068.png/revision/latest?cb=20250404060818",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] [When Digivolving] Delete 1 of your opponent's Digimon. with 4000 DP or less. If this effect didn't delete, trash the top 2 cards of your deck."
+                            "effectText": "[On Play] [When Digivolving] Delete 1 of your opponent's Digimon with 4000 DP or less. If this effect didn't delete, trash the top 2 cards of your deck."
                         },
                         {
                             "effectType": "INHERITED",
@@ -30486,7 +30491,7 @@
                 {
                     "code": "BT21-069",
                     "name": "GulusGammamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/BT21-069-Sample.png/revision/latest?cb=20250220060102",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT21-069.png/revision/latest?cb=20250404060818",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30502,7 +30507,7 @@
                 {
                     "code": "BT21-070",
                     "name": "Gossipmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1f/BT21-070-Sample.png/revision/latest?cb=20250317082036",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/30/BT21-070.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30514,7 +30519,7 @@
                 {
                     "code": "BT21-071",
                     "name": "Scopemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/BT21-071-Sample.png/revision/latest?cb=20250325061607",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/58/BT21-071.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30526,7 +30531,7 @@
                 {
                     "code": "BT21-072",
                     "name": "Arresterdramon: Superior Mode",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT21-072-Sample.png/revision/latest?cb=20250214060701",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/BT21-072.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30542,7 +30547,7 @@
                 {
                     "code": "BT21-073",
                     "name": "Charismon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/ff/BT21-073-Sample.png/revision/latest?cb=20250317120041",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/54/BT21-073.png/revision/latest?cb=20250404170850",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30554,7 +30559,7 @@
                 {
                     "code": "BT21-074",
                     "name": "Satellamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/13/BT21-074-Sample.png/revision/latest?cb=20250325120110",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/BT21-074.png/revision/latest?cb=20250404170537",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30566,7 +30571,7 @@
                 {
                     "code": "BT21-075",
                     "name": "SkullGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/BT21-075-Sample.png/revision/latest?cb=20250330000107",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b3/BT21-075.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30582,7 +30587,7 @@
                 {
                     "code": "BT21-076",
                     "name": "WarGrowlmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/02/BT21-076-Sample.png/revision/latest?cb=20250307120036",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/28/BT21-076.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30598,7 +30603,7 @@
                 {
                     "code": "BT21-077",
                     "name": "Regulusmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/BT21-077-Sample.png/revision/latest?cb=20250331130257",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a2/BT21-077.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30614,7 +30619,7 @@
                 {
                     "code": "BT21-078",
                     "name": "WereGarurumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/84/BT21-078-Sample.png/revision/latest?cb=20250216120023",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT21-078.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30630,7 +30635,7 @@
                 {
                     "code": "BT21-079",
                     "name": "Megidramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/BT21-079-Sample.png/revision/latest?cb=20250307061122",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b0/BT21-079.png/revision/latest?cb=20250404060753",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30642,7 +30647,7 @@
                 {
                     "code": "BT21-080",
                     "name": "Hiro Amanokawa",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2a/BT21-080-Sample.png/revision/latest?cb=20250215121856",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/16/BT21-080.png/revision/latest?cb=20250404060731",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30658,7 +30663,7 @@
                 {
                     "code": "BT21-081",
                     "name": "Owen Dreadnought",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/BT21-081-Sample.png/revision/latest?cb=20250326120106",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e2/BT21-081.png/revision/latest?cb=20250404060732",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30674,7 +30679,7 @@
                 {
                     "code": "BT21-082",
                     "name": "Takuya Kanbara",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ce/BT21-082-Sample.png/revision/latest?cb=20250211120118",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT21-082.png/revision/latest?cb=20250404060732",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30690,7 +30695,7 @@
                 {
                     "code": "BT21-083",
                     "name": "Taiki Kudo",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e0/BT21-083-Sample.png/revision/latest?cb=20250213124155",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2a/BT21-083.png/revision/latest?cb=20250404060732",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30706,7 +30711,7 @@
                 {
                     "code": "BT21-084",
                     "name": "Haru Shinkai",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/56/BT21-084-Sample.png/revision/latest?cb=20250208060218",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/BT21-084.png/revision/latest?cb=20250404060732",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30722,7 +30727,7 @@
                 {
                     "code": "BT21-085",
                     "name": "Davis Motomiya",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/BT21-085-Sample.png/revision/latest?cb=20250209123332",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/18/BT21-085.png/revision/latest?cb=20250404060715",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30738,7 +30743,7 @@
                 {
                     "code": "BT21-086",
                     "name": "Marcus Damon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/BT21-086-Sample.png/revision/latest?cb=20250212122620",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fc/BT21-086.png/revision/latest?cb=20250404060715",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30754,7 +30759,7 @@
                 {
                     "code": "BT21-087",
                     "name": "Zenith",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/BT21-087-Sample.png/revision/latest?cb=20250319152634",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c8/BT21-087.png/revision/latest?cb=20250404060715",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30770,7 +30775,7 @@
                 {
                     "code": "BT21-088",
                     "name": "Tagiru Akashi",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/BT21-088-Sample.png/revision/latest?cb=20250214120042",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f5/BT21-088.png/revision/latest?cb=20250404060715",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30786,7 +30791,7 @@
                 {
                     "code": "BT21-089",
                     "name": "Takato Matsuki",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0a/BT21-089-Sample.png/revision/latest?cb=20250210120016",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/BT21-089.png/revision/latest?cb=20250404060715",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -30802,7 +30807,7 @@
                 {
                     "code": "BT21-090",
                     "name": "The Strongest of Brothers",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/17/BT21-090-Sample.png/revision/latest?cb=20250302075340",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/BT21-090.png/revision/latest?cb=20250404053441",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30818,7 +30823,7 @@
                 {
                     "code": "BT21-091",
                     "name": "Spirit Evolution!",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e2/BT21-091-Sample.png/revision/latest?cb=20250305120545",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5d/BT21-091.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30834,7 +30839,7 @@
                 {
                     "code": "BT21-092",
                     "name": "Can't Turn My Back!",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0d/BT21-092-Sample.png/revision/latest?cb=20250225122228",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8d/BT21-092.png/revision/latest?cb=20250404045725",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30850,7 +30855,7 @@
                 {
                     "code": "BT21-093",
                     "name": "Raging Serpentine",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f4/BT21-093-Sample.png/revision/latest?cb=20250328060441",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d7/BT21-093.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30859,14 +30864,14 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Delete 1 of your opponent's Digimon. with the highest DP."
+                            "effectText": "[Security] Delete 1 of your opponent's Digimon with the highest DP."
                         }
                     ]
                 },
                 {
                     "code": "BT21-094",
                     "name": "Armor Digivolution",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c0/BT21-094-Sample.png/revision/latest?cb=20250310075119",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/BT21-094.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30882,7 +30887,7 @@
                 {
                     "code": "BT21-095",
                     "name": "Wind Guardians",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/BT21-095-Sample.png/revision/latest?cb=20250322083451",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/BT21-095.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30898,7 +30903,7 @@
                 {
                     "code": "BT21-096",
                     "name": "The Champion Ultimate Fighter!",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/22/BT21-096-Sample.png/revision/latest?cb=20250323070103",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f2/BT21-096.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30914,7 +30919,7 @@
                 {
                     "code": "BT21-097",
                     "name": "App Link",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/BT21-097-Sample.png/revision/latest?cb=20250316120050",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/11/BT21-097.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30930,7 +30935,7 @@
                 {
                     "code": "BT21-098",
                     "name": "Ragnarok Cannon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/BT21-098-Sample.png/revision/latest?cb=20250306060050",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/BT21-098.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30946,7 +30951,7 @@
                 {
                     "code": "BT21-099",
                     "name": "Xros Up",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0d/BT21-099-Sample.png/revision/latest?cb=20250312151510",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/BT21-099.png/revision/latest?cb=20250404050348",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30962,7 +30967,7 @@
                 {
                     "code": "BT21-100",
                     "name": "The Digimon I Designed",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/BT21-100-Sample.png/revision/latest?cb=20250303120150",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/BT21-100.png/revision/latest?cb=20250404053442",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -30978,7 +30983,7 @@
                 {
                     "code": "BT21-101",
                     "name": "Gaiamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/BT21-101-Sample.png/revision/latest?cb=20250316042208",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d4/BT21-101.png/revision/latest?cb=20250404053442",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -30990,7 +30995,7 @@
                 {
                     "code": "BT21-102",
                     "name": "Tai Kamiya",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/BT21-102-Sample.png/revision/latest?cb=20250208062502",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/BT21-102.png/revision/latest?cb=20250404050349",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -40029,7 +40034,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Main] 1 of your red Digimon may digivolve into a red Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・ Return 1 red Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 red Digimon card with 2000 DP or less from your trash without paying the cost."
+                            "effectText": "[Main] 1 of your red Digimon may digivolve into a red Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・Return 1 red Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 red Digimon card with 2000 DP or less from your trash without paying the cost."
                         },
                         {
                             "effectType": "SECURITY",
@@ -40045,7 +40050,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Main] 1 of your blue Digimon may digivolve into a blue Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・ Return 1 blue Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 blue Digimon card with 2000 DP or less from your trash without paying the cost."
+                            "effectText": "[Main] 1 of your blue Digimon may digivolve into a blue Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・Return 1 blue Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 blue Digimon card with 2000 DP or less from your trash without paying the cost."
                         },
                         {
                             "effectType": "SECURITY",
@@ -40061,7 +40066,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Main] 1 of your yellow Digimon may digivolve into a yellow Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・ Return 1 yellow Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 yellow Digimon card with 2000 DP or less from your trash without paying the cost."
+                            "effectText": "[Main] 1 of your yellow Digimon may digivolve into a yellow Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・Return 1 yellow Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 yellow Digimon card with 2000 DP or less from your trash without paying the cost."
                         },
                         {
                             "effectType": "SECURITY",
@@ -40077,7 +40082,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Main] 1 of your green Digimon may digivolve into a green Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・ Return 1 green Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 green Digimon card with 2000 DP or less from your trash without paying the cost."
+                            "effectText": "[Main] 1 of your green Digimon may digivolve into a green Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・Return 1 green Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 green Digimon card with 2000 DP or less from your trash without paying the cost."
                         },
                         {
                             "effectType": "SECURITY",
@@ -40093,7 +40098,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Main] 1 of your black Digimon may digivolve into a black Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・ Return 1 black Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 black Digimon card with 2000 DP or less from your trash without paying the cost."
+                            "effectText": "[Main] 1 of your black Digimon may digivolve into a black Digimon card in the hand with the digivolution cost reduced by 3. Then, place this card in the battle area. [Start of Your Turn] If your opponent has a Digimon, ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below). ・Return 1 black Digimon card from your trash to the top of the deck. Then, if you don't have a Digimon, you may play 1 black Digimon card with 2000 DP or less from your trash without paying the cost."
                         },
                         {
                             "effectType": "SECURITY",
@@ -42805,7 +42810,7 @@
                 {
                     "code": "P-176",
                     "name": "Dorimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/be/P-176-Sample.png/revision/latest?cb=20250317081813",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/85/P-176.png/revision/latest?cb=20250404051559",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -42817,7 +42822,7 @@
                 {
                     "code": "P-177",
                     "name": "Gigimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/P-177-Sample.png/revision/latest?cb=20250318143638",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cc/P-177.png/revision/latest?cb=20250404053119",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -42829,7 +42834,7 @@
                 {
                     "code": "P-178",
                     "name": "Sagittarimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/dc/P-178-Sample.png/revision/latest?cb=20250319071702",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/P-178.png/revision/latest?cb=20250404051559",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -42841,7 +42846,7 @@
                 {
                     "code": "P-179",
                     "name": "Justimon: Critical Arm",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c0/P-179-Sample.png/revision/latest?cb=20250321074407",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6d/P-179.png/revision/latest?cb=20250404051559",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -42853,7 +42858,7 @@
                 {
                     "code": "P-180",
                     "name": "Bind Red Trigger",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/P-180-Sample.png/revision/latest?cb=20250322083322",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/P-180.png/revision/latest?cb=20250404051620",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -42869,7 +42874,7 @@
                 {
                     "code": "P-181",
                     "name": "Royal Base",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/P-181-Sample.png/revision/latest?cb=20250323065846",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5f/P-181.png/revision/latest?cb=20250404051620",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -42885,19 +42890,19 @@
                 {
                     "code": "P-182",
                     "name": "WarGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/88/P-182-Sample.png/revision/latest?cb=20250301065822",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/P-182.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "＜Security A. +1＞ (This Digimon checks 1 additional security card). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] Delete 1 of your opponent's Digimon. with as much or less DP as this Digimon. [All Turns] This Digimon gets +1000 DP for each color Digimon and Tamers have."
+                            "effectText": "＜Security A. +1＞ (This Digimon checks 1 additional security card). ＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] Delete 1 of your opponent's Digimon with as much or less DP as this Digimon. [All Turns] This Digimon gets +1000 DP for each color Digimon and Tamers have."
                         }
                     ]
                 },
                 {
                     "code": "P-183",
                     "name": "Gaiomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/P-183-Sample.png/revision/latest?cb=20250228003255",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4d/P-183.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -42909,7 +42914,7 @@
                 {
                     "code": "P-184",
                     "name": "Dorugoramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/P-184-Sample.png/revision/latest?cb=20250310000120",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/06/P-184.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -42921,19 +42926,19 @@
                 {
                     "code": "P-185",
                     "name": "EmperorGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/P-185-Sample.png/revision/latest?cb=20250305050646",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9d/P-185.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] Delete 1 of your opponent's Digimon. with as much or less DP as this Digimon. [All Turns] This Digimon gets +1000 DP for each color in its digivolution cards. [End of Your Turn] [Once Per Turn] This Digimon unsuspends."
+                            "effectText": "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [When Digivolving] Delete 1 of your opponent's Digimon with as much or less DP as this Digimon. [All Turns] This Digimon gets +1000 DP for each color in its digivolution cards. [End of Your Turn] [Once Per Turn] This Digimon unsuspends."
                         }
                     ]
                 },
                 {
                     "code": "P-186",
                     "name": "Gallantmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/P-186-Sample.png/revision/latest?cb=20250307055702",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/P-186.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -42945,7 +42950,7 @@
                 {
                     "code": "P-187",
                     "name": "Mastemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/83/P-187-Sample.png/revision/latest?cb=20250303000015",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/P-187.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -43743,6 +43748,18 @@
                         {
                             "effectType": "INHERITED",
                             "effectText": "[Your Turn] While your opponent has a Digimon with no digivolution cards, this Digimon gains ＜Security A. +1＞ (This Digimon checks 1 additional security card)."
+                        }
+                    ]
+                },
+                {
+                    "code": "ST2-09",
+                    "name": "Zudomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/ST2-09.png/revision/latest?cb=20201210184946",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] Trash 2 digivolution cards at the bottom of 1 of your opponent's Digimon."
                         }
                     ]
                 },
@@ -47035,7 +47052,7 @@
                 {
                     "code": "ST20-01",
                     "name": "Koromon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/ST20-01-Sample.png/revision/latest?cb=20250313061206",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/ST20-01.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -47047,7 +47064,7 @@
                 {
                     "code": "ST20-02",
                     "name": "Biyomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/ST20-02-Sample.png/revision/latest?cb=20250222031751",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/ST20-02.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47063,7 +47080,7 @@
                 {
                     "code": "ST20-03",
                     "name": "Birdramon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/ST20-03-Sample.png/revision/latest?cb=20250222072048",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/ST20-03.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47079,7 +47096,7 @@
                 {
                     "code": "ST20-04",
                     "name": "Garudamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d6/ST20-04-Sample.png/revision/latest?cb=20250222121523",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/ST20-04.png/revision/latest?cb=20250404050856",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47095,7 +47112,7 @@
                 {
                     "code": "ST20-05",
                     "name": "Gatomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d4/ST20-05-Sample.png/revision/latest?cb=20250213011657",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/44/ST20-05.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47111,7 +47128,7 @@
                 {
                     "code": "ST20-06",
                     "name": "Angewomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/ST20-06-Sample.png/revision/latest?cb=20250311142246",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/79/ST20-06.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47127,7 +47144,7 @@
                 {
                     "code": "ST20-07",
                     "name": "Tentomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/11/ST20-07-Sample.png/revision/latest?cb=20250309071049",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/ST20-07.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47139,7 +47156,7 @@
                 {
                     "code": "ST20-08",
                     "name": "Kabuterimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/ST20-08-Sample.png/revision/latest?cb=20250309071102",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/92/ST20-08.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47155,7 +47172,7 @@
                 {
                     "code": "ST20-09",
                     "name": "MegaKabuterimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/ST20-09-Sample.png/revision/latest?cb=20250309120958",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/ST20-09.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47171,7 +47188,7 @@
                 {
                     "code": "ST20-10",
                     "name": "Agumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/ST20-10-Sample.png/revision/latest?cb=20250209064026",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/45/ST20-10.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47187,7 +47204,7 @@
                 {
                     "code": "ST20-11",
                     "name": "WarGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a2/ST20-11-Sample.png/revision/latest?cb=20250313120238",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/86/ST20-11.png/revision/latest?cb=20250404051941",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47203,7 +47220,7 @@
                 {
                     "code": "ST20-12",
                     "name": "Sora Takenouchi & Kari Kamiya",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/ST20-12-Sample.png/revision/latest?cb=20250216000552",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/ST20-12.png/revision/latest?cb=20250404051941",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -47219,7 +47236,7 @@
                 {
                     "code": "ST20-13",
                     "name": "Tai Kamiya & Izzy Izumi",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/ST20-13-Sample.png/revision/latest?cb=20250216000549",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/ST20-13.png/revision/latest?cb=20250404051941",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -47235,7 +47252,7 @@
                 {
                     "code": "ST20-14",
                     "name": "Our Courage United",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2d/ST20-14-Sample.png/revision/latest?cb=20250311060644",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/ST20-14.png/revision/latest?cb=20250404051941",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -47251,7 +47268,7 @@
                 {
                     "code": "ST20-15",
                     "name": "Island of Adventure",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/ST20-15-Sample.png/revision/latest?cb=20250311044105",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ad/ST20-15.png/revision/latest?cb=20250404051941",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -47272,7 +47289,7 @@
                 {
                     "code": "ST21-01",
                     "name": "Tsunomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/ST21-01-Sample.png/revision/latest?cb=20250313045228",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/ST21-01.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -47284,7 +47301,7 @@
                 {
                     "code": "ST21-02",
                     "name": "Gomamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/ST21-02-Sample.png/revision/latest?cb=20250308061129",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/ST21-02.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47296,7 +47313,7 @@
                 {
                     "code": "ST21-03",
                     "name": "Ikkakumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b6/ST21-03-Sample.png/revision/latest?cb=20250308061159",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b6/ST21-03.png/revision/latest?cb=20250404051113",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47312,12 +47329,12 @@
                 {
                     "code": "ST21-04",
                     "name": "Zudomon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/ST21-04-Sample.png/revision/latest?cb=20250308121900",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1a/ST21-04.png/revision/latest?cb=20250404170016",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] [When Digivolving] For 1 of your opponent's Digimon, trash any 1 digivolution card for every 2 colors your Tamers have. Then, return 1 of their Digimon with 1 or fewer digivolution cards to the hand. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                            "effectText": "[On Play] [When Digivolving] From 1 of your opponent's Digimon, trash any 1 digivolution card for every 2 colors your Tamers have. Then, return 1 of their Digimon with 1 or fewer digivolution cards to the hand. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
                         },
                         {
                             "effectType": "INHERITED",
@@ -47328,7 +47345,7 @@
                 {
                     "code": "ST21-05",
                     "name": "Angemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2b/ST21-05-Sample.png/revision/latest?cb=20250218005058",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ad/ST21-05.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47344,7 +47361,7 @@
                 {
                     "code": "ST21-06",
                     "name": "MagnaAngemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/ST21-06-Sample.png/revision/latest?cb=20250304120702",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/81/ST21-06.png/revision/latest?cb=20250404050856",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47360,7 +47377,7 @@
                 {
                     "code": "ST21-07",
                     "name": "Palmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/ST21-07-Sample.png/revision/latest?cb=20250223055101",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/01/ST21-07.png/revision/latest?cb=20250404051113",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47376,7 +47393,7 @@
                 {
                     "code": "ST21-08",
                     "name": "Togemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/16/ST21-08-Sample.png/revision/latest?cb=20250223060212",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/ST21-08.png/revision/latest?cb=20250404050350",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47392,7 +47409,7 @@
                 {
                     "code": "ST21-09",
                     "name": "Lillymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/ST21-09-Sample.png/revision/latest?cb=20250223133040",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/ST21-09.png/revision/latest?cb=20250404051113",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47408,7 +47425,7 @@
                 {
                     "code": "ST21-10",
                     "name": "Gabumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/13/ST21-10-Sample.png/revision/latest?cb=20250210000023",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e5/ST21-10.png/revision/latest?cb=20250404051113",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47424,7 +47441,7 @@
                 {
                     "code": "ST21-11",
                     "name": "MetalGarurumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/ST21-11-Sample.png/revision/latest?cb=20250314010113",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e2/ST21-11.png/revision/latest?cb=20250404051113",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -47440,7 +47457,7 @@
                 {
                     "code": "ST21-12",
                     "name": "Joe Kido & Mimi Tachikawa",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/ST21-12-Sample.png/revision/latest?cb=20250216080152",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/15/ST21-12.png/revision/latest?cb=20250404051113",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -47456,7 +47473,7 @@
                 {
                     "code": "ST21-13",
                     "name": "Matt Ishida & T.K. Takaishi",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/ST21-13-Sample.png/revision/latest?cb=20250216080149",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bb/ST21-13.png/revision/latest?cb=20250404051113",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -47472,7 +47489,7 @@
                 {
                     "code": "ST21-14",
                     "name": "Believe in Our Friendship",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/ST21-14-Sample.png/revision/latest?cb=20250304060211",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fd/ST21-14.png/revision/latest?cb=20250404051113",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -47488,7 +47505,7 @@
                 {
                     "code": "ST21-15",
                     "name": "Gennai's House",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8f/ST21-15-Sample.png/revision/latest?cb=20250304050210",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/ST21-15.png/revision/latest?cb=20250404051113",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
