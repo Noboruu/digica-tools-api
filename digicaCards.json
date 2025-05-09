@@ -1,5 +1,5 @@
 {
-    "extractionDate": "14-04-2025 23:31:10",
+    "extractionDate": "09-05-2025 23:12:59",
     "cardSets": [
         {
             "code": "BT1",
@@ -142,6 +142,13 @@
                             "effectText": "[Your Turn] When this Digimon is blocked, it gets +2000 DP."
                         }
                     ]
+                },
+                {
+                    "code": "BT1-013",
+                    "name": "Muchomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/61/BT1-013.png/revision/latest?cb=20201212014630",
+                    "cardType": "DIGIMON",
+                    "cardEffects": []
                 },
                 {
                     "code": "BT1-014",
@@ -1056,7 +1063,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -1164,7 +1171,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -1180,7 +1187,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -1248,7 +1255,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -1308,7 +1315,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2455,7 +2462,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2483,7 +2490,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2527,7 +2534,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2543,7 +2550,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2559,7 +2566,19 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT2-099",
+                    "name": "Glorious Burst",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT2-099.png/revision/latest?cb=20210122161555",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "Reduce the memory cost of this card in your hand by 1 for each yellow Tamer you have in play. [Main] 1 of your opponent's Digimon gets -12000 DP for the turn."
                         }
                     ]
                 },
@@ -2603,7 +2622,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2651,7 +2670,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2667,7 +2686,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2699,7 +2718,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -2731,7 +2750,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -3877,7 +3896,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -3909,7 +3928,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -4061,7 +4080,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -5244,7 +5263,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -5260,7 +5279,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -5308,7 +5327,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -5352,7 +5371,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -5368,7 +5387,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -5384,7 +5403,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -5416,7 +5435,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -6694,7 +6713,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -6726,7 +6745,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -6806,7 +6825,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -6870,7 +6889,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8099,7 +8118,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8115,7 +8134,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8159,7 +8178,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8207,7 +8226,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8283,7 +8302,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8315,7 +8334,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8331,7 +8350,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -8347,7 +8366,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -9618,7 +9637,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -9762,7 +9781,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -9794,7 +9813,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -9810,7 +9829,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -11066,7 +11085,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -11082,7 +11101,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -11098,7 +11117,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -11130,7 +11149,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -11146,7 +11165,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -11226,7 +11245,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12249,7 +12268,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] Play 1 purple or yellow Digimon with 6000 DP or less from your trash without paying its memory cost. If your have 1 of fewer security cards, you may play 1 level 6 or lower Digimon card with the [Angel]/[Fallen Angel] trait from your trash without paying its memory cost instead. [End of Your Turn] This Digimon and any of your other Digimon may DNA digivolve into a Digimon card in the hand."
+                            "effectText": "[On Play] Play 1 purple or yellow Digimon with 6000 DP or less from your trash without paying its memory cost. If your have 1 or fewer security cards, you may play 1 level 6 or lower Digimon card with the [Angel]/[Fallen Angel] trait from your trash without paying its memory cost instead. [End of Your Turn] This Digimon and any of your other Digimon may DNA digivolve into a Digimon card in the hand."
                         }
                     ]
                 },
@@ -12461,7 +12480,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12493,7 +12512,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12509,7 +12528,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12541,7 +12560,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12573,7 +12592,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12605,7 +12624,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12637,7 +12656,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12669,7 +12688,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12685,7 +12704,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -14004,7 +14023,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -14036,7 +14055,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -14068,7 +14087,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -14148,7 +14167,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15514,7 +15533,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15530,7 +15549,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15546,7 +15565,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15562,7 +15581,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15578,7 +15597,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15594,7 +15613,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15626,7 +15645,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15706,7 +15725,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15722,7 +15741,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -15738,7 +15757,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -17168,7 +17187,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -17184,7 +17203,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -17200,7 +17219,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -17216,7 +17235,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -17232,7 +17251,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -17312,7 +17331,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -18821,7 +18840,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -18853,7 +18872,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -20166,7 +20185,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -20198,7 +20217,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect. Then, add this card to your hand."
+                            "effectText": "[Security] Activate this card's [Main] effects. Then, add this card to your hand."
                         }
                     ]
                 },
@@ -20246,7 +20265,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -20262,7 +20281,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect. Then, add this card to your hand."
+                            "effectText": "[Security] Activate this card's [Main] effects. Then, add this card to your hand."
                         }
                     ]
                 },
@@ -20278,7 +20297,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect. Then, add this card to your hand."
+                            "effectText": "[Security] Activate this card's [Main] effects. Then, add this card to your hand."
                         }
                     ]
                 },
@@ -20310,7 +20329,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -20326,7 +20345,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -20342,7 +20361,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -21667,7 +21686,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -21683,7 +21702,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -21731,7 +21750,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -21747,7 +21766,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect. Then, add this card to the hand."
+                            "effectText": "[Security] Activate this card's [Main] effects. Then, add this card to the hand."
                         }
                     ]
                 },
@@ -21795,7 +21814,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -21827,7 +21846,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -21843,7 +21862,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -23264,7 +23283,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -23312,7 +23331,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -24821,7 +24840,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -25696,7 +25715,7 @@
                 {
                     "code": "BT18-056",
                     "name": "TigerVespamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/BT18-056.png/revision/latest?cb=20240523041656",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/BT18-056.png/revision/latest?cb=20250430094834",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -27782,7 +27801,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -27846,7 +27865,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -30196,7 +30215,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] [When Digivolving] You may suspend 1 Digimon. [All Turns] [Once Per Turn] When any of your opponent's Digimon are played, if this Digimon is suspended, Suspend 1 of your opponent's Digimon."
+                            "effectText": "[On Play] [When Digivolving] You may suspend 1 Digimon. [All Turns] [Once Per Turn] When any of your opponent's Digimon are played, if this Digimon is suspended, suspend 1 of your opponent's Digimon."
                         },
                         {
                             "effectType": "INHERITED",
@@ -30552,7 +30571,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] You may link 1 level 4 or lower Digimon card from your trash or this Digimon's digivolution cards to this Digimon without paying the cost. [Your Turn] [Once Per Turn] When this Digimon gets linked , give 1 of your opponent's Digimon \"[Start of Your Main Phase] This Digimon attacks.\" until their turn ends."
+                            "effectText": "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [On Play] [When Digivolving] You may link 1 level 4 or lower Digimon card from your trash or this Digimon's digivolution cards to this Digimon without paying the cost. [Your Turn] [Once Per Turn] When this Digimon gets linked, give 1 of your opponent's Digimon \"[Start of Your Main Phase] This Digimon attacks.\" until their turn ends."
                         }
                     ]
                 },
@@ -30880,7 +30899,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -31909,7 +31928,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -31941,7 +31960,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -32922,7 +32941,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -32954,7 +32973,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -32986,7 +33005,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -33955,7 +33974,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -33971,7 +33990,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -33987,7 +34006,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -34035,7 +34054,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -35024,7 +35043,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -35056,7 +35075,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -35088,7 +35107,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -36153,7 +36172,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -36169,7 +36188,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -36201,7 +36220,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -36233,7 +36252,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -37242,7 +37261,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -37338,7 +37357,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -37706,7 +37725,7 @@
                 {
                     "code": "EX7-023",
                     "name": "Hexeblaumon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/EX7-023.png/revision/latest?cb=20240808052625",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/EX7-023.png/revision/latest?cb=20250429223048",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -38371,7 +38390,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -38387,7 +38406,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -38403,7 +38422,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -39416,7 +39435,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[When Digivolving] ＜De-Digivolve 3＞ 1 of your opponent's Digimon (Trash up to 3 cards from the top. You can't trash past level 3 cards) and, for the turn, all of their Digimon get -6000 DP. Then, if DNA digivolving, you may play 10 play cost's total worth of [NSo] trait Digimon cards from your trash without paying the cost. [All Turns] [Once Per Turn] When other Digimon are deleted, trash your opponent's top security card."
+                            "effectText": "[When Digivolving] ＜De-Digivolve 3＞ 1 of your opponent's Digimon (Trash up to 3 cards from the top. You can't trash past level 3 cards) and, for the turn, all of their Digimon get -6000 DP. Then, if DNA digivolving, you may play up to 10 play cost's total worth of [NSo] trait Digimon cards from your trash without paying the cost. [All Turns] [Once Per Turn] When other Digimon are deleted, trash your opponent's top security card."
                         }
                     ]
                 },
@@ -39544,7 +39563,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -39578,6 +39597,30 @@
             "code": "EX9",
             "cards": [
                 {
+                    "code": "EX9-004",
+                    "name": "Tanemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/EX9-004-Sample.png/revision/latest?cb=20250505062519",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When any of your [Ver.4] trait Digimon are played, by trashing this Digimon's bottom face-down digivolution card, gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-006",
+                    "name": "Pagumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/EX9-006-Sample.png/revision/latest?cb=20250507061202",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] By trashing this Digimon's bottom face-down digivolution card, this Digimon may digivolve into a [Ver.5] trait Digimon card in the trash with the digivolution cost reduced by 1."
+                        }
+                    ]
+                },
+                {
                     "code": "EX9-007",
                     "name": "Agumon",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/46/EX9-007-Sample.png/revision/latest?cb=20250328090221",
@@ -39590,6 +39633,22 @@
                         {
                             "effectType": "INHERITED",
                             "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-008",
+                    "name": "Biyomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5c/EX9-008-Sample.png/revision/latest?cb=20250506050744",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP)."
                         }
                     ]
                 },
@@ -39617,11 +39676,311 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "When this card would be played, by trashing 1 [Cyborg]/[Ver.1] traitcard from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, delete up to 5000 DP total worth of your opponent's Digimon. For each of this Digimon's face-down digivolution cards, add 2000 to this effect's DP maximum."
+                            "effectText": "When this card would be played, by trashing 1 [Cyborg]/[Ver.1] trait card from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, delete up to 5000 DP total worth of your opponent's Digimon. For each of this Digimon's face-down digivolution cards, add 2000 to this effect's DP maximum."
                         },
                         {
                             "effectType": "INHERITED",
                             "effectText": "＜Security A. +1＞ (This Digimon checks 1 additional security card)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-014",
+                    "name": "Gabumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b0/EX9-014-Sample.png/revision/latest?cb=20250416131108",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Among them, add 1 card with the [DM] trait to the hand and place 1 card with the [Ver.2] trait face down as the bottom digivolution card of any of your Digimon with the [DM] trait . Return the rest to the bottom of the deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-016",
+                    "name": "Betamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/EX9-016-Sample.png/revision/latest?cb=20250509061852",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-017",
+                    "name": "Garurumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/77/EX9-017-Sample.png/revision/latest?cb=20250501060054",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area). [On Play] [When Digivolving] By placing 1 card in your hand face down as this Digimon's bottom digivolution card, for each of its face-down digivolution cards, trash any 1 digivolution card from your opponent's Digimon."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-018",
+                    "name": "MetalMamemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/42/EX9-018-Sample.png/revision/latest?cb=20250501142050",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, by trashing 1 [Cyborg]/[Ver.2] trait card from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, from 1 of your opponent's Digimon, trash any 1 digivolution card for each of this Digimon's face-down digivolution cards. Then, return 1 of their Digimon with no digivolution cards to the bottom of the deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[End of Your Turn] [Once Per Turn] 1 of your Digimon unsuspends."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-022",
+                    "name": "Elecmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/88/EX9-022-Sample.png/revision/latest?cb=20250502141322",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] All of your opponent's Security Digimon get -3000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-025",
+                    "name": "Airdramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f8/EX9-025-Sample.png/revision/latest?cb=20250509130104",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area). [When Attacking] [Once Per Turn] By placing your deck's top card face down as this Digimon's bottom digivolution card, to 1 of your opponent's Digimon, give -2000 DP for the turn for each of this Digimon's face-down digivolution cards."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-026",
+                    "name": "Angemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/EX9-026-Sample.png/revision/latest?cb=20250502060039",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area). [On Play] [When Digivolving] By placing 1 card in your hand face down as this Digimon's bottom digivolution card, give 1 of your opponent's Digimon ＜Security A. -1＞ (This Digimon checks 1 fewer security card) and -3000 DP until their turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[On Deletion] If you have 3 or fewer security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-029",
+                    "name": "Unimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/EX9-029-Sample.png/revision/latest?cb=20250504060043",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area). [When Digivolving] [When Attacking] [Once Per Turn] By placing 1 card in your hand face down as this Digimon's bottom digivolution card, if you have as many or fewer security cards as this Digimon has face-down digivolution cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] 1 of your opponent's Digimon gets -2000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-030",
+                    "name": "Andromon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/EX9-030-Sample.png/revision/latest?cb=20250504124127",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, by trashing 1 [Cyborg]/[Ver.3] trait card from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, 1 of your opponent's Digimon gets -3000 DP until their turn ends. It further gets -2000 DP for each of this Digimon's face-down digivolution cards."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-035",
+                    "name": "Palmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/EX9-035-Sample.png/revision/latest?cb=20250505062505",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Among them, add 1 card with the [DM] trait to the hand and place 1 card with the [Ver.4] trait face down as the bottom digivolution card of any of your Digimon with the [DM] trait . Return the rest to the bottom of the deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] Suspend 1 of your opponent's Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-036",
+                    "name": "Pomumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/EX9-036-Sample.png/revision/latest?cb=20250503060119",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When this Digimon would digivolve into a Digimon card with the [WG] trait, reduce the digivolution cost by 1."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-040",
+                    "name": "Parasaurmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/EX9-040-Sample.png/revision/latest?cb=20250503144401",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target). [All Turns] [Once Per Turn] When this Digimon suspends, suspend 1 of your opponent's Digimon."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-043",
+                    "name": "MetalTyrannomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3f/EX9-043-Sample.png/revision/latest?cb=20250508060121",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, by trashing 1 [Cyborg]/[Ver.5] trait card from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, to 1 of your opponent's Digimon, ＜De-Digivolve 1＞ (Trash the top card. You can't trash past level 3 cards) for each of this Digimon's face-down digivolution cards. Then, delete 1 of your opponent's 3000 DP or lower Digimon."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-051",
+                    "name": "Monochromon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/EX9-051-Sample.png/revision/latest?cb=20250506060154",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area). [On Play] [When Attacking] By placing 1 card in your hand face down as this Digimon's bottom digivolution card, ＜De-Digivolve 1＞ 1 of your opponent's Digimon (Trash the top card. You can't trash past level 3 cards)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Blocker＞ (At blocker timing, by suspending this Digimon, it becomes the attack target)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-058",
+                    "name": "Gazimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/EX9-058-Sample.png/revision/latest?cb=20250507132930",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Among them, add 1 card with the [DM] trait to the hand and place 1 card with the [Ver.5] trait face down as the bottom digivolution card of any of your Digimon with the [DM] trait . Return the rest to the bottom of the deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-060",
+                    "name": "Devidramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/aa/EX9-060-Sample.png/revision/latest?cb=20250508051416",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Training＞ (In the main phase, by suspending this Digimon, place your deck's top card face down as this Digimon's bottom digivolution card. This effect can also activate in the breeding area). [When Digivolving] [When Attacking] [Once Per Turn] By placing 1 card in your hand face down as this Digimon's bottom digivolution card, ＜Draw 1＞ (Draw 1 card from your deck)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[On Deletion] Delete 1 of your opponent's level 4 or lower Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-064",
+                    "name": "Megadramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2d/EX9-064-Sample.png/revision/latest?cb=20250506123055",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, by trashing 1 [Cyborg]/[Ver.4] trait card from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, delete 2 of your opponent's play cost 4 or lower Digimon. For each of this Digimon's face-down digivolution cards, add 1 to this effect's play cost maximum."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[End of Attack] [Once Per Turn] By unsuspending this Digimon, deleted 1 of your Digimon with the lowest level."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-070",
+                    "name": "Meat",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/EX9-070-Sample.png/revision/latest?cb=20250505124703",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a [DM] trait Digimon or Tamer on the field, you can ignore this card's color requirements. [Main] ＜Draw 1＞ (Draw 1 card from your deck). Then, place this card in the battle area. [Main] ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below) ・By placing 1 card from your hand face down as any of your [DM] trait Digimon's bottom digivolution card, it may digivolve into a [DM] trait Digimon card in the hand with the digivolution cost reduced by 2."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] ＜Draw 1＞ (Draw 1 card from your deck). Then, place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX9-073",
+                    "name": "Machinedramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/72/EX9-073-Sample.png/revision/latest?cb=20250508123120",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] [When Attacking] [Once Per Turn] By placing 1 level 5 [Cyborg]/[Ver.5] trait card from your hand or trash as this Digimon's top digivolution card, activate 1 [On Play] effect on the placed card as an effect of this Digimon. [All Turns] When this Digimon would leave the battle area, by trashing its bottom 2 face-down or [Cyborg] trait digivolution cards, it doesn't leave."
                         }
                     ]
                 }
@@ -41919,7 +42278,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -42455,7 +42814,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -42956,6 +43315,98 @@
                         {
                             "effectType": "CARD",
                             "effectText": "[When Digivolving] ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack). Then, if DNA digivolving, by placing 1 other Digimon or Tamer as the top or bottom security card, trash your opponent's top security card. [When Digivolving] [When Attacking] [Once Per Turn] By trashing your top security card, you may play 1 purple or yellow Digimon card with 6000 DP or less from your hand or trash without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-188",
+                    "name": "DemiVeemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/46/P-188-Sample.png/revision/latest?cb=20250502082446",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When any of your blue Tamers are played, ＜Draw 1＞ (Draw 1 card from your deck)."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-189",
+                    "name": "Dimetromon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/P-189-Sample.png/revision/latest?cb=20250502082452",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] You may play 1 card with the [LIBERATOR] trait and a play cost of 4 or less from your hand or trash without paying the cost. ＜Progress＞ (While attacking, your opponent's effects don't affect this Digimon)."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When your opponent's security stack is removed from, gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-190",
+                    "name": "Tweetmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d0/P-190-Sample.png/revision/latest?cb=20250502082457",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] ＜Draw 1＞ (Draw 1 card from your deck)."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-191",
+                    "name": "Apollomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/P-191-Sample.png/revision/latest?cb=20250502081906",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost). [On Play] [When Digivolving] To 1 of your opponent’s Digimon, give -4000 DP for the turn for each of your Digimon with the [Olympos XII] trait. Then, delete up to 7000 DP total worth of their Digimon. [End of Your Turn] 2 of your Digimon may DNA digivolve into [GraceNovamon] in the hand. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-4＞ (As this card moves from the field or under a card to an area other than those, lose 4 memory.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[End of Your Turn] [Once Per Turn] 1 of your Digimon may attack."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-192",
+                    "name": "Bakemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c2/P-192-Sample.png/revision/latest?cb=20250502082203",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By trashing 1 card in your hand, delete 1 of your opponent's level 4 or lower Digimon."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
+                        }
+                    ]
+                },
+                {
+                    "code": "P-193",
+                    "name": "The Wicked God Emerges!",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/P-193-Sample.png/revision/latest?cb=20250502082236",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Main] By trashing 1 card with the [Composite]/[Wicked God] trait from your hand, ＜Draw 2＞ (Draw 2 cards from your deck). Then, place this card in the battle area. [End of All Turns] ＜Delay＞ (After this card is placed, by trashing it the next turn or later, activate the effect below) ・By deleting 1 of your [Millenniummon], you may play 1 [Wicked God] trait Digimon card from your hand or trash without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -43645,7 +44096,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -43661,7 +44112,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -43842,7 +44293,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -43858,7 +44309,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -44055,7 +44506,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -44228,7 +44679,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect. Then, add this card to your hand."
+                            "effectText": "[Security] Activate this card's [Main] effects. Then, add this card to your hand."
                         }
                     ]
                 },
@@ -44244,7 +44695,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -44417,7 +44868,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -44433,7 +44884,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -44787,7 +45238,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -45131,7 +45582,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -45342,7 +45793,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -45552,7 +46003,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -45758,7 +46209,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -46156,7 +46607,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -46385,7 +46836,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -46401,7 +46852,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -46590,7 +47041,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -47040,7 +47491,7 @@
                         },
                         {
                             "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effect."
+                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 }
@@ -47177,7 +47628,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] [When Digivolving] 1 of your Digimon unsuspends. Then, for every 2 colors your Tamers with the [ADVENTURE] trait have, Suspend 1 of your opponent's Digimon. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
+                            "effectText": "[On Play] [When Digivolving] 1 of your Digimon unsuspends. Then, for every 2 colors your Tamers with the [ADVENTURE] trait have, suspend 1 of your opponent's Digimon. [Your Turn] [Once Per Turn] When your other Digimon are played or digivolve, if any of them have the [ADVENTURE] trait, 1 of your Digimon gains ＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack) for the turn. Then, 1 of your Digimon may attack."
                         },
                         {
                             "effectType": "INHERITED",

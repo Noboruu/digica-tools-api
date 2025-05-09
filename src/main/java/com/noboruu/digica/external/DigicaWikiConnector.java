@@ -32,6 +32,7 @@ public class DigicaWikiConnector {
     private final String DIGICA_WIKI_CARD_EFFECT_TEXT = "Card Effect(s)";
     private final String DIGICA_WIKI_INHERITED_EFFECT_TEXT = "Inherited Effect";
     private final String DIGICA_WIKI_ACE_EFFECT_TEXT = "Ace";
+    private final String USER_AGENT = "Chrome";
 
     private final DigicaMeta digicaMeta = new DigicaMeta();
 
@@ -102,7 +103,7 @@ public class DigicaWikiConnector {
 
     private CardDTO getCardForPath(String path) throws IOException {
         String url = DIGICA_WIKI_BASE_URL + path;
-        Document doc = Jsoup.connect(url).get();
+        Document doc = Jsoup.connect(url).userAgent(USER_AGENT).get();
 
         return getCardForPath(doc);
     }
@@ -119,7 +120,7 @@ public class DigicaWikiConnector {
     private List<String> getAllCardsPathsForUrl(String url) throws IOException {
         List<String> cardPaths = new ArrayList<>();
 
-        Document doc = Jsoup.connect(url).get();
+        Document doc = Jsoup.connect(url).userAgent(USER_AGENT).get();
         List<Element> cardTables = doc.select("table.cardlist");
 
         for(Element cardTable : cardTables) {
@@ -148,7 +149,7 @@ public class DigicaWikiConnector {
                     continue;
                 }
 
-                Document doc = Jsoup.connect(DIGICA_WIKI_PROMOS_PATH + promoCode).get();
+                Document doc = Jsoup.connect(DIGICA_WIKI_PROMOS_PATH + promoCode).userAgent(USER_AGENT).get();
                 executor.submit(() -> cards.add(getCardForPath(doc)));
             }
         } catch (HttpStatusException e) {
