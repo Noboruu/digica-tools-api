@@ -32,6 +32,7 @@ public enum DigicaSetsEnum {
     BT19("BT19", "/wiki/BT-19:_Booster_Xros_Evolution"),
     BT20("BT20", "/wiki/BT-20:_Booster_Over_the_X"),
     BT21("BT21", "/wiki/BT-21:_Booster_World_Convergence"),
+    BT22("BT22", "/wiki/BT-22:_Booster_Cyber_Eden"),
     // -- Theme Boosters --
     EX1("EX1", "/wiki/EX-01:_Theme_Booster_Classic_Collection"),
     EX2("EX2", "/wiki/EX-02:_Theme_Booster_Digital_Hazard"),
