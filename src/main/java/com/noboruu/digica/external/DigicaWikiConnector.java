@@ -178,7 +178,9 @@ public class DigicaWikiConnector {
             if (!m.find()) {
                 throw new IllegalArgumentException("Invalid card name: " + cardNameElement);
             }
-            card.setName(m.group(1));
+
+
+            card.setName(m.group(1).replaceAll("< ", ""));
             card.setCode(m.group(2));
         }
     }
@@ -188,6 +190,8 @@ public class DigicaWikiConnector {
         if (!Objects.isNull(cardTypeElement)) {
             CardTypeEnum cardType = CardTypeEnum.findByWikiCardType(cardTypeElement.text());
             card.setCardType(cardType);
+        } else {
+            throw new IllegalArgumentException("Invalid card type for card with code " + card.getCode());
         }
     }
 
