@@ -1,5 +1,5 @@
 {
-    "extractionDate": "06-07-2025 00:33:34",
+    "extractionDate": "14-08-2025 12:27:55",
     "cardSets": [
         {
             "code": "BT1",
@@ -4286,7 +4286,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "＜Security A. +1＞ (This Digimon checks 1 additional security card.). [Your Turn] While this Digimon's digivolution cards include a Digimon card with the [Hybrid] trait or a red Tamer card, it gets +4000 DP."
+                            "effectText": "＜Security A. +1＞ (This Digimon checks 1 additional security card.) [Your Turn] While this Digimon's digivolution cards include a Digimon card with the [Hybrid] trait or a red Tamer card, it gets +4000 DP."
                         }
                     ]
                 },
@@ -12485,6 +12485,22 @@
                     ]
                 },
                 {
+                    "code": "BT9-095",
+                    "name": "Gaia Force ZERO",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1e/BT9-095.png/revision/latest?cb=20220625065157",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When you would use this card, if you have a Digimon with [X Antibody] in its digivolution cards in play, reduce the memory cost of this card by 2. [Main] Delete 1 of your opponent's Digimon with 13000 DP or less. Then, 1 of your Digimon with [Greymon] in its name can attack your opponent."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Delete 1 of your opponent's Digimon."
+                        }
+                    ]
+                },
+                {
                     "code": "BT9-096",
                     "name": "Startling Thunder",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bb/BT9-096.png/revision/latest?cb=20220625065156",
@@ -16399,7 +16415,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Imperialdramon] in its name or [Free] trait and 1 card with [Ken Ichijoji] in its name among them to your hand. Place the rest at the bottom of your deck in any order."
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Imperialdramon] in its name or [Free] trait and 1 Tamer card with [Ken Ichijoji] in its name among them to your hand. Place the rest at the bottom of your deck in any order."
                         },
                         {
                             "effectType": "INHERITED",
@@ -16473,6 +16489,18 @@
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/BT12-052.png/revision/latest?cb=20230421194632",
                     "cardType": "DIGIMON",
                     "cardEffects": []
+                },
+                {
+                    "code": "BT12-053",
+                    "name": "MetallifeKuwagamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/BT12-053.png/revision/latest?cb=20230421194632",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When this Digimon deletes an opponent's Digimon in battle, gain 1 memory."
+                        }
+                    ]
                 },
                 {
                     "code": "BT12-054",
@@ -17662,7 +17690,7 @@
                 },
                 {
                     "code": "BT13-024",
-                    "name": "Gwappamon",
+                    "name": "Gawappamon",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/BT13-024.png/revision/latest?cb=20230714185526",
                     "cardType": "DIGIMON",
                     "cardEffects": [
@@ -17706,7 +17734,7 @@
                 },
                 {
                     "code": "BT13-027",
-                    "name": "Shawjamon",
+                    "name": "Shaujinmon",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e5/BT13-027.png/revision/latest?cb=20230714185526",
                     "cardType": "DIGIMON",
                     "cardEffects": [
@@ -18432,7 +18460,7 @@
                         },
                         {
                             "effectType": "INHERITED",
-                            "effectText": "[End of Opponent's Turn] [Once Per Turn] ＜Draw 1＞ Then, trash 1 card from your hand."
+                            "effectText": "[End of Opponent's Turn] [Once Per Turn] ＜Draw 1＞ (Draw 1 card from your deck.) Then, trash 1 card from your hand."
                         }
                     ]
                 },
@@ -18624,7 +18652,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[When Digivolving] Search your opponent's hand, choose 1 card, and trash it. Then, if your opponent has 7 or less cards in their hand, your opponent adds the top card of their security stack to their hand. [When Attacking] By returning 1 Digimon card from your opponent's trash to the bottom of your their deck, delete all of your opponent's Digimon with the samename as that card."
+                            "effectText": "[When Digivolving] Search your opponent's hand, choose 1 card, and trash it. Then, if your opponent has 7 or less cards in their hand, your opponent adds the top card of their security stack to their hand. [When Attacking] By returning 1 Digimon card from your opponent's trash to the bottom of their deck, delete all of your opponent's Digimon with the same name as that card."
                         }
                     ]
                 },
@@ -20217,7 +20245,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[Main] Search your security stack. 1 of your Digimon may digivolve in to 1 yellow level 6 or lower Digimon with the [Vaccine] trait among them without paying its cost. Then, shuffle your security security. If digivolved by this effect and you have Tamer with [T.K. Takaishi] in its name, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack.)"
+                            "effectText": "[Main] Search your security stack. 1 of your Digimon may digivolve in to 1 yellow level 6 or lower Digimon with the [Vaccine] trait among them without paying its cost. Then, shuffle your security stack. If digivolved by this effect and you have Tamer with [T.K. Takaishi] in its name, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack.)"
                         },
                         {
                             "effectType": "SECURITY",
@@ -40604,7 +40632,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] [When Digivolving] You may suspend 1 Digimon. Then, if this Digimon is suspended, ＜De-Digivolve 1＞ 1 of your opponent's Digimon, and this Digimon isn't returned to hand or deck by an opponent's effect, and isn't affected by ＜De-Digivolve＞ effects until the end of your opponent's turn."
+                            "effectText": "[On Play] [When Digivolving] You may suspend 1 Digimon. Then, if this Digimon is suspended, ＜De-Digivolve 1＞ 1 of your opponent's Digimon and, until the end of your opponent's turn, their effects can't return this Digimon to hands or decks or affect it with ＜De-Digivolve＞ effects."
                         },
                         {
                             "effectType": "INHERITED",
@@ -41741,7 +41769,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "When this card would be played, by trashing 1 [Cyborg] or [Ver.5] trait card from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, to 1 of your opponent's Digimon, ＜De-Digivolve 1＞ 1 of your opponent's Digimon for each of this Digimon's face-down digivolution cards. Then, delete 1 of your opponent's 3000 DP or lower Digimon."
+                            "effectText": "When this card would be played, by trashing 1 [Cyborg] or [Ver.5] trait card from your hand, reduce the play cost by 2. [On Play] [When Digivolving] By placing 1 Digimon card from your trash face down as this Digimon's bottom digivolution card, to 1 of your opponent's Digimon, ＜De-Digivolve 1＞ for each of this Digimon's face-down digivolution cards. Then, delete 1 of your opponent's 3000 DP or lower Digimon."
                         },
                         {
                             "effectType": "INHERITED",
@@ -45239,7 +45267,7 @@
                     "cardEffects": [
                         {
                             "effectType": "CARD",
-                            "effectText": "[On Play] [When Digivolving] By placing 1 Level 5 or lower Digimon card with [Aqua] or [Sea Animal] in any of its traits from your hand as 1 of your Digimon's bottom digivolution card, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                            "effectText": "[On Play] [When Digivolving] By placing 1 Level 5 or lower Digimon card with [Aqua] or [Sea Animal] in any of its traits from your hand as this Digimon's bottom digivolution card, ＜Draw 1＞ (Draw 1 card from your deck.)"
                         },
                         {
                             "effectType": "INHERITED",
@@ -45650,7 +45678,7 @@
                 {
                     "code": "P-194",
                     "name": "Aegiomon",
-                    "artUrl": null,
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f8/P-194.png/revision/latest?cb=20250725171414",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -45666,92 +45694,12 @@
                 {
                     "code": "P-195",
                     "name": "Inori Misono",
-                    "artUrl": null,
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/P-195.png/revision/latest?cb=20250725171953",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
                             "effectType": "CARD",
                             "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [On Play] Activate 1 of the effects below: ・You may play 1 [Elecmon] from your hand without paying the cost. ・1 of your Digimon may digivolve into [Aegiomon] in the hand without paying the cost."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Play this card without paying the cost."
-                        }
-                    ]
-                },
-                {
-                    "code": "P-196",
-                    "name": "Gomamon",
-                    "artUrl": null,
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] If you have 4 or less memory, this Digimon may digivolve into a Digimon card with the [Sea Beast] or [TS] trait in the hand without paying the cost."
-                        },
-                        {
-                            "effectType": "INHERITED",
-                            "effectText": "[When Attacking] [Once Per Turn] If you have 7 or fewer cards in your hand, ＜Draw 1＞ (Draw 1 card from your deck.)"
-                        }
-                    ]
-                },
-                {
-                    "code": "P-197",
-                    "name": "Patamon",
-                    "artUrl": null,
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] If you have 4 or less memory, this Digimon may digivolve into a Digimon card with the [Angel] or [TS] trait in the hand without paying the cost."
-                        },
-                        {
-                            "effectType": "INHERITED",
-                            "effectText": "[When Attacking] [Once Per Turn] 1 of your opponent's Digimon gets -2000 DP for the turn."
-                        }
-                    ]
-                },
-                {
-                    "code": "P-198",
-                    "name": "DemiDevimon",
-                    "artUrl": null,
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] If you have 4 or less memory, this Digimon may digivolve into a Digimon card with the [Fallen Angel] or [TS] trait in the hand without paying the cost."
-                        },
-                        {
-                            "effectType": "INHERITED",
-                            "effectText": "[When Attacking] [Once Per Turn] ＜Draw 1＞ (Draw 1 card from your deck.) and trash 1 card in your hand."
-                        }
-                    ]
-                },
-                {
-                    "code": "P-199",
-                    "name": "Dan Yuki",
-                    "artUrl": null,
-                    "cardType": "TAMER",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] If you have 4 or less memory, 1 of your Digimon gets +3000 DP for the turn. [Your Turn] When any of your Digimon cards with the [TS] trait would be played, by suspending this Tamer, reduce their play costs by 1."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Play this card without paying the cost."
-                        }
-                    ]
-                },
-                {
-                    "code": "P-200",
-                    "name": "Kanan Yuki",
-                    "artUrl": null,
-                    "cardType": "TAMER",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] If you have 4 or less memory, suspend 1 of your opponent's Digimon. [Your Turn] When any of your Digimon would digivolve into a Digimon card with the [TS] trait, by suspending this Tamer, reduce the digivolution cost by 1."
                         },
                         {
                             "effectType": "SECURITY",

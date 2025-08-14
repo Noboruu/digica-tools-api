@@ -43,6 +43,7 @@ public enum DigicaSetsEnum {
     EX7("EX7", "/wiki/EX-07:_Extra_Booster_Digimon_Liberator"),
     EX8("EX8", "/wiki/EX-08:_Extra_Booster_Chains_of_Liberation"),
     EX9("EX9", "/wiki/EX-09:_Extra_Booster_Versus_Monsters"),
+    EX10("EX10", "/wiki/EX-10:_Extra_Booster_Sinister_Order"),
     // -- Resurgence Boost --
     RB1("RB1", "/wiki/RB-01:_Resurgence_Booster"),
     // -- Limited Packs --
