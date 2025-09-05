@@ -1,5 +1,5 @@
 {
-    "extractionDate": "04-09-2025 00:06:46",
+    "extractionDate": "05-09-2025 01:22:00",
     "cardSets": [
         {
             "code": "BT1",
@@ -8538,22 +8538,6 @@
                     "cardEffects": []
                 },
                 {
-                    "code": "BT7-013",
-                    "name": "MetalGreymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/BT7-013.png/revision/latest?cb=20220218130544",
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[On Play] If you have a Tamer in play, gain 2 memory. If you don't have a Tamer, you may play 1 red Tamer card from your hand without paying its memory cost."
-                        },
-                        {
-                            "effectType": "INHERITED",
-                            "effectText": "[Your Turn] [Once Per Turn] When one of your opponent's Digimon is deleted, gain 1 memory."
-                        }
-                    ]
-                },
-                {
                     "code": "BT7-014",
                     "name": "Aldamon",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/31/BT7-014.png/revision/latest?cb=20220218130545",
@@ -9115,18 +9099,6 @@
                         {
                             "effectType": "INHERITED",
                             "effectText": "[Your Turn] While this Digimon has [Knightmon] or [Bagramon] in its name, it gets +2000 DP."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT7-060",
-                    "name": "Grumblemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/BT7-060.png/revision/latest?cb=20220218130615",
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "You may digivolve this card from your hand onto one of your black Tamers as if the Tamer is a level 3 black Digimon."
                         }
                     ]
                 },
@@ -11619,18 +11591,6 @@
                     ]
                 },
                 {
-                    "code": "BT9-025",
-                    "name": "TeslaJellymon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8e/BT9-025.png/revision/latest?cb=20220625065040",
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[End of Attack] [Once Per Turn] You may trash 2 cards in your hand to unsuspend this Digimon."
-                        }
-                    ]
-                },
-                {
                     "code": "BT9-026",
                     "name": "Piranimon",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/BT9-026.png/revision/latest?cb=20220625065049",
@@ -11978,13 +11938,6 @@
                             "effectText": "[When Attacking] If a card with [Leomon] or [X Antibody] in its name is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon or Tamers. [Your Turn] [Once Per Turn] When an opponent's Digimon or Tamer becomes suspended, you may unsuspend this Digimon."
                         }
                     ]
-                },
-                {
-                    "code": "BT9-057",
-                    "name": "Bearmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/BT9-057.png/revision/latest?cb=20220625065120",
-                    "cardType": "DIGIMON",
-                    "cardEffects": []
                 },
                 {
                     "code": "BT9-058",
@@ -12357,22 +12310,6 @@
                     ]
                 },
                 {
-                    "code": "BT9-087",
-                    "name": "T.K. Takaishi & Izzy Izumi",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/BT9-087.png/revision/latest?cb=20220625065151",
-                    "cardType": "TAMER",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Start of Your Main Phase] If you have a level 5 or higher Digimon in play, gain 1 memory. If your opponent has a level 5 or higher Digimon in play, gain 1 memory. [Your Turn] When one of your Digimon digivolves into a yellow or green Digimon, you may suspend this Tamer to have 1 of your opponent's Digimon get -1000 DP until the end of your opponent's turn."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Play this card without paying the cost."
-                        }
-                    ]
-                },
-                {
                     "code": "BT9-088",
                     "name": "Mimi Tachikawa & Joe Kido",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/ff/BT9-088.png/revision/latest?cb=20220625065151",
@@ -12389,22 +12326,6 @@
                     ]
                 },
                 {
-                    "code": "BT9-089",
-                    "name": "Daigo Nishijima",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/BT9-089.png/revision/latest?cb=20220625065151",
-                    "cardType": "TAMER",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[All Turns] When an opponent's Digimon becomes unsuspended during a main phase, you may suspend this Tamer to gain 1 memory. [Your Turn] When one of your Digimon digivolves into a black level 6 Digimon, it gains ＜Blocker＞ (This Digimon can block in the blocker timing.) until the end of your opponent's turn."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Play this card without paying the cost."
-                        }
-                    ]
-                },
-                {
                     "code": "BT9-090",
                     "name": "Maki Himekawa",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/BT9-090.png/revision/latest?cb=20220625065150",
@@ -12413,22 +12334,6 @@
                         {
                             "effectType": "CARD",
                             "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 [Tapirmon] and 1 2-color black card among them to your hand. Place the rest at the bottom of your deck in any order. [Your Turn] When one of your Digimon would digivolve into a 2-color black Digimon, you may suspend this Tamer to reduce the digivolution cost by 1."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Play this card without paying the cost."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT9-091",
-                    "name": "Meiko Mochizuki",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/48/BT9-091.png/revision/latest?cb=20220625065151",
-                    "cardType": "TAMER",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[On Play] You may reveal the top 3 cards of your deck. Add 1 purple or yellow Digimon card among them to your hand. Trash the rest. [All Turns] When you play a 2-color purple and yellow Digimon, you may suspend this Tamer to gain 1 memory."
                         },
                         {
                             "effectType": "SECURITY",
@@ -12465,54 +12370,6 @@
                         {
                             "effectType": "SECURITY",
                             "effectText": "[Security] Delete 1 of your opponent's Digimon with 5000 DP or less."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT9-094",
-                    "name": "Atomic Megalo Blaster",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/BT9-094.png/revision/latest?cb=20220625065156",
-                    "cardType": "OPTION",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Main] Choose any number of your opponent's Digimon whose total DP adds up to 10000 or less and delete them."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effects."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT9-095",
-                    "name": "Gaia Force ZERO",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1e/BT9-095.png/revision/latest?cb=20220625065157",
-                    "cardType": "OPTION",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "When you would use this card, if you have a Digimon with [X Antibody] in its digivolution cards in play, reduce the memory cost of this card by 2. [Main] Delete 1 of your opponent's Digimon with 13000 DP or less. Then, 1 of your Digimon with [Greymon] in its name can attack your opponent."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Delete 1 of your opponent's Digimon."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT9-096",
-                    "name": "Startling Thunder",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bb/BT9-096.png/revision/latest?cb=20220625065156",
-                    "cardType": "OPTION",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Main] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Then, if you have a Digimon in play with [Jellymon] in its name or with [Jellymon] in its digivolution cards, return 1 of your opponent's Tamers to its owner's hand."
-                        },
-                        {
-                            "effectType": "SECURITY",
-                            "effectText": "[Security] Activate this card's [Main] effects."
                         }
                     ]
                 },
@@ -12749,18 +12606,6 @@
                         {
                             "effectType": "CARD",
                             "effectText": "[When Digivolving] Delete all of your opponent's Digimon with the highest play cost. [End of Your Turn] [Once Per Turn] You may return up to 7 non-Digi-Egg cards with the [X Antibody] trait from this Digimon's digivolution cards to the bottom of your deck in any order, if you do, gain 1 memory for each card returned."
-                        }
-                    ]
-                },
-                {
-                    "code": "BT9-112",
-                    "name": "DeathXmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/BT9-112.png/revision/latest?cb=20220625065209",
-                    "cardType": "DIGIMON",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "When you would play this card, reduce its memory cost by 3 for each Digimon and Tamer your opponent has in play. [On Play] [When Digivolving] ＜De-Digivolve 1＞ all of your opponent's Digimon. (Trash the top card. You can't trash past level 3 cards.) Then, delete all of your opponent's level 4 or lower Digimon. [End of Opponent's Turn] [Once Per Turn] Delete all of your opponent's Digimon with the lowest play cost."
                         }
                     ]
                 }
@@ -24557,22 +24402,6 @@
                     ]
                 },
                 {
-                    "code": "BT17-079",
-                    "name": "Takuya Kanbara",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT17-079.png/revision/latest?cb=20240720080102",
-                    "cardType": "TAMER",
-                    "cardEffects": [
-                        {
-                            "effectType": "CARD",
-                            "effectText": "[Security] Play this card without paying the cost. [Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory."
-                        },
-                        {
-                            "effectType": "INHERITED",
-                            "effectText": "[Your Turn] This Digimon gets +2000 DP. While this Digimon has 10000 DP or more, it gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)."
-                        }
-                    ]
-                },
-                {
                     "code": "BT17-080",
                     "name": "Takato Matsuki",
                     "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/49/BT17-080.png/revision/latest?cb=20240705214737",
@@ -31107,7 +30936,7 @@
                 {
                     "code": "BT22-007",
                     "name": "Mother Eater",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT22-007.png/revision/latest?cb=20250704054412",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT22-007.png/revision/latest?cb=20250904162713",
                     "cardType": "DIGI_EGG",
                     "cardEffects": [
                         {
@@ -31423,7 +31252,7 @@
                 {
                     "code": "BT22-028",
                     "name": "Ariemon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT22-028.png/revision/latest?cb=20250704054354",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT22-028.png/revision/latest?cb=20250904162743",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -31451,7 +31280,7 @@
                 {
                     "code": "BT22-030",
                     "name": "Musimon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/BT22-030.png/revision/latest?cb=20250704054048",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/BT22-030.png/revision/latest?cb=20250904162733",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -31607,7 +31436,7 @@
                 {
                     "code": "BT22-041",
                     "name": "Kentaurosmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/BT22-041.png/revision/latest?cb=20250704054354",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/BT22-041.png/revision/latest?cb=20250904162756",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -31619,7 +31448,7 @@
                 {
                     "code": "BT22-042",
                     "name": "Nyabootmon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/BT22-042.png/revision/latest?cb=20250704054354",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/BT22-042.png/revision/latest?cb=20250904163122",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -31939,7 +31768,7 @@
                 {
                     "code": "BT22-063",
                     "name": "Alphamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT22-063.png/revision/latest?cb=20250704054219",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT22-063.png/revision/latest?cb=20250904162811",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -32139,7 +31968,7 @@
                 {
                     "code": "BT22-077",
                     "name": "Dianamon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/BT22-077.png/revision/latest?cb=20250704054114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/BT22-077.png/revision/latest?cb=20250904163051",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -32167,7 +31996,7 @@
                 {
                     "code": "BT22-079",
                     "name": "Eater (Species Form)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/61/BT22-079.png/revision/latest?cb=20250704054114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/61/BT22-079.png/revision/latest?cb=20250904162905",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -32183,7 +32012,7 @@
                 {
                     "code": "BT22-080",
                     "name": "Eater (Human Form)",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/BT22-080.png/revision/latest?cb=20250704054114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/BT22-080.png/revision/latest?cb=20250904162824",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -32199,7 +32028,7 @@
                 {
                     "code": "BT22-081",
                     "name": "Eater Eve",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/BT22-081.png/revision/latest?cb=20250704054114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/BT22-081.png/revision/latest?cb=20250904162836",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -32211,7 +32040,7 @@
                 {
                     "code": "BT22-082",
                     "name": "Eater Adam",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/50/BT22-082.png/revision/latest?cb=20250704054114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/50/BT22-082.png/revision/latest?cb=20250904162848",
                     "cardType": "DIGIMON",
                     "cardEffects": [
                         {
@@ -32223,7 +32052,7 @@
                 {
                     "code": "BT22-083",
                     "name": "Yuuko Kamishiro",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/17/BT22-083.png/revision/latest?cb=20250704054114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/17/BT22-083.png/revision/latest?cb=20250904162149",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32239,7 +32068,7 @@
                 {
                     "code": "BT22-084",
                     "name": "Nokia Shiramine",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT22-084.png/revision/latest?cb=20250704054114",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT22-084.png/revision/latest?cb=20250904161748",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32255,7 +32084,7 @@
                 {
                     "code": "BT22-085",
                     "name": "Rina Shinomiya",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a6/BT22-085.png/revision/latest?cb=20250704054146",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a6/BT22-085.png/revision/latest?cb=20250904162522",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32271,7 +32100,7 @@
                 {
                     "code": "BT22-086",
                     "name": "Yao Qinglan",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bc/BT22-086.png/revision/latest?cb=20250704054154",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bc/BT22-086.png/revision/latest?cb=20250904163153",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32287,7 +32116,7 @@
                 {
                     "code": "BT22-087",
                     "name": "Torajiro Asuka",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f0/BT22-087.png/revision/latest?cb=20250704054154",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f0/BT22-087.png/revision/latest?cb=20250904163110",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32303,7 +32132,7 @@
                 {
                     "code": "BT22-088",
                     "name": "Arisa Kinosaki",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/BT22-088.png/revision/latest?cb=20250704054154",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/BT22-088.png/revision/latest?cb=20250904163131",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32319,7 +32148,7 @@
                 {
                     "code": "BT22-089",
                     "name": "Mirei Mikagura",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/BT22-089.png/revision/latest?cb=20250704054154",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/BT22-089.png/revision/latest?cb=20250904162533",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32335,7 +32164,7 @@
                 {
                     "code": "BT22-090",
                     "name": "Rie Kishibe",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/BT22-090.png/revision/latest?cb=20250704054154",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/BT22-090.png/revision/latest?cb=20250904162321",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32351,7 +32180,7 @@
                 {
                     "code": "BT22-091",
                     "name": "Arata Sanada",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT22-091.png/revision/latest?cb=20250704054154",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT22-091.png/revision/latest?cb=20250904161948",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32367,7 +32196,7 @@
                 {
                     "code": "BT22-092",
                     "name": "Jimmy KEN",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7e/BT22-092.png/revision/latest?cb=20250704054046",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7e/BT22-092.png/revision/latest?cb=20250904162547",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32383,7 +32212,7 @@
                 {
                     "code": "BT22-093",
                     "name": "Ami Aiba",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/89/BT22-093.png/revision/latest?cb=20250704054047",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/89/BT22-093.png/revision/latest?cb=20250904162042",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32399,7 +32228,7 @@
                 {
                     "code": "BT22-094",
                     "name": "Yuugo Kamishiro",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/BT22-094.png/revision/latest?cb=20250704054047",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/BT22-094.png/revision/latest?cb=20250904162311",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32415,7 +32244,7 @@
                 {
                     "code": "BT22-095",
                     "name": "Akemi Suedou",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/BT22-095.png/revision/latest?cb=20250704054047",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/BT22-095.png/revision/latest?cb=20250904162605",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32431,7 +32260,7 @@
                 {
                     "code": "BT22-096",
                     "name": "Unique Emblem: Poseidia Lagoon",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT22-096.png/revision/latest?cb=20250704054047",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT22-096.png/revision/latest?cb=20250904163202",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -32463,7 +32292,7 @@
                 {
                     "code": "BT22-098",
                     "name": "Unique Emblem: Fable Waltz",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/BT22-098.png/revision/latest?cb=20250704054047",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/BT22-098.png/revision/latest?cb=20250904163214",
                     "cardType": "OPTION",
                     "cardEffects": [
                         {
@@ -32511,7 +32340,7 @@
                 {
                     "code": "BT22-101",
                     "name": "Kyoko Kuremi",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/BT22-101.png/revision/latest?cb=20250704054047",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/BT22-101.png/revision/latest?cb=20250904162621",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -32527,7 +32356,7 @@
                 {
                     "code": "BT22-102",
                     "name": "Sayo",
-                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/BT22-102.png/revision/latest?cb=20250704054048",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/BT22-102.png/revision/latest?cb=20250904162632",
                     "cardType": "TAMER",
                     "cardEffects": [
                         {
@@ -42246,6 +42075,1075 @@
                         {
                             "effectType": "CARD",
                             "effectText": "＜Rush＞ (This Digimon can attack the turn it comes into play.) ＜Security A. +1＞ (This Digimon checks 1 additional security card.) [On Play] [When Digivolving] You may place 1 level 4 or lower [DM] trait Digimon card from your trash as this Digimon's top digivolution card. Then, delete 1 of your opponent's Digimon with the same color as any of this Digimon's digivolution cards. If this Digimon has 6 or more colors in its digivolution cards, instead delete 1 of each of your opponent's Digimon with different colors. [All Turns] This Digimon gets +1000 DP for each color in its digivolution cards."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "EX10",
+            "cards": [
+                {
+                    "code": "EX10-001",
+                    "name": "Flickmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/45/EX10-001-Sample.png/revision/latest?cb=20250811054946",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When effects trash any of this Digimon's link cards, gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-002",
+                    "name": "Koromon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9b/EX10-002-Sample.png/revision/latest?cb=20250806052618",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When attack targets change, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-003",
+                    "name": "Tumblemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/80/EX10-003-Sample.png/revision/latest?cb=20250828040816",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Opponent's Turn] [Once Per Turn] When one of your opponent's Digimon attacks, by trashing 3 [Mineral] or [Rock] trait cards from this Digimon's digivolution cards, end that attack."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-004",
+                    "name": "Cupimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c9/EX10-004-Sample.png/revision/latest?cb=20250804052616",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When any of your Digimon with [Lucemon] in their names move from the breeding area to the battle area, by trashing 1 card in your hand, ＜Draw 1＞ (Draw 1 card from your deck.) and gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-005",
+                    "name": "Pagumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b6/EX10-005-Sample.png/revision/latest?cb=20250730050229",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When your opponent's deck is trashed from, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-006",
+                    "name": "Agumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ac/EX10-006-Sample.png/revision/latest?cb=20250806133221",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] You may return 1 [Virus] trait Digimon card with [Greymon] in its name in its name from your trash to the hand."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-007",
+                    "name": "Greymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1a/EX10-007-Sample.png/revision/latest?cb=20250728051431",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.) [On Play] [When Digivolving] 1 Digimon gets +3000 DP until your opponent's turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-008",
+                    "name": "MetalGreymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/34/EX10-008-Sample.png/revision/latest?cb=20250728123644",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.) [On Play] [When Digivolving] Give 1 of your opponent's Digimon ＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible.) and \"[Start of Your Main Phase] This Digimon attacks.\" until their turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Opponent's Turn] [Once Per Turn] When attack targets change, if this Digimon has [Greymon] in its name in its name, trash your opponent's top security card."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-009",
+                    "name": "Creepymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/75/EX10-009-Sample.png/revision/latest?cb=20250729133046",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] [On Deletion] Delete all of your opponent's lowest DP Digimon. If this effect didn't delete, trash their deck's top 5 cards. [When Attacking] If your opponent has 10 or more cards in their trash, you may play 1 red or purple 5000 DP or lower Digimon card from your trash to your empty breeding area without paying the cost. [End of Your Turn] This Digimon may attack."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-010",
+                    "name": "BlackWarGreymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2a/EX10-010-Sample.png/revision/latest?cb=20250612132316",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost.) ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.) ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.) ＜Blocker＞ (This Digimon can block in the blocker timing.) [On Play] [When Digivolving] Delete 1 of your opponent's play cost 7 or lower Digimon or Tamers. [All Turns] While your opponent has a Digimon with 13000 DP or more, your opponent's Digimon's effects don't affect this Digimon, and it gets +3000 DP."
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-4＞ (As this card moves from the field or under a card to an area other than those, lose 4 memory.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-011",
+                    "name": "MaloMyotismon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/EX10-011-Sample.png/revision/latest?cb=20250817124456",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Trash] [Main] By deleting 2 of your level 5 or higher Digimon with [Myotismon] in their texts, play this card with the play cost reduced by 11. [On Play] [When Digivolving] [When Attacking] [Once Per Turn] Delete 2 other unsuspended Digimon. [All Turns] [Once Per Turn] When any of your other Digimon or Tamers are deleted, trash your opponent's top security card and return 1 of their Digimon with the lowest DP to the bottom of the deck."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-012",
+                    "name": "MetalSeadramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/EX10-012-Sample.png/revision/latest?cb=20250731051727",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Main] If you don't have any Digimon other than Digimon with [Dark Masters] in their texts, you may play this card with the play cost reduced by 5. At turn end, delete the Digimon this effect played. [On Play] [When Attacking] 1 of your opponent's Digimon and 1 of their Tamers can't suspend until their turn ends. [All Turns] This Digimon can only digivolve into [Apocalymon]. [On Deletion] If you have no blue face-up security cards, place this Digimon face up as the bottom security card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] If this card was face-up, you may play 1 level 5 or lower card with [Dark Masters] in its text from your hand or trash without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-013",
+                    "name": "Lucemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/EX10-013-Sample.png/revision/latest?cb=20250727061521",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.) [Breeding] [When Digivolving] This Digimon may move. [End of Your Turn] By returning 5 cards with [Lucemon] in their texts from your trash to the bottom of the deck, this Digimon may digivolve into [Lucemon: Chaos Mode] in the trash without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-014",
+                    "name": "Weatherdramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/33/EX10-014-Sample.png/revision/latest?cb=20250816052434",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. [On Play] [When Digivolving] Give 2 of your opponent's Digimon ＜Security A. -1＞ (This Digimon checks 1 fewer security card.) until their turn ends."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-015",
+                    "name": "Psychemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ed/EX10-015-Sample.png/revision/latest?cb=20250814044629",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By trashing 1 card with ＜Save＞ in its text from your hand, ＜Draw 1＞ (Draw 1 card from your deck.) and suspend 1 of your opponent's Digimon. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-016",
+                    "name": "Mirrormon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/EX10-016-Sample.png/revision/latest?cb=20250811131923",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] [Once Per Turn] When this Digimon gets linked, you may suspend 1 of your opponent's Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-017",
+                    "name": "Mienumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/EX10-017-Sample.png/revision/latest?cb=20250726183129",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon.) ＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.) [Your Turn] [Once Per Turn] When this Digimon gets linked, if you have 1 or fewer Tamers, you may play 1 Tamer card with the [Leviathan] trait from your hand without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-018",
+                    "name": "Astamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/EX10-018-Sample.png/revision/latest?cb=20250814060712",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Fortitude＞ (When this Digimon with digivolution cards is deleted, play this card without paying the cost.) [On Play] [When Digivolving] You may play 1 play cost 4 or lower card with ＜Save＞ in its text from under your Tamers without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-019",
+                    "name": "Warudamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/EX10-019-Sample.png/revision/latest?cb=20250809123249",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Fortitude＞ (When this Digimon with digivolution cards is deleted, play this card without paying the cost.) [On Play] [When Digivolving] You may link 1 level 4 or lower Digimon card from your trash or this Digimon's digivolution cards to this Digimon without paying the cost. [All Turns] [Once Per Turn] When this Digimon gets linked, you may suspend 1 of your opponent's Digimon or Tamers. It can't unsuspend in their next unsuspend phase."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-020",
+                    "name": "Puppetmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0a/EX10-020-Sample.png/revision/latest?cb=20250801042739",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Main] If you don't have any Digimon other than Digimon with [Dark Masters] in their texts, you may play this card with the play cost reduced by 5. At turn end, delete the Digimon this effect played. [On Play] [When Attacking] Return 1 of your opponent's suspended Digimon to the bottom of the deck. [All Turns] This Digimon can only digivolve into [Apocalymon]. [On Deletion] If you have no green face-up security cards, place this Digimon face up as the bottom security card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] If this card was face-up, you may play 1 level 5 or lower card with [Dark Masters] in its text from your hand or trash without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-021",
+                    "name": "Belphemon: Sleep Mode",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/EX10-021-Sample.png/revision/latest?cb=20250805060224",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By placing 1 [Belphemon: Rage Mode] from your trash as this Digimon's top digivolution card, until your opponent's turn ends, this Digimon can't attack and your opponent's effects don't affect it. [Opponent's Turn] [Once Per Turn] When any of your opponent's Digimon suspend, by trashing 2 cards in your hand, suspend 2 of their Digimon or Tamers."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-022",
+                    "name": "Belphemon: Rage Mode",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/EX10-022-Sample.png/revision/latest?cb=20250805123124",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Fortitude＞ (When this Digimon with digivolution cards is deleted, play this card without paying the cost.) [Start of Your Main Phase] Suspend all of your opponent's level 5 or lower Digimon. Then, if you have 6 or fewer cards in your hand, this Digimon gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.), ＜Security A. +2＞ (This Digimon checks 2 additional security cards.) and +3000 DP for the turn. [Start of Your Main Phase] [On Play] [When Digivolving] Delete 1 of your opponent's suspended Digimon or Tamers."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[End of Opponent's Turn] If this Digimon is [Belphemon: Sleep Mode], trash this Digimon's top stacked card."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-023",
+                    "name": "Quartzmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/EX10-023-Sample.png/revision/latest?cb=20250814123646",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost.) [On Play] [When Digivolving] Suspend all other Digimon and Tamers. [When Digivolving] [When Attacking] [Once Per Turn] Delete 1 of your opponent's suspended Digimon. [All Turns] Other than this Digimon, no Digimon or Tamers can unsuspend in the unsuspend phase."
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-5＞ (As this card moves from the field or under a card to an area other than those, lose 5 memory.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-024",
+                    "name": "Kabemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9b/EX10-024-Sample.png/revision/latest?cb=20250726060033",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-025",
+                    "name": "Sunarizamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/be/EX10-025-Sample.png/revision/latest?cb=20250820043225",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] You may place 2 cards with the [Mineral] or [Rock] trait from your trash as 1 of your [Mineral] or [Rock] trait Digimon's bottom digivolution cards."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "When effects trash this card from a [Mineral] or [Rock] trait Digimon's digivolution cards, delete 1 of your opponent's Digimon with a play cost of 4 or less."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-026",
+                    "name": "SkullKnightmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bb/EX10-026-Sample.png/revision/latest?cb=20250819044143",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By trashing 1 card in your hand, delete 1 of your opponent's Digimon with a play cost of 4 or less. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-027",
+                    "name": "DeadlyAxemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/EX10-027-Sample.png/revision/latest?cb=20250819044159",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By trashing 1 card in your hand, you may return 1 Digimon card with [Knightmon] in its text or the [Bagra Army] or [Twilight] trait from your trash to the hand. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-028",
+                    "name": "Landramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a7/EX10-028-Sample.png/revision/latest?cb=20250820043234",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By trashing any 1 card with the [Mineral] or [Rock] trait from your Digimon's digivolution cards, 1 of your Digimon with the [Mineral] or [Rock] trait gains ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.), ＜Blocker＞ (This Digimon can block in the blocker timing.) and +3000 DP until your opponent's turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "When effects trash this card from a [Mineral] or [Rock] trait Digimon's digivolution cards, delete 1 of your opponent's Digimon with a play cost of 4 or less."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-029",
+                    "name": "Warpmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ec/EX10-029-Sample.png/revision/latest?cb=20250816060355",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. ＜Blocker＞ (This Digimon can block in the blocker timing.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-030",
+                    "name": "Cometmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/EX10-030-Sample.png/revision/latest?cb=20250816123639",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible.) [On Play] [When Digivolving] You may link 1 level 4 or lower Digimon card from your hand or this Digimon's digivolution cards to this Digimon without paying the cost. [All Turns] [Once Per Turn] When effects trash any of this Digimon's link cards, 1 of your opponent's Digimon gets -8000 DP for the turn."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When this Digimon would leave the battle area, by trashing 1 of its link cards, it doesn't leave."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-031",
+                    "name": "DarkKnightmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/EX10-031-Sample.png/revision/latest?cb=20250819123721",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Until your opponent's turn ends, their ＜De-Digivolve＞ effects don't affect 1 of your Digimon, and it gets +3000 DP. [All Turns] [Once Per Turn] When this Digimon would leave the battle area, you may play 1 play cost 4 or lower card from its digivolution cards without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Opponent's Turn] [Once Per Turn] When one of your opponent's Digimon attacks, you may change the attack target to this Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-032",
+                    "name": "Proganomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ea/EX10-032-Sample.png/revision/latest?cb=20250813053332",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Main] If you have [Close], by placing 1 [Landramon] from your trash as any of your [Sunarizamon]'s bottom digivolution card, it digivolves into this card for a digivolution cost of 3, ignoring digivolution requirements. [On Play] [When Digivolving] [When Attacking] By trashing any 1 [Mineral] or [Rock] trait card from your Digimon's digivolution cards, 1 of your such Digimon gains ＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible.), ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.) and +3000 DP until your opponent's turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "When effects trash this card from a [Mineral] or [Rock] trait Digimon's digivolution cards, ＜De-Digivolve 1＞ 1 of your opponent's Digimon. (Trash the top card. You can't trash past level 3 cards.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-033",
+                    "name": "Pyramidimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/EX10-033-Sample.png/revision/latest?cb=20250813133538",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Fragment (3)＞ (When this Digimon would be deleted, by trashing any 3 of its digivolution cards, it isn't deleted.) [When Digivolving] [When Attacking] [Once Per Turn] You may place up to 3 [Mineral] or [Rock] trait cards from your trash as this Digimon's bottom digivolution cards. [When Digivolving] [When Attacking] By trashing up to 3 [Mineral] or [Rock] trait cards from any of your Digimon's digivolution cards, to 1 of your opponent's Digimon, reduce the play cost by 2 until their turn ends for each card trashed."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-034",
+                    "name": "Blastmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/EX10-034-Sample.png/revision/latest?cb=20250815130119",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible.) ＜Fragment (3)＞ (When this Digimon would be deleted, by trashing any 3 of its digivolution cards, it isn't deleted.) ＜Blocker＞ (This Digimon can block in the blocker timing.) [On Play] [When Digivolving] Until your opponent's turn ends, give 1 of their Digimon \"[Start of Your Main Phase] This Digimon attacks.\" [All Turns] [Once Per Turn] When Digimon attack, by trashing any 2 of this Digimon's digivolution cards, this Digimon gains ＜Security A. +1＞ (This Digimon checks 1 additional security card.) and +3000 DP until your turn ends."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-035",
+                    "name": "Machinedramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/EX10-035-Sample.png/revision/latest?cb=20250801172915",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Main] If you don't have any Digimon other than Digimon with [Dark Masters] in their texts, you may play this card with the play cost reduced by 5. At turn end, delete the Digimon this effect played. [On Play] [When Attacking]＜De-Digivolve 2＞ 2 of your opponent's Digimon. (Trash up to 2 cards from the top. You can't trash past level 3 cards.) [All Turns] This Digimon can only digivolve into [Apocalymon]. [On Deletion] If you have no black face-up security cards, place this Digimon face up as the bottom security card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] If this card was face-up, you may play 1 level 5 or lower card with [Dark Masters] in its text from your hand or trash without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-036",
+                    "name": "Magneticdramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/EX10-036-Sample.png/revision/latest?cb=20250828123120",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Fragment (3)＞ (When this Digimon would be deleted, by trashing any 3 of its digivolution cards, it isn't deleted.) [When Digivolving] [When Attacking] By trashing 3 [Mineral] or [Rock] trait cards from any of your Digimon's digivolution cards, delete 1 of your opponent's Digimon and trash their top security card. [When Digivolving] [When Attacking] [Once Per Turn] By placing 3 [Mineral] or [Rock] trait cards from your trash as this Digimon's bottom digivolution cards, it unsuspends."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-037",
+                    "name": "Impmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c6/EX10-037-Sample.png/revision/latest?cb=20250725130736",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card is trashed from the top of the deck, you may delete 1 of your opponent's level 4 or lower Digimon. [Start of Your Main Phase] Trash the top 2 cards of your deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] For every 10 cards in your trash, this Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-038",
+                    "name": "Copipemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0a/EX10-038-Sample.png/revision/latest?cb=20250726000302",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with the [Appmon] trait and 1 card with the [Leviathan] trait among them to the hand. Return the rest to the bottom of the deck."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-039",
+                    "name": "ChuuChuumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/68/EX10-039-Sample.png/revision/latest?cb=20250812045717",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] You may place 1 Digimon card with the [Bagra Army] trait from your hand or trash as any of your [Bagra Army] trait Digimon's bottom digivolution cards or under any of your [Bagra Army] trait Tamers. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "When effects trash this card from a [Bagra Army] trait Digimon's digivolution cards, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-040",
+                    "name": "DemiDevimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f8/EX10-040-Sample.png/revision/latest?cb=20250818135516",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has 10 or fewer cards in their trash, trash the top 2 cards of both players' decks. Then, if they have 10 or more cards in their trash, gain 1 memory."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] Trash the top card of both players' decks."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-041",
+                    "name": "Wizardmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/EX10-041-Sample.png/revision/latest?cb=20250725061429",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When effects trash this card from the deck or security stack, give 1 of your opponent's Digimon ＜Security A. -1＞ (This Digimon checks 1 additional security card.) until their turn ends. [On Play] [When Digivolving] By trashing your top security card, trash the top 2 cards of your deck and all of your opponent's Digimon get -3000 DP for the turn."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-042",
+                    "name": "GulusGammamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/EX10-042-Sample.png/revision/latest?cb=20250803051605",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Trash the top 2 cards of your deck. Then, you may place 1 Digimon card with [Gammamon] in its name in its name from your trash as this Digimon's bottom digivolution card. [Your Turn] [Once Per Turn] When effects add to this Digimon's digivolution cards, this Digimon may digivolve into [Regulusmon] in the hand or trash with the digivolution cost reduced by 1."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-043",
+                    "name": "Sakusimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f8/EX10-043-Sample.png/revision/latest?cb=20250809000142",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Delete 1 of your opponent's level 3 Digimon. [All Turns] [Once Per Turn] When effects trash any of this Digimon's link cards, gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-044",
+                    "name": "Damemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/be/EX10-044-Sample.png/revision/latest?cb=20250812123303",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] By placing 1 [Bagra Army] trait Digimon card from your hand or trash under any of your Tamers, ＜Draw 1＞ (Draw 1 card from your deck.) [On Deletion] You may play 1 [Tuwarmon] with a play cost of 7 or less from under your Tamers without paying the cost. Then, ＜Save＞ (You may place this card under one of your Tamers.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "When effects trash this card from a [Bagra Army] trait Digimon's digivolution cards, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-045",
+                    "name": "Tuwarmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/EX10-045-Sample.png/revision/latest?cb=20250812123318",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Rush＞ (This Digimon can attack the turn it comes into play.) ＜Collision＞ (During this Digimon's attack, all of your opponent's Digimon gain ＜Blocker＞, and must block if possible.) [On Play] [When Digivolving] [When Attacking] [Once Per Turn] By trashing any 1 digivolution card of your [Bagra Army] trait Digimon, 1 of your [Bagra Army] trait Digimon gains ＜Blocker＞ (This Digimon can block in the blocker timing.) and ＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.) until your opponent's turn ends. [On Deletion] ＜Save＞ (You may place this card under one of your Tamers.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "When effects trash this card from a [Bagra Army] trait Digimon's digivolution cards, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-046",
+                    "name": "Devimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3b/EX10-046-Sample.png/revision/latest?cb=20250730132959",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] [When Digivolving] If your opponent has 10 or fewer cards in their trash, tash the top 2 cards of both players' decks. Then, if they have 10 or more cards in their trash, you may return 1 card with the [Fallen Angel] or [Undead] trait from your trash to the hand."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] Trash the top card of both players' decks."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-047",
+                    "name": "Arukenimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2d/EX10-047-Sample.png/revision/latest?cb=20250802042516",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] By trashing 1 card in your hand, delete up to 6000 DP total worth of your opponent's Digimon. [On Deletion] You may play 1 Tamer card with [Myotismon] in its text from your trash without paying the cost. This effect can't play cards with the same name as any of your Tamers."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-048",
+                    "name": "Myotismon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f7/EX10-048-Sample.png/revision/latest?cb=20250803052141",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, by deleting 1 of your Digimon with [Myotismon] in its text, reduce the play cost by 4. [On Play] [On Deletion] Until your opponent's turn ends, 1 of your purple Digimon gains ＜Blocker＞ (This Digimon can block in the blocker timing.) and ＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)"
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[On Deletion] You may play 1 purple Tamer card from your trash suspended without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-049",
+                    "name": "SkullSatamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/EX10-049-Sample.png/revision/latest?cb=20250729063527",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.) [When Digivolving] [On Deletion] If your opponent has 10 or fewer cards in their trash, trash the top 3 cards of both players' decks. Then, delete 1 of your opponent's level 3 or lower Digimon. If your opponent has 10 or more cards in their trash, add 2 to this effect's level maximum."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] This Digimon gains ＜Security A. +1＞ for the turn. (This Digimon checks 1 additional security card.) If your opponent has 10 or fewer cards in their trash, instead trash the top 2 cards of both players' decks."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-050",
+                    "name": "Baalmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/EX10-050-Sample.png/revision/latest?cb=20250725061424",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Trash the top 3 cards of your deck. Then, if you have 5 or more cards in your trash, this Digimon gains ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.) and ＜Blocker＞ (This Digimon can block in the blocker timing.) until your opponent's turn ends. [On Deletion] If you have 10 or more cards in your trash, you may play 1 [Beelzemon] from your trash without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] For every 10 cards in your trash, this Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-051",
+                    "name": "Mummymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/EX10-051-Sample.png/revision/latest?cb=20250802042512",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] By trashing 1 card in your hand, ＜De-Digivolve 1＞ 1 of your opponent's Digimon. (Trash the top card. You can't trash past level 3 cards.) [On Deletion] You may play 1 Tamer card with [Myotismon] in its text from your trash without paying the cost. This effect can't play cards with the same name as any of your Tamers."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-052",
+                    "name": "Lucemon: Chaos Mode",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/03/EX10-052-Sample.png/revision/latest?cb=20250727061533",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] [When Attacking] By trashing 1 card in your hand, your opponent may delete 1 of their Digimon or Tamers. If this effect didn't delete, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack.) [All Turns] [Once Per Turn] When this Digimon would leave the battle area, your opponent may delete 1 of their Digimon or Tamers. If this effect didn't delete, it doesn't leave."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-053",
+                    "name": "Regulusmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/EX10-053-Sample.png/revision/latest?cb=20250803123603",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Rush＞ (This Digimon can attack the turn it comes into play.) ＜Blocker＞ (This Digimon can block in the blocker timing.) [On Play] [When Digivolving] You may place up to 5 differently named Digimon cards with [Gammamon] in their names from your trash as this Digimon's bottom digivolution cards. Then, delete 1 of your opponent's Digimon with as much or less DP as this Digimon. [End of Your Turn] [Once Per Turn] If this Digimon has 5 or more digivolution cards, it may attack without suspending."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When any of your opponent's Digimon are deleted, gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-054",
+                    "name": "VenomMyotismon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/EX10-054-Sample.png/revision/latest?cb=20250817044817",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Trash] [Main] By deleting 1 of your level 5 Digimon with [Myotismon] in its text, play this card with the play cost reduced by 7. [On Play] [When Digivolving] You may suspend 2 of your opponent's Digimon or Tamers. Then, 2 of their Digimon or Tamers can't unsuspend until their turn ends. [On Deletion] Delete 1 of your opponent's suspended Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-055",
+                    "name": "Tactimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/80/EX10-055-Sample.png/revision/latest?cb=20250724041400",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] You may choose 1 of your Digimon. Delete the chosen Digimon and 1 of your opponent’s Digimon with as high or lower a level as it. [All Turns] [Once Per Turn] When any of your [Bagra Army] trait Digimon would leave the battle area by effects, by trashing any 2 of this Digimon's digivolution cards, they don't leave."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-056",
+                    "name": "Bagramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/dd/EX10-056-Sample.png/revision/latest?cb=20250724060140",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] You may place 1 of your opponent's Digimon as any of their other Digimon's bottom digivolution card or under any of their Tamers. [All Turns] [Once Per Turn] When any of your opponent's Digimon or Tamers digivolve or effects place cards under them, by trashing any 2 of this Digimon's digivolution cards, trash your opponent's top security card."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-057",
+                    "name": "Piedmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bd/EX10-057-Sample.png/revision/latest?cb=20250810051745",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Main] If you don't have any Digimon other than Digimon with [Dark Masters] in their texts, you may play this card with the play cost reduced by 5. At turn end, delete the Digimon this effect played. [On Play] [When Attacking] Delete 1 of your opponent's unsuspended Digimon. [All Turns] This Digimon can only digivolve into [Apocalymon]. [On Deletion] If you have no purple face-up security cards, place this Digimon face up as the bottom security card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] If this card was face-up, you may play 1 level 5 or lower card with [Dark Masters] in its text from your hand or trash without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-058",
+                    "name": "Lilithmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/35/EX10-058-Sample.png/revision/latest?cb=20250815041255",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Until your opponent's turn ends, give 1 of their Digimon or Tamers \"[End of Your Turn] Delete 1 of your Digimon.\" [All Turns] [Once Per Turn] When any of your opponent's Digimon are played or deleted, by trashing any 2 of this Digimon's digivolution cards, you may play 1 level 4 or lower purple Digimon card from your trash without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-059",
+                    "name": "DarknessBagramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d4/EX10-059-Sample.png/revision/latest?cb=20250724132858",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Choose 1 card in your opponent's hand without looking and place it as any of their Digimon's bottom digivolution card or under any of their Tamers. Then, by placing 3 [Bagra Army] trait Digimon cards from your trash as this Digimon's top digivolution cards, delete 1 of their Digimon or Tamers with cards under it. [All Turns] This Digimon gains all [All Turns] effects on all level 6 [Bagra Army] trait Digimon cards in its digivolution cards."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-060",
+                    "name": "Lucemon: Satan Mode",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/ff/EX10-060-Sample.png/revision/latest?cb=20250727174003",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By playing 1 [Lucemon: Larva] from your trash to your empty breeding area without paying the cost, delete all of your opponent's Digimon with the highest level. [When Digivolving] [When Attacking] [Once Per Turn] Your opponent may delete 1 of their Digimon or Tamers. If this effect didn't delete, trash their top security card and this Digimon unsuspends."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-061",
+                    "name": "Apocalymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/EX10-061-Sample.png/revision/latest?cb=20250731132904",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, by placing 1 of each face-up [Dark Masters] trait card with different names from your security stack under this card, reduce the play cost by 4 for each card placed. [On Play] [When Digivolving] You may play 1 of each [Dark Masters] trait card with different names from this Digimon's digivolution cards without paying the costs. Then, all of your [Dark Masters] trait Digimon gain ＜Rush＞ for the turn. (This Digimon can attack the turn it comes into play.) At turn end, delete the Digimon this effect played."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-062",
+                    "name": "Yujin Ozora",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/EX10-062-Sample.png/revision/latest?cb=20250821061001",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [All Turns] When effects trash any of your Digimon's link cards, by suspending this Tamer, ＜Draw 1＞ (Draw 1 card from your deck.) [End of Your Turn] [Once Per Turn] 1 of your Digimon may app fuse into a Digimon card in the hand."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-063",
+                    "name": "Close",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5c/EX10-063-Sample.png/revision/latest?cb=20250808045707",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By returning this Tamer to the bottom of the deck, you may play 1 [Close] from your hand without paying the cost. Then, if you don't have a Digimon, you may play 1 [Sunarizamon] from your trash without paying the cost. [All Turns] When effects trash any of your [Mineral] or [Rock] trait Digimon's digivolution cards, by suspending this Tamer, gain 1 memory."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-064",
+                    "name": "Yuu Amano & Nene Amano",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/98/EX10-064-Sample.png/revision/latest?cb=20250807062715",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By placing 1 [Bagra Army] or [Twilight] trait Digimon card from your hand or trash under this Tamer, ＜Draw 1＞ (Draw 1 card from your deck.) [All Turns] When any of your [Bagra Army] or [Twilight] trait Digimon cards with DigiXros requirements would be played, by suspending this Tamer, 1 card from under your Tamers and 1 card in your trash can also be placed for their DigiXros."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-065",
+                    "name": "Yukio Oikawa",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c6/EX10-065-Sample.png/revision/latest?cb=20250817060130",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 or less memory, set it to 3. [All Turns] When any of your Digimon with [Myotismon] in their names are played, by deleting this Tamer, 1 of those Digimon gains ＜Rush＞ for the turn. (This Digimon can attack the turn it comes into play.) Then, gain 1 memory."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-066",
+                    "name": "Akihiro Kurata",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/EX10-066-Sample.png/revision/latest?cb=20250805060222",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 or less memory, set it to 3. [End of Your Turn] If you have 6 or fewer cards in your hand, by placing this Tamer as the bottom digivolution card of any of your Digimon with [Belphemon] in their names, that Digimon may digivolve into a Digimon card with [Belphemon] in its name in its name in the trash without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-067",
+                    "name": "Ryoma Mogami",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/EX10-067-Sample.png/revision/latest?cb=20250807000041",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 or less memory, set it to 3. [Your Turn] When any of your Digimon digivolve into a Digimon with ＜Save＞ in its text, by suspending this Tamer and placing 1 Digimon card with ＜Save＞ in its text from under your Tamers as that Digimon's bottom digivolution card, that Digimon gains ＜Alliance＞ for the turn. (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.)"
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-068",
+                    "name": "Digimon Emperor",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/EX10-068-Sample.png/revision/latest?cb=20250807123727",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] For every 2 colors your opponent's Digimon and Tamers have, gain 1 memory. [On Play] Delete 1 of your opponent's play cost 5 or lower Digimon. Then, by returning 1 Digimon card from your opponent's trash to the bottom of the deck, from your hand or trash and without paying the cost, you may play 1 level 4 or lower Digimon card with the same color as the card this effect returned."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-069",
+                    "name": "Unique Emblem: Gravel Hearts",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/EX10-069-Sample.png/revision/latest?cb=20250808155923",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Main] You may play 1 [Sunarizamon] or [Close] from your hand or trash without paying the cost. Then, place this card in the battle area. [Your Turn] When any of your [Close]s suspend, ＜Delay＞ (By trashing this card after the placing turn, activate the effect below.) ・1 of your [Mineral] or [Rock] trait Digimon may digivolve into a Digimon card with the [Mineral] trait and [LIBERATOR] trait in the hand with the digivolution cost reduced by 3."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Activate this card's [Main] effects."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-070",
+                    "name": "God Grade Unleashed",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/16/EX10-070-Sample.png/revision/latest?cb=20250821044828",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon or Tamer with the [Appmon] trait on the field, you can ignore this card's color requirements. [Main] ＜Draw 1＞ (Draw 1 card from your deck.) Then, place this card in the battle area. [All Turns] When effects trash any of your Digimon's link cards, ＜Delay＞ (By trashing this card after the placing turn, activate the effect below.) ・You may link 1 Digimon card with the [Appmon] trait from your trash to 1 of those Digimon without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-071",
+                    "name": "Paradise Lost",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8e/EX10-071-Sample.png/revision/latest?cb=20250804132745",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon with [Lucemon] in its name in its name on the field, you can ignore this card's color requirements. [Trash] [End of Your Turn] If you have a Digimon with [Lucemon] in its name in its name, by returning this card to the bottom of the deck, trash your top security card and 1 of your Digimon attacks without suspending. [Main] Until your opponent's turn ends, 1 of your Digimon with [Lucemon] in its name in its name gains ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.), ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.), ＜Blocker＞ (This Digimon can block in the blocker timing.) and +3000 DP."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] You may play 1 [Lucemon] in its name from your trash without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-072",
+                    "name": "Spiral Mountain",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c0/EX10-072-Sample.png/revision/latest?cb=20250810123511",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you don't have [Spiral Mountain] in the battle area, you can ignore this card's color requirements. [Main] ＜Draw 2＞ (Draw 2 cards from your deck.) Then, place this card in the battle area. [End of Opponent's Turn] ＜Delay＞ (By trashing this card after the placing turn, activate the effect below.) ・You may play 1 face-up Digimon card with the [Dark Masters] trait from your security stack without paying the cost. At the end of your turn, delete the Digimon this effect played."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] You may play 1 Digimon card with the [Dark Masters] trait from your hand or trash without paying the cost. Then, add this card to the hand. At turn end, delete the Digimon this effect played."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-073",
+                    "name": "Deusmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/85/EX10-073-Sample.png/revision/latest?cb=20250821125307",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Security A. +1＞ (This Digimon checks 1 additional security card.) ＜Link +1＞ (Add 1 to this Digimon's maximum links.) [When Digivolving] [End of Opponent's Turn] You may link 1 Digimon card from your hand to this Digimon without paying the cost. Then, you may link 1 Digimon card from this Digimon's digivolution cards to this Digimon without paying the cost. [All Turns] [Once Per Turn] When effects trash any of this Digimon's link cards, delete 1 of your opponent’s Digimon with the lowest play cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "EX10-074",
+                    "name": "Beelzemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2a/EX10-074-Sample.png/revision/latest?cb=20250612132318",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Counter] ＜Blast Digivolve＞ (Your Digimon may digivolve into this card without paying the cost.) [On Play] [When Digivolving] [When Attacking] Trash the top 2 cards of your deck. Then, delete 1 of your opponent's play cost 6 or lower Digimon. For every 10 cards in your trash, add 3 to the play cost maximum. [On Play] [When Digivolving] If you have 10 or more cards in your trash, by returning 2 non-Digi-Egg cards from your trash to the top of the deck, ＜De-Digivolve 2＞ 1 of your opponent's Digimon. (Trash up to 2 cards from the top. You can't trash past level 3 cards.)"
+                        },
+                        {
+                            "effectType": "ACE",
+                            "effectText": "Overflow ＜-4＞ (As this card moves from the field or under a card to an area other than those, lose 4 memory.)"
                         }
                     ]
                 }
