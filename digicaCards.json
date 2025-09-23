@@ -1,5 +1,5 @@
 {
-    "extractionDate": "23-09-2025 22:30:20",
+    "extractionDate": "23-09-2025 22:40:26",
     "cardSets": [
         {
             "code": "BT1",
@@ -32513,6 +32513,951 @@
                         {
                             "effectType": "SECURITY",
                             "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "BT23",
+            "cards": [
+                {
+                    "code": "BT23-001",
+                    "name": "Flickmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/BT23-001-Sample.png/revision/latest?cb=20250906123328",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] If this Digimon has the [Appmon] trait, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-002",
+                    "name": "Yokomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/34/BT23-002-Sample.png/revision/latest?cb=20250914061027",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] If this Digimon has the [CS], ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-003",
+                    "name": "Motimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/BT23-003-Sample.png/revision/latest?cb=20250914061016",
+                    "cardType": "DIGI_EGG",
+                    "cardEffects": [
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] [Once Per Turn] When any of your [CS] trait Option cards are placed in the battle area, this Digimon may attack."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-005",
+                    "name": "Elizamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/78/BT23-005-Sample.png/revision/latest?cb=20250915000042",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When this Digimon would digivolve into a Digimon card with the [Reptile] or [Dragonkin] trait, reduce the digivolution cost by 1."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[Your Turn] This Digimon gets +2000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-007",
+                    "name": "Musclemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/BT23-007-Sample.png/revision/latest?cb=20250906060304",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-009",
+                    "name": "Coachmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/BT23-009-Sample.png/revision/latest?cb=20250922064315",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] [Once Per Turn] When this Digimon gets linked, 1 of your Digimon gets +4000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-010",
+                    "name": "GeoGreymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/BT23-010-Sample.png/revision/latest?cb=20250919054021",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. ＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.) ＜Blocker＞ (This Digimon can block in the blocker timing.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-011",
+                    "name": "Birdramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a3/BT23-011-Sample.png/revision/latest?cb=20250910004426",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Delete 1 of your opponent's Digimon with 4000 DP or less."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[On Deletion] You may play 1 red or [CS] trait Tamer card from your hand without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-012",
+                    "name": "Garudamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/BT23-012-Sample.png/revision/latest?cb=20250910004403",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] 1 of your Digimon gains ＜Raid＞ for the turn. (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.) [On Deletion] You may play 1 level 4 or lower Digimon card with the [CS] trait or [Avian], [Bird], [Beast], [Animal] or [Sovereign] in any of its traits (other than [Sea Animal]) from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[On Deletion] You may play 1 level 4 or lower Digimon card with the [CS] trait or [Avian], [Bird], [Beast], [Animal] or [Sovereign] in any of its traits (other than [Sea Animal]) from your hand without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-016",
+                    "name": "Dokamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0f/BT23-016-Sample.png/revision/latest?cb=20250906044522",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] [Once Per Turn] When this Digimon gets linked, if you have 1 or fewer Tamers, you may play 1 [Eri Karan] from your hand without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-017",
+                    "name": "Betamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/BT23-017-Sample.png/revision/latest?cb=20250824173210",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] By trash 1 card in your hand, you may return 1 non-Digi-Egg card with the [CS] trait from your trash to the hand."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] You may play 1 play cost 5 or lower Digimon card with the [Hudie] trait from your hand without paying the cost. The Digimon this effect played can't digivolve and is deleted at the end of your opponent's turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-019",
+                    "name": "Gekomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e2/BT23-019-Sample.png/revision/latest?cb=20250913051327",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Trash any 2 digivolution cards from your opponent's Digimon."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-020",
+                    "name": "Seadramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d1/BT23-020-Sample.png/revision/latest?cb=20250824173202",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.) [All Turns] [Once Per Turn] When this Digimon suspends, ＜Draw 1＞ (Draw 1 card from your deck.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-021",
+                    "name": "Dosukomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/85/BT23-021-Sample.png/revision/latest?cb=20250906044508",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] [When Attacking] [Once Per Turn] You may link 1 level 3 Digimon card from your hand or this Digimon's digivolution cards to this Digimon without paying the cost. [Your Turn] [Once Per Turn] When this Digimon gets linked, it can't be deleted in battle until your opponent's turn ends."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-022",
+                    "name": "Dosukomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/91/BT23-022-Sample.png/revision/latest?cb=20250922155419",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Raid＞ (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.) [When Digivolving] [When Attacking] [Once Per Turn] You may link 1 level 4 or lower Digimon card from your hand or this Digimon's digivolution cards to this Digimon without paying the cost. [All Turns] [Once Per Turn] When this Digimon gets linked, it may unsuspend."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-023",
+                    "name": "Whamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a9/BT23-023-Sample.png/revision/latest?cb=20250913051250",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[All Turns] [Once Per Turn] When this Digimon would leave the battle area other than by your effects, you may play 1 level 4 or lower blue or [CS] trait Digimon card from its digivolution cards without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When this Digimon would leave the battle area other than by your effects, you may play 1 level 4 or lower blue or [CS] trait Digimon card from its digivolution cards without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-024",
+                    "name": "Poseidomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/BT23-024-Sample.png/revision/latest?cb=20250918125541",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Evade＞ (When this Digimon would be deleted, you may suspend it to prevent that deletion.) ＜Link +1＞ (Add 1 to this Digimon's maximum links.) [When Digivolving] [When Attacking] You may link 1 Digimon card with the [Appmon] trait from your hand or this Digimon's digivolution cards to this Digimon without paying the cost. [All Turns] [Once Per Turn] When this Digimon gets linked, by unsuspending it, other than their highest play cost Digimon, none of your opponent's Digimon can suspend until their turn ends."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-025",
+                    "name": "MarineAngemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/dd/BT23-025-Sample.png/revision/latest?cb=20250913192311",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Hand] [Main] If you have a Digimon or Tamer with the [CS] trait, by paying 5 cost, give 3 of your opponent's Digimon ＜Security A. -1＞ (This Digimon checks 1 fewer security card.) until their turn ends. Then, place this card as the top security card. [On Play] [When Digivolving] Return 1 of your opponent's Digimon with the lowest level to the hand."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. At turn end, delete this Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-026",
+                    "name": "Lopmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/BT23-026-Sample.png/revision/latest?cb=20250917000153",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] While you have [Makiko Date], this Digimon can digivolve into [Antylamon] in the hand for a digivolution cost of 3, ignoring digivolution requirements."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When any of your other Digimon suspend, 1 of your opponent's Digimon gets -2000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-027",
+                    "name": "Angemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/BT23-027-Sample.png/revision/latest?cb=20250921005352",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion.) [On Play] [When Digivolving] ＜Draw 1＞ (Draw 1 card from your deck.) Then, if it's your turn, 2 of your Digimon may DNA digivolve into [Shakkoumon] in the hand."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-028",
+                    "name": "Coordemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ad/BT23-028-Sample.png/revision/latest?cb=20250922064331",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. [On Play] [When Digivolving] 1 of your opponent's Digimon gets -3000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-029",
+                    "name": "Antylamon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/BT23-029-Sample.png/revision/latest?cb=20250917000150",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.) [All Turns] [Once Per Turn] When any of your cards with the [Beast], [Beastkin] or [CS] trait are played, until your opponent's turn ends, 1 of their Digimon can't activate [When Digivolving] effects."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When any of your other Digimon suspend, 1 of your opponent's Digimon gets -4000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-030",
+                    "name": "Etemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a3/BT23-030-Sample.png/revision/latest?cb=20250916061229",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.) [Main] [Once Per Turn] By paying 1 cost, you may play 1 play cost 3 or lower card with [Chuumon] or [Sukamon] in its name or the [CS] trait from your hand without paying the cost. Then, 1 of your level 3 or higher Digimon gains ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.) and ＜Blocker＞ (This Digimon can block in the blocker timing.) until your opponent's turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-032",
+                    "name": "Shakkoumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/BT23-032-Sample.png/revision/latest?cb=20250921123037",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Digivolving] Until your opponent's turn ends, give 1 of their Digimon \"[Start of Your Main Phase] This Digimon attacks.\" Then, if DNA digivolving, ＜De-Digivolve 1＞ 1 of your opponent's Digimon. (Trash the top card. You can't trash past level 3 cards.) [All Turns] [Once Per Turn] When this Digimon would leave the battle area other than by your effects, you may play 1 level 4 or lower yellow, black or [CS] trait Digimon card from its digivolution cards without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When this Digimon would leave the battle area other than by your effects, you may play 1 level 4 or lower yellow, black or [CS] trait Digimon card from its digivolution cards without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-033",
+                    "name": "Beautymon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/25/BT23-033-Sample.png/revision/latest?cb=20250922155504",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion.) [On Play] [When Digivolving] You may link 1 level 4 or lower Digimon card from your trash or this Digimon's digivolution cards to this Digimon without paying the cost. [Your Turn] [Once Per Turn] When this Digimon gets linked, if you have 5 or fewer security cards, ＜Recovery +1 (Deck)＞ (Place the top card of your deck on top of your security stack.) Then, to 1 of your opponent's Digimon, give -1000 DP until their turn ends for each of your security cards."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-036",
+                    "name": "BanchoLeomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/18/BT23-036-Sample.png/revision/latest?cb=20250909045257",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "When this card would be played, if your opponent has a Digimon with 10000 DP or more, reduce the play cost by 5. [On Play] [When Digivolving] 1 of your other Digimon may digivolve into a level 6 or lower Digimon card with [Leomon] in its name or the [CS] trait in the hand without paying the cost. [End of Your Turn] [Once Per Turn] 1 of your Digimon gains ＜Raid＞ for the turn. (When this Digimon attacks, you may switch the target of attack to 1 of your opponent's unsuspended Digimon with the highest DP.) Then, that Digimon may attack."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-037",
+                    "name": "Tentomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/BT23-037-Sample.png/revision/latest?cb=20250825124038",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When this Digimon would digivolve into a Digimon card with the [CS] trait, reduce the digivolution cost by 1."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] You may play 1 play cost 5 or lower Digimon card with the [Hudie] trait from your hand without paying the cost. The Digimon this effect played can't digivolve and is deleted at the end of your opponent's turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-039",
+                    "name": "Perorimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6f/BT23-039-Sample.png/revision/latest?cb=20250906060252",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with the [Appmon] trait and 1 card with the [Game] or [Invincible (App Name)] trait among them to the hand. Return the rest to the bottom of the deck."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-040",
+                    "name": "Wormmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/06/BT23-040-Sample.png/revision/latest?cb=20250823075533",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By placing 1 of your [Erika Mishima] as this Digimon's bottom digivolution card, this Digimon may digivolve into [Hudiemon] in the hand or trash with the digivolution cost reduced by 2."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] All of your Digimon with the [Hudie] trait get +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-041",
+                    "name": "Kabuterimon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/BT23-041-Sample.png/revision/latest?cb=20250825124037",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.) [All Turns] [Once Per Turn] When this Digimon suspends, 1 of your Digimon gains ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.) and +3000 DP for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-048",
+                    "name": "Gotsumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/BT23-048-Sample.png/revision/latest?cb=20250826123353",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with the [Hudie] trait and 1 Tamer card or Option card with the [CS] trait among them to the hand. Return the rest to the bottom of the deck."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] You may play 1 play cost 5 or lower Digimon card with the [Hudie] trait from your hand without paying the cost. The Digimon this effect played can't digivolve and is deleted at the end of your opponent's turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-049",
+                    "name": "Monodramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/50/BT23-049-Sample.png/revision/latest?cb=20250923051019",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By trashing 1 card with the [Dragonkin], [Cyborg], [Device] or [CS] trait from your hand, ＜Draw 1＞ (Draw 1 card from your deck.) and gain 1 memory."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-050",
+                    "name": "Ankylomon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/52/BT23-050-Sample.png/revision/latest?cb=20250921005415",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.) [On Play] [When Digivolving] 1 of your opponent's Digimon gets -2000 DP until their turn ends. Then, if it's your turn, 2 of your Digimon may DNA digivolve into [Shakkoumon] in the hand."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-051",
+                    "name": "Golemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7e/BT23-051-Sample.png/revision/latest?cb=20250826123408",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.) ＜Blocker＞ (This Digimon can block in the blocker timing.) [All Turns] [Once Per Turn] When this Digimon suspends, delete 1 of your opponent's Digimon with 4000 DP or less. [Your Turn] This Digimon can't attack your opponent's Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-052",
+                    "name": "Consulmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/7/75/BT23-052-Sample.png/revision/latest?cb=20250922064542",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Security] At the end of the battle, play this card without paying the cost. [On Play] [When Digivolving] 1 of your opponent's Digimon can't attack players until their turn ends."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-053",
+                    "name": "Strikedramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0a/BT23-053-Sample.png/revision/latest?cb=20250923051045",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] When any of your Option cards are placed in the battle area, this Digimon may digivolve into a Digimon card with [Cyberdramon] in its name or the [CS] in the hand with the digivolution cost reduced by 2."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] This Digimon gets +1000 DP."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-055",
+                    "name": "Cyberdramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d1/BT23-055-Sample.png/revision/latest?cb=20250923060131",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] Delete 1 of your opponent's Digimon with a play cost of 5 or less. [All Turns] [Once Per Turn] When this Digimon would leave the battle area, by trashing 1 of your Option cards in the battle area, it doesn't leave."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When this Digimon with [Cyberdramon] or [Justimon] in its name or the [CS] trait would leave the battle area, by trashing 1 of your Option cards in the battle area, it doesn't leave."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-056",
+                    "name": "WereGarurumon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/BT23-056-Sample.png/revision/latest?cb=20250908051024",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.) [On Play] [When Digivolving] If you have a Tamer with the [CS] trait, give 1 of your opponent's Digimon \"[Start of Your Main Phase] This Digimon attacks.\" until their turn ends."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When attack targets change, ＜De-Digivolve 1＞ 1 of your opponent's Digimon. (Trash the top card. You can't trash past level 3 cards.)"
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-059",
+                    "name": "Justimon: Blitz Arm",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/BT23-059-Sample.png/revision/latest?cb=20250923060135",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.) [On Play] [When Digivolving] [When Attacking] [Once Per Turn] By trashing 1 Option card in the battle area, delete 1 of your opponent's Digimon with the lowest play cost. [All Turns] [Once Per Turn] When Option cards in the battle area are trashed, this Digimon unsuspends. Then, your opponent's Digimon's effects don't affect this Digimon for the turn."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-060",
+                    "name": "Machinedramon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/9/95/BT23-060-Sample.png/revision/latest?cb=20250919060118",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Security A. +1＞ (This Digimon checks 1 additional security card.) ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.) [On Play] [When Digivolving] ＜De-Digivolve 1＞ 1 of your opponent's Digimon. (Trash the top card. You can't trash past level 3 cards.) Then, delete 1 of their Digimon with 8000 DP or less. [When Attacking] [Once Per Turn] Activate 1 [On Play] effect on a face-up [Zaxon] Digimon card in your security stack as an effect of this Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-062",
+                    "name": "Dracmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/a/aa/BT23-062-Sample.png/revision/latest?cb=20250920033602",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By trash 1 card with the [Undead], [Dark Animal] or [CS] trait from your hand, gain 1 memory."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] 1 of your Digimon may digivolve into a Digimon card with the [Undead] or [Dark Animal] trait in the trash."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-063",
+                    "name": "Sangloupmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT23-063-Sample.png/revision/latest?cb=20250920033421",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[When Attacking] This Digimon may digivolve into a Digimon card with the [Undead] or [CS] trait in the trash."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[When Attacking] [Once Per Turn] 1 of your Digimon may digivolve into a Digimon card with the [Undead] or [Dark Animal] trait in the trash."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-064",
+                    "name": "Bakemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e1/BT23-064-Sample.png/revision/latest?cb=20250911052204",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[On Play] [When Digivolving] By deleting 1 of your Digimon, delete 1 of your opponent's level 4 or lower Digimon."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[On Deletion] Gain 1 memory."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-066",
+                    "name": "Matadormon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/BT23-066-Sample.png/revision/latest?cb=20250920032829",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Scapegoat＞ (When this Digimon would be deleted other than by your effects, by deleting 1 of your other Digimon, prevent that deletion.) [On Play] [When Digivolving] Delete 1 of your opponent's level 4 or lower Digimon. Then, if digivolving from the trash, you may play 1 play cost 3 or lower card with the [Undead] or [CS] trait from your trash without paying the cost."
+                        },
+                        {
+                            "effectType": "INHERITED",
+                            "effectText": "[All Turns] [Once Per Turn] When any of your other Digimon would leave the battle area, by deleting this Digimon, they don't leave."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-068",
+                    "name": "GranDracmon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/BT23-068-Sample.png/revision/latest?cb=20250920153137",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] [On Deletion] 1 of your Digimon may digivolve into a level 6 or lower [Undead] or [Dark Animal] trait Digimon card in the trash without paying the cost. [When Digivolving] You may play 1 level 4 or lower purple Digimon card from your trash without paying the cost. [All Turns] [Once Per Turn] When any of your Digimon digivolve from the trash, delete all of your opponent's lowest level Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-069",
+                    "name": "Necromon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/8/89/BT23-069-Sample.png/revision/latest?cb=20250915132659",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Execute＞ (At the end of your turn, this Digimon may attack. At the end of that attack, delete this Digimon. Your opponent's unsuspended Digimon can also be attacked with this effect.) [On Play] [On Deletion] You may play 1 level 5 or lower Digimon card with the [Ghost] trait from your trash without paying the cost. [All Turns] When another Digimon attacks, by deleting this Digimon, delete 1 of your opponent's level 6 or lower Digimon. If this effect didn't delete your opponent's Digimon, you may end that attack."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-070",
+                    "name": "Belphemon (X Antibody)",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/BT23-070-Sample.png/revision/latest?cb=20250907053921",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Rush＞ (This Digimon can attack the turn it comes into play.) ＜Piercing＞ (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.) [When Digivolving] Delete all of your opponent's Digimon with the highest level. Then, if a card with [Belphemon] in its name is in this Digimon's digivolution cards, this Digimon attacks without suspending. [End of Attack] This Digimon may digivolve into [Belphemon: Sleep Mode] in the trash, ignoring digivolution requirements and without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-078",
+                    "name": "Goro Matayoshi",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/44/BT23-078-Sample.png/revision/latest?cb=20250910134524",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [Your Turn] When your Digimon are played or digivolve, if any of them have [Avian], [Bird], [Beast], [Animal] or [Sovereign] in any of their traits (other than [Sea Animal]) or the [CS] trait, by returning this Tamer to the hand, 1 of your Digimon gets +3000 DP for the turn. Then, 1 of your Digimon may attack."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-079",
+                    "name": "Eri Karan",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/5/53/BT23-079-Sample.png/revision/latest?cb=20250918061017",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [Your Turn] When any of your Digimon get linked, by suspending this Tamer, those Digimon get +3000 DP until your opponent's turn ends. Then, 1 of your Digimon may app fuse into a Digimon card in the hand."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-080",
+                    "name": "Yu Nogi",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/BT23-080-Sample.png/revision/latest?cb=20250912023821",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [All Turns] When any of your Digimon with the [CS] trait would be deleted, by returning this Tamer to the bottom of the deck, place 1 of those Digimon as the top security card."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-081",
+                    "name": "Chitose Imai",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/BT23-081-Sample.png/revision/latest?cb=20250921061955",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If you have a Digimon with the [CS] trait, gain 1 memory. [On Play] You may play 1 play cost 5 or lower Digimon card with the [Hudie] trait from your hand without paying the cost. [All Turns] When any of your [Hudie] trait Digimon suspend, by suspending this Tamer, 1 of your opponent's Digimon gets -3000 DP for the turn."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-082",
+                    "name": "Makiko Date",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/BT23-082-Sample.png/revision/latest?cb=20250917133254",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [Your Turn] When any of your Digimon digivolve into a Digimon with the [Beastkin], [Holy Beast], [Cherub] or [CS] trait, by returning this Tamer to the hand, you may play 1 [Lopmon] or level 3 Digimon card with the [CS] trait from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-085",
+                    "name": "Ryuji Mishima",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c0/BT23-085-Sample.png/revision/latest?cb=20250921061945",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If you have a [CS] trait Digimon, gain 1 memory. [On Play] Until your opponent's turn ends, their effects can't reduce the DP of 1 of your [Hudie] trait Digimon, and it gains ＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.) and ＜Blocker＞ (This Digimon can block in the blocker timing.). [All Turns] When any of your [Hudie] trait Digimon suspend, by suspending this Tamer, you may use 1 single-color [CS] trait Option card from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-086",
+                    "name": "Yuugo",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/BT23-086-Sample.png/revision/latest?cb=20250919214915",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 or less memory, set it to 3. [On Play] By adding your top security card to the hand, you may place 1 Digimon card with the [Zaxon] trait from your hand or trash face up as the bottom security card. [End of Your Turn] By suspending this Tamer, 1 of your level 6 Digimon with the [Machine] or [Zaxon] trait may attack a player."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-087",
+                    "name": "Violet Inboots",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/BT23-087-Sample.png/revision/latest?cb=20250915060505",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By returning this Tamer to the bottom of the deck, you may play 1 [Violet Inboots] from your hand without paying the cost. Then, if you don't have a Digimon, you may play 1 [Ghostmon] from your trash without paying the cost. [Your Turn] When any of your Digimon digivolve into a Digimon with the [Ghost] trait, by suspending this Tamer, that Digimon gains ＜Rush＞ for the turn. (This Digimon can attack the turn it comes into play.)"
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-088",
+                    "name": "K",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b6/BT23-088-Sample.png/revision/latest?cb=20250920081035",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] By trashing 1 card with the [Undead], [Dark Animal] or [CS] trait from your hand, gain 1 memory. [End of Your Turn] By deleting this Tamer, 1 of your Digimon may digivolve into a level 5 or lower Digimon card with the [Undead] or [Dark Animal] trait in the trash without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-089",
+                    "name": "Takumi Aiba",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bc/BT23-089-Sample.png/revision/latest?cb=20250916133847",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Main Phase] If your opponent has a Digimon, gain 1 memory. [All Turns] When any of your Digimon with the [CS] trait would leave the battle area, by suspending this Tamer and trash 2 same-level cards from 1 of your [CS] trait Digimon's digivolution cards, they don't leave."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-090",
+                    "name": "Keisuke Amasawa",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cc/BT23-090-Sample.png/revision/latest?cb=20250911123553",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 or less memory, set it to 3. [End of Your Turn] By suspending this Tamer and returning 1 of your Digimon with the [Hudie] trait to the hand, you may play 1 Tamer card with the [CS] trait from your hand without paying the cost. [All Turns] All of your [Hudie] Digimon get +1000 DP."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-093",
+                    "name": "Big Bang Punch!",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1c/BT23-093-Sample.png/revision/latest?cb=20250918061015",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon or Tamer with the [Appmon] trait on the field, you can ignore this card's color requirements. [Main] ＜Draw 1＞ (Draw 1 card from your deck.). Then, place this card in the battle area. [All Turns] When any of your [Appmon] trait Digimon suspend, ＜Delay＞ (By trashing this card after the placing turn, activate the effect below.) ・You may link 1 [Appmon] trait Digimon card from your hand to 1 of those Digimon without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-095",
+                    "name": "Crescent Leaf",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fd/BT23-095-Sample.png/revision/latest?cb=20250914123359",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon or Tamer with the [CS] trait on the field, you can ignore this card's color requirements. [Main] Return 1 of your opponent's suspended Digimon to the bottom of the deck. Then, place this card in the battle area. [Your Turn] When one of your [CS] trait Digimon attacks, ＜Delay＞ (By trashing this card after the placing turn, activate the effect below.) ・Return 1 of your opponent's suspended Digimon to the bottom of the deck."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Return 1 of your opponent's suspended Digimon to the bottom of the deck. Then, place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-096",
+                    "name": "Comet Hammer",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b5/BT23-096-Sample.png/revision/latest?cb=20250914123408",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon or Tamer with the [CS] trait on the field, you can ignore this card's color requirements. [Main] ＜De-Digivolve 4＞ 1 of your opponent's Digimon. (Trash up to 4 cards from the top. You can't trash past level 3 cards.) Then, place this card in the battle area. [Your Turn] When one of your [CS] trait Digimon attacks, ＜Delay＞ (By trashing this card after the placing turn, activate the effect below.) ・＜De-Digivolve 4＞ 1 of your opponent's Digimon. (Trash up to 4 cards from the top. You can't trash past level 3 cards.)"
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] ＜De-Digivolve 4＞ 1 of your opponent's Digimon. (Trash up to 4 cards from the top. You can't trash past level 3 cards.) Then, place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-097",
+                    "name": "Seventh Penetration",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0c/BT23-097-Sample.png/revision/latest?cb=20250907060102",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Trash] [Your Turn] When any of your Digimon digivolve into [Belphemon (X Antibody)], by returning this card to the bottom of the deck, activate this card's [Main] effects. [Main] Delete 1 of your opponent's Digimon with a level as high or higher as the number of cards in your hand."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Activate this card's [Main] effects."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-100",
+                    "name": "Hudie Net Café",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT23-100-Sample.png/revision/latest?cb=20250911060617",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "While you have a Digimon or Tamer with the [CS] trait on the field, you can ignore this card's color requirements. [Main] ＜Draw 1＞ (Draw 1 card from your deck.) Then, place this card in the battle area. [Main] ＜Delay＞ (By trashing this card after the placing turn, activate the effect below.) ・You may play 1 Tamer card with the [CS] trait from your hand without paying the cost."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] You may play 1 level 3 Digimon card with the [CS] trait from your hand or trash without paying the cost. Then, place this card in the battle area."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-101",
+                    "name": "Hudiemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1d/BT23-101-Sample.png/revision/latest?cb=20250921062224",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Alliance＞ (When this Digimon attacks, by suspending 1 of your other Digimon, add the suspended Digimon's DP to this Digimon and it gains ＜Security A. +1＞ for the attack.) [On Play] [When Digivolving] You may play 1 play cost 5 or lower [CS] trait card from your hand without paying the cost. Then, to 1 of your opponent's Digimon, give -3000 DP for the turn for each of your [Hudie] trait Digimon. [When Attacking] [Once Per Turn] By returning 1 of your [CS] trait Tamers to the hand, activate 1 of this Digimon's [On Play] effects."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT23-102",
+                    "name": "Mastemon",
+                    "artUrl": "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/BT23-102-Sample.png/revision/latest?cb=20250823075529",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Barrier＞ (When this Digimon would be deleted in battle, by trashing the top card of your security stack, prevent that deletion.) ＜Partition ([Angewomon] & [LadyDevimon])＞ (When this Digimon with each of the specified digivolution cards would leave the battle area other than by your own effects or by battle, you may play 1 each of the specified cards without paying the costs.) [When Digivolving] You may play 1 level 5 or lower yellow or purple card from your hand or trash without paying the cost. Then, if this Digimon's stack has 2 or more same-level cards, trash the top cards of both players' security stacks so that they have 3 cards left. [All Turns] [Once Per Turn] When security stacks are removed from, you may place 1 Digimon as the bottom security card."
                         }
                     ]
                 }
