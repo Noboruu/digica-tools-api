@@ -201,7 +201,15 @@ public class DigicaWikiConnector {
         } else {
             Element cardArtElement = doc.select("a.image").first();
             if (!Objects.isNull(cardArtElement)) {
-                card.setArtUrl(cardArtElement.attr("href"));
+                String url = cardArtElement.attr("href");
+                if(!StringUtils.isBlank(url)) {
+                    Pattern pattern = Pattern.compile("(^https://.+)(/revision/latest.+)");
+                    Matcher matcher = pattern.matcher(url);
+                    if(matcher.find()) {
+                        String newUrl = matcher.group(1);
+                        card.setArtUrl(newUrl);
+                    }
+                }
             }
         }
     }
