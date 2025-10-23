@@ -26,7 +26,7 @@ public class ExtractorServiceImpl implements ExtractorService {
     private CardSetService cardSetService;
 
     @Override
-    public DigicaWikiExtraction extract(boolean skipExtracted) {
+    public DigicaWikiExtraction extract(boolean skipExtracted, boolean cardArtFromDigiprint) {
         DigicaWikiConnector connector = new DigicaWikiConnector();
         DigicaWikiExtraction extraction = new DigicaWikiExtraction();
         List<CardSetDTO> extractedCardSets = cardSetService.findAll(true);
@@ -37,7 +37,7 @@ public class ExtractorServiceImpl implements ExtractorService {
         setCardsToSkip(setsToSkip, promoCardsToSkip, lmCardsToSkip, extractedCardSets, skipExtracted);
 
         try {
-            extraction = connector.extractFromWiki(setsToSkip, promoCardsToSkip, lmCardsToSkip);
+            extraction = connector.extractFromWiki(setsToSkip, promoCardsToSkip, lmCardsToSkip, cardArtFromDigiprint);
             addIdsToCardSetsForUpdate(extraction, extractedCardSets, skipExtracted);
             sortExtraction(extraction); //sort before persisting to database
             cardSetService.persist(extraction.getCardSets());

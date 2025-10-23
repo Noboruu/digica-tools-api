@@ -36,11 +36,11 @@ public class DigicaWikiConnector {
 
     private final DigicaMeta digicaMeta = new DigicaMeta();
 
-    public DigicaWikiExtraction extractFromWiki(List<String> setsToSkip, List<String> promosToSkip, List<String> lmCardsToSkip) throws IOException {
+    public DigicaWikiExtraction extractFromWiki(List<String> setsToSkip, List<String> promosToSkip, List<String> lmCardsToSkip, boolean cardArtFromDigiprint) throws IOException {
         List<CardSetDTO> cardSets = new ArrayList<>();
 
         for (DigicaSetsEnum set : DigicaSetsEnum.values()) {
-            if(setsToSkip.contains(set.getCode())) {
+            if (setsToSkip.contains(set.getCode())) {
                 continue;
             }
 
@@ -54,13 +54,13 @@ public class DigicaWikiConnector {
                     if (!cardPath.contains(set.getCode())) {
                         continue;
                     }
-                    executor.submit(() -> cards.add(getCardForPath(cardPath)));
+                    executor.submit(() -> cards.add(getCardForPath(cardPath, cardArtFromDigiprint)));
                 }
             }
 
             CardSetDTO cardSet = getCardSetFromList(cardSets, set.getCode());
 
-            if(!Objects.isNull(cardSet)) {
+            if (!Objects.isNull(cardSet)) {
                 cardSet.getCards().addAll(cards);
             } else {
                 cardSet = new CardSetDTO();
@@ -74,7 +74,7 @@ public class DigicaWikiConnector {
         }
 
 
-        cardSets.add(getPromoCardsFromDigicaWiki(promosToSkip));
+        cardSets.add(getPromoCardsFromDigicaWiki(promosToSkip, cardArtFromDigiprint));
         return new DigicaWikiExtraction(LocalDateTime.now(), cardSets);
     }
 
@@ -83,7 +83,7 @@ public class DigicaWikiConnector {
         List<String> extractedCardCodes = new ArrayList<>(); //easier to manage the extraction this way
 
         for (CardDTO card : cards) {
-            if(!extractedCardCodes.contains(card.getCode())) {
+            if (!extractedCardCodes.contains(card.getCode())) {
                 newCards.add(card);
                 extractedCardCodes.add(card.getCode());
             }
@@ -93,26 +93,26 @@ public class DigicaWikiConnector {
     }
 
     private CardSetDTO getCardSetFromList(List<CardSetDTO> cardSets, String setToGet) {
-        for(CardSetDTO cardSet : cardSets) {
-            if(cardSet.getCode().equals(setToGet)) {
+        for (CardSetDTO cardSet : cardSets) {
+            if (cardSet.getCode().equals(setToGet)) {
                 return cardSet;
             }
         }
         return null;
     }
 
-    private CardDTO getCardForPath(String path) throws IOException {
+    private CardDTO getCardForPath(String path, boolean cardArtFromDigiprint) throws IOException {
         String url = DIGICA_WIKI_BASE_URL + path;
         Document doc = Jsoup.connect(url).userAgent(USER_AGENT).get();
 
-        return getCardForPath(doc);
+        return getCardForPath(doc, cardArtFromDigiprint);
     }
 
-    private CardDTO getCardForPath(Document doc) {
+    private CardDTO getCardForPath(Document doc, boolean cardArtFromDigiprint) {
         CardDTO card = new CardDTO();
         getCardNameAndCode(doc, card);
         getCardType(doc, card);
-        getCardArtUrl(doc, card);
+        getCardArtUrl(doc, card, cardArtFromDigiprint);
         getCardEffects(doc, card);
         return card;
     }
@@ -123,7 +123,7 @@ public class DigicaWikiConnector {
         Document doc = Jsoup.connect(url).userAgent(USER_AGENT).get();
         List<Element> cardTables = doc.select("table.cardlist");
 
-        for(Element cardTable : cardTables) {
+        for (Element cardTable : cardTables) {
             Element cardTableTbody = cardTable.select("tbody").first(); //todo null check
             Elements cardTableLinks = cardTableTbody.select("a");
 
@@ -138,19 +138,19 @@ public class DigicaWikiConnector {
         return cardPaths;
     }
 
-    private CardSetDTO getPromoCardsFromDigicaWiki(List<String> promosToSkip) throws IOException {
+    private CardSetDTO getPromoCardsFromDigicaWiki(List<String> promosToSkip, boolean cardArtFromDigiprint) throws IOException {
         LOGGER.info("Getting promo cards from Digica Wiki");
         List<CardDTO> cards = new ArrayList<>();
 
         try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
             for (int promoNumber = 1; promoNumber < 1000; promoNumber++) {
                 String promoCode = buildPromoCode(promoNumber);
-                if(promosToSkip.contains(promoCode)) {
+                if (promosToSkip.contains(promoCode)) {
                     continue;
                 }
 
                 Document doc = Jsoup.connect(DIGICA_WIKI_PROMOS_PATH + promoCode).userAgent(USER_AGENT).get();
-                executor.submit(() -> cards.add(getCardForPath(doc)));
+                executor.submit(() -> cards.add(getCardForPath(doc, cardArtFromDigiprint)));
             }
         } catch (HttpStatusException e) {
             LOGGER.info("Found last promo card!");
@@ -166,7 +166,7 @@ public class DigicaWikiConnector {
         if (promoNumber < 10) {
             return "P-00" + promoNumber;
         } else if (promoNumber < 100) {
-            return  "P-0" + promoNumber;
+            return "P-0" + promoNumber;
         }
         return "P-" + promoNumber;
     }
@@ -195,23 +195,34 @@ public class DigicaWikiConnector {
         }
     }
 
-    private void getCardArtUrl(Document doc, CardDTO card) {
+    private void getCardArtUrl(Document doc, CardDTO card, boolean cardArtFromDigiprint) {
+        if (cardArtFromDigiprint) {
+            card.setArtUrl(Digiprintmon.buildDigiprintmonCardArtURL(card.getCode()));
+            return;
+        }
+
         if (digicaMeta.isToGetArtFromDigicaMeta(card.getCode())) {
             card.setArtUrl(digicaMeta.getArtUrlFromDigimonMeta(card.getCode()));
-        } else {
-            Element cardArtElement = doc.select("a.image").first();
-            if (!Objects.isNull(cardArtElement)) {
-                String url = cardArtElement.attr("href");
-                if(!StringUtils.isBlank(url)) {
-                    Pattern pattern = Pattern.compile("(^https://.+)(/revision/latest.+)");
-                    Matcher matcher = pattern.matcher(url);
-                    if(matcher.find()) {
-                        String newUrl = matcher.group(1);
-                        card.setArtUrl(newUrl);
-                    }
+            return;
+        }
+
+        card.setArtUrl(getCardArtUrlFromWiki(doc));
+    }
+
+    private String getCardArtUrlFromWiki(Document doc) {
+        Element cardArtElement = doc.select("a.image").first();
+        if (!Objects.isNull(cardArtElement)) {
+            String url = cardArtElement.attr("href");
+            if (!StringUtils.isBlank(url)) {
+                Pattern pattern = Pattern.compile("(^https://.+)(/revision/latest.+)");
+                Matcher matcher = pattern.matcher(url);
+                if (matcher.find()) {
+                    String newUrl = matcher.group(1);
+                    return newUrl;
                 }
             }
         }
+        return null;
     }
 
     private void getCardEffects(Document doc, CardDTO card) {

@@ -16,9 +16,10 @@ public class ExtractorController {
     ExtractorService service;
 
     @GetMapping("/extract")
-    public @ResponseBody DigicaWikiExtraction extract(@RequestParam(required = false, defaultValue = "false") boolean skipExtracted) {
+    public @ResponseBody DigicaWikiExtraction extract(@RequestParam(required = false, defaultValue = "false") boolean skipExtracted,
+                                                      @RequestParam(required = false, defaultValue = "true") boolean cardArtFromDigiprint) {
         LOGGER.info("Request to extract digica cards received!");
-        DigicaWikiExtraction extraction = service.extract(skipExtracted);
+        DigicaWikiExtraction extraction = service.extract(skipExtracted, cardArtFromDigiprint);
         LOGGER.info("Done extracting digica cards!");
         return extraction;
     }

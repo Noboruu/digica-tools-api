@@ -4,7 +4,7 @@ import com.noboruu.digica.model.dto.DigicaWikiExtraction;
 
 public interface ExtractorService {
 
-    DigicaWikiExtraction extract(boolean skipExtracted);
+    DigicaWikiExtraction extract(boolean skipExtracted, boolean cardArtFromDigiprint);
 
     DigicaWikiExtraction getExtraction();
 }
