@@ -34,6 +34,7 @@ public enum DigicaSetsEnum {
     BT21("BT21", "/wiki/BT-21:_Booster_World_Convergence"),
     BT22("BT22", "/wiki/BT-22:_Booster_Cyber_Eden"),
     BT23("BT23", "/wiki/BT-23:_Booster_Hackers%27_Slumber"),
+    BT24("BT24", "/wiki/BT-24:_Booster_Time_Stranger"),
     // -- Theme Boosters --
     EX1("EX1", "/wiki/EX-01:_Theme_Booster_Classic_Collection"),
     EX2("EX2", "/wiki/EX-02:_Theme_Booster_Digital_Hazard"),
@@ -45,6 +46,7 @@ public enum DigicaSetsEnum {
     EX8("EX8", "/wiki/EX-08:_Extra_Booster_Chains_of_Liberation"),
     EX9("EX9", "/wiki/EX-09:_Extra_Booster_Versus_Monsters"),
     EX10("EX10", "/wiki/EX-10:_Extra_Booster_Sinister_Order"),
+    EX11("EX11", "/wiki/EX-11:_Extra_Booster_Dawn_of_Liberator"),
     // -- Resurgence Boost --
     RB1("RB1", "/wiki/RB-01:_Resurgence_Booster"),
     // -- Limited Packs --
@@ -73,7 +75,8 @@ public enum DigicaSetsEnum {
     ST18("ST18", "/wiki/ST-18:_Starter_Deck_Guardian_Vortex"),
     ST19("ST19", "/wiki/ST-19:_Starter_Deck_Fable_Waltz"),
     ST20("ST20", "/wiki/ST-20:_Starter_Deck_Protector_of_Light"),
-    ST21("ST21", "/wiki/ST-21:_Starter_Deck_Hero_of_Hope");
+    ST21("ST21", "/wiki/ST-21:_Starter_Deck_Hero_of_Hope"),
+    ST22("ST22", "/wiki/ST-22:_Advanced_Deck_Set_Amethyst_Mandala");
 
     private final String code;
     private final String path;
