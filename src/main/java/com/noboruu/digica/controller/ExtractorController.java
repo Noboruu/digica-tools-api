@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 public class ExtractorController {
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
+    private final String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
+    private final String REFERRER = "https://www.google.com/";
+
     @Autowired
     ExtractorService service;
 

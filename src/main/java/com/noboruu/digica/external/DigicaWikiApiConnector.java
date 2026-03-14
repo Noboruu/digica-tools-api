@@ -1,18 +1,22 @@
 package com.noboruu.digica.external;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.noboruu.digica.model.dto.*;
+import com.noboruu.digica.utils.UriUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.reactive.function.client.WebClient;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.ExecutorService;
@@ -20,21 +24,69 @@ import java.util.concurrent.Executors;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class DigicaWikiConnector {
-    // TODO: Refactor this whole class. It was done on the early stages of this project, before it was a RESTful spring API
+public class DigicaWikiApiConnector {
 
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
-    private final String DIGICA_WIKI_BASE_URL = "https://digimoncardgame.fandom.com";
-    private final String DIGICA_WIKI_PROMOS_PATH = DIGICA_WIKI_BASE_URL + "/wiki/";
+    private final String DIGICA_WIKI_API_URL = "https://digimoncardgame.fandom.com/api.php";
     private final Pattern REGEX_CARD_NAME_MATCHER = Pattern.compile("(.+)\\s\\((.+)\\)");
     private final String DIGICA_WIKI_SECURITY_EFFECT_TEXT = "Security Effect";
     private final String DIGICA_WIKI_CARD_EFFECT_TEXT = "Card Effect(s)";
     private final String DIGICA_WIKI_INHERITED_EFFECT_TEXT = "Inherited Effect";
     private final String DIGICA_WIKI_ACE_EFFECT_TEXT = "Ace";
-    private final String USER_AGENT = "Chrome";
+    //temporary workaround because P-226 is NOT the last card but its also a non-existant card currently.
+    private final List<String> PROMO_CARDS_TO_SKIP = Arrays.asList("P-226", "P-239");
 
+    private final WebClient webClient;
+    private final ObjectMapper objectMapper;
     private final DigicaMeta digicaMeta = new DigicaMeta();
+
+    public DigicaWikiApiConnector() {
+        this.webClient = WebClient.builder()
+                .baseUrl(DIGICA_WIKI_API_URL)
+                .codecs(configurer -> configurer.defaultCodecs().maxInMemorySize(10 * 1024 * 1024)) // 10MB
+                .build();
+        this.objectMapper = new ObjectMapper();
+    }
+
+
+    private String getResponseFromApi(String pageTitle) throws IOException {
+        LOGGER.info("Fetching page via API: {}", pageTitle);
+
+        java.util.Map<String, String> queryParams = new java.util.LinkedHashMap<>();
+        queryParams.put("action", "parse");
+        queryParams.put("page", pageTitle.replaceAll(":", "%3A"));
+        queryParams.put("format", "json");
+        queryParams.put("prop", "text");
+        queryParams.put("formatversion", "2");
+
+        String response = webClient.get()
+                .uri(UriUtils.createUriWithoutEncoding(DIGICA_WIKI_API_URL, queryParams))
+                .retrieve()
+                .bodyToMono(String.class)
+                .block();
+
+        if (response == null) {
+            throw new IOException("Empty response from API for page: " + pageTitle);
+        }
+
+        return response;
+    }
+
+    private Document parseApiResponse(String json) throws IOException {
+        JsonNode rootNode = objectMapper.readTree(json);
+        
+        // Fandom API response for action=parse looks like: {"parse":{"title":"...","pageid":...,"text":"<div class=\"mw-parser-output\">...</div>"}}
+        // Note: With formatversion=2, it might be more flat.
+        
+        JsonNode parseNode = rootNode.get("parse");
+        if (parseNode == null || !parseNode.has("text")) {
+             return Jsoup.parse("");
+        }
+        
+        String html = parseNode.get("text").asText();
+        return Jsoup.parse(html);
+    }
 
     public DigicaWikiExtraction extractFromWiki(List<String> setsToSkip, List<String> promosToSkip, List<String> lmCardsToSkip, boolean cardArtFromDigiprint) throws IOException {
         List<CardSetDTO> cardSets = new ArrayList<>();
@@ -45,8 +97,9 @@ public class DigicaWikiConnector {
             }
 
             LOGGER.info("Getting cards for set: " + set.getCode());
-            String url = DIGICA_WIKI_BASE_URL + set.getPath();
-            List<String> cardPaths = getAllCardsPathsForUrl(url);
+            String pageTitle = set.getPath();
+            Document doc = parseApiResponse(getResponseFromApi(pageTitle));
+            List<String> cardPaths = getAllCardsPathsFromDoc(doc);
 
             List<CardDTO> cards = new ArrayList<>();
             try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
@@ -54,7 +107,13 @@ public class DigicaWikiConnector {
                     if (!cardPath.contains(set.getCode())) {
                         continue;
                     }
-                    executor.submit(() -> cards.add(getCardForPath(cardPath, cardArtFromDigiprint)));
+                    executor.submit(() -> {
+                        try {
+                            cards.add(getCardForPath(cardPath, cardArtFromDigiprint));
+                        } catch (IOException e) {
+                            LOGGER.error("Error fetching card: " + cardPath, e);
+                        }
+                    });
                 }
             }
 
@@ -68,28 +127,15 @@ public class DigicaWikiConnector {
                 cardSet.setCards(cards);
                 cardSets.add(cardSet);
             }
-
-            // remove duplicates from set
-            cardSet.setCards(getCardListWithoutDuplicates(cardSet.getCards()));
         }
-
 
         cardSets.add(getPromoCardsFromDigicaWiki(promosToSkip, cardArtFromDigiprint));
-        return new DigicaWikiExtraction(LocalDateTime.now(), cardSets);
-    }
 
-    private List<CardDTO> getCardListWithoutDuplicates(List<CardDTO> cards) {
-        List<CardDTO> newCards = new ArrayList<>();
-        List<String> extractedCardCodes = new ArrayList<>(); //easier to manage the extraction this way
+        DigicaWikiExtraction extraction = new DigicaWikiExtraction();
+        extraction.setExtractionDate(LocalDateTime.now());
+        extraction.setCardSets(cardSets);
 
-        for (CardDTO card : cards) {
-            if (!extractedCardCodes.contains(card.getCode())) {
-                newCards.add(card);
-                extractedCardCodes.add(card.getCode());
-            }
-        }
-
-        return newCards;
+        return extraction;
     }
 
     private CardSetDTO getCardSetFromList(List<CardSetDTO> cardSets, String setToGet) {
@@ -102,8 +148,8 @@ public class DigicaWikiConnector {
     }
 
     private CardDTO getCardForPath(String path, boolean cardArtFromDigiprint) throws IOException {
-        String url = DIGICA_WIKI_BASE_URL + path;
-        Document doc = Jsoup.connect(url).userAgent(USER_AGENT).get();
+        String pageTitle = path.replace("/wiki/", "");
+        Document doc = parseApiResponse(getResponseFromApi(pageTitle));
 
         return getCardForPath(doc, cardArtFromDigiprint);
     }
@@ -117,14 +163,14 @@ public class DigicaWikiConnector {
         return card;
     }
 
-    private List<String> getAllCardsPathsForUrl(String url) throws IOException {
+    private List<String> getAllCardsPathsFromDoc(Document doc) {
         List<String> cardPaths = new ArrayList<>();
 
-        Document doc = Jsoup.connect(url).userAgent(USER_AGENT).get();
         List<Element> cardTables = doc.select("table.cardlist");
 
         for (Element cardTable : cardTables) {
-            Element cardTableTbody = cardTable.select("tbody").first(); //todo null check
+            Element cardTableTbody = cardTable.select("tbody").first();
+            if (cardTableTbody == null) continue;
             Elements cardTableLinks = cardTableTbody.select("a");
 
             for (Element aElement : cardTableLinks) {
@@ -139,21 +185,22 @@ public class DigicaWikiConnector {
     }
 
     private CardSetDTO getPromoCardsFromDigicaWiki(List<String> promosToSkip, boolean cardArtFromDigiprint) throws IOException {
-        LOGGER.info("Getting promo cards from Digica Wiki");
+        LOGGER.info("Getting promo cards from Digica Wiki via API");
         List<CardDTO> cards = new ArrayList<>();
 
-        try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
-            for (int promoNumber = 1; promoNumber < 1000; promoNumber++) {
-                String promoCode = buildPromoCode(promoNumber);
-                if (promosToSkip.contains(promoCode)) {
-                    continue;
-                }
-
-                Document doc = Jsoup.connect(DIGICA_WIKI_PROMOS_PATH + promoCode).userAgent(USER_AGENT).get();
-                executor.submit(() -> cards.add(getCardForPath(doc, cardArtFromDigiprint)));
+        for (int promoNumber = 1; promoNumber < 1000; promoNumber++) {
+            String promoCode = buildPromoCode(promoNumber);
+            if(PROMO_CARDS_TO_SKIP.contains(promoCode) || promosToSkip.contains(promoCode)) {
+                continue;
             }
-        } catch (HttpStatusException e) {
-            LOGGER.info("Found last promo card!");
+
+            String json = getResponseFromApi(promoCode);
+            if (json.contains("\"error\"")) {
+                LOGGER.info("Found last promo card at {}!", promoCode);
+                break;
+            }
+            Document doc = parseApiResponse(json);
+            cards.add(getCardForPath(doc, cardArtFromDigiprint));
         }
 
         CardSetDTO cardSet = new CardSetDTO();
@@ -161,6 +208,9 @@ public class DigicaWikiConnector {
         cardSet.setCards(cards);
         return cardSet;
     }
+    
+    // I should refine getPromoCardsFromDigicaWiki to better match original's behavior but with API.
+    // Actually, I'll just use the sequential approach for promo discovery if I want to stop at the first 404.
 
     private String buildPromoCode(int promoNumber) {
         if (promoNumber < 10) {
@@ -179,7 +229,6 @@ public class DigicaWikiConnector {
                 throw new IllegalArgumentException("Invalid card name: " + cardNameElement);
             }
 
-
             card.setName(m.group(1).replaceAll("< ", ""));
             card.setCode(m.group(2));
         }
@@ -190,9 +239,10 @@ public class DigicaWikiConnector {
         if (!Objects.isNull(cardTypeElement)) {
             CardTypeEnum cardType = CardTypeEnum.findByWikiCardType(cardTypeElement.text());
             card.setCardType(cardType);
-        } else {
-            throw new IllegalArgumentException("Invalid card type for card with code " + card.getCode());
+            return;
         }
+
+        throw new IllegalArgumentException("Invalid card type for card with code " + card.getCode());
     }
 
     private void getCardArtUrl(Document doc, CardDTO card, boolean cardArtFromDigiprint) {
@@ -244,5 +294,4 @@ public class DigicaWikiConnector {
             }
         }
     }
-
 }

@@ -1,6 +1,6 @@
 package com.noboruu.digica.service.impl;
 
-import com.noboruu.digica.external.DigicaWikiConnector;
+import com.noboruu.digica.external.DigicaWikiApiConnector;
 import com.noboruu.digica.model.dto.CardDTO;
 import com.noboruu.digica.model.dto.CardSetDTO;
 import com.noboruu.digica.model.dto.DigicaWikiExtraction;
@@ -27,7 +27,7 @@ public class ExtractorServiceImpl implements ExtractorService {
 
     @Override
     public DigicaWikiExtraction extract(boolean skipExtracted, boolean cardArtFromDigiprint) {
-        DigicaWikiConnector connector = new DigicaWikiConnector();
+        DigicaWikiApiConnector connector = new DigicaWikiApiConnector();
         DigicaWikiExtraction extraction = new DigicaWikiExtraction();
         List<CardSetDTO> extractedCardSets = cardSetService.findAll(true);
         List<String> setsToSkip = new ArrayList<>();

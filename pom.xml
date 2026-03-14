@@ -15,7 +15,7 @@
         <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
-        <jsoup.version>1.18.1</jsoup.version>
+        <jsoup.version>1.22.1</jsoup.version>
         <apache-commons-lang.version>3.15.0</apache-commons-lang.version>
         <apache-commons-text.version>1.12.0</apache-commons-text.version>
         <lombok.version>1.18.34</lombok.version>
@@ -37,6 +37,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
             <version>${spring-boot.version}</version>
         </dependency>
 
