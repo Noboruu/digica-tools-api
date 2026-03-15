@@ -1,5 +1,5 @@
 {
-    "extractionDate": "14-03-2026 15:22:50",
+    "extractionDate": "15-03-2026 02:22:47",
     "cardSets": [
         {
             "code": "AD1",
@@ -3500,6 +3500,13 @@
                     ]
                 },
                 {
+                    "code": "BT3-032",
+                    "name": "Armadillomon",
+                    "artUrl": "https://www.digiprintmon.com/img/BT3-032.jpg",
+                    "cardType": "DIGIMON",
+                    "cardEffects": []
+                },
+                {
                     "code": "BT3-033",
                     "name": "Salamon",
                     "artUrl": "https://www.digiprintmon.com/img/BT3-033.jpg",
@@ -6021,6 +6028,13 @@
                             "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.) [When Attacking] Lose 2 memory."
                         }
                     ]
+                },
+                {
+                    "code": "BT5-013",
+                    "name": "Triceramon",
+                    "artUrl": "https://www.digiprintmon.com/img/BT5-013.jpg",
+                    "cardType": "DIGIMON",
+                    "cardEffects": []
                 },
                 {
                     "code": "BT5-014",
@@ -9773,6 +9787,18 @@
                     ]
                 },
                 {
+                    "code": "BT7-084",
+                    "name": "Eosmon",
+                    "artUrl": "https://www.digiprintmon.com/img/BT7-084.jpg",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Your Turn] All of your other [Eosmon] get +1000 DP. [On Deletion] You may play 1 level 5 or lower [Eosmon] from your hand without paying its memory cost."
+                        }
+                    ]
+                },
+                {
                     "code": "BT7-085",
                     "name": "Takuya Kanbara",
                     "artUrl": "https://www.digiprintmon.com/img/BT7-085.jpg",
@@ -10288,6 +10314,13 @@
                             "effectText": "[Your Turn] [Once Per Turn] When a card is trashed from your deck, ＜Draw 1＞ (Draw 1 card from your deck.)"
                         }
                     ]
+                },
+                {
+                    "code": "BT8-007",
+                    "name": "Gazimon",
+                    "artUrl": "https://www.digiprintmon.com/img/BT8-007.jpg",
+                    "cardType": "DIGIMON",
+                    "cardEffects": []
                 },
                 {
                     "code": "BT8-008",
@@ -13543,6 +13576,13 @@
                             "effectText": "[When Digivolving] You may activate 1 of the effects below. ・Return 1 Option card with [Plug-In] in its name from your trash to your hand. ・By trashing 1 Option card with [Plug-In] in its name in your hand, ＜Draw 2＞ (Draw 2 cards from your deck.)"
                         }
                     ]
+                },
+                {
+                    "code": "BT10-037",
+                    "name": "Weddinmon",
+                    "artUrl": "https://www.digiprintmon.com/img/BT10-037.jpg",
+                    "cardType": "DIGIMON",
+                    "cardEffects": []
                 },
                 {
                     "code": "BT10-038",
@@ -17309,6 +17349,22 @@
                     ]
                 },
                 {
+                    "code": "BT12-089",
+                    "name": "Takato Matsuki",
+                    "artUrl": "https://www.digiprintmon.com/img/BT12-089.jpg",
+                    "cardType": "TAMER",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Start of Your Turn] If you have 2 or less memory, set it to 3. [Main] [Once Per Turn] By placing this Tamer and 1 [Growlmon] and 1 [WarGrowlmon] from your Trash in any order as the bottom digivolution cards of one of your [Guilmon], that Digimon may digivolve into [Gallantmon] in your hand for its digivolution cost, ignoring its level. The Digimon digivolved by this effect gets +2000 DP for the turn."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Play this card without paying the cost."
+                        }
+                    ]
+                },
+                {
                     "code": "BT12-090",
                     "name": "Davis Motomiya",
                     "artUrl": "https://www.digiprintmon.com/img/BT12-090.jpg",
@@ -17577,6 +17633,22 @@
                         {
                             "effectType": "SECURITY",
                             "effectText": "[Security] Suspend all of your opponent's Digimon and Tamers."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT12-107",
+                    "name": "Laplace's Demon",
+                    "artUrl": "https://www.digiprintmon.com/img/BT12-107.jpg",
+                    "cardType": "OPTION",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "[Main] Until the end of your opponent's turn, 1 of your opponent's Digimon gains \"[Start of Your Main Phase] This Digimon attacks\"."
+                        },
+                        {
+                            "effectType": "SECURITY",
+                            "effectText": "[Security] Add this card to the hand."
                         }
                     ]
                 },
@@ -18022,6 +18094,18 @@
                         {
                             "effectType": "INHERITED",
                             "effectText": "[When Attacking] Trash the bottom digivolution card of 1 of your opponent's Digimon."
+                        }
+                    ]
+                },
+                {
+                    "code": "BT13-027",
+                    "name": "Shaujinmon",
+                    "artUrl": "https://www.digiprintmon.com/img/BT13-027.jpg",
+                    "cardType": "DIGIMON",
+                    "cardEffects": [
+                        {
+                            "effectType": "CARD",
+                            "effectText": "＜Blocker＞ (This Digimon can block in the blocker timing.) [Opponent's Turn] When an opponent's Digimon attacks, you may play 1 level 4 or lower Digimon card from this Digimon's digivolution cards without paying its cost."
                         }
                     ]
                 },

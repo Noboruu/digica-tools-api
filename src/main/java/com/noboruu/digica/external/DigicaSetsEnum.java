@@ -59,6 +59,9 @@ public enum DigicaSetsEnum {
     LM3("LM", "LM-03:_Limited_Card_Set_2024"),
     LM4("LM", "LM-04:_Limited_Card_Pack_Torrid_Weiss"),
     LM5("LM", "LM-05:_Limited_Card_Pack_Final_Elysion"),
+    LM6("LM", "LM-06:_Limited_Card_Pack_Billion_Bullet"),
+    LM7("LM", "LM-07:_Limited_Card_Pack_Another_Knight"),
+    LM8("LM", "LM-08:_Limited_Card_Pack_Final_Crest"),
     // -- Starters Deck --
     ST1("ST1", "ST-1:_Starter_Deck_Gaia_Red"),
     ST2("ST2", "ST-2:_Starter_Deck_Cocytus_Blue"),
