@@ -236,6 +236,11 @@ public class DigicaWikiApiConnector {
 
     private void getCardType(Document doc, CardDTO card) {
         Element cardTypeElement = doc.select("[title='Card Types']").first();
+
+        if(Objects.isNull(cardTypeElement)) {
+            cardTypeElement = doc.select("[title='Digimon ACE']").first();
+        }
+
         if (!Objects.isNull(cardTypeElement)) {
             CardTypeEnum cardType = CardTypeEnum.findByWikiCardType(cardTypeElement.text());
             card.setCardType(cardType);

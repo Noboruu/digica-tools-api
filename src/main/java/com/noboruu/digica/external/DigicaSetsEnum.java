@@ -31,12 +31,12 @@ public enum DigicaSetsEnum {
     BT18("BT18", "BT-18:_Booster_Elemental_Successor"),
     BT19("BT19", "BT-19:_Booster_Xros_Evolution"),
     BT20("BT20", "BT-20:_Booster_Over_the_X"),
-    BT21("BT21", "BT-21:_Booster_World_Convergence"),
-    BT22("BT22", "BT-22:_Booster_Cyber_Eden"),
-    BT23("BT23", "BT-23:_Booster_Hackers%27_Slumber"),
-    BT24("BT24", "BT-24:_Booster_Time_Stranger"),
-    BT25("BT25", "BT-25:_Booster_Dual_Revolution"),
-    BT26("BT26", "BT-26:_Booster_Timeless_Bonds"),
+    BT21("BT21", "BT-21:_BOOSTER_WORLD_CONVERGENCE"),
+    BT22("BT22", "BT-22:_BOOSTER_CYBER_EDEN"),
+    BT23("BT23", "BT-23:_BOOSTER_HACKERS%27_SLUMBER"),
+    BT24("BT24", "BT-24:_BOOSTER_TIME_STRANGER"),
+    BT25("BT25", "BT-25:_BOOSTER_DUAL_REVOLUTION"),
+    BT26("BT26", "BT-26:_BOOSTER_TIMELESS_BONDS"),
     // -- Theme Boosters --
     EX1("EX1", "EX-01:_Theme_Booster_Classic_Collection"),
     EX2("EX2", "EX-02:_Theme_Booster_Digital_Hazard"),
@@ -46,11 +46,11 @@ public enum DigicaSetsEnum {
     EX6("EX6", "EX-06:_Theme_Booster_Infernal_Ascension"),
     EX7("EX7", "EX-07:_Extra_Booster_Digimon_Liberator"),
     EX8("EX8", "EX-08:_Extra_Booster_Chain_of_Liberation"),
-    EX9("EX9", "EX-09:_Extra_Booster_Versus_Monsters"),
-    EX10("EX10", "EX-10:_Extra_Booster_Sinister_Order"),
-    EX11("EX11", "EX-11:_Extra_Booster_Dawn_of_Liberator"),
-    EX12("EX12", "EX-12:_Extra_Booster_Digital_World_Shambala"),
-    EX13("EX13", "EX-13:_Extra_Booster_Chivalrous_XIII"),
+    EX9("EX9", "EX-09:_EXTRA_BOOSTER_VERSUS_MONSTERS"),
+    EX10("EX10", "EX-10:_EXTRA_BOOSTER_SINISTER_ORDER"),
+    EX11("EX11", "EX-11:_EXTRA_BOOSTER_DAWN_OF_LIBERATOR"),
+    EX12("EX12", "EX-12:_EXTRA_BOOSTER_DIGITAL_WORLD_SHAMBALA"),
+    EX13("EX13", "EX-13:_EXTRA_BOOSTER_CHIVALROUS_XIII"),
     // -- Resurgence Boost --
     RB1("RB1", "RB-01:_Resurgence_Booster"),
     // -- Limited Packs --
@@ -59,9 +59,9 @@ public enum DigicaSetsEnum {
     LM3("LM", "LM-03:_Limited_Card_Set_2024"),
     LM4("LM", "LM-04:_Limited_Card_Pack_Torrid_Weiss"),
     LM5("LM", "LM-05:_Limited_Card_Pack_Final_Elysion"),
-    LM6("LM", "LM-06:_Limited_Card_Pack_Billion_Bullet"),
-    LM7("LM", "LM-07:_Limited_Card_Pack_Another_Knight"),
-    LM8("LM", "LM-08:_Limited_Card_Pack_Final_Crest"),
+    LM6("LM", "LM-06:_LIMITED_CARD_PACK_BILLION_BULLET"),
+    LM7("LM", "LM-07:_LIMITED_CARD_PACK_ANOTHER_KNIGHT"),
+    LM8("LM", "LM-08:_LIMITED_CARD_PACK_FINAL_CREST"),
     // -- Starters Deck --
     ST1("ST1", "ST-1:_Starter_Deck_Gaia_Red"),
     ST2("ST2", "ST-2:_Starter_Deck_Cocytus_Blue"),
@@ -81,11 +81,15 @@ public enum DigicaSetsEnum {
     ST17("ST17", "ST-17:_Advanced_Deck_Set_Double_Typhoon"),
     ST18("ST18", "ST-18:_Starter_Deck_Guardian_Vortex"),
     ST19("ST19", "ST-19:_Starter_Deck_Fable_Waltz"),
-    ST20("ST20", "ST-20:_Starter_Deck_Protector_of_Light"),
-    ST21("ST21", "ST-21:_Starter_Deck_Hero_of_Hope"),
-    ST22("ST22", "ST-22:_Advanced_Deck_Set_Amethyst_Mandala"),
+    ST20("ST20", "ST-20:_STARTER_DECK_PROTECTOR_OF_LIGHT"),
+    ST21("ST21", "ST-21:_STARTER_DECK_HERO_OF_HOPE"),
+    ST22("ST22", "ST-22:_ADVANCED_DECK_SET_AMETHYST_MANDALA"),
+    ST23("ST23", "ST-23:_STARTER_DECK_DIGIMON_BEATBREAK"),
+    ST24("ST24", "ST-24:_STARTER_DECK_DIGIMON_DATA_SQUAD"),
+    ST25("ST25", "ST-25:_STARTER_DECK_DIGIMON_ALYSION_RUBEUSDRAMON"),
+    ST26("ST26", "ST-26:_STARTER_DECK_DIGIMON_ALYSION_YUKINAMON"),
     // -- Advanced Booster --
-    AD1("AD1", "AD-01:_Advanced_Booster_Digimon_Generation");
+    AD1("AD1", "AD-01:_ADVANCED_BOOSTER_DIGIMON_GENERATION");
 
     private final String code;
     private final String path;
